@@ -1,0 +1,40 @@
+{"t":"2026-07-29T08:51:23.072Z","type":"durable-restored","files":["state.json"]}
+{"t":"2026-07-29T08:51:23.249Z","type":"ai-error","at":"self-test","provider":"gemini","error":"gemini 404: This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use a newer model for the latest features and improvements."}
+{"t":"2026-07-29T08:51:58.327Z","type":"ai-error","at":"briefing","error":"gemini 404: This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use a newer model for the latest features and improvements."}
+{"t":"2026-07-29T08:51:59.979Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-07-29T09:06:23.913Z","type":"ai-error","at":"continuing-education","error":"gemini 404: This model models/gemini-2.5-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements."}
+{"t":"2026-07-29T09:06:25.622Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-07-29T09:36:23.759Z","type":"ai-error","at":"continuing-education","error":"gemini 404: This model models/gemini-2.5-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements."}
+{"t":"2026-07-29T09:36:25.336Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-07-29T09:40:24.997Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-07-29T09:43:23.927Z","type":"macro-guard","label":"FOMC rate decision","scope":"crypto"}
+{"t":"2026-07-29T09:44:25.005Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-07-29T09:55:25.000Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-07-29T10:00:25.165Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-07-29T10:01:24.978Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-07-29T10:06:23.732Z","type":"ai-error","at":"continuing-education","error":"gemini 404: This model models/gemini-2.5-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements."}
+{"t":"2026-07-29T10:06:25.216Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-07-29T10:36:23.676Z","type":"ai-error","at":"continuing-education","error":"gemini 404: This model models/gemini-2.5-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements."}
+{"t":"2026-07-29T10:36:25.336Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-07-29T11:06:23.724Z","type":"ai-error","at":"continuing-education","error":"gemini 404: This model models/gemini-2.5-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements."}
+{"t":"2026-07-29T11:06:25.326Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-07-29T11:36:23.831Z","type":"ai-error","at":"continuing-education","error":"gemini 404: This model models/gemini-2.5-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements."}
+{"t":"2026-07-29T11:36:25.391Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-07-29T12:06:24.082Z","type":"ai-error","at":"continuing-education","error":"gemini 404: This model models/gemini-2.5-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements."}
+{"t":"2026-07-29T12:06:25.674Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-07-29T12:37:24.046Z","type":"ai-cooldown","until":"2026-07-29T16:37:24.046Z","reason":"provider quota (429)"}
+{"t":"2026-07-29T12:37:24.046Z","type":"ai-error","at":"continuing-education","error":"gemini 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash-lite\nPlease retry in 35.978278387s."}
+{"t":"2026-07-29T12:37:25.679Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-07-29T12:45:53.290Z","type":"ai-error","at":"briefing","error":"ai cooling down until 2026-07-29T16:37:24.046Z (provider quota)"}
+{"t":"2026-07-29T12:45:54.810Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-07-29T12:55:50.327Z","type":"ai-error","at":"briefing","error":"ai cooling down until 2026-07-29T16:37:24.046Z (provider quota)"}
+{"t":"2026-07-29T12:55:52.079Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-07-29T13:06:53.099Z","type":"ai-error","at":"briefing","error":"ai cooling down until 2026-07-29T16:37:24.046Z (provider quota)"}
+{"t":"2026-07-29T13:06:54.906Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-07-29T13:07:23.686Z","type":"ai-error","at":"continuing-education","error":"ai cooling down until 2026-07-29T16:37:24.046Z (provider quota)"}
+{"t":"2026-07-29T13:07:25.126Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-07-29T13:17:53.194Z","type":"ai-error","at":"briefing","error":"ai cooling down until 2026-07-29T16:37:24.046Z (provider quota)"}
+{"t":"2026-07-29T13:17:54.619Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-07-29T13:28:52.928Z","type":"ai-error","at":"briefing","error":"ai cooling down until 2026-07-29T16:37:24.046Z (provider quota)"}
+{"t":"2026-07-29T13:28:54.518Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-07-29T13:30:28.779Z","type":"macro-guard","label":"FOMC rate decision","scope":"equities"}
