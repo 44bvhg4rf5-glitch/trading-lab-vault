@@ -1,0 +1,92 @@
+{"t":"2026-07-30T04:02:23.854Z","type":"ai-error","at":"continuing-education","error":"ai cooling down until 2026-07-30T04:02:24.060Z (provider quota)"}
+{"t":"2026-07-30T04:02:25.427Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-07-30T04:32:24.136Z","type":"ai-error","at":"continuing-education","error":"gemini 404: This model models/gemini-2.5-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements."}
+{"t":"2026-07-30T04:32:25.880Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-07-30T05:02:24.183Z","type":"ai-cooldown","until":"2026-07-30T09:02:24.183Z","reason":"provider quota (429)"}
+{"t":"2026-07-30T05:02:24.183Z","type":"ai-error","at":"continuing-education","error":"gemini 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash-lite\nPlease retry in 35.848521628s."}
+{"t":"2026-07-30T05:02:26.662Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-07-30T05:33:23.899Z","type":"ai-error","at":"continuing-education","error":"ai cooling down until 2026-07-30T09:02:24.183Z (provider quota)"}
+{"t":"2026-07-30T05:33:26.278Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-07-30T06:03:23.914Z","type":"ai-error","at":"continuing-education","error":"ai cooling down until 2026-07-30T09:02:24.183Z (provider quota)"}
+{"t":"2026-07-30T06:03:25.562Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-07-30T06:33:23.925Z","type":"ai-error","at":"continuing-education","error":"ai cooling down until 2026-07-30T09:02:24.183Z (provider quota)"}
+{"t":"2026-07-30T06:33:25.659Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-07-30T07:03:23.933Z","type":"ai-error","at":"continuing-education","error":"ai cooling down until 2026-07-30T09:02:24.183Z (provider quota)"}
+{"t":"2026-07-30T07:03:25.690Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-07-30T07:33:23.933Z","type":"ai-error","at":"continuing-education","error":"ai cooling down until 2026-07-30T09:02:24.183Z (provider quota)"}
+{"t":"2026-07-30T07:33:31.982Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-07-30T08:03:23.945Z","type":"ai-error","at":"continuing-education","error":"ai cooling down until 2026-07-30T09:02:24.183Z (provider quota)"}
+{"t":"2026-07-30T08:03:26.478Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-07-30T08:33:23.957Z","type":"ai-error","at":"continuing-education","error":"ai cooling down until 2026-07-30T09:02:24.183Z (provider quota)"}
+{"t":"2026-07-30T08:33:25.576Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-07-30T09:04:24.223Z","type":"ai-error","at":"continuing-education","error":"gemini 404: This model models/gemini-2.5-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements."}
+{"t":"2026-07-30T09:04:25.813Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-07-30T09:34:24.258Z","type":"ai-error","at":"continuing-education","error":"gemini 404: This model models/gemini-2.5-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements."}
+{"t":"2026-07-30T09:34:25.933Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-07-30T09:40:25.332Z","type":"thesis","id":"dae90b29","strategy":"crypto-momentum-breakout","market":"crypto","symbol":"BTC/USD","side":"buy","entry":64501.3,"stop":64035.46,"target":65432.98,"reason":"BTC/USD broke its 20-bar high (64426.73), above its 20-day average. Stop 3×ATR below (wider than equities — crypto volatility), target 2R.","qty":0.154,"analyst":null,"riskUsd":71.74,"configVersion":"v1-crypto-seeded","regime":"trending","headlines":[],"createdAt":"2026-07-30T09:40:25.332Z","autoAt":"2026-07-30T09:43:25.332Z","expiresAt":"2026-07-30T10:00:25.332Z"}
+{"t":"2026-07-30T09:40:26.447Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-07-30T09:41:25.028Z","type":"thesis","id":"d0d683a8","strategy":"crypto-momentum-breakout","market":"crypto","symbol":"ETH/USD","side":"buy","entry":1918.07,"stop":1903.84,"target":1946.53,"reason":"ETH/USD broke its 20-bar high (1917.74), above its 20-day average. Stop 3×ATR below (wider than equities — crypto volatility), target 2R.","qty":5.1795,"analyst":null,"riskUsd":73.7,"configVersion":"v1-crypto-seeded","regime":"trending","headlines":[],"createdAt":"2026-07-30T09:41:25.028Z","autoAt":"2026-07-30T09:44:25.028Z","expiresAt":"2026-07-30T10:01:25.028Z"}
+{"t":"2026-07-30T09:41:26.116Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-07-30T09:44:24.591Z","type":"auto-skip","id":"dae90b29","reason":"alpaca POST /v2/orders: 422 limit price exceeds maximum precision of 9 decimal places"}
+{"t":"2026-07-30T09:45:26.339Z","type":"order-placed","id":"dae90b29","orderId":"55503c55-e3e5-409f-a6ad-874578a11d58","symbol":"BTC/USD","qty":0.154,"limit":64539.880816705,"stop":64074.04,"target":65432.98,"strategy":"crypto-momentum-breakout","by":"auto","analystVerdict":null,"market":"crypto"}
+{"t":"2026-07-30T09:45:26.699Z","type":"auto-skip","id":"d0d683a8","reason":"alpaca POST /v2/orders: 422 limit price exceeds maximum precision of 9 decimal places"}
+{"t":"2026-07-30T09:45:27.820Z","type":"vault-pushed","files":["sync/crypto-positions.json"]}
+{"t":"2026-07-30T09:46:23.960Z","type":"fill","orderId":"55503c55-e3e5-409f-a6ad-874578a11d58","symbol":"BTC/USD","side":"buy","qty":"0.154","avgPrice":"64539.880816705","legs":0,"clientId":"tlc-dae90b29"}
+{"t":"2026-07-30T09:46:24.360Z","type":"crypto-position-closed","id":"dae90b29","symbol":"BTC/USD","status":"stopped-or-closed","r":-1,"exit":64074.04,"approx":true,"entry":64539.880816705,"stop":64074.04,"target":65432.98}
+{"t":"2026-07-30T09:46:24.578Z","type":"auto-skip","id":"d0d683a8","reason":"alpaca POST /v2/orders: 422 limit price exceeds maximum precision of 9 decimal places"}
+{"t":"2026-07-30T09:46:26.051Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-07-30T09:46:26.940Z","type":"vault-pushed","files":["sync/crypto-positions.json"]}
+{"t":"2026-07-30T09:47:24.569Z","type":"auto-skip","id":"d0d683a8","reason":"alpaca POST /v2/orders: 422 limit price exceeds maximum precision of 9 decimal places"}
+{"t":"2026-07-30T09:48:24.579Z","type":"auto-skip","id":"d0d683a8","reason":"alpaca POST /v2/orders: 422 limit price exceeds maximum precision of 9 decimal places"}
+{"t":"2026-07-30T09:49:24.574Z","type":"auto-skip","id":"d0d683a8","reason":"alpaca POST /v2/orders: 422 limit price exceeds maximum precision of 9 decimal places"}
+{"t":"2026-07-30T09:50:24.575Z","type":"auto-skip","id":"d0d683a8","reason":"alpaca POST /v2/orders: 422 limit price exceeds maximum precision of 9 decimal places"}
+{"t":"2026-07-30T09:51:24.742Z","type":"auto-skip","id":"d0d683a8","reason":"alpaca POST /v2/orders: 422 limit price exceeds maximum precision of 9 decimal places"}
+{"t":"2026-07-30T09:52:24.568Z","type":"auto-skip","id":"d0d683a8","reason":"alpaca POST /v2/orders: 422 limit price exceeds maximum precision of 9 decimal places"}
+{"t":"2026-07-30T09:53:24.572Z","type":"auto-skip","id":"d0d683a8","reason":"alpaca POST /v2/orders: 422 limit price exceeds maximum precision of 9 decimal places"}
+{"t":"2026-07-30T09:54:24.607Z","type":"auto-skip","id":"d0d683a8","reason":"alpaca POST /v2/orders: 422 limit price exceeds maximum precision of 9 decimal places"}
+{"t":"2026-07-30T09:55:24.575Z","type":"auto-skip","id":"d0d683a8","reason":"alpaca POST /v2/orders: 422 limit price exceeds maximum precision of 9 decimal places"}
+{"t":"2026-07-30T09:56:24.569Z","type":"auto-skip","id":"d0d683a8","reason":"alpaca POST /v2/orders: 422 limit price exceeds maximum precision of 9 decimal places"}
+{"t":"2026-07-30T09:57:24.622Z","type":"auto-skip","id":"d0d683a8","reason":"alpaca POST /v2/orders: 422 limit price exceeds maximum precision of 9 decimal places"}
+{"t":"2026-07-30T09:58:24.594Z","type":"auto-skip","id":"d0d683a8","reason":"alpaca POST /v2/orders: 422 limit price exceeds maximum precision of 9 decimal places"}
+{"t":"2026-07-30T09:59:24.657Z","type":"auto-skip","id":"d0d683a8","reason":"alpaca POST /v2/orders: 422 limit price exceeds maximum precision of 9 decimal places"}
+{"t":"2026-07-30T10:00:24.618Z","type":"auto-skip","id":"d0d683a8","reason":"alpaca POST /v2/orders: 422 limit price exceeds maximum precision of 9 decimal places"}
+{"t":"2026-07-30T10:01:24.607Z","type":"auto-skip","id":"d0d683a8","reason":"alpaca POST /v2/orders: 422 limit price exceeds maximum precision of 9 decimal places"}
+{"t":"2026-07-30T10:02:23.893Z","type":"thesis-expired","id":"d0d683a8","symbol":"ETH/USD","strategy":"crypto-momentum-breakout"}
+{"t":"2026-07-30T10:02:25.791Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-07-30T10:04:24.228Z","type":"ai-error","at":"continuing-education","error":"gemini 404: This model models/gemini-2.5-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements."}
+{"t":"2026-07-30T10:04:25.920Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-07-30T10:34:24.266Z","type":"ai-error","at":"continuing-education","error":"gemini 404: This model models/gemini-2.5-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements."}
+{"t":"2026-07-30T10:34:25.729Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-07-30T11:04:24.282Z","type":"ai-cooldown","until":"2026-07-30T15:04:24.281Z","reason":"provider quota (429)"}
+{"t":"2026-07-30T11:04:24.282Z","type":"ai-error","at":"continuing-education","error":"gemini 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash-lite\nPlease retry in 35.744522381s."}
+{"t":"2026-07-30T11:04:25.886Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-07-30T11:34:24.008Z","type":"ai-error","at":"continuing-education","error":"ai cooling down until 2026-07-30T15:04:24.281Z (provider quota)"}
+{"t":"2026-07-30T11:34:25.621Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-07-30T11:51:25.631Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-07-30T11:52:25.456Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-07-30T12:04:24.012Z","type":"ai-error","at":"continuing-education","error":"ai cooling down until 2026-07-30T15:04:24.281Z (provider quota)"}
+{"t":"2026-07-30T12:04:25.585Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-07-30T12:06:25.567Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-07-30T12:13:25.476Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-07-30T12:14:25.621Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-07-30T12:15:25.755Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-07-30T12:34:24.040Z","type":"ai-error","at":"continuing-education","error":"ai cooling down until 2026-07-30T15:04:24.281Z (provider quota)"}
+{"t":"2026-07-30T12:34:25.520Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-07-30T12:45:53.616Z","type":"ai-error","at":"briefing","error":"ai cooling down until 2026-07-30T15:04:24.281Z (provider quota)"}
+{"t":"2026-07-30T12:45:55.238Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-07-30T12:55:50.683Z","type":"ai-error","at":"briefing","error":"ai cooling down until 2026-07-30T15:04:24.281Z (provider quota)"}
+{"t":"2026-07-30T12:55:52.313Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-07-30T12:57:25.577Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-07-30T13:04:24.045Z","type":"ai-error","at":"continuing-education","error":"ai cooling down until 2026-07-30T15:04:24.281Z (provider quota)"}
+{"t":"2026-07-30T13:04:25.415Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-07-30T13:05:54.637Z","type":"ai-error","at":"briefing","error":"ai cooling down until 2026-07-30T15:04:24.281Z (provider quota)"}
+{"t":"2026-07-30T13:05:56.129Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-07-30T13:16:54.628Z","type":"ai-error","at":"briefing","error":"ai cooling down until 2026-07-30T15:04:24.281Z (provider quota)"}
+{"t":"2026-07-30T13:16:56.236Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-07-30T13:26:51.229Z","type":"ai-error","at":"briefing","error":"ai cooling down until 2026-07-30T15:04:24.281Z (provider quota)"}
+{"t":"2026-07-30T13:26:52.824Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-07-30T13:30:45.168Z","type":"thesis-rejected-gate","strategy":"post-earnings-drift","symbol":"KO","side":"buy","entry":89.17,"stop":85.12,"target":97.27,"reason":"Gapped +4.9% on earnings (2026-07-28) on 2.5× average volume, still extending 1 day(s) later.","reasons":["first 15 min after open"]}
+{"t":"2026-07-30T13:30:46.691Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-07-30T13:45:27.971Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-07-30T13:46:28.059Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-07-30T13:49:26.510Z","type":"vault-pushed","files":["sync/state.json"]}
