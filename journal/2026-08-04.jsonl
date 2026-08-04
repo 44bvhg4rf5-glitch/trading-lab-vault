@@ -1,0 +1,186 @@
+{"t":"2026-08-04T04:00:24.828Z","type":"screener","date":"2026-08-04","scanned":145,"tookMs":3117,"promoted":[{"sym":"ANET","kind":"momentum","score":1.52},{"sym":"ETN","kind":"momentum","score":1.46},{"sym":"TGT","kind":"momentum","score":1.33},{"sym":"MA","kind":"momentum","score":1.32},{"sym":"TMO","kind":"momentum","score":1.29},{"sym":"RCL","kind":"momentum","score":1.28},{"sym":"BRK.B","kind":"momentum","score":1.27},{"sym":"SHW","kind":"momentum","score":1.25},{"sym":"LIN","kind":"meanrev","score":3.14},{"sym":"MAR","kind":"meanrev","score":2.31}]}
+{"t":"2026-08-04T04:00:26.326Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-04T04:06:21.866Z","type":"ai-error","at":"continuing-education","error":"ai cooling down until 2026-08-04T04:34:21.914Z (provider quota)"}
+{"t":"2026-08-04T04:06:23.341Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-04T04:36:22.076Z","type":"ai-error","at":"continuing-education","error":"gemini 404: This model models/gemini-2.5-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements."}
+{"t":"2026-08-04T04:36:23.560Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-04T04:46:23.214Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-04T04:47:23.165Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-04T04:48:23.323Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-04T04:49:23.168Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-04T04:50:23.198Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-04T04:52:23.239Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-04T05:06:22.056Z","type":"ai-cooldown","until":"2026-08-04T09:06:22.055Z","reason":"provider quota (429)"}
+{"t":"2026-08-04T05:06:22.056Z","type":"ai-error","at":"continuing-education","error":"ai cooling down until 2026-08-04T09:06:22.055Z (provider quota)"}
+{"t":"2026-08-04T05:06:23.499Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-04T05:36:21.888Z","type":"ai-error","at":"continuing-education","error":"ai cooling down until 2026-08-04T09:06:22.055Z (provider quota)"}
+{"t":"2026-08-04T05:36:23.378Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-04T06:06:21.842Z","type":"ai-error","at":"continuing-education","error":"ai cooling down until 2026-08-04T09:06:22.055Z (provider quota)"}
+{"t":"2026-08-04T06:06:23.396Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-04T06:36:21.798Z","type":"ai-error","at":"continuing-education","error":"ai cooling down until 2026-08-04T09:06:22.055Z (provider quota)"}
+{"t":"2026-08-04T06:36:23.509Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-04T07:06:21.892Z","type":"ai-error","at":"continuing-education","error":"ai cooling down until 2026-08-04T09:06:22.055Z (provider quota)"}
+{"t":"2026-08-04T07:06:23.369Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-04T07:36:21.818Z","type":"ai-error","at":"continuing-education","error":"ai cooling down until 2026-08-04T09:06:22.055Z (provider quota)"}
+{"t":"2026-08-04T07:36:23.362Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-04T08:06:21.918Z","type":"ai-error","at":"continuing-education","error":"ai cooling down until 2026-08-04T09:06:22.055Z (provider quota)"}
+{"t":"2026-08-04T08:06:23.521Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-04T08:35:56.239Z","type":"vault-pushed","files":["research/evolution-2026-08-04.md"]}
+{"t":"2026-08-04T08:35:56.239Z","type":"evolution-run","date":"2026-08-04","tookMs":34362,"results":[{"strategyKey":"momentum","promotedVersion":null,"championOut":{"n":103,"winRate":34,"totalR":-5.92,"avgR":-0.06,"maxDrawdownR":-13.42,"maxConsecLosses":10},"challengersTested":8},{"strategyKey":"meanrev","promotedVersion":null,"championOut":{"n":6,"winRate":67,"totalR":5.27,"avgR":0.88,"maxDrawdownR":-1.05,"maxConsecLosses":1},"challengersTested":8},{"strategyKey":"pullback","promotedVersion":null,"championOut":{"n":85,"winRate":41,"totalR":-0.66,"avgR":-0.01,"maxDrawdownR":-19.56,"maxConsecLosses":7},"challengersTested":8}]}
+{"t":"2026-08-04T08:35:57.602Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-04T08:36:22.023Z","type":"ai-error","at":"continuing-education","error":"ai cooling down until 2026-08-04T09:06:22.055Z (provider quota)"}
+{"t":"2026-08-04T08:36:23.408Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-04T09:07:22.303Z","type":"ai-error","at":"continuing-education","error":"gemini 404: This model models/gemini-2.5-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements."}
+{"t":"2026-08-04T09:07:23.917Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-04T09:37:22.179Z","type":"ai-error","at":"continuing-education","error":"gemini 404: This model models/gemini-2.5-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements."}
+{"t":"2026-08-04T09:37:23.617Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-04T10:07:22.310Z","type":"ai-error","at":"continuing-education","error":"gemini 404: This model models/gemini-2.5-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements."}
+{"t":"2026-08-04T10:07:23.850Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-04T10:37:22.322Z","type":"ai-error","at":"continuing-education","error":"gemini 404: This model models/gemini-2.5-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements."}
+{"t":"2026-08-04T10:37:23.797Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-04T11:08:22.295Z","type":"ai-error","at":"continuing-education","error":"gemini 404: This model models/gemini-2.5-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements."}
+{"t":"2026-08-04T11:08:23.775Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-04T11:38:22.260Z","type":"ai-error","at":"continuing-education","error":"gemini 404: This model models/gemini-2.5-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements."}
+{"t":"2026-08-04T11:38:23.718Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-04T12:08:22.383Z","type":"ai-error","at":"continuing-education","error":"gemini 404: This model models/gemini-2.5-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements."}
+{"t":"2026-08-04T12:08:24.063Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-04T12:38:22.383Z","type":"ai-error","at":"continuing-education","error":"gemini 404: This model models/gemini-2.5-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements."}
+{"t":"2026-08-04T12:38:24.049Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-04T12:45:52.221Z","type":"ai-error","at":"briefing","error":"gemini 404: This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use a newer model for the latest features and improvements."}
+{"t":"2026-08-04T12:45:53.991Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-04T12:55:48.939Z","type":"ai-error","at":"briefing","error":"gemini 404: This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use a newer model for the latest features and improvements."}
+{"t":"2026-08-04T12:55:50.462Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-04T13:05:52.818Z","type":"ai-error","at":"briefing","error":"gemini 404: This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use a newer model for the latest features and improvements."}
+{"t":"2026-08-04T13:05:54.566Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-04T13:08:22.370Z","type":"ai-error","at":"continuing-education","error":"gemini 404: This model models/gemini-2.5-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements."}
+{"t":"2026-08-04T13:08:23.865Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-04T13:15:49.031Z","type":"ai-error","at":"briefing","error":"gemini 404: This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use a newer model for the latest features and improvements."}
+{"t":"2026-08-04T13:15:50.965Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-04T13:26:52.115Z","type":"ai-error","at":"briefing","error":"gemini 404: This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use a newer model for the latest features and improvements."}
+{"t":"2026-08-04T13:26:53.647Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-04T13:30:33.933Z","type":"earnings-guard","excluded":["DIS"]}
+{"t":"2026-08-04T13:30:44.831Z","type":"thesis-incubation","strategy":"pullback-trend","symbol":"JPM","side":"buy","entry":352.65,"stop":342.19,"target":373.57,"reason":"Dip to the 20-day zone in a stacked uptrend (20>50>200 SMA, within 10% of the 60-day high), closing back up. Stop under the pullback low, target 2R.","createdAt":"2026-08-04T13:30:44.831Z"}
+{"t":"2026-08-04T13:30:45.650Z","type":"thesis-incubation","strategy":"pullback-trend","symbol":"UNH","side":"buy","entry":415.38,"stop":398.5,"target":449.14,"reason":"Dip to the 20-day zone in a stacked uptrend (20>50>200 SMA, within 10% of the 60-day high), closing back up. Stop under the pullback low, target 2R.","createdAt":"2026-08-04T13:30:45.650Z"}
+{"t":"2026-08-04T13:30:45.995Z","type":"thesis-incubation","strategy":"pullback-trend","symbol":"ANET","side":"buy","entry":184.95,"stop":165.88,"target":223.09,"reason":"Dip to the 20-day zone in a stacked uptrend (20>50>200 SMA, within 10% of the 60-day high), closing back up. Stop under the pullback low, target 2R.","createdAt":"2026-08-04T13:30:45.995Z"}
+{"t":"2026-08-04T13:30:46.733Z","type":"thesis-rejected-gate","strategy":"momentum-breakout","symbol":"BAC","side":"buy","entry":62.49,"stop":62.22,"target":63.03,"reason":"Broke 20-bar high (62.43) with stock and SPY above their 20-day averages. Stop 2×ATR below, target 2R.","conviction":{"score":69,"tier":"standard","reasons":["+4 reward:risk 2.0","+10 Monte Carlo expected +0.98R (65% to target)","-12 strategy losing live (-1R over 19)","+6 market trending","+8 sector rank 2/11","+4 VIX 15.99 — calm tape","+5 Street strongly positive","-6 insiders net selling (MSPR -24)"]},"reasons":["first 15 min after open","already at max 5 open positions"]}
+{"t":"2026-08-04T13:30:46.733Z","type":"thesis-rejected-gate","strategy":"momentum-breakout","symbol":"HD","side":"buy","entry":340.13,"stop":338.29,"target":343.81,"reason":"Broke 20-bar high (339.81) with stock and SPY above their 20-day averages. Stop 2×ATR below, target 2R.","conviction":{"score":67,"tier":"standard","reasons":["+8 reward:risk 2.0","+5 Monte Carlo expected +0.27R","-12 strategy losing live (-1R over 19)","+6 market trending","+4 VIX 15.99 — calm tape","+6 insiders net buying (MSPR 43)"]},"reasons":["first 15 min after open","already at max 5 open positions"]}
+{"t":"2026-08-04T13:30:46.734Z","type":"thesis-rejected-gate","strategy":"momentum-breakout","symbol":"ETN","side":"buy","entry":438.28,"stop":433.42,"target":448,"reason":"Broke 20-bar high (436.58) with stock and SPY above their 20-day averages. Stop 2×ATR below, target 2R.","conviction":{"score":65,"tier":"standard","reasons":["+8 reward:risk 2.0","+10 Monte Carlo expected +1.41R (80% to target)","-12 strategy losing live (-1R over 19)","+6 market trending","+4 VIX 15.99 — calm tape","+5 Street strongly positive","-6 68% short-sale volume"]},"reasons":["first 15 min after open","already at max 5 open positions"]}
+{"t":"2026-08-04T13:30:46.735Z","type":"thesis-rejected-gate","strategy":"momentum-breakout","symbol":"SHW","side":"buy","entry":354.22,"stop":352.35,"target":357.96,"reason":"Broke 20-bar high (353.5) with stock and SPY above their 20-day averages. Stop 2×ATR below, target 2R.","conviction":{"score":63,"tier":"standard","reasons":["+4 reward:risk 2.0","+10 Monte Carlo expected +0.59R (53% to target)","-12 strategy losing live (-1R over 19)","+6 market trending","-8 lagging sector (10/11)","+4 VIX 15.99 — calm tape","+6 insiders net buying (MSPR 82)","+3 light shorting"]},"reasons":["first 15 min after open","already at max 5 open positions"]}
+{"t":"2026-08-04T13:30:46.930Z","type":"shadow-outcome","id":"MSFT-msda5x6g","symbol":"MSFT","strategy":"momentum-breakout","source":"gate-blocked","entry":487.98,"stop":480.72,"target":502.5,"status":"stopped","r":-1,"exit":480.72,"openedAt":"2026-08-03T13:44:08.248Z"}
+{"t":"2026-08-04T13:30:49.230Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-08-04T13:31:36.255Z","type":"thesis-rejected-gate","strategy":"momentum-breakout","symbol":"RCL","side":"buy","entry":328.87,"stop":326.32,"target":333.97,"reason":"Broke 20-bar high (326.08) with stock and SPY above their 20-day averages. Stop 2×ATR below, target 2R.","conviction":{"score":66,"tier":"standard","reasons":["+8 reward:risk 2.0","+10 Monte Carlo expected +0.73R (58% to target)","-12 strategy losing live (-1R over 20)","+6 market trending","+4 VIX 15.99 — calm tape"]},"reasons":["first 15 min after open","already at max 5 open positions"]}
+{"t":"2026-08-04T13:31:36.255Z","type":"thesis-rejected-gate","strategy":"momentum-breakout","symbol":"NVDA","side":"buy","entry":210.68,"stop":208.42,"target":215.2,"reason":"Broke 20-bar high (210.17) with stock and SPY above their 20-day averages. Stop 2×ATR below, target 2R.","conviction":{"score":53,"tier":"standard","reasons":["+4 reward:risk 2.0","+10 Monte Carlo expected +1.16R (72% to target)","-12 strategy losing live (-1R over 20)","+6 market trending","-8 lagging sector (9/11)","+4 VIX 15.99 — calm tape","+5 Street strongly positive","-6 insiders net selling (MSPR -83)"]},"reasons":["first 15 min after open","already at max 5 open positions"]}
+{"t":"2026-08-04T13:31:36.664Z","type":"shadow-outcome","id":"AMZN-msda5x67","symbol":"AMZN","strategy":"momentum-breakout","source":"gate-blocked","entry":286.33,"stop":281.06,"target":296.87,"status":"stopped","r":-1,"exit":281.06,"openedAt":"2026-08-03T13:44:08.239Z"}
+{"t":"2026-08-04T13:31:36.665Z","type":"shadow-outcome","id":"NVDA-msdb6dpg","symbol":"NVDA","strategy":"momentum-breakout","source":"gate-blocked","entry":205.07,"stop":202.15,"target":210.91,"status":"target","r":2,"exit":210.91,"openedAt":"2026-08-03T14:12:29.284Z"}
+{"t":"2026-08-04T13:31:36.665Z","type":"shadow-outcome","id":"HD-msdlks2y","symbol":"HD","strategy":"momentum-breakout","source":"gate-blocked","entry":338.87,"stop":337.03,"target":342.55,"status":"target","r":2,"exit":342.55,"openedAt":"2026-08-03T19:03:37.258Z"}
+{"t":"2026-08-04T13:31:36.665Z","type":"shadow-outcome","id":"NFLX-msdmyxf0","symbol":"NFLX","strategy":"momentum-breakout","source":"gate-blocked","entry":73.28,"stop":72.77,"target":74.3,"status":"stopped","r":-1,"exit":72.77,"openedAt":"2026-08-03T19:42:36.972Z"}
+{"t":"2026-08-04T13:31:36.665Z","type":"shadow-outcome","id":"PEP-msdni747","symbol":"PEP","strategy":"momentum-breakout","source":"gate-blocked","entry":139.81,"stop":139.14,"target":141.15,"status":"stopped","r":-1,"exit":139.14,"openedAt":"2026-08-03T19:57:36.007Z"}
+{"t":"2026-08-04T13:31:37.741Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-08-04T13:33:31.372Z","type":"shadow-outcome","id":"TGT-msda5x6b","symbol":"TGT","strategy":"momentum-breakout","source":"gate-blocked","entry":149.47,"stop":147.92,"target":152.57,"status":"stopped","r":-1,"exit":147.92,"openedAt":"2026-08-03T13:44:08.243Z"}
+{"t":"2026-08-04T13:33:32.440Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-08-04T13:36:31.652Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-04T13:40:32.718Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-04T13:41:29.593Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-04T13:46:30.685Z","type":"shadow-outcome","id":"SHW-msep4le7","symbol":"SHW","strategy":"momentum-breakout","source":"gate-blocked","entry":354.22,"stop":352.35,"target":357.96,"status":"target","r":2,"exit":357.96,"openedAt":"2026-08-04T13:30:46.735Z"}
+{"t":"2026-08-04T13:46:31.736Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-08-04T13:49:27.411Z","type":"shadow-outcome","id":"RCL-msep5nlr","symbol":"RCL","strategy":"momentum-breakout","source":"gate-blocked","entry":328.87,"stop":326.32,"target":333.97,"status":"stopped","r":-1,"exit":326.32,"openedAt":"2026-08-04T13:31:36.255Z"}
+{"t":"2026-08-04T13:49:28.995Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-04T13:49:29.953Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-08-04T13:50:31.525Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-04T13:51:30.423Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-04T13:52:32.165Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-04T13:53:30.844Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-04T13:56:28.547Z","type":"thesis-rejected-gate","strategy":"momentum-breakout","symbol":"NFLX","side":"buy","entry":73.44,"stop":72.78,"target":74.76,"reason":"Broke 20-bar high (73.36) with stock and SPY above their 20-day averages. Stop 2×ATR below, target 2R.","conviction":{"score":79,"tier":"high","reasons":["+8 reward:risk 2.0","+10 Monte Carlo expected +0.61R (53% to target)","-12 strategy losing live (-0.68R over 28)","+6 market trending","+8 sector rank 3/11","+4 VIX 15.99 — calm tape","+5 Street strongly positive"]},"reasons":["already at max 5 open positions"]}
+{"t":"2026-08-04T13:56:31.014Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-08-04T14:02:30.347Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-04T14:03:28.723Z","type":"thesis-rejected-gate","strategy":"momentum-breakout","symbol":"MSFT","side":"buy","entry":491.76,"stop":484.92,"target":505.44,"reason":"Broke 20-bar high (491.62) with stock and SPY above their 20-day averages. Stop 2×ATR below, target 2R.","conviction":{"score":57,"tier":"standard","reasons":["+8 reward:risk 2.0","+10 Monte Carlo expected +0.93R (64% to target)","-12 strategy losing live (-0.68R over 28)","+6 market trending","-8 lagging sector (9/11)","+4 VIX 15.99 — calm tape","+5 Street strongly positive","-6 insiders net selling (MSPR -37)"]},"reasons":["already at max 5 open positions"]}
+{"t":"2026-08-04T14:03:30.845Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-04T14:03:32.672Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-08-04T14:04:29.979Z","type":"shadow-outcome","id":"BAC-msep4le5","symbol":"BAC","strategy":"momentum-breakout","source":"gate-blocked","entry":62.49,"stop":62.22,"target":63.03,"status":"target","r":2,"exit":63.03,"openedAt":"2026-08-04T13:30:46.733Z"}
+{"t":"2026-08-04T14:04:31.215Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-04T14:04:32.553Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-08-04T14:05:31.420Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-04T14:06:30.541Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-04T14:07:31.095Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-04T14:08:29.462Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-04T14:14:31.406Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-04T14:18:28.781Z","type":"thesis-rejected-gate","strategy":"momentum-breakout","symbol":"BRK.B","side":"buy","entry":513.88,"stop":511.17,"target":519.3,"reason":"Broke 20-bar high (513.84) with stock and SPY above their 20-day averages. Stop 2×ATR below, target 2R.","conviction":{"score":69,"tier":"standard","reasons":["+8 reward:risk 2.0","+10 Monte Carlo expected +1.05R (68% to target)","-12 strategy losing live (-0.59R over 29)","+6 market trending","+8 sector rank 2/11","+4 VIX 15.86 — calm tape","-5 Street negative"]},"reasons":["already at max 5 open positions"]}
+{"t":"2026-08-04T14:18:31.072Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-08-04T14:19:28.563Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-04T14:24:28.501Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-04T14:26:28.536Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-04T14:27:28.845Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-04T14:28:28.369Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-04T14:29:27.784Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-04T14:35:29.451Z","type":"thesis-rejected-gate","strategy":"momentum-breakout","symbol":"CRM","side":"buy","entry":189.32,"stop":187.16,"target":193.64,"reason":"Broke 20-bar high (189.17) with stock and SPY above their 20-day averages. Stop 2×ATR below, target 2R.","conviction":{"score":58,"tier":"standard","reasons":["+8 reward:risk 2.0","+10 Monte Carlo expected +0.87R (62% to target)","-12 strategy losing live (-0.59R over 29)","+6 market trending","-8 lagging sector (9/11)","+4 VIX 15.86 — calm tape"]},"reasons":["already at max 5 open positions"]}
+{"t":"2026-08-04T14:35:31.518Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-08-04T14:41:29.188Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-04T14:42:31.560Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-04T14:43:28.682Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-04T14:44:28.046Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-04T14:48:27.468Z","type":"shadow-outcome","id":"HD-msep4le5","symbol":"HD","strategy":"momentum-breakout","source":"gate-blocked","entry":340.13,"stop":338.29,"target":343.81,"status":"target","r":2,"exit":343.81,"openedAt":"2026-08-04T13:30:46.733Z"}
+{"t":"2026-08-04T14:48:28.626Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-08-04T14:53:28.445Z","type":"thesis-rejected-gate","strategy":"momentum-breakout","symbol":"AMD","side":"buy","entry":517.98,"stop":507.82,"target":538.3,"reason":"Broke 20-bar high (517.71) with stock and SPY above their 20-day averages. Stop 2×ATR below, target 2R.","conviction":{"score":53,"tier":"standard","reasons":["+4 reward:risk 2.0","+10 Monte Carlo expected +0.64R (54% to target)","-12 strategy losing live (-0.5R over 30)","+6 market trending","-8 lagging sector (9/11)","+4 VIX 15.86 — calm tape","+5 Street strongly positive","-6 insiders net selling (MSPR -39)"]},"reasons":["already at max 5 open positions"]}
+{"t":"2026-08-04T14:53:30.278Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-08-04T15:46:30.172Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-04T15:49:30.212Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-04T15:50:31.444Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-04T15:56:27.325Z","type":"shadow-outcome","id":"NFLX-mseq1n2b","symbol":"NFLX","strategy":"momentum-breakout","source":"gate-blocked","entry":73.44,"stop":72.78,"target":74.76,"status":"stopped","r":-1,"exit":72.78,"openedAt":"2026-08-04T13:56:28.547Z"}
+{"t":"2026-08-04T15:56:28.483Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-08-04T16:00:31.425Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-04T16:01:31.620Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-04T16:26:28.808Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-04T16:31:29.731Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-04T16:34:31.224Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-04T16:45:31.611Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-04T16:46:28.443Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-04T16:47:28.461Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-04T16:48:27.541Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-04T16:49:27.446Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-04T16:50:27.584Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-04T16:51:27.389Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-04T17:00:31.603Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-04T17:01:29.168Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-04T17:03:27.773Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-04T17:04:31.545Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-04T17:05:32.101Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-04T17:07:28.632Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-04T17:08:27.604Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-04T17:14:28.709Z","type":"thesis-incubation","strategy":"pullback-trend","symbol":"AAPL","side":"buy","entry":310.33,"stop":295.78,"target":339.43,"reason":"Dip to the 20-day zone in a stacked uptrend (20>50>200 SMA, within 10% of the 60-day high), closing back up. Stop under the pullback low, target 2R.","createdAt":"2026-08-04T17:14:28.709Z"}
+{"t":"2026-08-04T17:14:31.907Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-08-04T17:15:30.184Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-04T17:16:32.322Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-04T17:17:30.428Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-04T17:28:27.640Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-04T17:36:30.773Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-04T17:37:30.601Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-04T17:38:28.333Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-04T17:40:31.278Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-04T17:41:28.863Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-04T17:43:30.800Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-04T17:44:29.002Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-04T17:45:34.643Z","type":"thesis-rejected-gate","strategy":"momentum-breakout","symbol":"PG","side":"buy","entry":147.6,"stop":146.79,"target":149.22,"reason":"Broke 20-bar high (147.35) with stock and SPY above their 20-day averages. Stop 2×ATR below, target 2R.","conviction":{"score":72,"tier":"high","reasons":["+8 reward:risk 2.0","+10 Monte Carlo expected +1.08R (69% to target)","-12 strategy losing live (-0.52R over 31)","+6 market trending","+4 VIX 15.86 — calm tape","+6 insiders net buying (MSPR 33)"]},"reasons":["already at max 5 open positions"]}
+{"t":"2026-08-04T17:45:36.084Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-04T17:45:37.159Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-08-04T17:49:28.260Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-04T18:07:31.497Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-04T18:10:31.759Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-04T18:11:29.531Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-04T18:12:29.495Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-04T18:16:32.114Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-04T18:20:30.002Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-04T18:21:32.335Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-04T18:24:29.262Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-04T18:25:34.131Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-04T18:29:28.448Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-04T18:30:32.110Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-04T18:35:31.470Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-04T18:36:32.839Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-04T18:59:28.982Z","type":"thesis-rejected-gate","strategy":"momentum-breakout","symbol":"COST","side":"buy","entry":947.69,"stop":943.86,"target":955.35,"reason":"Broke 20-bar high (947.67) with stock and SPY above their 20-day averages. Stop 2×ATR below, target 2R.","conviction":{"score":51,"tier":"standard","reasons":["+4 reward:risk 2.0","+5 Monte Carlo expected +0.19R","-12 strategy losing live (-0.52R over 31)","+6 market trending","+4 VIX 15.86 — calm tape","-6 insiders net selling (MSPR -99)"]},"reasons":["already at max 5 open positions"]}
+{"t":"2026-08-04T18:59:30.615Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-08-04T19:05:31.293Z","type":"thesis-rejected-gate","strategy":"momentum-breakout","symbol":"PEP","side":"buy","entry":138.89,"stop":138.22,"target":140.23,"reason":"Broke 20-bar high (138.88) with stock and SPY above their 20-day averages. Stop 2×ATR below, target 2R.","conviction":{"score":62,"tier":"standard","reasons":["+8 reward:risk 2.0","-12 strategy losing live (-0.52R over 31)","+6 market trending","+4 VIX 15.86 — calm tape","+6 insiders net buying (MSPR 78)"]},"reasons":["already at max 5 open positions"]}
+{"t":"2026-08-04T19:05:33.107Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-08-04T19:43:29.170Z","type":"thesis-rejected-gate","strategy":"momentum-breakout","symbol":"KO","side":"buy","entry":86.6,"stop":86.23,"target":87.34,"reason":"Broke 20-bar high (86.59) with stock and SPY above their 20-day averages. Stop 2×ATR below, target 2R.","conviction":{"score":54,"tier":"standard","reasons":["+8 reward:risk 2.0","-10 Monte Carlo expected -0.32R (77% to stop)","-12 strategy losing live (-0.52R over 31)","+6 market trending","+4 VIX 15.86 — calm tape","+5 Street strongly positive","+3 light shorting"]},"reasons":["already at max 5 open positions"]}
+{"t":"2026-08-04T19:43:30.708Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-08-04T19:59:30.475Z","type":"thesis-incubation","strategy":"pullback-trend","symbol":"JNJ","side":"buy","entry":255.23,"stop":246.08,"target":273.53,"reason":"Dip to the 20-day zone in a stacked uptrend (20>50>200 SMA, within 10% of the 60-day high), closing back up. Stop under the pullback low, target 2R.","createdAt":"2026-08-04T19:59:30.475Z"}
+{"t":"2026-08-04T19:59:32.428Z","type":"vault-pushed","files":["sync/shadow.json"]}
