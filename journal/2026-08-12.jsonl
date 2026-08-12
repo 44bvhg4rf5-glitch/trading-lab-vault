@@ -1,0 +1,65 @@
+{"t":"2026-08-12T09:02:37.184Z","type":"durable-restored","files":["state.json","shadow.json","crypto-positions.json"]}
+{"t":"2026-08-12T09:02:37.358Z","type":"ai-error","at":"self-test","provider":"gemini","error":"gemini 404: This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use a newer model for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/migrate-to-interactions)."}
+{"t":"2026-08-12T09:02:42.558Z","type":"equity-position-error","at":"adopt","symbol":"AVGO","error":"unrecognizable structure (no resting stop/target and no journal record) — left as-is, not guessed at"}
+{"t":"2026-08-12T09:02:42.558Z","type":"equity-position-error","at":"adopt","symbol":"BTCUSD","error":"unrecognizable structure (no resting stop/target and no journal record) — left as-is, not guessed at"}
+{"t":"2026-08-12T09:02:42.559Z","type":"equity-position-error","at":"adopt","symbol":"ETHUSD","error":"unrecognizable structure (no resting stop/target and no journal record) — left as-is, not guessed at"}
+{"t":"2026-08-12T09:02:42.559Z","type":"equity-position-error","at":"adopt","symbol":"GOOGL","error":"unrecognizable structure (no resting stop/target and no journal record) — left as-is, not guessed at"}
+{"t":"2026-08-12T09:02:42.559Z","type":"equity-position-error","at":"adopt","symbol":"XOM","error":"unrecognizable structure (no resting stop/target and no journal record) — left as-is, not guessed at"}
+{"t":"2026-08-12T09:02:42.944Z","type":"macro-guard","label":"CPI release","scope":"crypto"}
+{"t":"2026-08-12T09:02:43.631Z","type":"cfd-instruments","found":["SPX500_USD","NAS100_USD","UK100_GBP","XAU_USD"],"missing":[]}
+{"t":"2026-08-12T09:02:44.986Z","type":"macro-guard","label":"CPI release","scope":"cfd"}
+{"t":"2026-08-12T09:02:46.065Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-12T09:02:47.101Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-08-12T09:02:48.119Z","type":"vault-pushed","files":["sync/crypto-positions.json"]}
+{"t":"2026-08-12T09:07:37.911Z","type":"ai-error","at":"continuing-education","error":"gemini 404: This model models/gemini-2.5-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/migrate-to-interactions)."}
+{"t":"2026-08-12T09:07:39.534Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-12T09:09:06.826Z","type":"ai-error","at":"briefing","error":"gemini 404: This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use a newer model for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/migrate-to-interactions)."}
+{"t":"2026-08-12T09:09:09.153Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-12T09:38:37.771Z","type":"ai-error","at":"continuing-education","error":"gemini 404: This model models/gemini-2.5-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/migrate-to-interactions)."}
+{"t":"2026-08-12T09:38:40.174Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-12T10:08:38.089Z","type":"ai-error","at":"continuing-education","error":"gemini 404: This model models/gemini-2.5-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/migrate-to-interactions)."}
+{"t":"2026-08-12T10:08:41.651Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-12T10:38:37.793Z","type":"ai-error","at":"continuing-education","error":"gemini 404: This model models/gemini-2.5-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/migrate-to-interactions)."}
+{"t":"2026-08-12T10:38:39.689Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-12T11:08:38.198Z","type":"ai-error","at":"continuing-education","error":"gemini 404: This model models/gemini-2.5-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/migrate-to-interactions)."}
+{"t":"2026-08-12T11:08:40.015Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-12T11:39:37.907Z","type":"ai-error","at":"continuing-education","error":"gemini 404: This model models/gemini-2.5-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/migrate-to-interactions)."}
+{"t":"2026-08-12T11:39:40.133Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-12T12:09:38.067Z","type":"ai-error","at":"continuing-education","error":"gemini 404: This model models/gemini-2.5-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/migrate-to-interactions)."}
+{"t":"2026-08-12T12:09:39.960Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-12T12:40:37.914Z","type":"ai-error","at":"continuing-education","error":"gemini 404: This model models/gemini-2.5-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/migrate-to-interactions)."}
+{"t":"2026-08-12T12:40:39.949Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-12T12:46:07.090Z","type":"ai-error","at":"briefing","error":"gemini 404: This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use a newer model for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/migrate-to-interactions)."}
+{"t":"2026-08-12T12:46:08.801Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-12T12:56:04.801Z","type":"ai-error","at":"briefing","error":"gemini 404: This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use a newer model for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/migrate-to-interactions)."}
+{"t":"2026-08-12T12:56:06.783Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-12T13:07:07.259Z","type":"ai-error","at":"briefing","error":"gemini 404: This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use a newer model for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/migrate-to-interactions)."}
+{"t":"2026-08-12T13:07:11.048Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-12T13:10:38.054Z","type":"ai-error","at":"continuing-education","error":"gemini 404: This model models/gemini-2.5-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/migrate-to-interactions)."}
+{"t":"2026-08-12T13:10:40.572Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-12T13:17:04.464Z","type":"ai-error","at":"briefing","error":"gemini 404: This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use a newer model for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/migrate-to-interactions)."}
+{"t":"2026-08-12T13:17:06.902Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-12T13:28:07.443Z","type":"ai-error","at":"briefing","error":"gemini 404: This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use a newer model for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/migrate-to-interactions)."}
+{"t":"2026-08-12T13:28:10.045Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-12T13:30:49.627Z","type":"macro-guard","label":"CPI release","scope":"equities"}
+{"t":"2026-08-12T13:30:52.068Z","type":"shadow-outcome","id":"JNJ-msg4kfr4","symbol":"JNJ","strategy":"pullback-trend","source":"incubation","entry":254.95,"stop":245.78,"target":273.29,"status":"timeout","r":0.52,"exit":259.75,"openedAt":"2026-08-05T13:30:46.336Z"}
+{"t":"2026-08-12T13:30:52.068Z","type":"shadow-outcome","id":"ANET-msg4kfwo","symbol":"ANET","strategy":"pullback-trend","source":"incubation","entry":190.53,"stop":173.72,"target":224.15,"status":"timeout","r":0,"exit":190.53,"openedAt":"2026-08-05T13:30:46.536Z"}
+{"t":"2026-08-12T13:30:52.068Z","type":"shadow-outcome","id":"FTNT-msg4kgbc","symbol":"FTNT","strategy":"pullback-trend","source":"incubation","entry":168.27,"stop":153.93,"target":196.95,"status":"timeout","r":0,"exit":168.27,"openedAt":"2026-08-05T13:30:47.064Z"}
+{"t":"2026-08-12T13:30:52.068Z","type":"shadow-outcome","id":"GE-msg4kgbd","symbol":"GE","strategy":"pullback-trend","source":"incubation","entry":377.15,"stop":354.46,"target":422.53,"status":"timeout","r":0,"exit":377.15,"openedAt":"2026-08-05T13:30:47.065Z"}
+{"t":"2026-08-12T13:30:52.068Z","type":"shadow-outcome","id":"ETN-msg4kgbe","symbol":"ETN","strategy":"post-earnings-drift","source":"gate-blocked","entry":444.57,"stop":395.2,"target":543.31,"status":"timeout","r":0,"exit":444.57,"openedAt":"2026-08-05T13:30:47.066Z"}
+{"t":"2026-08-12T13:30:52.068Z","type":"shadow-outcome","id":"PLTR-msg4kgbf","symbol":"PLTR","strategy":"post-earnings-drift","source":"gate-blocked","entry":162.61,"stop":123.74,"target":240.35,"status":"timeout","r":0.25,"exit":172.4,"openedAt":"2026-08-05T13:30:47.067Z"}
+{"t":"2026-08-12T13:30:53.747Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-08-12T13:31:45.142Z","type":"shadow-outcome","id":"PEP-msp2rc9l","symbol":"PEP","strategy":"momentum-breakout","source":"gate-blocked","entry":138.42,"stop":137.95,"target":139.36,"status":"stopped","r":-1,"exit":137.95,"openedAt":"2026-08-11T19:50:04.761Z"}
+{"t":"2026-08-12T13:31:46.288Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-08-12T13:39:41.789Z","type":"shadow-outcome","id":"WMT-msop86mb","symbol":"WMT","strategy":"momentum-breakout","source":"gate-blocked","entry":112.67,"stop":112.11,"target":113.79,"status":"target","r":2,"exit":113.79,"openedAt":"2026-08-11T13:31:15.971Z"}
+{"t":"2026-08-12T13:39:43.117Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-08-12T13:42:40.521Z","type":"shadow-outcome","id":"PLTR-msn9t6ok","symbol":"PLTR","strategy":"momentum-breakout","source":"gate-blocked","entry":173.85,"stop":170.87,"target":179.81,"status":"stopped","r":-1,"exit":170.87,"openedAt":"2026-08-10T13:31:55.796Z"}
+{"t":"2026-08-12T13:42:41.512Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-08-12T13:43:40.691Z","type":"shadow-outcome","id":"DIS-mshk41v9","symbol":"DIS","strategy":"momentum-breakout","source":"gate-blocked","entry":103.53,"stop":102.32,"target":105.95,"status":"stopped","r":-1,"exit":102.32,"openedAt":"2026-08-06T13:33:41.877Z"}
+{"t":"2026-08-12T13:43:42.203Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-08-12T14:02:50.817Z","type":"cfd-tick-error","error":"oanda GET /v3/accounts/101-004-40071397-001/summary: 401 Insufficient authorization to perform request."}
+{"t":"2026-08-12T14:04:46.184Z","type":"cfd-tick-error","error":"oanda GET /v3/accounts/101-004-40071397-001/summary: 401 Insufficient authorization to perform request."}
+{"t":"2026-08-12T14:54:41.599Z","type":"shadow-outcome","id":"AAPL-msg7k2n3","symbol":"AAPL","strategy":"pullback-trend","source":"incubation","entry":310.93,"stop":296.82,"target":339.15,"status":"timeout","r":-0.6,"exit":302.43,"openedAt":"2026-08-05T14:54:28.191Z"}
+{"t":"2026-08-12T14:54:42.691Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-08-12T17:10:42.068Z","type":"shadow-outcome","id":"UNH-msgcf12d","symbol":"UNH","strategy":"pullback-trend","source":"incubation","entry":415.57,"stop":397.96,"target":450.79,"status":"timeout","r":-0.64,"exit":404.37,"openedAt":"2026-08-05T17:10:30.949Z"}
+{"t":"2026-08-12T17:10:43.153Z","type":"vault-pushed","files":["sync/shadow.json"]}
