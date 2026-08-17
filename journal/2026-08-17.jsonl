@@ -1,0 +1,896 @@
+{"t":"2026-08-17T07:16:45.298Z","type":"durable-restored","files":["state.json","shadow.json","crypto-positions.json","cfd-positions.json"]}
+{"t":"2026-08-17T07:16:45.318Z","type":"ai-error","at":"self-test","provider":"gemini","error":"ai cooling down until 2026-08-17T08:17:06.383Z (provider quota)"}
+{"t":"2026-08-17T07:17:20.122Z","type":"ai-error","at":"briefing","error":"ai cooling down until 2026-08-17T08:17:06.383Z (provider quota)"}
+{"t":"2026-08-17T07:17:20.344Z","type":"equity-position-error","at":"adopt","symbol":"AVGO","error":"unrecognizable structure (no resting stop/target and no journal record) — left as-is, not guessed at"}
+{"t":"2026-08-17T07:17:20.345Z","type":"equity-position-error","at":"adopt","symbol":"BTCUSD","error":"unrecognizable structure (no resting stop/target and no journal record) — left as-is, not guessed at"}
+{"t":"2026-08-17T07:17:20.345Z","type":"equity-position-error","at":"adopt","symbol":"ETHUSD","error":"unrecognizable structure (no resting stop/target and no journal record) — left as-is, not guessed at"}
+{"t":"2026-08-17T07:17:20.345Z","type":"equity-position-error","at":"adopt","symbol":"GOOGL","error":"unrecognizable structure (no resting stop/target and no journal record) — left as-is, not guessed at"}
+{"t":"2026-08-17T07:17:20.345Z","type":"equity-position-error","at":"adopt","symbol":"XOM","error":"unrecognizable structure (no resting stop/target and no journal record) — left as-is, not guessed at"}
+{"t":"2026-08-17T07:17:21.413Z","type":"cfd-instruments","found":["SPX500_USD","NAS100_USD","UK100_GBP","XAU_USD"],"missing":[]}
+{"t":"2026-08-17T07:17:23.347Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-17T07:17:24.500Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-08-17T07:17:25.495Z","type":"vault-pushed","files":["sync/crypto-positions.json"]}
+{"t":"2026-08-17T07:17:26.457Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T07:17:45.785Z","type":"ai-error","at":"continuing-education","error":"ai cooling down until 2026-08-17T08:17:06.383Z (provider quota)"}
+{"t":"2026-08-17T07:17:47.549Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-17T07:17:48.599Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T07:18:47.312Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T07:19:47.268Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T07:20:47.251Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T07:21:47.921Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T07:22:47.716Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T07:23:47.245Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T07:24:47.288Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T07:25:47.528Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T07:26:47.459Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T07:27:48.751Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T07:28:47.355Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T07:29:47.819Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T07:30:47.419Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T07:31:47.374Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T07:32:47.466Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T07:33:47.381Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T07:34:47.223Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T07:35:47.432Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T07:36:47.317Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T07:37:47.727Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T07:38:49.823Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T07:39:47.276Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T07:40:47.326Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T07:41:47.258Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T07:42:47.611Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T07:43:47.493Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T07:44:47.821Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T07:45:47.232Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T07:46:47.727Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T07:47:45.672Z","type":"ai-error","at":"continuing-education","error":"ai cooling down until 2026-08-17T08:17:06.383Z (provider quota)"}
+{"t":"2026-08-17T07:47:48.082Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-17T07:47:49.111Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T07:48:47.323Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T07:49:48.336Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T07:50:47.407Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T07:51:47.388Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T07:52:47.373Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T07:53:47.712Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T07:54:48.418Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T07:55:47.245Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T07:56:47.474Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T07:57:47.556Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T07:58:47.670Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T07:59:48.339Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T08:00:47.379Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T08:01:47.482Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T08:02:47.274Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T08:03:47.451Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T08:04:47.430Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T08:05:47.482Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T08:06:47.890Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T08:07:47.356Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T08:08:47.349Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T08:09:49.552Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T08:10:48.550Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T08:11:47.262Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T08:12:47.774Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T08:13:47.474Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T08:14:47.358Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T08:15:47.257Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T08:16:47.326Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T08:17:47.514Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T08:18:45.928Z","type":"ai-cooldown","until":"2026-08-17T12:18:45.927Z","reason":"provider quota (429)"}
+{"t":"2026-08-17T08:18:45.928Z","type":"ai-error","at":"continuing-education","error":"ai cooling down until 2026-08-17T12:18:45.927Z (provider quota)"}
+{"t":"2026-08-17T08:18:47.838Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-17T08:18:49.110Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T08:19:47.878Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T08:20:49.233Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T08:21:47.396Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T08:22:47.459Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T08:23:47.363Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T08:24:47.297Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T08:25:47.424Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T08:26:48.321Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T08:27:47.834Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T08:28:47.374Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T08:29:47.298Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T08:30:48.630Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T08:31:47.355Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T08:32:47.333Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T08:33:47.437Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T08:34:47.238Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T08:35:47.550Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T08:36:47.559Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T08:38:07.859Z","type":"vault-pushed","files":["research/evolution-2026-08-17.md"]}
+{"t":"2026-08-17T08:38:07.860Z","type":"evolution-run","date":"2026-08-17","tookMs":22160,"results":[{"strategyKey":"momentum","promotedVersion":null,"championOut":{"n":130,"winRate":47,"totalR":3.15,"avgR":0.02,"maxDrawdownR":-11.01,"maxConsecLosses":8},"challengersTested":8},{"strategyKey":"meanrev","promotedVersion":null,"championOut":{"n":6,"winRate":67,"totalR":2.96,"avgR":0.49,"maxDrawdownR":-1.05,"maxConsecLosses":1},"challengersTested":8},{"strategyKey":"pullback","promotedVersion":null,"championOut":{"n":98,"winRate":50,"totalR":1.77,"avgR":0.02,"maxDrawdownR":-13.22,"maxConsecLosses":5},"challengersTested":8}]}
+{"t":"2026-08-17T08:38:09.644Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-17T08:38:10.795Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T08:38:47.307Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T08:39:47.380Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T08:40:47.608Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T08:41:49.462Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T08:42:47.879Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T08:43:48.008Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T08:44:47.488Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T08:45:47.255Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T08:46:47.476Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T08:47:47.372Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T08:48:45.659Z","type":"ai-error","at":"continuing-education","error":"ai cooling down until 2026-08-17T12:18:45.927Z (provider quota)"}
+{"t":"2026-08-17T08:48:47.429Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-17T08:48:48.503Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T08:49:47.484Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T08:50:47.381Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T08:51:47.321Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T08:52:48.340Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T08:53:47.483Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T08:54:47.393Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T08:55:47.426Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T08:56:47.322Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T08:57:47.393Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T08:58:48.302Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T08:59:47.339Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T09:00:47.609Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T09:01:47.501Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T09:02:49.065Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T09:03:47.453Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T09:04:47.549Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T09:05:47.558Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T09:06:47.337Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T09:07:47.342Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T09:08:48.388Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T09:09:47.337Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T09:10:47.365Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T09:11:47.599Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T09:12:47.341Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T09:13:50.552Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T09:14:47.846Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T09:15:47.598Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T09:16:47.453Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T09:17:47.743Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T09:18:47.874Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T09:19:45.826Z","type":"ai-error","at":"continuing-education","error":"ai cooling down until 2026-08-17T12:18:45.927Z (provider quota)"}
+{"t":"2026-08-17T09:19:48.356Z","type":"vault-error","at":"sync/state.json","error":"github 422: Invalid request.\n\n\"sha\" wasn't supplied."}
+{"t":"2026-08-17T09:19:50.793Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T09:20:47.627Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T09:21:47.500Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T09:22:47.696Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T09:23:47.907Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T09:24:48.175Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T09:25:47.499Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T09:26:47.332Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T09:27:47.828Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T09:28:47.423Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T09:29:47.418Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T09:30:47.413Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T09:31:47.953Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T09:32:47.626Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T09:33:47.754Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T09:34:48.751Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T09:35:47.496Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T09:36:48.015Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T09:37:47.406Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T09:38:47.510Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T09:39:47.249Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T09:40:47.340Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T09:41:47.314Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T09:42:47.535Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T09:43:47.496Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T09:44:47.338Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T09:45:55.496Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T09:46:47.312Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T09:47:47.923Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T09:48:47.621Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T09:49:47.273Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T09:50:45.691Z","type":"ai-error","at":"continuing-education","error":"ai cooling down until 2026-08-17T12:18:45.927Z (provider quota)"}
+{"t":"2026-08-17T09:50:47.660Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-17T09:50:48.898Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T09:51:48.049Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T09:52:47.442Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T09:53:47.440Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T09:54:47.415Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T09:55:48.622Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T09:56:48.047Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T09:57:47.570Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T09:58:47.348Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T09:59:47.354Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T10:00:47.528Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T10:01:47.486Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T10:02:47.561Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T10:03:47.737Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T10:04:47.862Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T10:05:49.059Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T10:06:47.355Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T10:07:47.429Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T10:08:47.952Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T10:09:47.424Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T10:10:47.370Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T10:11:47.470Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T10:12:47.360Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T10:13:47.408Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T10:14:47.522Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T10:15:47.656Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T10:16:48.587Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T10:17:47.604Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T10:18:48.167Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T10:19:47.571Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T10:20:45.877Z","type":"ai-error","at":"continuing-education","error":"ai cooling down until 2026-08-17T12:18:45.927Z (provider quota)"}
+{"t":"2026-08-17T10:20:47.819Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-17T10:20:49.079Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T10:21:47.878Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T10:22:47.413Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T10:23:47.396Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T10:24:48.004Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T10:25:47.477Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T10:26:47.841Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T10:27:48.729Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T10:28:47.353Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T10:29:47.493Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T10:30:47.602Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T10:31:47.919Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T10:32:47.375Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T10:33:47.332Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T10:34:47.416Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T10:35:47.458Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T10:36:47.513Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T10:37:49.720Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T10:38:47.497Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T10:39:47.429Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T10:40:48.150Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T10:41:47.517Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T10:42:47.340Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T10:43:47.545Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T10:44:47.652Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T10:45:47.552Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T10:46:47.767Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T10:47:48.111Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T10:48:48.626Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T10:49:47.610Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T10:50:47.665Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T10:51:45.700Z","type":"ai-error","at":"continuing-education","error":"ai cooling down until 2026-08-17T12:18:45.927Z (provider quota)"}
+{"t":"2026-08-17T10:51:47.633Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-17T10:51:48.835Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T10:52:47.404Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T10:53:47.526Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T10:54:47.903Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T10:55:47.598Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T10:56:47.304Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T10:57:48.276Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T10:58:47.545Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T10:59:49.194Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T11:00:47.528Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T11:01:47.545Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T11:02:47.517Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T11:03:47.927Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T11:04:47.800Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T11:05:47.847Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T11:06:47.448Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T11:07:47.517Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T11:08:47.903Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T11:09:47.290Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T11:10:49.621Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T11:11:47.463Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T11:12:47.308Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T11:13:47.515Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T11:14:47.350Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T11:15:47.994Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T11:16:47.408Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T11:17:47.446Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T11:18:47.603Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T11:19:47.634Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T11:20:48.034Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T11:21:45.909Z","type":"ai-error","at":"continuing-education","error":"ai cooling down until 2026-08-17T12:18:45.927Z (provider quota)"}
+{"t":"2026-08-17T11:21:51.476Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-17T11:21:52.490Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T11:22:47.307Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T11:23:47.377Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T11:24:47.428Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T11:25:47.522Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T11:26:48.336Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T11:27:47.751Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T11:28:48.037Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T11:29:47.682Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T11:30:47.330Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T11:31:49.688Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T11:32:47.536Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T11:33:47.357Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T11:34:47.516Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T11:35:47.405Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T11:36:47.448Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T11:37:47.756Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T11:38:47.338Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T11:39:47.437Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T11:40:47.727Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T11:41:47.558Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T11:42:49.249Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T11:43:47.680Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T11:44:47.322Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T11:45:47.546Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T11:46:47.421Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T11:47:47.518Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T11:48:47.821Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T11:49:47.431Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T11:50:47.490Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T11:51:45.743Z","type":"ai-error","at":"continuing-education","error":"ai cooling down until 2026-08-17T12:18:45.927Z (provider quota)"}
+{"t":"2026-08-17T11:51:47.693Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-17T11:51:48.927Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T11:52:47.530Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T11:53:48.483Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T11:54:48.009Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T11:55:47.684Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T11:56:47.634Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T11:57:47.316Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T11:58:47.513Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T11:59:48.000Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T12:00:47.606Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T12:01:48.237Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T12:02:47.479Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T12:03:47.328Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T12:04:48.485Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T12:05:47.693Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T12:06:48.276Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T12:07:47.490Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T12:08:47.532Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T12:09:47.520Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T12:10:47.506Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T12:11:47.552Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T12:12:48.077Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T12:13:47.389Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T12:14:50.208Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T12:15:47.509Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T12:16:48.186Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T12:17:47.621Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T12:18:47.578Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T12:19:47.438Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T12:20:47.721Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T12:21:46.140Z","type":"ai-cooldown","until":"2026-08-17T16:21:46.140Z","reason":"provider quota (429)"}
+{"t":"2026-08-17T12:21:46.141Z","type":"ai-error","at":"continuing-education","error":"ai cooling down until 2026-08-17T16:21:46.140Z (provider quota)"}
+{"t":"2026-08-17T12:21:48.813Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-17T12:21:49.871Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T12:22:47.627Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T12:23:47.765Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T12:24:47.653Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T12:25:52.774Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T12:26:47.587Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T12:27:47.427Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T12:28:47.571Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T12:29:47.666Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T12:30:47.668Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T12:31:47.825Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T12:32:48.291Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T12:33:47.432Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T12:34:47.366Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T12:35:47.683Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T12:36:48.304Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T12:37:47.524Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T12:38:47.491Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T12:39:47.453Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T12:40:47.470Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T12:41:48.029Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T12:42:47.602Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T12:43:48.766Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T12:44:47.490Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T12:46:15.220Z","type":"ai-error","at":"briefing","error":"ai cooling down until 2026-08-17T16:21:46.140Z (provider quota)"}
+{"t":"2026-08-17T12:46:17.169Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-17T12:46:18.298Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T12:46:49.912Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T12:47:47.479Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T12:48:48.011Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T12:49:47.577Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T12:50:47.466Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T12:51:45.759Z","type":"ai-error","at":"continuing-education","error":"ai cooling down until 2026-08-17T16:21:46.140Z (provider quota)"}
+{"t":"2026-08-17T12:51:47.334Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-17T12:51:48.324Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T12:52:48.017Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T12:53:47.472Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T12:54:47.632Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T12:55:47.602Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T12:57:15.697Z","type":"ai-error","at":"briefing","error":"ai cooling down until 2026-08-17T16:21:46.140Z (provider quota)"}
+{"t":"2026-08-17T12:57:19.911Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-17T12:57:21.103Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T12:57:47.436Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T12:58:47.393Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T12:59:47.648Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T13:00:47.840Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T13:01:47.785Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T13:02:47.443Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T13:03:48.251Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T13:04:48.007Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T13:05:47.549Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T13:06:47.795Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T13:08:15.330Z","type":"ai-error","at":"briefing","error":"ai cooling down until 2026-08-17T16:21:46.140Z (provider quota)"}
+{"t":"2026-08-17T13:08:20.424Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-17T13:08:21.678Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T13:08:47.716Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T13:09:47.373Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T13:10:47.589Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T13:11:47.623Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T13:12:48.046Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T13:13:47.636Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T13:14:47.584Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T13:15:47.702Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T13:16:48.534Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T13:18:12.541Z","type":"ai-error","at":"briefing","error":"ai cooling down until 2026-08-17T16:21:46.140Z (provider quota)"}
+{"t":"2026-08-17T13:18:14.884Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-17T13:18:16.006Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T13:18:49.155Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T13:19:47.760Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T13:20:47.591Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T13:21:46.085Z","type":"ai-error","at":"continuing-education","error":"ai cooling down until 2026-08-17T16:21:46.140Z (provider quota)"}
+{"t":"2026-08-17T13:21:48.401Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-17T13:21:49.524Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T13:22:47.525Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T13:23:47.813Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T13:24:47.513Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T13:25:47.583Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T13:26:47.624Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T13:28:15.352Z","type":"ai-error","at":"briefing","error":"ai cooling down until 2026-08-17T16:21:46.140Z (provider quota)"}
+{"t":"2026-08-17T13:28:17.941Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-17T13:28:19.091Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T13:28:48.917Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T13:29:47.610Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T13:30:57.980Z","type":"earnings-guard","excluded":["WMT","HD"]}
+{"t":"2026-08-17T13:31:05.444Z","type":"thesis-incubation","strategy":"pullback-trend","symbol":"KO","side":"buy","entry":87.71,"stop":85.37,"target":92.39,"reason":"Dip to the 20-day zone in a stacked uptrend (20>50>200 SMA, within 10% of the 60-day high), closing back up. Stop under the pullback low, target 2R.","maxHoldDays":21,"createdAt":"2026-08-17T13:31:05.444Z"}
+{"t":"2026-08-17T13:31:05.445Z","type":"thesis-incubation","strategy":"pullback-trend","symbol":"MRK","side":"buy","entry":135.84,"stop":129.11,"target":149.3,"reason":"Dip to the 20-day zone in a stacked uptrend (20>50>200 SMA, within 10% of the 60-day high), closing back up. Stop under the pullback low, target 2R.","maxHoldDays":21,"createdAt":"2026-08-17T13:31:05.445Z"}
+{"t":"2026-08-17T13:31:06.238Z","type":"thesis-rejected-gate","strategy":"momentum-breakout","symbol":"WFC","side":"buy","entry":88.78,"stop":88.4,"target":89.54,"reason":"Broke 20-bar high (88.68) with stock and SPY above their 20-day averages. Stop 2×ATR below, target 2R.","maxHoldDays":5,"conviction":{"score":87,"tier":"high","reasons":["+8 reward:risk 2.0","+10 Monte Carlo expected +0.6R (53% to target)","+6 market trending","+4 VIX 14.63 — calm tape","+6 insiders net buying (MSPR 33)","+3 light shorting"]},"reasons":["first 15 min after open","already at max 5 open positions"]}
+{"t":"2026-08-17T13:31:06.238Z","type":"thesis-rejected-gate","strategy":"momentum-breakout","symbol":"AMD","side":"buy","entry":514.4,"stop":508.86,"target":525.48,"reason":"Broke 20-bar high (509.46) with stock and SPY above their 20-day averages. Stop 2×ATR below, target 2R.","maxHoldDays":5,"conviction":{"score":85,"tier":"high","reasons":["+8 reward:risk 2.0","+10 Monte Carlo expected +0.92R (63% to target)","+6 market trending","+8 sector rank 1/11","+4 VIX 14.63 — calm tape","+5 Street strongly positive","-6 insiders net selling (MSPR -36)"]},"reasons":["first 15 min after open","already at max 5 open positions"]}
+{"t":"2026-08-17T13:31:07.127Z","type":"shadow-outcome","id":"AAPL-msn9s0ar","symbol":"AAPL","strategy":"pullback-trend","source":"incubation","entry":313.29,"stop":299.95,"target":339.97,"status":"timeout","r":-0.51,"exit":306.51,"openedAt":"2026-08-10T13:31:00.867Z"}
+{"t":"2026-08-17T13:31:07.127Z","type":"shadow-outcome","id":"AMD-mst0bnyy","symbol":"AMD","strategy":"momentum-breakout","source":"gate-blocked","entry":500.46,"stop":493.51,"target":514.36,"status":"target","r":2,"exit":514.36,"openedAt":"2026-08-14T13:52:58.906Z","regime":"trending"}
+{"t":"2026-08-17T13:31:09.738Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-08-17T13:31:12.305Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T13:31:55.534Z","type":"thesis-rejected-gate","strategy":"momentum-breakout","symbol":"NVDA","side":"buy","entry":226.85,"stop":225.46,"target":229.63,"reason":"Broke 20-bar high (226.33) with stock and SPY above their 20-day averages. Stop 2×ATR below, target 2R.","maxHoldDays":5,"conviction":{"score":79,"tier":"high","reasons":["+8 reward:risk 2.0","+10 Monte Carlo expected +0.54R (51% to target)","+6 market trending","+8 sector rank 1/11","+4 VIX 14.63 — calm tape","+5 Street strongly positive","-6 insiders net selling (MSPR -83)","-6 8-K filed 0d ago — unpriced event risk"]},"reasons":["first 15 min after open","already at max 5 open positions"]}
+{"t":"2026-08-17T13:31:55.535Z","type":"thesis-rejected-gate","strategy":"momentum-breakout","symbol":"AMZN","side":"buy","entry":265.18,"stop":263.65,"target":268.24,"reason":"Broke 20-bar high (264.42) with stock and SPY above their 20-day averages. Stop 2×ATR below, target 2R.","maxHoldDays":5,"conviction":{"score":53,"tier":"standard","reasons":["+4 reward:risk 2.0","-10 Monte Carlo expected -0.62R (87% to stop)","+6 market trending","+4 VIX 14.63 — calm tape","+5 Street strongly positive","-6 insiders net selling (MSPR -60)"]},"reasons":["first 15 min after open","already at max 5 open positions"]}
+{"t":"2026-08-17T13:31:56.687Z","type":"shadow-outcome","id":"PEP-mst1i5yl","symbol":"PEP","strategy":"momentum-breakout","source":"gate-blocked","entry":140.89,"stop":140.25,"target":142.17,"status":"stopped","r":-1,"exit":140.25,"openedAt":"2026-08-14T14:26:01.773Z","regime":"trending"}
+{"t":"2026-08-17T13:31:58.589Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-08-17T13:32:00.724Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T13:32:52.622Z","type":"thesis-rejected-gate","strategy":"momentum-breakout","symbol":"BAC","side":"buy","entry":64.65,"stop":64.39,"target":65.17,"reason":"Broke 20-bar high (64.55) with stock and SPY above their 20-day averages. Stop 2×ATR below, target 2R.","maxHoldDays":5,"conviction":{"score":73,"tier":"high","reasons":["+4 reward:risk 2.0","+10 Monte Carlo expected +0.43R (48% to target)","+6 market trending","+4 VIX 14.63 — calm tape","+5 Street strongly positive","-6 insiders net selling (MSPR -24)"]},"reasons":["first 15 min after open","already at max 5 open positions"]}
+{"t":"2026-08-17T13:32:55.374Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-08-17T13:32:57.501Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T13:33:52.069Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T13:34:52.968Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T13:35:54.897Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T13:36:51.766Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T13:37:51.549Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T13:38:51.051Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T13:39:49.426Z","type":"thesis-rejected-gate","strategy":"momentum-breakout","symbol":"SCHW","side":"buy","entry":111.21,"stop":110.73,"target":112.17,"reason":"Broke 20-bar high (111.16) with stock and SPY above their 20-day averages. Stop 2×ATR below, target 2R.","maxHoldDays":5,"conviction":{"score":77,"tier":"high","reasons":["+8 reward:risk 2.0","+10 Monte Carlo expected +1.32R (77% to target)","+6 market trending","+4 VIX 14.63 — calm tape","+5 Street strongly positive","-6 insiders net selling (MSPR -48)"]},"reasons":["first 15 min after open","already at max 5 open positions"]}
+{"t":"2026-08-17T13:39:52.035Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-08-17T13:39:54.238Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T13:40:50.740Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T13:41:50.486Z","type":"thesis-incubation","strategy":"pullback-trend","symbol":"CVX","side":"buy","entry":200.6,"stop":193.87,"target":214.06,"reason":"Dip to the 20-day zone in a stacked uptrend (20>50>200 SMA, within 10% of the 60-day high), closing back up. Stop under the pullback low, target 2R.","maxHoldDays":21,"createdAt":"2026-08-17T13:41:50.486Z"}
+{"t":"2026-08-17T13:41:53.244Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-08-17T13:41:55.278Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T13:42:50.389Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T13:43:48.874Z","type":"thesis-rejected-gate","strategy":"momentum-breakout","symbol":"PSX","side":"buy","entry":236.98,"stop":235.08,"target":240.78,"reason":"Broke 20-bar high (236.05) with stock and SPY above their 20-day averages. Stop 2×ATR below, target 2R.","maxHoldDays":5,"conviction":{"score":80,"tier":"high","reasons":["+8 reward:risk 2.0","+10 Monte Carlo expected +1.3R (76% to target)","+6 market trending","+8 sector rank 2/11","+4 VIX 14.63 — calm tape","-6 insiders net selling (MSPR -21)"]},"reasons":["first 15 min after open","already at max 5 open positions"]}
+{"t":"2026-08-17T13:43:52.446Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-08-17T13:43:54.418Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T13:44:50.064Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T13:45:52.240Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T13:46:50.868Z","type":"thesis-rejected-gate","strategy":"momentum-breakout","symbol":"JPM","side":"buy","entry":365.33,"stop":363.74,"target":368.51,"reason":"Broke 20-bar high (364.96) with stock and SPY above their 20-day averages. Stop 2×ATR below, target 2R.","maxHoldDays":5,"conviction":{"score":62,"tier":"standard","reasons":["+8 reward:risk 2.0","+6 market trending","+4 VIX 14.63 — calm tape","-6 insiders net selling (MSPR -39)"]},"reasons":["already at max 5 open positions"]}
+{"t":"2026-08-17T13:46:51.640Z","type":"shadow-outcome","id":"AMZN-msx9w55b","symbol":"AMZN","strategy":"momentum-breakout","source":"gate-blocked","entry":265.18,"stop":263.65,"target":268.24,"status":"stopped","r":-1,"exit":263.65,"openedAt":"2026-08-17T13:31:55.535Z","regime":"trending"}
+{"t":"2026-08-17T13:46:53.884Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-08-17T13:46:56.002Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T13:47:51.289Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T13:48:51.604Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T13:49:48.025Z","type":"shadow-outcome","id":"BAC-msx9xd72","symbol":"BAC","strategy":"momentum-breakout","source":"gate-blocked","entry":64.65,"stop":64.39,"target":65.17,"status":"target","r":2,"exit":65.17,"openedAt":"2026-08-17T13:32:52.622Z","regime":"trending"}
+{"t":"2026-08-17T13:49:50.054Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-08-17T13:49:52.377Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T13:50:48.663Z","type":"shadow-outcome","id":"NVDA-msx9w55b","symbol":"NVDA","strategy":"momentum-breakout","source":"gate-blocked","entry":226.85,"stop":225.46,"target":229.63,"status":"stopped","r":-1,"exit":225.46,"openedAt":"2026-08-17T13:31:55.535Z","regime":"trending"}
+{"t":"2026-08-17T13:50:50.553Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-08-17T13:50:52.698Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T13:51:51.191Z","type":"thesis-incubation","strategy":"pullback-trend","symbol":"JNJ","side":"buy","entry":260.79,"stop":253.08,"target":276.21,"reason":"Dip to the 20-day zone in a stacked uptrend (20>50>200 SMA, within 10% of the 60-day high), closing back up. Stop under the pullback low, target 2R.","maxHoldDays":21,"createdAt":"2026-08-17T13:51:51.191Z"}
+{"t":"2026-08-17T13:51:54.015Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-08-17T13:51:55.924Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T13:52:50.223Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T13:53:51.163Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T13:54:50.192Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T13:55:50.118Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T13:56:50.162Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T13:57:50.792Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T13:58:49.810Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T13:59:52.863Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T14:00:52.204Z","type":"cfd-position-closed","id":"d48eba4b","symbol":"SPX500_USD","status":"stopped-or-closed","r":-1,"exit":7774.86,"approx":true,"entry":7807.3,"stop":7774.86,"target":7847.96,"strategy":"cfd-momentum-breakout","regime":"trending","peakR":0.43,"captureRatio":-2.33}
+{"t":"2026-08-17T14:00:54.481Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T14:01:56.901Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T14:02:52.843Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T14:03:54.082Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T14:04:56.983Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T14:05:52.325Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T14:06:50.830Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T14:07:51.262Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T14:08:50.298Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T14:09:49.936Z","type":"shadow-outcome","id":"BAC-mst0e8cw","symbol":"BAC","strategy":"momentum-breakout","source":"gate-blocked","entry":64.47,"stop":64.1,"target":65.21,"status":"target","r":2,"exit":65.21,"openedAt":"2026-08-14T13:54:58.640Z","regime":"trending"}
+{"t":"2026-08-17T14:09:52.001Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-08-17T14:09:53.841Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T14:10:51.144Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T14:11:53.501Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T14:12:50.184Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T14:13:50.090Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T14:14:50.049Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T14:15:52.535Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T14:16:52.328Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T14:17:50.610Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T14:18:50.133Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T14:19:50.400Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T14:20:55.339Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T14:21:50.313Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T14:22:52.523Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T14:23:50.591Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T14:24:50.233Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T14:25:51.792Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T14:26:50.460Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T14:27:50.598Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T14:28:47.801Z","type":"shadow-outcome","id":"JPM-msxafbzp","symbol":"JPM","strategy":"momentum-breakout","source":"gate-blocked","entry":365.33,"stop":363.74,"target":368.51,"status":"stopped","r":-1,"exit":363.74,"openedAt":"2026-08-17T13:46:50.869Z","regime":"trending"}
+{"t":"2026-08-17T14:28:49.884Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-08-17T14:28:51.933Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T14:29:49.452Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T14:30:58.767Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T14:31:52.240Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T14:32:51.813Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T14:33:52.223Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T14:34:50.386Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T14:35:51.289Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T14:36:50.705Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T14:37:50.354Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T14:38:50.384Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T14:39:50.452Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T14:40:50.973Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T14:41:51.500Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T14:42:50.512Z","type":"vault-error","at":"sync/cfd-positions.json","error":"github 503: No server is currently available to service your request. Sorry about that. Please try resubmitting your request and contact us if the problem persists."}
+{"t":"2026-08-17T14:43:51.875Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T14:44:50.226Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T14:45:52.141Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T14:46:51.207Z","type":"vault-error","at":"sync/cfd-positions.json","error":"github 503: No server is currently available to service your request. Sorry about that. Please try resubmitting your request and contact us if the problem persists."}
+{"t":"2026-08-17T14:47:49.913Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T14:48:50.800Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T14:49:49.691Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T14:50:50.335Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T14:51:49.563Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T14:52:51.754Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T14:53:50.693Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T14:54:52.143Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T14:55:51.779Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T14:56:50.025Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T14:57:50.568Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T14:58:50.296Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T14:59:50.491Z","type":"vault-error","at":"sync/cfd-positions.json","error":"github 503: No server is currently available to service your request. Sorry about that. Please try resubmitting your request and contact us if the problem persists."}
+{"t":"2026-08-17T15:00:51.966Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T15:01:54.031Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T15:02:51.445Z","type":"lessons-recalled","symbol":"XAU_USD","strategy":"cfd-momentum-breakout","lessons":["A long-only book in a confirmed downtrend produces repeated failed breakouts, not bargains — trading nothing is the correct output of that regime, not a missed opportunity.","Concentrated conviction produced his headline wins AND his wipeout at 18 — the same structure does both. This system caps risk per trade instead; the rail is the lesson.","Holding through a binary event is a bet on luck dressed as conviction — the earnings and macro guards exist to skip exactly that trade."]}
+{"t":"2026-08-17T15:02:51.446Z","type":"thesis","id":"054e03c5","strategy":"cfd-momentum-breakout","market":"cfd","symbol":"XAU_USD","side":"buy","entry":4417.48,"stop":4367.63,"target":4492.25,"reason":"XAU_USD broke its 20-hour high (4416.55) on 3.1× average volume, above its 20-day average. Stop 3×ATR below, target 1.5R.","maxHoldDays":5,"qty":6.1,"analyst":null,"conviction":{"score":70,"tier":"high","reasons":["+10 Monte Carlo expected +0.52R (60% to target)","+6 index tape trending","+4 VIX 14.63 — calm tape"]},"monteCarlo":{"trials":2000,"pTarget":60,"pStop":39,"pTimeout":2,"expectedR":0.52},"episodes":null,"riskPct":0.005,"riskUsd":224.41,"configVersion":"cfd-momentum-v2","regime":"trending","headlines":[],"createdAt":"2026-08-17T15:02:51.446Z","autoAt":"2026-08-17T15:05:51.446Z","expiresAt":"2026-08-17T15:22:51.446Z"}
+{"t":"2026-08-17T15:03:02.669Z","type":"vault-error","at":"sync/cfd-positions.json","error":"github 504: We couldn't respond to your request in time. Sorry about that. Please try resubmitting your request and contact us if the problem persists."}
+{"t":"2026-08-17T15:03:51.710Z","type":"vault-error","at":"sync/cfd-positions.json","error":"github 503: No server is currently available to service your request. Sorry about that. Please try resubmitting your request and contact us if the problem persists."}
+{"t":"2026-08-17T15:04:52.845Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T15:05:51.064Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T15:06:53.461Z","type":"cfd-tick-error","error":"oanda GET /v3/accounts/101-004-40071397-001/summary: 401 Insufficient authorization to perform request."}
+{"t":"2026-08-17T15:06:59.178Z","type":"slippage","book":"cfd","phase":"entry","symbol":"XAU_USD","side":"buy","intended":4417.48,"filled":4419.07,"costR":0.032,"bps":3.6}
+{"t":"2026-08-17T15:06:59.178Z","type":"order-placed","id":"054e03c5","orderId":"23","symbol":"XAU_USD","qty":6.1,"limit":4419.07,"stop":4367.63,"target":4492.25,"strategy":"cfd-momentum-breakout","by":"auto","analystVerdict":null,"market":"cfd"}
+{"t":"2026-08-17T15:07:01.218Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T15:07:50.613Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T15:08:50.232Z","type":"vault-error","at":"sync/cfd-positions.json","error":"github 503: No server is currently available to service your request. Sorry about that. Please try resubmitting your request and contact us if the problem persists."}
+{"t":"2026-08-17T15:09:50.112Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T15:10:51.118Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T15:11:49.819Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T15:12:50.278Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T15:13:53.154Z","type":"vault-error","at":"sync/cfd-positions.json","error":"github 503: No server is currently available to service your request. Sorry about that. Please try resubmitting your request and contact us if the problem persists."}
+{"t":"2026-08-17T15:14:50.209Z","type":"vault-error","at":"sync/cfd-positions.json","error":"github 503: No server is currently available to service your request. Sorry about that. Please try resubmitting your request and contact us if the problem persists."}
+{"t":"2026-08-17T15:15:53.988Z","type":"vault-error","at":"sync/cfd-positions.json","error":"github 503: No server is currently available to service your request. Sorry about that. Please try resubmitting your request and contact us if the problem persists."}
+{"t":"2026-08-17T15:16:51.305Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T15:17:50.760Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T15:18:51.323Z","type":"vault-error","at":"sync/cfd-positions.json","error":"github 503: No server is currently available to service your request. Sorry about that. Please try resubmitting your request and contact us if the problem persists."}
+{"t":"2026-08-17T15:19:50.414Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T15:20:52.017Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T15:21:50.616Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T15:22:51.310Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T15:23:51.530Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T15:24:51.459Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T15:25:50.706Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T15:26:50.842Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T15:27:49.454Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T15:28:49.489Z","type":"vault-error","at":"sync/cfd-positions.json","error":"github 503: No server is currently available to service your request. Sorry about that. Please try resubmitting your request and contact us if the problem persists."}
+{"t":"2026-08-17T15:29:49.966Z","type":"vault-error","at":"sync/cfd-positions.json","error":"github 503: No server is currently available to service your request. Sorry about that. Please try resubmitting your request and contact us if the problem persists."}
+{"t":"2026-08-17T15:30:52.083Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T15:31:52.057Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T15:32:54.202Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T15:33:51.237Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T15:34:53.437Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T15:35:52.125Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T15:36:50.268Z","type":"vault-error","at":"sync/cfd-positions.json","error":"github 503: No server is currently available to service your request. Sorry about that. Please try resubmitting your request and contact us if the problem persists."}
+{"t":"2026-08-17T15:37:50.016Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T15:38:50.204Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T15:39:49.136Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T15:40:51.344Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T15:41:52.779Z","type":"vault-error","at":"sync/cfd-positions.json","error":"github 503: No server is currently available to service your request. Sorry about that. Please try resubmitting your request and contact us if the problem persists."}
+{"t":"2026-08-17T15:42:50.247Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T15:43:50.065Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T15:44:52.323Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T15:45:51.664Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T15:46:53.359Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T15:47:50.301Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T15:48:47.817Z","type":"lessons-recalled","symbol":"BTC/USD","strategy":"crypto-momentum-breakout","lessons":["A long-only book in a confirmed downtrend produces repeated failed breakouts, not bargains — trading nothing is the correct output of that regime, not a missed opportunity.","Concentrated conviction produced his headline wins AND his wipeout at 18 — the same structure does both. This system caps risk per trade instead; the rail is the lesson.","Holding through a binary event is a bet on luck dressed as conviction — the earnings and macro guards exist to skip exactly that trade."]}
+{"t":"2026-08-17T15:48:47.820Z","type":"thesis","id":"710ec4ea","strategy":"crypto-momentum-breakout","market":"crypto","symbol":"BTC/USD","side":"buy","entry":64076.44,"stop":63770.44,"target":64688.44,"reason":"BTC/USD broke its 20-bar high (64073.51) on 1.3× average volume, above its 20-day average. Stop 2×ATR below (wider than equities — crypto volatility), target 2R.","maxHoldDays":5,"qty":0.1539,"analyst":null,"conviction":{"score":69,"tier":"standard","reasons":["+8 reward:risk 2.0","+5 Monte Carlo expected +0.29R","+6 BTC trending"]},"monteCarlo":{"trials":2000,"pTarget":43,"pStop":57,"pTimeout":0,"expectedR":0.29},"episodes":null,"riskPct":0.005,"kelly":null,"riskUsd":47.09,"configVersion":"crypto-momentum-v2","regime":"trending","headlines":[],"createdAt":"2026-08-17T15:48:47.820Z","autoAt":"2026-08-17T15:51:47.820Z","expiresAt":"2026-08-17T16:08:47.820Z"}
+{"t":"2026-08-17T15:48:50.500Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T15:49:49.268Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T15:50:50.696Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T15:51:49.068Z","type":"auto-skip","id":"710ec4ea","reason":"alpaca POST /v2/orders: 422 limit price exceeds maximum precision of 9 decimal places"}
+{"t":"2026-08-17T15:51:51.415Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T15:52:47.677Z","type":"auto-skip","id":"710ec4ea","reason":"alpaca POST /v2/orders: 422 limit price exceeds maximum precision of 9 decimal places"}
+{"t":"2026-08-17T15:52:49.733Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T15:53:47.980Z","type":"auto-skip","id":"710ec4ea","reason":"alpaca POST /v2/orders: 422 limit price exceeds maximum precision of 9 decimal places"}
+{"t":"2026-08-17T15:53:50.121Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T15:54:48.390Z","type":"auto-skip","id":"710ec4ea","reason":"alpaca POST /v2/orders: 422 limit price exceeds maximum precision of 9 decimal places"}
+{"t":"2026-08-17T15:54:50.383Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T15:55:49.582Z","type":"auto-skip","id":"710ec4ea","reason":"alpaca POST /v2/orders: 422 limit price exceeds maximum precision of 9 decimal places"}
+{"t":"2026-08-17T15:55:51.377Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T15:56:48.596Z","type":"auto-skip","id":"710ec4ea","reason":"alpaca POST /v2/orders: 422 limit price exceeds maximum precision of 9 decimal places"}
+{"t":"2026-08-17T15:56:50.543Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T15:57:48.686Z","type":"auto-skip","id":"710ec4ea","reason":"alpaca POST /v2/orders: 422 limit price exceeds maximum precision of 9 decimal places"}
+{"t":"2026-08-17T15:57:51.189Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T15:58:47.721Z","type":"auto-skip","id":"710ec4ea","reason":"alpaca POST /v2/orders: 422 limit price exceeds maximum precision of 9 decimal places"}
+{"t":"2026-08-17T15:58:49.425Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T15:59:48.361Z","type":"auto-skip","id":"710ec4ea","reason":"alpaca POST /v2/orders: 422 limit price exceeds maximum precision of 9 decimal places"}
+{"t":"2026-08-17T15:59:50.498Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T16:00:51.299Z","type":"auto-skip","id":"710ec4ea","reason":"alpaca POST /v2/orders: 422 limit price exceeds maximum precision of 9 decimal places"}
+{"t":"2026-08-17T16:00:53.705Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T16:01:53.359Z","type":"auto-skip","id":"710ec4ea","reason":"alpaca POST /v2/orders: 422 limit price exceeds maximum precision of 9 decimal places"}
+{"t":"2026-08-17T16:01:55.273Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T16:02:51.907Z","type":"auto-skip","id":"710ec4ea","reason":"alpaca POST /v2/orders: 422 limit price exceeds maximum precision of 9 decimal places"}
+{"t":"2026-08-17T16:02:54.448Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T16:03:50.542Z","type":"auto-skip","id":"710ec4ea","reason":"alpaca POST /v2/orders: 422 limit price exceeds maximum precision of 9 decimal places"}
+{"t":"2026-08-17T16:03:52.485Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T16:04:48.762Z","type":"auto-skip","id":"710ec4ea","reason":"alpaca POST /v2/orders: 422 limit price exceeds maximum precision of 9 decimal places"}
+{"t":"2026-08-17T16:04:50.602Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T16:05:53.426Z","type":"auto-skip","id":"710ec4ea","reason":"alpaca POST /v2/orders: 422 limit price exceeds maximum precision of 9 decimal places"}
+{"t":"2026-08-17T16:05:55.333Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T16:06:49.834Z","type":"slippage","book":"crypto","phase":"entry","symbol":"BTC/USD","side":"buy","intended":64076.44,"filled":64140.22,"costR":0.208,"bps":10}
+{"t":"2026-08-17T16:06:49.897Z","type":"order-placed","id":"710ec4ea","orderId":"1b65a488-2f72-4c43-95bb-7d6aeda0a3c3","symbol":"BTC/USD","qty":0.1539,"limit":64140.22,"stop":63834.22,"target":64688.44,"strategy":"crypto-momentum-breakout","by":"auto","analystVerdict":null,"market":"crypto"}
+{"t":"2026-08-17T16:06:51.829Z","type":"vault-pushed","files":["sync/crypto-positions.json"]}
+{"t":"2026-08-17T16:06:53.754Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T16:07:45.877Z","type":"fill","orderId":"1b65a488-2f72-4c43-95bb-7d6aeda0a3c3","symbol":"BTC/USD","side":"buy","qty":"0.1539","avgPrice":"64140.22","legs":0,"clientId":"tlc-710ec4ea"}
+{"t":"2026-08-17T16:07:47.877Z","type":"crypto-position-closed","id":"710ec4ea","symbol":"BTC/USD","status":"stopped-or-closed","r":-1,"exit":63834.22,"approx":true,"entry":64140.22,"stop":63834.22,"target":64688.44,"strategy":"crypto-momentum-breakout","regime":"trending","peakR":0,"captureRatio":null}
+{"t":"2026-08-17T16:07:50.192Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-17T16:07:52.226Z","type":"vault-pushed","files":["sync/crypto-positions.json"]}
+{"t":"2026-08-17T16:07:54.489Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T16:08:51.365Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T16:09:49.800Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T16:10:50.570Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T16:11:49.966Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T16:12:50.065Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T16:13:50.300Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T16:14:52.355Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T16:15:49.747Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T16:16:51.024Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T16:17:49.472Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T16:18:48.754Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T16:19:50.026Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T16:20:49.911Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T16:21:49.450Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T16:22:50.024Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T16:23:49.714Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T16:24:48.880Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T16:25:49.713Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T16:26:49.275Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T16:27:50.571Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T16:28:48.207Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T16:29:50.382Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T16:30:52.338Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T16:31:51.204Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T16:32:50.583Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T16:33:49.720Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T16:34:49.268Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T16:35:50.545Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T16:36:49.122Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T16:37:48.842Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T16:38:50.308Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T16:39:48.910Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T16:40:51.830Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T16:41:48.930Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T16:42:49.414Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T16:43:49.344Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T16:44:50.122Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T16:45:51.439Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T16:46:50.329Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T16:47:50.370Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T16:48:50.954Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T16:49:49.631Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T16:50:52.218Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T16:51:50.791Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T16:52:50.200Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T16:53:49.305Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T16:54:49.558Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T16:55:50.021Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T16:56:49.524Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T16:57:50.404Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T16:58:51.000Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T16:59:49.103Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T17:00:57.762Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T17:01:52.527Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T17:02:51.604Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T17:03:50.826Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T17:04:51.244Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T17:05:51.364Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T17:06:51.843Z","type":"vault-error","at":"sync/cfd-positions.json","error":"github 503: No server is currently available to service your request. Sorry about that. Please try resubmitting your request and contact us if the problem persists."}
+{"t":"2026-08-17T17:07:50.823Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T17:08:50.255Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T17:09:54.106Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T17:10:51.128Z","type":"vault-error","at":"sync/cfd-positions.json","error":"github 503: No server is currently available to service your request. Sorry about that. Please try resubmitting your request and contact us if the problem persists."}
+{"t":"2026-08-17T17:11:51.529Z","type":"vault-error","at":"sync/cfd-positions.json","error":"github 503: No server is currently available to service your request. Sorry about that. Please try resubmitting your request and contact us if the problem persists."}
+{"t":"2026-08-17T17:12:49.764Z","type":"vault-error","at":"sync/cfd-positions.json","error":"github 503: No server is currently available to service your request. Sorry about that. Please try resubmitting your request and contact us if the problem persists."}
+{"t":"2026-08-17T17:13:49.608Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T17:14:50.160Z","type":"vault-error","at":"sync/cfd-positions.json","error":"github 503: No server is currently available to service your request. Sorry about that. Please try resubmitting your request and contact us if the problem persists."}
+{"t":"2026-08-17T17:15:51.278Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T17:16:51.041Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T17:17:51.668Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T17:18:50.244Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T17:19:49.137Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T17:20:51.526Z","type":"vault-error","at":"sync/cfd-positions.json","error":"github 503: No server is currently available to service your request. Sorry about that. Please try resubmitting your request and contact us if the problem persists."}
+{"t":"2026-08-17T17:21:51.752Z","type":"vault-error","at":"sync/cfd-positions.json","error":"github 503: No server is currently available to service your request. Sorry about that. Please try resubmitting your request and contact us if the problem persists."}
+{"t":"2026-08-17T17:22:49.111Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T17:23:50.225Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T17:24:49.618Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T17:25:50.381Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T17:26:50.336Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T17:27:49.119Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T17:28:49.803Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T17:29:49.594Z","type":"vault-error","at":"sync/cfd-positions.json","error":"github 503: No server is currently available to service your request. Sorry about that. Please try resubmitting your request and contact us if the problem persists."}
+{"t":"2026-08-17T17:30:55.576Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T17:31:54.198Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T17:32:51.360Z","type":"vault-error","at":"sync/cfd-positions.json","error":"github 503: No server is currently available to service your request. Sorry about that. Please try resubmitting your request and contact us if the problem persists."}
+{"t":"2026-08-17T17:33:50.237Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T17:34:51.422Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T17:35:50.798Z","type":"vault-error","at":"sync/cfd-positions.json","error":"github 503: No server is currently available to service your request. Sorry about that. Please try resubmitting your request and contact us if the problem persists."}
+{"t":"2026-08-17T17:36:50.442Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T17:37:50.245Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T17:38:50.156Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T17:39:52.454Z","type":"vault-error","at":"sync/cfd-positions.json","error":"github 503: No server is currently available to service your request. Sorry about that. Please try resubmitting your request and contact us if the problem persists."}
+{"t":"2026-08-17T17:40:51.046Z","type":"vault-error","at":"sync/cfd-positions.json","error":"github 503: No server is currently available to service your request. Sorry about that. Please try resubmitting your request and contact us if the problem persists."}
+{"t":"2026-08-17T17:41:52.365Z","type":"vault-error","at":"sync/cfd-positions.json","error":"github 503: No server is currently available to service your request. Sorry about that. Please try resubmitting your request and contact us if the problem persists."}
+{"t":"2026-08-17T17:42:49.442Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T17:43:49.881Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T17:44:49.546Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T17:45:50.899Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T17:46:51.663Z","type":"vault-error","at":"sync/cfd-positions.json","error":"github 503: No server is currently available to service your request. Sorry about that. Please try resubmitting your request and contact us if the problem persists."}
+{"t":"2026-08-17T17:47:50.830Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T17:48:49.961Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T17:49:50.503Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T17:50:51.502Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T17:51:50.675Z","type":"thesis-rejected-gate","strategy":"momentum-breakout","symbol":"COP","side":"buy","entry":126.99,"stop":126.38,"target":128.21,"reason":"Broke 20-bar high (126.96) with stock and SPY above their 20-day averages. Stop 2×ATR below, target 2R.","maxHoldDays":5,"conviction":{"score":80,"tier":"high","reasons":["+8 reward:risk 2.0","+4 7 similar past setups averaged +0.29R","+6 market trending","+8 sector rank 2/11","+4 VIX 14.63 — calm tape","+6 insiders net buying (MSPR 31)","-6 62% short-sale volume"]},"reasons":["already at max 5 open positions"]}
+{"t":"2026-08-17T17:51:54.613Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-08-17T17:51:55.505Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T17:52:51.945Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T17:53:49.770Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T17:54:49.397Z","type":"vault-error","at":"sync/cfd-positions.json","error":"github 503: No server is currently available to service your request. Sorry about that. Please try resubmitting your request and contact us if the problem persists."}
+{"t":"2026-08-17T17:55:50.511Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T17:56:49.305Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T17:57:50.659Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T17:58:49.525Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T17:59:49.438Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T18:00:55.302Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T18:01:54.906Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T18:02:53.939Z","type":"vault-error","at":"sync/cfd-positions.json","error":"github 503: No server is currently available to service your request. Sorry about that. Please try resubmitting your request and contact us if the problem persists."}
+{"t":"2026-08-17T18:03:58.509Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T18:04:52.322Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T18:05:54.824Z","type":"vault-error","at":"sync/cfd-positions.json","error":"github 503: No server is currently available to service your request. Sorry about that. Please try resubmitting your request and contact us if the problem persists."}
+{"t":"2026-08-17T18:06:52.621Z","type":"vault-error","at":"sync/cfd-positions.json","error":"github 503: No server is currently available to service your request. Sorry about that. Please try resubmitting your request and contact us if the problem persists."}
+{"t":"2026-08-17T18:07:52.740Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T18:08:52.786Z","type":"shadow-outcome","id":"WFC-msx9v33y","symbol":"WFC","strategy":"momentum-breakout","source":"gate-blocked","entry":88.78,"stop":88.4,"target":89.54,"status":"stopped","r":-1,"exit":88.4,"openedAt":"2026-08-17T13:31:06.238Z","regime":"trending"}
+{"t":"2026-08-17T18:08:52.786Z","type":"shadow-outcome","id":"AMD-msx9v33y","symbol":"AMD","strategy":"momentum-breakout","source":"gate-blocked","entry":514.4,"stop":508.86,"target":525.48,"status":"stopped","r":-1,"exit":508.86,"openedAt":"2026-08-17T13:31:06.238Z","regime":"trending"}
+{"t":"2026-08-17T18:08:54.821Z","type":"vault-error","at":"sync/shadow.json","error":"github 503: No server is currently available to service your request. Sorry about that. Please try resubmitting your request and contact us if the problem persists."}
+{"t":"2026-08-17T18:08:55.977Z","type":"vault-error","at":"sync/cfd-positions.json","error":"github 503: No server is currently available to service your request. Sorry about that. Please try resubmitting your request and contact us if the problem persists."}
+{"t":"2026-08-17T18:09:55.193Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T18:10:52.879Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T18:11:51.690Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T18:12:51.466Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T18:13:49.297Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T18:14:50.125Z","type":"vault-error","at":"sync/cfd-positions.json","error":"github 503: No server is currently available to service your request. Sorry about that. Please try resubmitting your request and contact us if the problem persists."}
+{"t":"2026-08-17T18:15:50.715Z","type":"vault-error","at":"sync/cfd-positions.json","error":"github 503: No server is currently available to service your request. Sorry about that. Please try resubmitting your request and contact us if the problem persists."}
+{"t":"2026-08-17T18:16:51.027Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T18:17:49.410Z","type":"vault-error","at":"sync/cfd-positions.json","error":"github 503: No server is currently available to service your request. Sorry about that. Please try resubmitting your request and contact us if the problem persists."}
+{"t":"2026-08-17T18:18:50.484Z","type":"vault-error","at":"sync/cfd-positions.json","error":"github 503: No server is currently available to service your request. Sorry about that. Please try resubmitting your request and contact us if the problem persists."}
+{"t":"2026-08-17T18:19:50.795Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T18:20:51.048Z","type":"vault-error","at":"sync/cfd-positions.json","error":"github 503: No server is currently available to service your request. Sorry about that. Please try resubmitting your request and contact us if the problem persists."}
+{"t":"2026-08-17T18:21:50.084Z","type":"vault-error","at":"sync/cfd-positions.json","error":"github 503: No server is currently available to service your request. Sorry about that. Please try resubmitting your request and contact us if the problem persists."}
+{"t":"2026-08-17T18:22:51.763Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T18:23:49.620Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T18:24:50.253Z","type":"vault-error","at":"sync/cfd-positions.json","error":"github 503: No server is currently available to service your request. Sorry about that. Please try resubmitting your request and contact us if the problem persists."}
+{"t":"2026-08-17T18:25:51.142Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T18:26:49.603Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T18:27:49.649Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T18:28:50.120Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T18:29:49.694Z","type":"vault-error","at":"sync/cfd-positions.json","error":"github 503: No server is currently available to service your request. Sorry about that. Please try resubmitting your request and contact us if the problem persists."}
+{"t":"2026-08-17T18:30:52.341Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T18:31:51.141Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T18:32:51.438Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T18:33:50.660Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T18:34:50.297Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T18:35:52.373Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T18:36:50.676Z","type":"vault-error","at":"sync/cfd-positions.json","error":"github 503: No server is currently available to service your request. Sorry about that. Please try resubmitting your request and contact us if the problem persists."}
+{"t":"2026-08-17T18:37:49.613Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T18:38:50.833Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T18:39:49.147Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T18:40:49.575Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T18:41:49.070Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T18:42:49.495Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T18:43:50.661Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T18:44:49.172Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T18:45:52.705Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T18:46:49.297Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T18:47:49.614Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T18:48:49.306Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T18:49:48.534Z","type":"shadow-outcome","id":"COP-msszk4ak","symbol":"COP","strategy":"momentum-breakout","source":"gate-blocked","entry":125.81,"stop":124.97,"target":127.49,"status":"target","r":2,"exit":127.49,"openedAt":"2026-08-14T13:31:33.692Z","regime":"trending"}
+{"t":"2026-08-17T18:49:49.684Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-08-17T18:49:50.655Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T18:50:49.769Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T18:51:49.336Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T18:52:48.768Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T18:53:48.340Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T18:54:49.531Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T18:55:49.453Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T18:56:50.596Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T18:57:48.851Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T18:58:48.919Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T18:59:48.997Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T19:00:53.072Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T19:01:51.240Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T19:02:50.757Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T19:03:50.182Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T19:04:52.008Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T19:05:50.560Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T19:06:51.387Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T19:07:49.145Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T19:08:48.865Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T19:09:49.094Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T19:10:50.274Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T19:11:49.729Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T19:12:50.167Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T19:13:51.166Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T19:14:51.136Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T19:15:59.154Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T19:16:52.877Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T19:17:50.320Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T19:18:50.595Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T19:19:49.977Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T19:20:51.788Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T19:21:51.209Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T19:22:50.330Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T19:23:50.413Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T19:24:49.890Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T19:25:50.206Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T19:26:49.252Z","type":"thesis-rejected-gate","strategy":"momentum-breakout","symbol":"TSLA","side":"buy","entry":344.6,"stop":341.57,"target":350.66,"reason":"Broke 20-bar high (342.34) with stock and SPY above their 20-day averages. Stop 2×ATR below, target 2R.","maxHoldDays":5,"conviction":{"score":88,"tier":"high","reasons":["+4 reward:risk 2.0","+10 Monte Carlo expected +0.95R (65% to target)","+10 strategy earning live (0.2R over 10)","+4 10 similar past setups averaged +0.2R","+6 market trending","+4 VIX 14.25 — calm tape"]},"reasons":["already at max 5 open positions"]}
+{"t":"2026-08-17T19:26:52.927Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-08-17T19:26:54.020Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T19:27:51.213Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T19:28:49.403Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T19:29:49.902Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T19:30:54.233Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T19:31:51.658Z","type":"shadow-outcome","id":"TSLA-msxmkjhh","symbol":"TSLA","strategy":"momentum-breakout","source":"gate-blocked","entry":344.6,"stop":341.57,"target":350.66,"status":"stopped","r":-1,"exit":341.57,"openedAt":"2026-08-17T19:26:49.253Z","regime":"trending"}
+{"t":"2026-08-17T19:31:52.914Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-08-17T19:31:54.083Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T19:32:52.432Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T19:33:50.096Z","type":"shadow-outcome","id":"SCHW-msxa6asy","symbol":"SCHW","strategy":"momentum-breakout","source":"gate-blocked","entry":111.21,"stop":110.73,"target":112.17,"status":"stopped","r":-1,"exit":110.73,"openedAt":"2026-08-17T13:39:49.426Z","regime":"trending"}
+{"t":"2026-08-17T19:33:51.167Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-08-17T19:33:52.478Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T19:34:51.554Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T19:35:50.798Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T19:36:50.677Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T19:37:54.710Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T19:38:49.348Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T19:39:49.976Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T19:40:51.078Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T19:41:52.041Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T19:42:52.126Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T19:43:50.875Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T19:44:50.761Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T19:45:54.069Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T19:46:53.312Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T19:47:52.326Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T19:48:50.368Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T19:49:49.772Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T19:50:49.720Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T19:51:49.440Z","type":"thesis-rejected-gate","strategy":"momentum-breakout","symbol":"COST","side":"buy","entry":955,"stop":952.22,"target":960.56,"reason":"Broke 20-bar high (954.92) with stock and SPY above their 20-day averages. Stop 2×ATR below, target 2R.","maxHoldDays":5,"conviction":{"score":59,"tier":"standard","reasons":["+8 reward:risk 2.0","+5 Monte Carlo expected +0.2R","+6 market trending","-8 lagging sector (9/11)","+4 VIX 14.25 — calm tape","-6 insiders net selling (MSPR -99)"]},"reasons":["last 15 min before close","already at max 5 open positions"]}
+{"t":"2026-08-17T19:51:50.435Z","type":"shadow-outcome","id":"BKNG-msnndpci","symbol":"BKNG","strategy":"momentum-breakout","source":"gate-blocked","entry":212.35,"stop":211.06,"target":214.93,"status":"timeout","r":0,"exit":212.35,"openedAt":"2026-08-10T19:51:48.114Z"}
+{"t":"2026-08-17T19:51:51.514Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-08-17T19:51:52.862Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T19:52:50.063Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T19:53:49.324Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T19:54:49.735Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T19:55:50.164Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T19:56:49.401Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T19:57:53.021Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T19:58:51.153Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-17T19:59:49.289Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
