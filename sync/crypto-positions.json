@@ -1,1 +1,1 @@
-[]
+[{"id":"710ec4ea","symbol":"BTC/USD","qty":0.1539,"entry":64140.22,"stop":63834.22,"target":64688.44,"currentStop":63834.22,"highWaterMark":64140.22,"strategy":"crypto-momentum-breakout","regime":"trending","stopOrderId":"a86bbd0f-2de9-473d-a47d-52c023ffdb71","thesisId":"710ec4ea","enteredAt":"2026-08-17T16:06:49.896Z","timeoutAt":"2026-08-22T16:06:49.896Z"}]
