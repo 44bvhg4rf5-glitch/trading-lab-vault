@@ -1,0 +1,316 @@
+{"t":"2026-08-27T04:00:40.536Z","type":"screener","date":"2026-08-27","scanned":145,"tookMs":1300,"promoted":[{"sym":"FDX","kind":"momentum","score":1.51},{"sym":"SBUX","kind":"momentum","score":1.46},{"sym":"FCX","kind":"momentum","score":1.42},{"sym":"BLK","kind":"momentum","score":1.35},{"sym":"TMO","kind":"momentum","score":1.33},{"sym":"PFE","kind":"momentum","score":1.32},{"sym":"MPC","kind":"momentum","score":1.32},{"sym":"VZ","kind":"momentum","score":1.3}]}
+{"t":"2026-08-27T04:00:42.836Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-27T04:00:43.739Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-27T04:01:39.525Z","type":"ai-cooldown","until":"2026-08-27T08:01:39.524Z","reason":"provider quota (429)"}
+{"t":"2026-08-27T04:01:39.525Z","type":"ai-error","at":"continuing-education","error":"ai cooling down until 2026-08-27T08:01:39.524Z (provider quota)"}
+{"t":"2026-08-27T04:01:42.125Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-27T04:01:43.038Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-27T04:02:41.674Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-27T04:03:42.622Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-27T04:04:41.822Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-27T04:05:41.970Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-27T04:06:42.775Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-27T04:07:42.953Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-27T04:08:41.988Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-27T04:09:41.890Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-27T04:10:42.276Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-27T04:11:41.623Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-27T04:12:41.867Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-27T04:13:42.111Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-27T04:14:42.207Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-27T04:15:41.920Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-27T04:16:42.076Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-27T04:17:43.122Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-27T04:18:42.681Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-27T04:19:41.810Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-27T04:20:41.936Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-27T04:21:41.760Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-27T04:22:42.731Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-27T04:23:42.260Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-27T04:24:42.049Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-27T04:25:41.786Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-27T04:26:42.267Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-27T04:27:41.605Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-27T04:28:42.770Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-27T04:29:42.263Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-27T04:30:41.761Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-27T04:31:39.382Z","type":"ai-error","at":"continuing-education","error":"ai cooling down until 2026-08-27T08:01:39.524Z (provider quota)"}
+{"t":"2026-08-27T04:31:41.859Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-27T04:31:43.122Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-27T04:32:42.553Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-27T04:33:41.819Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-27T04:34:41.596Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-27T04:35:41.824Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-27T04:36:42.342Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-27T04:37:42.017Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-27T04:38:43.834Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-27T04:39:42.527Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-27T04:40:41.987Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-27T04:41:41.707Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-27T04:42:41.783Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-27T04:43:42.452Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-27T04:44:41.914Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-27T04:45:41.870Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-27T04:46:42.291Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-27T04:47:41.813Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-27T04:48:41.808Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-27T04:49:42.824Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-27T04:50:42.486Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-27T04:51:41.732Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-27T04:52:41.598Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-27T04:53:41.855Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-27T04:54:42.792Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-27T04:55:42.302Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-27T04:56:42.107Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-27T04:57:41.825Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-27T04:58:42.317Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-27T04:59:43.528Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-27T05:00:42.101Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-27T05:01:39.477Z","type":"ai-error","at":"continuing-education","error":"ai cooling down until 2026-08-27T08:01:39.524Z (provider quota)"}
+{"t":"2026-08-27T05:01:43.075Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-27T05:01:43.998Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-27T05:02:42.230Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-27T05:03:42.004Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-27T05:04:42.127Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-27T05:05:42.504Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-27T05:06:41.952Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-27T05:07:41.958Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-27T05:08:42.583Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-27T05:09:42.717Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-27T05:10:42.447Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-27T05:11:42.394Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-27T05:12:42.044Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-27T05:13:41.911Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-27T05:14:41.861Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-27T05:15:42.484Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-27T05:16:42.056Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-27T05:17:42.063Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-27T05:18:42.459Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-27T05:19:42.811Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-27T05:20:42.069Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-27T05:21:41.988Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-27T05:22:42.175Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-27T05:23:42.036Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-27T05:24:41.869Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-27T05:25:42.072Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-27T05:26:43.005Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-27T05:27:41.945Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-27T05:28:42.212Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-27T05:29:41.740Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-27T05:30:43.392Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-27T05:31:39.513Z","type":"ai-error","at":"continuing-education","error":"ai cooling down until 2026-08-27T08:01:39.524Z (provider quota)"}
+{"t":"2026-08-27T05:31:41.969Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-27T05:31:43.079Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-27T05:32:42.400Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-27T05:33:43.806Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-27T05:34:42.289Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-27T05:35:42.092Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-27T05:36:42.091Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-27T05:37:42.515Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-27T05:38:42.141Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-27T05:39:42.051Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-27T05:40:43.170Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-27T05:41:42.670Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-27T05:42:42.875Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-27T05:43:42.388Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-27T05:44:41.859Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-27T05:45:42.708Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-27T05:46:42.039Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-27T05:47:41.984Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-27T05:48:42.473Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-27T05:49:42.921Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-27T05:50:42.110Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-27T05:51:42.855Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-27T05:52:42.050Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-27T05:53:42.502Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-27T05:54:42.062Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-27T05:55:42.098Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-27T05:56:42.185Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-27T05:57:42.292Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-27T05:58:42.348Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-27T05:59:41.912Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-27T06:00:42.701Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-27T06:01:39.591Z","type":"ai-error","at":"continuing-education","error":"ai cooling down until 2026-08-27T08:01:39.524Z (provider quota)"}
+{"t":"2026-08-27T06:01:43.023Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-27T06:01:44.160Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-27T06:02:42.366Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-27T06:03:42.988Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-27T06:04:42.802Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-27T06:05:42.176Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-27T06:06:42.403Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-27T06:07:42.573Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-27T06:08:40.963Z","type":"slippage","book":"cfd","phase":"exit","symbol":"SPX500_USD","side":"sell","intended":7697.51,"filled":7697.5,"costR":0,"bps":0}
+{"t":"2026-08-27T06:08:40.963Z","type":"cfd-position-closed","id":"d1352e95","symbol":"SPX500_USD","status":"stopped","r":0.28,"exit":7697.5,"approx":false,"entry":7688.2,"stop":7654.96,"target":7743.31,"strategy":"cfd-momentum-breakout","regime":"trending","side":"buy","peakR":1.28,"captureRatio":0.22}
+{"t":"2026-08-27T06:08:42.190Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-08-27T06:31:39.659Z","type":"ai-error","at":"continuing-education","error":"ai cooling down until 2026-08-27T08:01:39.524Z (provider quota)"}
+{"t":"2026-08-27T06:31:42.271Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-27T07:01:39.828Z","type":"ai-error","at":"continuing-education","error":"ai cooling down until 2026-08-27T08:01:39.524Z (provider quota)"}
+{"t":"2026-08-27T07:01:42.391Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-27T07:31:39.819Z","type":"ai-error","at":"continuing-education","error":"ai cooling down until 2026-08-27T08:01:39.524Z (provider quota)"}
+{"t":"2026-08-27T07:31:42.547Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-27T08:01:40.110Z","type":"ai-cooldown","until":"2026-08-27T12:01:40.109Z","reason":"provider quota (429)"}
+{"t":"2026-08-27T08:01:40.110Z","type":"ai-error","at":"continuing-education","error":"ai cooling down until 2026-08-27T12:01:40.109Z (provider quota)"}
+{"t":"2026-08-27T08:01:43.842Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-27T08:31:39.990Z","type":"ai-error","at":"continuing-education","error":"ai cooling down until 2026-08-27T12:01:40.109Z (provider quota)"}
+{"t":"2026-08-27T08:31:43.304Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-27T09:01:40.099Z","type":"ai-error","at":"continuing-education","error":"ai cooling down until 2026-08-27T12:01:40.109Z (provider quota)"}
+{"t":"2026-08-27T09:01:42.498Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-27T09:31:40.155Z","type":"ai-error","at":"continuing-education","error":"ai cooling down until 2026-08-27T12:01:40.109Z (provider quota)"}
+{"t":"2026-08-27T09:31:44.144Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-27T10:01:40.415Z","type":"ai-error","at":"continuing-education","error":"ai cooling down until 2026-08-27T12:01:40.109Z (provider quota)"}
+{"t":"2026-08-27T10:01:42.935Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-27T10:31:40.310Z","type":"ai-error","at":"continuing-education","error":"ai cooling down until 2026-08-27T12:01:40.109Z (provider quota)"}
+{"t":"2026-08-27T10:31:43.334Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-27T11:01:40.388Z","type":"ai-error","at":"continuing-education","error":"ai cooling down until 2026-08-27T12:01:40.109Z (provider quota)"}
+{"t":"2026-08-27T11:01:43.625Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-27T11:31:40.425Z","type":"ai-error","at":"continuing-education","error":"ai cooling down until 2026-08-27T12:01:40.109Z (provider quota)"}
+{"t":"2026-08-27T11:31:43.102Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-27T12:01:40.748Z","type":"ai-cooldown","until":"2026-08-27T16:01:40.748Z","reason":"provider quota (429)"}
+{"t":"2026-08-27T12:01:40.749Z","type":"ai-error","at":"continuing-education","error":"ai cooling down until 2026-08-27T16:01:40.748Z (provider quota)"}
+{"t":"2026-08-27T12:01:44.753Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-27T12:31:40.503Z","type":"ai-error","at":"continuing-education","error":"ai cooling down until 2026-08-27T16:01:40.748Z (provider quota)"}
+{"t":"2026-08-27T12:31:43.194Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-27T12:46:09.928Z","type":"ai-error","at":"briefing","error":"ai cooling down until 2026-08-27T16:01:40.748Z (provider quota)"}
+{"t":"2026-08-27T12:46:13.618Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-27T12:56:07.136Z","type":"ai-error","at":"briefing","error":"ai cooling down until 2026-08-27T16:01:40.748Z (provider quota)"}
+{"t":"2026-08-27T12:56:10.282Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-27T13:01:40.660Z","type":"ai-error","at":"continuing-education","error":"ai cooling down until 2026-08-27T16:01:40.748Z (provider quota)"}
+{"t":"2026-08-27T13:01:43.809Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-27T13:07:09.660Z","type":"ai-error","at":"briefing","error":"ai cooling down until 2026-08-27T16:01:40.748Z (provider quota)"}
+{"t":"2026-08-27T13:07:13.375Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-27T13:18:09.743Z","type":"ai-error","at":"briefing","error":"ai cooling down until 2026-08-27T16:01:40.748Z (provider quota)"}
+{"t":"2026-08-27T13:18:13.778Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-27T13:28:09.774Z","type":"ai-error","at":"briefing","error":"ai cooling down until 2026-08-27T16:01:40.748Z (provider quota)"}
+{"t":"2026-08-27T13:28:13.400Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-27T13:30:51.422Z","type":"thesis-incubation","strategy":"pullback-trend","symbol":"JPM","side":"buy","entry":356.72,"stop":348.09,"target":373.98,"reason":"Dip to the 20-day zone in a stacked uptrend (20>50>200 SMA, within 10% of the 60-day high), closing back up. Stop under the pullback low, target 2R.","maxHoldDays":21,"createdAt":"2026-08-27T13:30:51.422Z"}
+{"t":"2026-08-27T13:30:51.422Z","type":"thesis-incubation","strategy":"pullback-trend","symbol":"SBUX","side":"buy","entry":108.48,"stop":104.5,"target":116.44,"reason":"Dip to the 20-day zone in a stacked uptrend (20>50>200 SMA, within 10% of the 60-day high), closing back up. Stop under the pullback low, target 2R.","maxHoldDays":21,"createdAt":"2026-08-27T13:30:51.422Z"}
+{"t":"2026-08-27T13:30:53.539Z","type":"shadow-outcome","id":"AAPL-mt1k68as","symbol":"AAPL","strategy":"pullback-trend","source":"incubation","entry":316.9,"stop":302.94,"target":344.82,"status":"timeout","r":-0.48,"exit":310.16,"openedAt":"2026-08-20T13:30:47.044Z","regime":"trending"}
+{"t":"2026-08-27T13:30:53.539Z","type":"shadow-outcome","id":"AMZN-mt1k68as","symbol":"AMZN","strategy":"pullback-trend","source":"incubation","entry":265.8,"stop":254.15,"target":289.1,"status":"timeout","r":-0.53,"exit":259.57,"openedAt":"2026-08-20T13:30:47.044Z","regime":"trending"}
+{"t":"2026-08-27T13:30:53.539Z","type":"shadow-outcome","id":"JNJ-mt1k68zj","symbol":"JNJ","strategy":"pullback-trend","source":"incubation","entry":273.4,"stop":258.1,"target":304,"status":"timeout","r":-0.21,"exit":270.115,"openedAt":"2026-08-20T13:30:47.935Z","regime":"trending"}
+{"t":"2026-08-27T13:30:53.539Z","type":"shadow-outcome","id":"KO-mt1k68zk","symbol":"KO","strategy":"pullback-trend","source":"incubation","entry":90.36,"stop":86.86,"target":97.36,"status":"timeout","r":-0.08,"exit":90.09,"openedAt":"2026-08-20T13:30:47.936Z","regime":"trending"}
+{"t":"2026-08-27T13:30:53.539Z","type":"shadow-outcome","id":"MRNA-mt1k68zm","symbol":"MRNA","strategy":"pullback-trend","source":"incubation","entry":174.27,"stop":62.15,"target":398.51,"status":"timeout","r":0,"exit":174.27,"openedAt":"2026-08-20T13:30:47.938Z","regime":"trending"}
+{"t":"2026-08-27T13:30:53.539Z","type":"shadow-outcome","id":"TGT-mt1k68zn","symbol":"TGT","strategy":"pullback-trend","source":"incubation","entry":159.14,"stop":146.41,"target":184.6,"status":"timeout","r":0,"exit":159.14,"openedAt":"2026-08-20T13:30:47.939Z","regime":"trending"}
+{"t":"2026-08-27T13:30:53.539Z","type":"shadow-outcome","id":"LLY-mt1k68zo","symbol":"LLY","strategy":"pullback-trend","source":"incubation","entry":1280.56,"stop":1164.61,"target":1512.46,"status":"timeout","r":0,"exit":1280.56,"openedAt":"2026-08-20T13:30:47.940Z","regime":"trending"}
+{"t":"2026-08-27T13:30:54.644Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-08-27T13:31:46.458Z","type":"shadow-outcome","id":"PEP-mtahpi0m","symbol":"PEP","strategy":"momentum-breakout","source":"gate-blocked","entry":142.54,"stop":142.11,"target":143.4,"status":"stopped","r":-1,"exit":142.11,"openedAt":"2026-08-26T19:31:42.838Z","regime":"trending"}
+{"t":"2026-08-27T13:31:47.672Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-08-27T13:32:44.471Z","type":"shadow-outcome","id":"NFLX-mt8prjnp","symbol":"NFLX","strategy":"momentum-breakout","source":"gate-blocked","entry":81.31,"stop":80.63,"target":82.67,"status":"stopped","r":-1,"exit":80.63,"openedAt":"2026-08-25T13:41:42.853Z","regime":"trending"}
+{"t":"2026-08-27T13:32:45.525Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-08-27T13:37:40.633Z","type":"fill","orderId":"fd5f23a1-0c3c-45f5-a10f-a7d7b5fa92ba","symbol":"MSFT","side":"sell","qty":"42","avgPrice":"493.007381","legs":0,"clientId":"f3fbdde6-4be5-4489-9c67-8e2918c7cec3"}
+{"t":"2026-08-27T13:37:42.497Z","type":"equity-position-closed","id":"2a382baf","symbol":"MSFT","status":"stopped","r":-0.63,"exit":493.007381,"approx":false,"entry":495.17,"stop":491.71,"target":502.09,"strategy":"momentum-breakout","regime":"trending","peakR":1.03,"captureRatio":-0.61}
+{"t":"2026-08-27T13:37:45.043Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-27T13:37:46.244Z","type":"vault-pushed","files":["sync/equity-positions.json"]}
+{"t":"2026-08-27T13:40:51.063Z","type":"thesis-incubation","strategy":"pullback-trend","symbol":"NVDA","side":"buy","entry":223.23,"stop":209.25,"target":251.19,"reason":"Dip to the 20-day zone in a stacked uptrend (20>50>200 SMA, within 10% of the 60-day high), closing back up. Stop under the pullback low, target 2R.","maxHoldDays":21,"createdAt":"2026-08-27T13:40:51.063Z"}
+{"t":"2026-08-27T13:40:52.851Z","type":"thesis-rejected-gate","strategy":"momentum-breakout","symbol":"CRM","side":"buy","entry":238.69,"stop":232.33,"target":251.41,"reason":"Broke 20-bar high (206.31) with stock and SPY above their 20-day averages. Stop 2×ATR below, target 2R.","maxHoldDays":5,"conviction":{"score":64,"tier":"standard","reasons":["+8 reward:risk 2.0","+10 Monte Carlo expected +0.64R (50% to target)","-12 strategy losing live (-0.7R over 10)","-8 12 similar past setups averaged -0.29R (33% won)","+6 market trending","+8 sector rank 1/11","+4 VIX 15.45 — calm tape","-6 8-K filed 1d ago — unpriced event risk","+4 revenue +23.2% YoY","-6 net margin down 103.9pp","+6 beat all 4 of the last quarters"]},"reasons":["first 15 min after open"]}
+{"t":"2026-08-27T13:40:52.852Z","type":"thesis-rejected-gate","strategy":"momentum-breakout","symbol":"TSLA","side":"buy","entry":348.18,"stop":345.42,"target":353.7,"reason":"Broke 20-bar high (347.43) with stock and SPY above their 20-day averages. Stop 2×ATR below, target 2R.","maxHoldDays":5,"conviction":{"score":54,"tier":"standard","reasons":["+8 reward:risk 2.0","-10 Monte Carlo expected -0.21R (73% to stop)","-12 strategy losing live (-0.7R over 10)","-8 12 similar past setups averaged -0.29R (33% won)","+6 market trending","+8 sector rank 3/11","+4 VIX 15.45 — calm tape","+8 revenue +18.8% with margins expanding"]},"reasons":["first 15 min after open"]}
+{"t":"2026-08-27T13:40:52.853Z","type":"thesis-rejected-gate","strategy":"momentum-breakout","symbol":"BLK","side":"buy","entry":1183.18,"stop":1176.26,"target":1197.02,"reason":"Broke 20-bar high (1181.1) with stock and SPY above their 20-day averages. Stop 2×ATR below, target 2R.","maxHoldDays":5,"conviction":{"score":48,"tier":"standard","reasons":["+4 reward:risk 2.0","+10 Monte Carlo expected +0.91R (60% to target)","-12 strategy losing live (-0.7R over 10)","-8 12 similar past setups averaged -0.29R (33% won)","+6 market trending","+4 VIX 15.45 — calm tape","+5 Street strongly positive","-6 insiders net selling (MSPR -27)","-5 diluting (+4.3% shares)","+6 beat all 4 of the last quarters","-6 63% short-sale volume"]},"reasons":["first 15 min after open"]}
+{"t":"2026-08-27T13:40:52.854Z","type":"thesis-rejected-gate","strategy":"momentum-breakout","symbol":"MPC","side":"buy","entry":365.27,"stop":362.52,"target":370.77,"reason":"Broke 20-bar high (365.23) with stock and SPY above their 20-day averages. Stop 2×ATR below, target 2R.","maxHoldDays":5,"conviction":{"score":42,"tier":"low","reasons":["+8 reward:risk 2.0","-12 strategy losing live (-0.7R over 10)","-8 12 similar past setups averaged -0.29R (33% won)","+6 market trending","+8 sector rank 2/11","+4 VIX 15.45 — calm tape","-6 insiders net selling (MSPR -28)","+4 revenue +15.8% YoY","-6 net margin down 37.8pp","-6 63% short-sale volume"]},"reasons":["first 15 min after open"]}
+{"t":"2026-08-27T13:40:56.909Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-08-27T13:53:44.102Z","type":"lessons-recalled","symbol":"MSFT","strategy":"momentum-breakout","lessons":["A long-only book in a confirmed downtrend produces repeated failed breakouts, not bargains — trading nothing is the correct output of that regime, not a missed opportunity.","Concentrated conviction produced his headline wins AND his wipeout at 18 — the same structure does both. This system caps risk per trade instead; the rail is the lesson.","Holding through a binary event is a bet on luck dressed as conviction — the earnings and macro guards exist to skip exactly that trade."]}
+{"t":"2026-08-27T13:53:44.104Z","type":"thesis","id":"9549b64b","strategy":"momentum-breakout","symbol":"MSFT","side":"buy","entry":498.29,"stop":494.92,"target":505.03,"reason":"Broke 20-bar high (497.4) with stock and SPY above their 20-day averages. Stop 2×ATR below, target 2R.","maxHoldDays":5,"qty":41,"analyst":null,"conviction":{"score":67,"tier":"standard","reasons":["+4 reward:risk 2.0","+10 Monte Carlo expected +1.14R (69% to target)","-12 strategy losing live (-0.7R over 10)","-8 12 similar past setups averaged -0.29R (33% won)","+6 market trending","+8 sector rank 1/11","+4 VIX 15.45 — calm tape","+5 Street strongly positive","-6 insiders net selling (MSPR -45)","+6 beat all 4 of the last quarters"]},"monteCarlo":{"trials":2000,"pTarget":69,"pStop":27,"pTimeout":3,"expectedR":1.14},"episodes":{"n":12,"avgR":-0.29,"winRate":33,"pool":17},"riskPct":0.01,"kelly":null,"riskUsd":138,"configVersion":"momentum-v1","regime":"trending","headlines":[{"at":"2026-08-26T19:10:06.000Z","headline":"Explore the top gainers and losers within the dow jones index in today's session.","source":"ChartMill","url":"https://finnhub.io/api/news?id=45b7ccfee9169d8cf3dc418bd809f9b83e3e927cd7530f4e98fda7ca7f6a2c9d"},{"at":"2026-08-26T17:23:39.000Z","headline":"NVIDIA CFO Says We Have Invested $50B In Frontier Labs; OpenAI's Existing, Planned Commitments Represent Around 12GW Of NVIDIA Compute","source":"Benzinga","url":"https://finnhub.io/api/news?id=7ad2e34cc3cf17aefa03eb4c017cb9f1ad473f5806f2d7240a5690cbe5d83f96"},{"at":"2026-08-26T16:40:18.000Z","headline":"IREN Q4 Preview: Stock Down 48% From Highs, Will Data Center Monetization Shine Through in Earnings?","source":"Benzinga","url":"https://finnhub.io/api/news?id=c12317718e8164934ef8c585f8abef01497af561e7b00eea29d99fcff28effd2"}],"createdAt":"2026-08-27T13:53:44.104Z","autoAt":"2026-08-27T13:56:44.104Z","expiresAt":"2026-08-27T14:13:44.104Z"}
+{"t":"2026-08-27T13:56:44.387Z","type":"order-placed","id":"9549b64b","orderId":"fe27c95a-d8f5-4f63-9c48-59869b1e7eec","symbol":"MSFT","qty":41,"limit":498.38,"stop":494.92,"target":505.03,"strategy":"momentum-breakout","by":"auto","analystVerdict":null}
+{"t":"2026-08-27T13:56:45.389Z","type":"vault-pushed","files":["sync/equity-positions.json"]}
+{"t":"2026-08-27T13:57:40.719Z","type":"fill","orderId":"fe27c95a-d8f5-4f63-9c48-59869b1e7eec","symbol":"MSFT","side":"buy","qty":"41","avgPrice":"497.88","legs":0,"clientId":"tl-9549b64b"}
+{"t":"2026-08-27T13:57:42.056Z","type":"slippage","book":"equities","phase":"entry","symbol":"MSFT","side":"buy","intended":498.29,"filled":497.88,"costR":-0.122,"bps":8.2}
+{"t":"2026-08-27T13:57:46.137Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-27T13:57:47.370Z","type":"vault-pushed","files":["sync/equity-positions.json"]}
+{"t":"2026-08-27T13:58:44.827Z","type":"vault-pushed","files":["sync/equity-positions.json"]}
+{"t":"2026-08-27T13:59:44.638Z","type":"vault-pushed","files":["sync/equity-positions.json"]}
+{"t":"2026-08-27T14:01:49.168Z","type":"vault-pushed","files":["sync/equity-positions.json"]}
+{"t":"2026-08-27T14:03:44.648Z","type":"shadow-outcome","id":"MPC-mtbkm6eu","symbol":"MPC","strategy":"momentum-breakout","source":"gate-blocked","entry":365.27,"stop":362.52,"target":370.77,"status":"stopped","r":-1,"exit":362.52,"openedAt":"2026-08-27T13:40:52.854Z","regime":"trending"}
+{"t":"2026-08-27T14:03:46.037Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-08-27T14:03:47.235Z","type":"vault-pushed","files":["sync/equity-positions.json"]}
+{"t":"2026-08-27T14:04:46.216Z","type":"vault-pushed","files":["sync/equity-positions.json"]}
+{"t":"2026-08-27T14:05:45.755Z","type":"lessons-recalled","symbol":"META","strategy":"momentum-breakout","lessons":["A long-only book in a confirmed downtrend produces repeated failed breakouts, not bargains — trading nothing is the correct output of that regime, not a missed opportunity.","Concentrated conviction produced his headline wins AND his wipeout at 18 — the same structure does both. This system caps risk per trade instead; the rail is the lesson.","Holding through a binary event is a bet on luck dressed as conviction — the earnings and macro guards exist to skip exactly that trade."]}
+{"t":"2026-08-27T14:05:45.756Z","type":"thesis","id":"8da3d96f","strategy":"momentum-breakout","symbol":"META","side":"buy","entry":583.23,"stop":575.75,"target":598.19,"reason":"Broke 20-bar high (582.99) with stock and SPY above their 20-day averages. Stop 2×ATR below, target 2R.","maxHoldDays":5,"qty":35,"analyst":null,"conviction":{"score":65,"tier":"standard","reasons":["+8 reward:risk 2.0","+10 Monte Carlo expected +1.13R (71% to target)","-12 strategy losing live (-0.73R over 11)","-8 12 similar past setups averaged -0.29R (33% won)","+6 market trending","+4 VIX 15.45 — calm tape","+5 Street strongly positive","-6 insiders net selling (MSPR -34)","+8 revenue +43.8% with margins expanding"]},"monteCarlo":{"trials":2000,"pTarget":71,"pStop":29,"pTimeout":0,"expectedR":1.13},"episodes":{"n":12,"avgR":-0.29,"winRate":33,"pool":18},"riskPct":0.01,"kelly":null,"riskUsd":262,"configVersion":"momentum-v1","regime":"trending","headlines":[{"at":"2026-08-26T21:53:04.000Z","headline":"Tracking Ruane, Cunniff, & Goldfarb's Portfolio - Q2 2026 Update","source":"SeekingAlpha","url":"https://finnhub.io/api/news?id=f0ee289a15577c07a4f88b461b3b9df0cab874642345723232053d6898832f08"},{"at":"2026-08-26T18:05:01.000Z","headline":"Explore the S&P500 index on Wednesday and find out which stocks are the most active in today's session.","source":"ChartMill","url":"https://finnhub.io/api/news?id=c710f4da94ba6b1816de5555e8b2151446aae51f52ce20fa254d5a2921bdc8fd"},{"at":"2026-08-26T16:57:00.000Z","headline":"Meta Platforms: Time To Load Up On This Bargain","source":"SeekingAlpha","url":"https://finnhub.io/api/news?id=652ac0789d8da867492ed953aa2368d7756fbd9a6a5481f90942b3d0152dd24f"}],"createdAt":"2026-08-27T14:05:45.756Z","autoAt":"2026-08-27T14:08:45.756Z","expiresAt":"2026-08-27T14:25:45.756Z"}
+{"t":"2026-08-27T14:05:48.525Z","type":"vault-pushed","files":["sync/equity-positions.json"]}
+{"t":"2026-08-27T14:07:44.725Z","type":"vault-pushed","files":["sync/equity-positions.json"]}
+{"t":"2026-08-27T14:08:48.238Z","type":"cfd-tick-error","error":"oanda GET /v3/instruments/NAS100_USD/candles?granularity=H1&count=500&price=M: 401 Insufficient authorization to perform request."}
+{"t":"2026-08-27T14:08:48.760Z","type":"order-placed","id":"8da3d96f","orderId":"bc798cbe-3032-4970-bc9d-a0379b6b5775","symbol":"META","qty":35,"limit":586.37,"stop":575.75,"target":598.19,"strategy":"momentum-breakout","by":"auto","analystVerdict":null}
+{"t":"2026-08-27T14:08:50.113Z","type":"vault-pushed","files":["sync/equity-positions.json"]}
+{"t":"2026-08-27T14:09:40.620Z","type":"fill","orderId":"bc798cbe-3032-4970-bc9d-a0379b6b5775","symbol":"META","side":"buy","qty":"35","avgPrice":"585.52","legs":0,"clientId":"tl-8da3d96f"}
+{"t":"2026-08-27T14:09:41.911Z","type":"slippage","book":"equities","phase":"entry","symbol":"META","side":"buy","intended":583.23,"filled":585.52,"costR":0.306,"bps":39.3}
+{"t":"2026-08-27T14:09:46.209Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-27T14:09:47.315Z","type":"vault-pushed","files":["sync/equity-positions.json"]}
+{"t":"2026-08-27T14:10:45.999Z","type":"vault-pushed","files":["sync/equity-positions.json"]}
+{"t":"2026-08-27T14:11:43.643Z","type":"shadow-outcome","id":"BLK-mtbkm6et","symbol":"BLK","strategy":"momentum-breakout","source":"gate-blocked","entry":1183.18,"stop":1176.26,"target":1197.02,"status":"stopped","r":-1,"exit":1176.26,"openedAt":"2026-08-27T13:40:52.853Z","regime":"trending"}
+{"t":"2026-08-27T14:11:44.941Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-08-27T14:11:46.631Z","type":"vault-pushed","files":["sync/equity-positions.json"]}
+{"t":"2026-08-27T14:12:42.871Z","type":"equity-stop-trailed","id":"9549b64b","symbol":"MSFT","from":494.92,"to":498.75,"breakeven":false}
+{"t":"2026-08-27T14:12:46.257Z","type":"vault-pushed","files":["sync/equity-positions.json"]}
+{"t":"2026-08-27T14:13:41.918Z","type":"equity-stop-trailed","id":"9549b64b","symbol":"MSFT","from":498.75,"to":499.13,"breakeven":false}
+{"t":"2026-08-27T14:13:45.032Z","type":"vault-pushed","files":["sync/equity-positions.json"]}
+{"t":"2026-08-27T14:15:43.094Z","type":"equity-stop-trailed","id":"9549b64b","symbol":"MSFT","from":499.13,"to":501.31,"breakeven":false}
+{"t":"2026-08-27T14:15:47.598Z","type":"vault-pushed","files":["sync/equity-positions.json"]}
+{"t":"2026-08-27T14:16:40.579Z","type":"fill","orderId":"e91f7fbd-a134-4790-bc70-f67bbd8fde1a","symbol":"MSFT","side":"sell","qty":"41","avgPrice":"505.18","legs":0,"clientId":"tle-trail-9549b64b-1787840143003-0"}
+{"t":"2026-08-27T14:16:41.905Z","type":"equity-position-closed","id":"9549b64b","symbol":"MSFT","status":"stopped-or-closed","r":0.9,"exit":501.31,"approx":true,"entry":498.29,"stop":494.92,"target":505.03,"strategy":"momentum-breakout","regime":"trending","peakR":1.9,"captureRatio":0.47}
+{"t":"2026-08-27T14:16:44.885Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-27T14:16:46.019Z","type":"vault-pushed","files":["sync/equity-positions.json"]}
+{"t":"2026-08-27T14:32:46.076Z","type":"lessons-recalled","symbol":"FCX","strategy":"momentum-breakout","lessons":["A long-only book in a confirmed downtrend produces repeated failed breakouts, not bargains — trading nothing is the correct output of that regime, not a missed opportunity.","Concentrated conviction produced his headline wins AND his wipeout at 18 — the same structure does both. This system caps risk per trade instead; the rail is the lesson.","Holding through a binary event is a bet on luck dressed as conviction — the earnings and macro guards exist to skip exactly that trade."]}
+{"t":"2026-08-27T14:32:46.077Z","type":"thesis","id":"2c7f18bb","strategy":"momentum-breakout","symbol":"FCX","side":"buy","entry":79.36,"stop":78.53,"target":81.02,"reason":"Broke 20-bar high (79.33) with stock and SPY above their 20-day averages. Stop 2×ATR below, target 2R.","maxHoldDays":5,"qty":264,"analyst":null,"conviction":{"score":69,"tier":"standard","reasons":["+8 reward:risk 2.0","+10 Monte Carlo expected +0.5R (47% to target)","-12 strategy losing live (-0.75R over 12)","-8 12 similar past setups averaged -0.38R (33% won)","+6 market trending","+4 VIX 15.45 — calm tape","+5 Street strongly positive","+6 beat all 4 of the last quarters"]},"monteCarlo":{"trials":2000,"pTarget":47,"pStop":48,"pTimeout":6,"expectedR":0.5},"episodes":{"n":12,"avgR":-0.38,"winRate":33,"pool":20},"riskPct":0.01,"kelly":null,"riskUsd":219,"configVersion":"momentum-v1","regime":"trending","headlines":[],"createdAt":"2026-08-27T14:32:46.077Z","autoAt":"2026-08-27T14:35:46.077Z","expiresAt":"2026-08-27T14:52:46.077Z"}
+{"t":"2026-08-27T14:33:40.647Z","type":"fill","orderId":"b133f1b3-c1b6-4983-b983-fa593cad25e7","symbol":"META","side":"sell","qty":"35","avgPrice":"575.01","legs":0,"clientId":"37d4018b-30ba-49ca-acc0-c49b810121ae"}
+{"t":"2026-08-27T14:33:43.087Z","type":"equity-position-closed","id":"8da3d96f","symbol":"META","status":"stopped","r":-1.1,"exit":575.01,"approx":false,"entry":583.23,"stop":575.75,"target":598.19,"strategy":"momentum-breakout","regime":"trending","peakR":0.66,"captureRatio":-1.67}
+{"t":"2026-08-27T14:33:47.091Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-27T14:33:48.206Z","type":"vault-pushed","files":["sync/equity-positions.json"]}
+{"t":"2026-08-27T14:36:44.916Z","type":"order-placed","id":"2c7f18bb","orderId":"dca23dda-4149-41b7-bd7c-abeb547eadc3","symbol":"FCX","qty":264,"limit":79.47,"stop":78.53,"target":81.02,"strategy":"momentum-breakout","by":"auto","analystVerdict":null}
+{"t":"2026-08-27T14:36:46.120Z","type":"vault-pushed","files":["sync/equity-positions.json"]}
+{"t":"2026-08-27T14:37:40.616Z","type":"fill","orderId":"dca23dda-4149-41b7-bd7c-abeb547eadc3","symbol":"FCX","side":"buy","qty":"264","avgPrice":"79.39","legs":0,"clientId":"tl-2c7f18bb"}
+{"t":"2026-08-27T14:37:42.182Z","type":"slippage","book":"equities","phase":"entry","symbol":"FCX","side":"buy","intended":79.36,"filled":79.39,"costR":0.036,"bps":3.8}
+{"t":"2026-08-27T14:37:44.072Z","type":"shadow-outcome","id":"TSLA-mtbkm6es","symbol":"TSLA","strategy":"momentum-breakout","source":"gate-blocked","entry":348.18,"stop":345.42,"target":353.7,"status":"target","r":2,"exit":353.7,"openedAt":"2026-08-27T13:40:52.852Z","regime":"trending"}
+{"t":"2026-08-27T14:37:45.283Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-27T14:37:46.390Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-08-27T14:37:47.720Z","type":"vault-pushed","files":["sync/equity-positions.json"]}
+{"t":"2026-08-27T14:53:44.141Z","type":"shadow-outcome","id":"JPM-mt1n4jhh","symbol":"JPM","strategy":"pullback-trend","source":"incubation","entry":357.4,"stop":348.65,"target":374.9,"status":"timeout","r":-0.28,"exit":354.98,"openedAt":"2026-08-20T14:53:27.077Z","regime":"trending"}
+{"t":"2026-08-27T14:53:45.643Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-08-27T15:21:43.187Z","type":"thesis-incubation","symbol":"PEP","strategy":"equity-opening-range","side":"buy","entry":140.71,"stop":139.85,"target":142,"intraday":true,"minutesLeft":275,"relVolume":4.57,"reason":"in play at 4.57x its usual opening volume and broke the first 30 minutes' high 140.68; stop at the range low 139.85, flat by the close","createdAt":"2026-08-27T15:21:43.187Z"}
+{"t":"2026-08-27T15:21:47.725Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-08-27T15:38:43.998Z","type":"lessons-recalled","symbol":"TMO","strategy":"momentum-breakout","lessons":["A long-only book in a confirmed downtrend produces repeated failed breakouts, not bargains — trading nothing is the correct output of that regime, not a missed opportunity.","Concentrated conviction produced his headline wins AND his wipeout at 18 — the same structure does both. This system caps risk per trade instead; the rail is the lesson.","Holding through a binary event is a bet on luck dressed as conviction — the earnings and macro guards exist to skip exactly that trade."]}
+{"t":"2026-08-27T15:38:43.999Z","type":"thesis","id":"5d19c0a3","strategy":"momentum-breakout","symbol":"TMO","side":"buy","entry":636.76,"stop":632.14,"target":646,"reason":"Broke 20-bar high (636.64) with stock and SPY above their 20-day averages. Stop 2×ATR below, target 2R.","maxHoldDays":5,"qty":32,"analyst":null,"conviction":{"score":69,"tier":"standard","reasons":["+8 reward:risk 2.0","+10 Monte Carlo expected +0.86R (60% to target)","-12 strategy losing live (-0.54R over 13)","-8 12 similar past setups averaged -0.43R (25% won)","+6 market trending","+4 VIX 15.45 — calm tape","+5 Street strongly positive","+6 beat all 4 of the last quarters"]},"monteCarlo":{"trials":2000,"pTarget":60,"pStop":36,"pTimeout":4,"expectedR":0.86},"episodes":{"n":12,"avgR":-0.43,"winRate":25,"pool":22},"riskPct":0.01,"kelly":null,"riskUsd":148,"configVersion":"momentum-v1","regime":"trending","headlines":[{"at":"2026-08-26T16:30:40.000Z","headline":"Here's How Much $1000 Invested In Thermo Fisher Scientific 10 Years Ago Would Be Worth Today","source":"Benzinga","url":"https://finnhub.io/api/news?id=f5914793ac85596956015b21a32a03c585d432329096a2ba397a67efe0e46aef"}],"createdAt":"2026-08-27T15:38:43.999Z","autoAt":"2026-08-27T15:41:43.999Z","expiresAt":"2026-08-27T15:58:43.999Z"}
+{"t":"2026-08-27T15:42:43.876Z","type":"order-placed","id":"5d19c0a3","orderId":"dbdfced8-9903-44b8-ab17-76ec7f871e37","symbol":"TMO","qty":32,"limit":636.81,"stop":632.14,"target":646,"strategy":"momentum-breakout","by":"auto","analystVerdict":null}
+{"t":"2026-08-27T15:42:45.835Z","type":"vault-pushed","files":["sync/equity-positions.json"]}
+{"t":"2026-08-27T15:43:40.632Z","type":"fill","orderId":"dbdfced8-9903-44b8-ab17-76ec7f871e37","symbol":"TMO","side":"buy","qty":"32","avgPrice":"635.27","legs":0,"clientId":"tl-5d19c0a3"}
+{"t":"2026-08-27T15:43:41.601Z","type":"slippage","book":"equities","phase":"entry","symbol":"TMO","side":"buy","intended":636.76,"filled":635.27,"costR":-0.323,"bps":23.4}
+{"t":"2026-08-27T15:43:44.350Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-27T15:43:45.340Z","type":"vault-pushed","files":["sync/equity-positions.json"]}
+{"t":"2026-08-27T15:52:45.709Z","type":"vault-pushed","files":["sync/equity-positions.json"]}
+{"t":"2026-08-27T15:53:44.503Z","type":"vault-pushed","files":["sync/equity-positions.json"]}
+{"t":"2026-08-27T15:54:44.348Z","type":"vault-pushed","files":["sync/equity-positions.json"]}
+{"t":"2026-08-27T16:00:52.596Z","type":"cfd-tick-error","error":"oanda GET /v3/accounts/101-004-40071397-001/pricing?instruments=SPX500_USD%2CNAS100_USD%2CUK100_GBP%2CXAU_USD: 401 Insufficient authorization to perform request."}
+{"t":"2026-08-27T16:54:44.893Z","type":"vault-pushed","files":["sync/equity-positions.json"]}
+{"t":"2026-08-27T16:55:44.720Z","type":"vault-pushed","files":["sync/equity-positions.json"]}
+{"t":"2026-08-27T16:56:45.420Z","type":"vault-pushed","files":["sync/equity-positions.json"]}
+{"t":"2026-08-27T16:57:44.443Z","type":"vault-pushed","files":["sync/equity-positions.json"]}
+{"t":"2026-08-27T17:09:44.242Z","type":"vault-pushed","files":["sync/equity-positions.json"]}
+{"t":"2026-08-27T17:41:43.544Z","type":"shadow-outcome","id":"CRM-mtbkm6er","symbol":"CRM","strategy":"momentum-breakout","source":"gate-blocked","entry":238.69,"stop":232.33,"target":251.41,"status":"target","r":2,"exit":251.41,"openedAt":"2026-08-27T13:40:52.851Z","regime":"trending"}
+{"t":"2026-08-27T17:41:44.832Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-08-27T17:52:43.332Z","type":"shadow-outcome","id":"TGT-mt1tj1fk","symbol":"TGT","strategy":"pullback-trend","source":"incubation","entry":159.51,"stop":146.41,"target":185.71,"status":"timeout","r":0,"exit":159.51,"openedAt":"2026-08-20T17:52:41.216Z","regime":"trending"}
+{"t":"2026-08-27T17:52:44.423Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-08-27T18:03:44.258Z","type":"thesis-rejected-gate","strategy":"momentum-breakout","symbol":"CVX","side":"buy","entry":200.79,"stop":199.91,"target":202.55,"reason":"Broke 20-bar high (200.77) with stock and SPY above their 20-day averages. Stop 2×ATR below, target 2R.","maxHoldDays":5,"conviction":{"score":49,"tier":"standard","reasons":["+8 reward:risk 2.0","-10 Monte Carlo expected -0.45R (81% to stop)","-12 strategy losing live (-0.36R over 14)","+6 market trending","+8 sector rank 2/11","+4 VIX 15.45 — calm tape","+5 Street strongly positive","-8 revenue -18.4% YoY — shrinking","-6 net margin down 3.8pp","-5 diluting (+13.3% shares)","+6 beat all 4 of the last quarters","+3 light shorting"]},"reasons":["already at max 8 open positions"]}
+{"t":"2026-08-27T18:03:47.629Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-08-27T18:04:40.650Z","type":"fill","orderId":"3257311b-5c56-4843-8dfe-10e544814e4a","symbol":"TMO","side":"sell","qty":"32","avgPrice":"631.32","legs":0,"clientId":"47658a67-2cd9-44a0-892a-7cc621b61b01"}
+{"t":"2026-08-27T18:04:42.039Z","type":"equity-position-closed","id":"5d19c0a3","symbol":"TMO","status":"stopped","r":-1.18,"exit":631.32,"approx":false,"entry":636.76,"stop":632.14,"target":646,"strategy":"momentum-breakout","regime":"trending","peakR":0,"captureRatio":null}
+{"t":"2026-08-27T18:04:44.833Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-27T18:04:46.195Z","type":"vault-pushed","files":["sync/equity-positions.json"]}
+{"t":"2026-08-27T19:17:44.386Z","type":"lessons-recalled","symbol":"NFLX","strategy":"momentum-breakout","lessons":["A long-only book in a confirmed downtrend produces repeated failed breakouts, not bargains — trading nothing is the correct output of that regime, not a missed opportunity.","Concentrated conviction produced his headline wins AND his wipeout at 18 — the same structure does both. This system caps risk per trade instead; the rail is the lesson.","Holding through a binary event is a bet on luck dressed as conviction — the earnings and macro guards exist to skip exactly that trade."]}
+{"t":"2026-08-27T19:17:44.547Z","type":"ai-cooldown","until":"2026-08-27T23:17:44.547Z","reason":"provider quota (429)"}
+{"t":"2026-08-27T19:17:44.562Z","type":"thesis","id":"00b56534","strategy":"momentum-breakout","symbol":"NFLX","side":"buy","entry":79.97,"stop":79.51,"target":80.89,"reason":"Broke 20-bar high (79.96) with stock and SPY above their 20-day averages. Stop 2×ATR below, target 2R.","maxHoldDays":5,"qty":261,"analyst":null,"conviction":{"score":55,"tier":"standard","reasons":["+8 reward:risk 2.0","+5 Monte Carlo expected +0.24R","-12 strategy losing live (-0.36R over 14)","+6 market trending","+4 VIX 15.45 — calm tape","+5 Street strongly positive","-5 diluting (+888.4% shares)","-6 missed 4 of the last 4 quarters"]},"monteCarlo":{"trials":2000,"pTarget":41,"pStop":59,"pTimeout":0,"expectedR":0.24},"episodes":{"n":12,"avgR":-0.05,"winRate":42,"pool":24},"riskPct":0.01,"kelly":null,"riskUsd":120,"configVersion":"momentum-v1","regime":"trending","headlines":[{"at":"2026-08-27T11:09:00.000Z","headline":"Wall Street Lunch: Trump Administration Weighs Broader Semiconductor Tariffs","source":"SeekingAlpha","url":"https://finnhub.io/api/news?id=0b94f8139824df0744cead5fd982f9ad3833c7e56761e6b4a949d3e24387d35e"}],"createdAt":"2026-08-27T19:17:44.562Z","autoAt":"2026-08-27T19:20:44.562Z","expiresAt":"2026-08-27T19:37:44.562Z"}
+{"t":"2026-08-27T19:17:47.678Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-27T19:20:40.728Z","type":"fill","orderId":"9625c533-1014-4c22-813e-da7526e9f872","symbol":"FCX","side":"sell","qty":"264","avgPrice":"78.52","legs":0,"clientId":"31ddb0bc-a2d2-4f9e-b2bd-ede7a31b7edf"}
+{"t":"2026-08-27T19:20:42.708Z","type":"equity-position-closed","id":"2c7f18bb","symbol":"FCX","status":"stopped","r":-1.01,"exit":78.52,"approx":false,"entry":79.36,"stop":78.53,"target":81.02,"strategy":"momentum-breakout","regime":"trending","peakR":0.55,"captureRatio":-1.84}
+{"t":"2026-08-27T19:20:45.664Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-27T19:20:46.725Z","type":"vault-pushed","files":["sync/equity-positions.json"]}
+{"t":"2026-08-27T19:21:44.414Z","type":"order-placed","id":"00b56534","orderId":"b44d39a5-bf90-4f60-a003-cf66715cce98","symbol":"NFLX","qty":261,"limit":80.03,"stop":79.51,"target":80.89,"strategy":"momentum-breakout","by":"auto","analystVerdict":null}
+{"t":"2026-08-27T19:21:45.591Z","type":"vault-pushed","files":["sync/equity-positions.json"]}
+{"t":"2026-08-27T19:22:40.679Z","type":"fill","orderId":"b44d39a5-bf90-4f60-a003-cf66715cce98","symbol":"NFLX","side":"buy","qty":"261","avgPrice":"79.95","legs":0,"clientId":"tl-00b56534"}
+{"t":"2026-08-27T19:22:42.530Z","type":"slippage","book":"equities","phase":"entry","symbol":"NFLX","side":"buy","intended":79.97,"filled":79.95,"costR":-0.043,"bps":2.5}
+{"t":"2026-08-27T19:22:44.947Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-08-27T19:22:45.993Z","type":"vault-pushed","files":["sync/equity-positions.json"]}
+{"t":"2026-08-27T19:26:44.422Z","type":"vault-pushed","files":["sync/equity-positions.json"]}
+{"t":"2026-08-27T19:27:44.832Z","type":"vault-pushed","files":["sync/equity-positions.json"]}
+{"t":"2026-08-27T19:30:48.583Z","type":"vault-pushed","files":["sync/equity-positions.json"]}
+{"t":"2026-08-27T19:31:45.741Z","type":"vault-pushed","files":["sync/equity-positions.json"]}
+{"t":"2026-08-27T19:33:45.876Z","type":"vault-pushed","files":["sync/equity-positions.json"]}
+{"t":"2026-08-27T19:46:43.769Z","type":"shadow-outcome","id":"CVX-mtbu07pe","symbol":"CVX","strategy":"momentum-breakout","source":"gate-blocked","entry":200.79,"stop":199.91,"target":202.55,"status":"stopped","r":-1,"exit":199.91,"openedAt":"2026-08-27T18:03:44.258Z","regime":"trending"}
+{"t":"2026-08-27T19:46:45.125Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-08-27T19:51:44.566Z","type":"shadow-outcome","id":"PEP-mtbo7uvn","symbol":"PEP","strategy":"equity-opening-range","source":"incubation","entry":140.71,"stop":139.85,"target":142,"status":"stopped","r":-1,"exit":139.85,"openedAt":"2026-08-27T15:21:43.187Z","regime":"trending"}
+{"t":"2026-08-27T19:51:45.590Z","type":"vault-pushed","files":["sync/shadow.json"]}
