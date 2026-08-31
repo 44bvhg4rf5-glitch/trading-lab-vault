@@ -4,6 +4,10 @@ tags: [trading-lab, lessons]
 
 # Lesson book
 
+## execution
+
+- API rate limits and provider quotas represent critical operational risks that can paralyze systematic thesis generation. *(ai-post-mortem)*
+
 ## markets
 
 - Macro context (rates, debt cycles, liquidity) belongs in every thesis — read the environment, not just the chart. *(study: Julian Petroulas, 2026-07)*
@@ -15,6 +19,7 @@ tags: [trading-lab, lessons]
 - Build conviction from research before entering, never after — a thesis is earned by work, then executed with discipline. *(study: Julian Petroulas, 2026-07)*
 - Frameworks beat signals: never act on someone else's call — understand the setup yourself or skip it. *(study: Julian Petroulas, 2026-07)*
 - Lifestyle marketing is not a track record — treat unverified profit claims from any influencer source as content, not evidence. *(study: Julian Petroulas, 2026-07)*
+- Sidelined shadow gains are the necessary cost of maintaining strict risk filters during choppy regimes. *(ai-post-mortem)*
 
 ## psychology
 
