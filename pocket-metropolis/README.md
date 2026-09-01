@@ -29,9 +29,17 @@ device via localStorage.
   Unpowered tiles flash ⚡ and brown out when a network is over capacity.
 - City services (police, fire, school, hospital), parks, trees, and a stadium
   that raise land value and shape growth.
-- Economy: monthly taxes vs. upkeep, adjustable tax rate, budget panel.
-- RCI demand meter, population milestones, cosmetic traffic, smoke, and
-  animated wind turbines.
+- Economy: monthly taxes vs. upkeep, adjustable tax rate, budget panel, and
+  $10,000 city bonds ($150/month for 84 months, up to three at once).
+- Fires and disasters: random fires (industry and pollution raise the risk,
+  fire stations cut it and extinguish blazes), burnt lots leave rubble to
+  bulldoze, and City Hall offers a manual fire, a meteor strike, and a
+  random-disasters toggle.
+- Abandonment: struggling buildings board up, breed crime, and recover when
+  conditions improve.
+- Map data views: power grid, pollution, crime, and land value overlays.
+- RCI demand meter, population milestones, traffic that scales with the city
+  (including trucks), smoke, and animated wind turbines.
 - Touch-first controls: tap or drag to build, one-finger pan in Look mode,
   pinch to zoom, tap tiles to inspect them.
 
