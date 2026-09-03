@@ -4,10 +4,6 @@ tags: [trading-lab, lessons]
 
 # Lesson book
 
-## execution
-
-- API rate limits and infrastructure bottlenecks pose a silent threat to systematic execution and must be proactively managed. *(ai-post-mortem)*
-
 ## markets
 
 - Macro context (rates, debt cycles, liquidity) belongs in every thesis — read the environment, not just the chart. *(study: Julian Petroulas, 2026-07)*
@@ -19,7 +15,6 @@ tags: [trading-lab, lessons]
 - Build conviction from research before entering, never after — a thesis is earned by work, then executed with discipline. *(study: Julian Petroulas, 2026-07)*
 - Frameworks beat signals: never act on someone else's call — understand the setup yourself or skip it. *(study: Julian Petroulas, 2026-07)*
 - Lifestyle marketing is not a track record — treat unverified profit claims from any influencer source as content, not evidence. *(study: Julian Petroulas, 2026-07)*
-- Systematic filters that keep the portfolio sidelined during choppy regimes are just as valuable as those that find winning entries. *(ai-post-mortem)*
 
 ## psychology
 
