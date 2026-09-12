@@ -3,7 +3,7 @@
 ## Stack
 
 - **Next.js 16 (App Router)**, TypeScript, Tailwind v4. Server components read the database directly; client components call JSON route handlers under `/api`.
-- **Prisma 6**. SQLite in dev (zero setup), Postgres in prod.
+- **Prisma 6** on Postgres (docker compose locally, Neon or similar hosted).
 - **Leaflet + react-leaflet** with OpenStreetMap tiles. Loaded client-only via `next/dynamic`.
 - **Zod** for request validation.
 
@@ -51,7 +51,7 @@ Errors are `{ error, code? }`. 401 needs sign-in, 402 plan limit, 403 not the ow
 
 ## Going to production
 
-1. **Postgres + PostGIS.** Change the datasource provider, run `prisma migrate`. Add a generated `geography(Point)` column on `Pub` with a GiST index and replace the bbox-then-haversine filter in `/api/search` with `ST_DWithin`. Keep `lat`/`lng` columns for the client.
+1. **PostGIS.** Add a generated `geography(Point)` column on `Pub` with a GiST index and replace the bbox-then-haversine filter in `/api/search` with `ST_DWithin`. Keep `lat`/`lng` columns for the client.
 2. **pg_trgm** on `Beer.name` and `Brewery.name`; replace `fuzzyBeers()` with `similarity()` ordering.
 3. **Auth.js** with email magic link + Google/Apple. `getCurrentUser()` is the only seam.
 4. **Object storage** (R2/S3) for photos: swap `store()` in the photos route; keep `Photo.url` absolute. Add an image-resize step and a moderation queue.

@@ -1,0 +1,14 @@
+services:
+  db:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: draftmap
+      POSTGRES_PASSWORD: draftmap
+      POSTGRES_DB: draftmap
+    ports:
+      - "5432:5432"
+    volumes:
+      - draftmap-pg:/var/lib/postgresql/data
+
+volumes:
+  draftmap-pg:

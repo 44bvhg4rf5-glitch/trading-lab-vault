@@ -33,11 +33,11 @@ Beer ──< SearchLog
 
 **SearchLog is append-only and aggregate-read.** `userId` is nullable and exists only so account deletion can scrub it. Reports read counts grouped by `beerId` and `place`; production adds a rolled-up weekly table.
 
-**Roles are a string, plans are a string.** SQLite has no enums; the allowed values are documented in the schema comments and enforced by Zod at the API boundary. On Postgres these become real enums in one migration.
+**Roles are a string, plans are a string.** Allowed values are documented in the schema comments and enforced by Zod at the API boundary; they can become Postgres enums in one migration once they settle.
 
 ## Indexes worth knowing
 
-- `Pub(lat)`, `Pub(lng)`: viewport queries in SQLite. PostGIS replaces these.
+- `Pub(lat)`, `Pub(lng)`: viewport queries until PostGIS replaces them.
 - `TapListing(beerId, status)`: "where is X on draft".
 - `TapListing(pubId, status)`: a pub's tap list.
 - `SearchLog(beerId, createdAt)`, `SearchLog(place, createdAt)`: demand reports.

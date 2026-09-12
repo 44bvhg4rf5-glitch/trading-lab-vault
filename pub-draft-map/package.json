@@ -9,9 +9,10 @@
     "lint": "eslint",
     "db:migrate": "prisma migrate dev",
     "db:seed": "tsx prisma/seed.ts",
-    "db:reset": "prisma migrate reset --force",
     "import:osm": "tsx scripts/import-osm.ts",
-    "postinstall": "prisma generate"
+    "postinstall": "prisma generate",
+    "build:deploy": "prisma migrate deploy && next build",
+    "db:deploy": "prisma migrate deploy"
   },
   "dependencies": {
     "@prisma/client": "^6.19.3",

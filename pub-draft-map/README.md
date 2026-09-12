@@ -2,15 +2,31 @@
 
 What's on draft at every pub and bar in the UK. Search a beer near a place, see who pours it, how good it is there, and what the pour looks like. Pubs claim their listing to keep it right and to post events and deals.
 
-## Run it
+## Run it locally
+
+Needs Node 20+ and Postgres. Docker is the quickest Postgres:
 
 ```bash
 cp .env.example .env
+docker compose up -d   # Postgres on localhost:5432
 npm install            # also runs prisma generate
-npx prisma migrate dev # creates prisma/dev.db (SQLite)
+npm run db:deploy      # creates the tables
 npm run db:seed        # 14 real pubs in Manchester + Richmond, 16 beers
 npm run dev            # http://localhost:3000
 ```
+
+No Docker? Create a free database at neon.tech or supabase.com and paste its connection string into `DATABASE_URL`.
+
+## Put it online (works from a phone)
+
+1. Create a free Postgres at [neon.tech](https://neon.tech) and copy the connection string.
+2. Go to [vercel.com/new](https://vercel.com/new), sign in with GitHub, import this repository.
+3. Set **Root Directory** to `pub-draft-map` and the branch to `claude/pub-beer-draft-map-6b4dmz`.
+4. Add environment variables `DATABASE_URL` (from step 1) and `SESSION_SECRET` (any long random string).
+5. Deploy. The build runs the migrations (`vercel.json` sets the build command), so the app comes up with empty tables.
+6. Seed it once from any machine with the same `DATABASE_URL` in `.env`: `npm run db:seed`, and optionally `npm run import:osm -- --city manchester`.
+
+Photo uploads write to the local filesystem, which does not persist on Vercel. Switch `store()` in the photos route to object storage before relying on them (see docs/architecture.md).
 
 Try: search **asahi** near **Manchester**, or open `/?beer=ashai&near=Richmond` (typo intended).
 
@@ -43,10 +59,12 @@ npm run import:osm -- --uk                                # everything, ~1h, res
 |---|---|
 | `npm run dev` / `build` / `start` | Next.js |
 | `npm run lint` | ESLint |
-| `npm run db:migrate` | Prisma migrate dev |
+| `npm run db:deploy` | Apply migrations |
+| `npm run db:migrate` | Create a new migration after schema changes |
 | `npm run db:seed` | Seed demo data |
+| `npm run build:deploy` | Migrate then build (used by Vercel) |
 | `npm run import:osm` | Overpass importer |
 
 ## Status
 
-Working MVP on SQLite with a demo sign-in and demo billing. See [docs/roadmap.md](docs/roadmap.md) for what stands between this and a public launch. Pub locations © OpenStreetMap contributors, ODbL.
+Working MVP on Postgres with a demo sign-in and demo billing. See [docs/roadmap.md](docs/roadmap.md) for what stands between this and a public launch. Pub locations © OpenStreetMap contributors, ODbL.

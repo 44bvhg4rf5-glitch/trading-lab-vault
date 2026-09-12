@@ -57,7 +57,7 @@ Find any beer on draft near you, at every pub and bar in the UK, and see how goo
 
 ## Non-functional
 - Mobile first: the contributor is standing at a bar with one hand free. Every write action is one or two taps.
-- p95 search under 300 ms with 50k pubs and 500k listings (needs Postgres + PostGIS + pg_trgm; the SQLite dev build is not the target).
+- p95 search under 300 ms with 50k pubs and 500k listings (needs PostGIS + pg_trgm on top of the current Postgres schema).
 - OSM attribution on every map and on the About page (ODbL requirement).
 - UK GDPR: aggregate-only analytics, deletable accounts, no sale of individual data.
 

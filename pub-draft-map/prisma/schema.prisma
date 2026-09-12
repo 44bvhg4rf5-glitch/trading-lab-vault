@@ -1,16 +1,15 @@
 // Draft Map — data model
 //
-// Dev uses SQLite so the app runs with zero infrastructure.
-// Production target is Postgres + PostGIS: swap the datasource provider,
-// keep lat/lng columns, and add a generated geography column + GiST index
-// (see docs/architecture.md).
+// Postgres everywhere: `docker compose up -d` for local dev, or a free Neon /
+// Supabase database. Next step for scale is PostGIS: keep lat/lng columns and
+// add a generated geography column + GiST index (see docs/architecture.md).
 
 generator client {
   provider = "prisma-client-js"
 }
 
 datasource db {
-  provider = "sqlite"
+  provider = "postgresql"
   url      = env("DATABASE_URL")
 }
 

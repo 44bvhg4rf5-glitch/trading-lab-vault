@@ -41,10 +41,6 @@ yarn-error.log*
 next-env.d.ts
 !.env.example
 
-# sqlite dev db
-/prisma/*.db
-/prisma/*.db-journal
-
 # user uploads (dev only)
 /public/uploads/*
 !/public/uploads/.gitkeep
