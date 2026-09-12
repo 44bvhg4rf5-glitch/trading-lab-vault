@@ -1,0 +1,251 @@
+// Draft Map — data model
+//
+// Dev uses SQLite so the app runs with zero infrastructure.
+// Production target is Postgres + PostGIS: swap the datasource provider,
+// keep lat/lng columns, and add a generated geography column + GiST index
+// (see docs/architecture.md).
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+// ---------------------------------------------------------------------------
+// People
+// ---------------------------------------------------------------------------
+
+model User {
+  id          String   @id @default(cuid())
+  email       String   @unique
+  displayName String
+  role        String   @default("DRINKER") // DRINKER | PUB_OWNER | ADMIN
+  createdAt   DateTime @default(now())
+
+  tapListings  TapListing[]  @relation("ReportedBy")
+  beerRatings  BeerRating[]
+  photos       Photo[]
+  photoRatings PhotoRating[]
+  claimedPubs  Pub[]         @relation("ClaimedBy")
+  searchLogs   SearchLog[]
+  sessions     Session[]
+}
+
+// Minimal cookie session for the MVP. Replace with Auth.js / Clerk later.
+model Session {
+  id        String   @id @default(cuid())
+  userId    String
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  expiresAt DateTime
+  createdAt DateTime @default(now())
+
+  @@index([userId])
+}
+
+// ---------------------------------------------------------------------------
+// Places
+// ---------------------------------------------------------------------------
+
+model Pub {
+  id        String  @id @default(cuid())
+  osmId     String? @unique // "node/123" or "way/456" from OpenStreetMap
+  name      String
+  kind      String  @default("pub") // pub | bar | brewery_tap
+  lat       Float
+  lng       Float
+  street    String?
+  city      String?
+  postcode  String?
+  website   String?
+  phone     String?
+  source    String  @default("osm") // osm | fsa | user | pub_owner
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  claimedById String?
+  claimedBy   User?   @relation("ClaimedBy", fields: [claimedById], references: [id])
+  claimedAt   DateTime?
+
+  tapListings  TapListing[]
+  events       Event[]
+  deals        Deal[]
+  subscription PubSubscription?
+  searchLogs   SearchLog[]
+
+  // Poor man's spatial index: bbox queries hit (lat) and (lng) separately.
+  @@index([lat])
+  @@index([lng])
+  @@index([city])
+  @@index([name])
+}
+
+// ---------------------------------------------------------------------------
+// Beer catalogue
+// ---------------------------------------------------------------------------
+
+model Brewery {
+  id      String  @id @default(cuid())
+  name    String  @unique
+  country String?
+  website String?
+  beers   Beer[]
+}
+
+model Beer {
+  id        String   @id @default(cuid())
+  name      String
+  breweryId String
+  brewery   Brewery  @relation(fields: [breweryId], references: [id])
+  style     String? // lager | pale_ale | ipa | stout | cider | ...
+  abv       Float?
+  createdAt DateTime @default(now())
+
+  tapListings TapListing[]
+  ratings     BeerRating[]
+  searchLogs  SearchLog[]
+
+  @@unique([name, breweryId])
+  @@index([name])
+}
+
+// A beer currently (or recently) on draft at a pub.
+model TapListing {
+  id            String    @id @default(cuid())
+  pubId         String
+  pub           Pub       @relation(fields: [pubId], references: [id], onDelete: Cascade)
+  beerId        String
+  beer          Beer      @relation(fields: [beerId], references: [id])
+  status        String    @default("ACTIVE") // ACTIVE | REMOVED
+  pricePence    Int? // price per pint in pence, if known
+  servingMl     Int       @default(568)
+  reportedById  String?
+  reportedBy    User?     @relation("ReportedBy", fields: [reportedById], references: [id])
+  firstSeenAt   DateTime  @default(now())
+  lastSeenAt    DateTime  @default(now())
+  confirmations Int       @default(1) // crowd "still on" confirmations
+  removedAt     DateTime?
+
+  ratings BeerRating[]
+  photos  Photo[]
+
+  @@unique([pubId, beerId])
+  @@index([beerId, status])
+  @@index([pubId, status])
+}
+
+// ---------------------------------------------------------------------------
+// Community content
+// ---------------------------------------------------------------------------
+
+model BeerRating {
+  id           String      @id @default(cuid())
+  userId       String
+  user         User        @relation(fields: [userId], references: [id], onDelete: Cascade)
+  beerId       String
+  beer         Beer        @relation(fields: [beerId], references: [id])
+  tapListingId String?
+  tapListing   TapListing? @relation(fields: [tapListingId], references: [id], onDelete: SetNull)
+  score        Int // 1..5
+  note         String?
+  createdAt    DateTime    @default(now())
+
+  @@unique([userId, tapListingId])
+  @@index([beerId])
+}
+
+model Photo {
+  id           String     @id @default(cuid())
+  userId       String
+  user         User       @relation(fields: [userId], references: [id], onDelete: Cascade)
+  tapListingId String
+  tapListing   TapListing @relation(fields: [tapListingId], references: [id], onDelete: Cascade)
+  url          String // /uploads/<file> in dev, object-storage URL in prod
+  kind         String     @default("POUR") // POUR | BEER | VENUE
+  caption      String?
+  createdAt    DateTime   @default(now())
+
+  ratings PhotoRating[]
+
+  @@index([tapListingId])
+}
+
+model PhotoRating {
+  id      String @id @default(cuid())
+  photoId String
+  photo   Photo  @relation(fields: [photoId], references: [id], onDelete: Cascade)
+  userId  String
+  user    User   @relation(fields: [userId], references: [id], onDelete: Cascade)
+  score   Int // 1..5, "how good is the pour"
+
+  @@unique([photoId, userId])
+}
+
+// ---------------------------------------------------------------------------
+// Pub-side monetisation
+// ---------------------------------------------------------------------------
+
+model PubSubscription {
+  id               String    @id @default(cuid())
+  pubId            String    @unique
+  pub              Pub       @relation(fields: [pubId], references: [id], onDelete: Cascade)
+  plan             String    @default("FREE") // FREE | LISTED | PROMOTED
+  status           String    @default("ACTIVE") // ACTIVE | PAST_DUE | CANCELLED
+  stripeCustomerId String?
+  stripeSubId      String?
+  currentPeriodEnd DateTime?
+  createdAt        DateTime  @default(now())
+}
+
+model Event {
+  id          String   @id @default(cuid())
+  pubId       String
+  pub         Pub      @relation(fields: [pubId], references: [id], onDelete: Cascade)
+  title       String
+  description String?
+  startsAt    DateTime
+  endsAt      DateTime?
+  promoted    Boolean  @default(false) // paid placement
+  createdAt   DateTime @default(now())
+
+  @@index([pubId, startsAt])
+  @@index([startsAt])
+}
+
+model Deal {
+  id          String    @id @default(cuid())
+  pubId       String
+  pub         Pub       @relation(fields: [pubId], references: [id], onDelete: Cascade)
+  title       String
+  description String?
+  validFrom   DateTime  @default(now())
+  validTo     DateTime?
+  promoted    Boolean   @default(false)
+  createdAt   DateTime  @default(now())
+
+  @@index([pubId, validTo])
+}
+
+// ---------------------------------------------------------------------------
+// Data product: what people look for, where
+// ---------------------------------------------------------------------------
+
+model SearchLog {
+  id        String   @id @default(cuid())
+  userId    String?
+  user      User?    @relation(fields: [userId], references: [id], onDelete: SetNull)
+  query     String // raw beer query text
+  beerId    String? // resolved beer, if any
+  beer      Beer?    @relation(fields: [beerId], references: [id], onDelete: SetNull)
+  pubId     String? // if the search led to a pub view
+  pub       Pub?     @relation(fields: [pubId], references: [id], onDelete: SetNull)
+  lat       Float?
+  lng       Float?
+  place     String? // "Manchester", "Richmond"
+  createdAt DateTime @default(now())
+
+  @@index([beerId, createdAt])
+  @@index([place, createdAt])
+}

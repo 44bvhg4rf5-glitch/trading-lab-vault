@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme inline {
+  --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+  --color-amber-brand: #d97706;
+}
+
+body {
+  font-family: var(--font-sans);
+}
+
+/* Leaflet needs an explicit height on its container. */
+.leaflet-container {
+  height: 100%;
+  width: 100%;
+  font: inherit;
+}
