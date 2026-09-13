@@ -44,3 +44,6 @@ next-env.d.ts
 # user uploads (dev only)
 /public/uploads/*
 !/public/uploads/.gitkeep
+
+# importer fetch cache
+/.cache/
