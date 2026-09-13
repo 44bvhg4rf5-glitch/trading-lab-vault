@@ -39,9 +39,14 @@ async function fuzzyBeers(term: string, limit: number) {
       const best = Math.min(...candidates.map((c) => damerauLevenshtein(t, c)));
       return { beer: b, dist: best };
     })
-    .filter(({ dist }) => dist <= Math.max(1, Math.floor(t.length / 4)))
+    .filter(({ dist }) => dist <= typoTolerance(t))
     .sort((a, b) => a.dist - b.dist || a.beer.name.localeCompare(b.beer.name));
   return scored.slice(0, limit).map((s) => s.beer);
+}
+
+/** "guniess" → Guinness needs 2 edits; short words get 1, long ones 3. */
+export function typoTolerance(term: string) {
+  return term.length <= 4 ? 1 : term.length <= 7 ? 2 : 3;
 }
 
 /** Edit distance counting adjacent transpositions as one edit. */

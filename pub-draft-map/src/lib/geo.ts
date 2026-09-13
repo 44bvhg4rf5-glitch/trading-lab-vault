@@ -97,12 +97,21 @@ export const UK_PLACES: Record<string, LatLng> = {
   "northern quarter": { lat: 53.4837, lng: -2.2352 },
 };
 
-/** Resolve a place name to coordinates: gazetteer first, then Nominatim. */
+/**
+ * Resolve a place name to coordinates.
+ * 1. Neighbourhood shortlist above (things GeoNames files under a parent).
+ * 2. GeoNames gazetteer: every UK city, town and village (src/lib/places.ts).
+ * 3. Nominatim for anything else: postcodes, street names, landmarks.
+ */
 export async function geocodePlace(place: string): Promise<(LatLng & { label: string }) | null> {
   const key = place.trim().toLowerCase();
   if (!key) return null;
   const hit = UK_PLACES[key];
   if (hit) return { ...hit, label: titleCase(key) };
+
+  const { findPlaces, placeLabel } = await import("./places");
+  const g = findPlaces(place, 1)[0];
+  if (g) return { lat: g.lat, lng: g.lng, label: placeLabel(g) };
 
   try {
     const url = new URL("https://nominatim.openstreetmap.org/search");

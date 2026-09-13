@@ -19,10 +19,13 @@ type SearchResult = {
   lng: number;
   street: string | null;
   city: string | null;
-  distanceKm: number;
+  distanceKm: number | null;
   plan: string;
+  tapCount: number;
   matches: { tapListingId: string; beer: string; brewery: string; pricePence: number | null; avgScore: number | null; ratingCount: number; lastSeenAt: string }[];
 };
+
+type PlaceSuggestion = { name: string; label: string; kind: string; lat: number; lng: number };
 
 const DEFAULT_CENTER = { lat: 53.4808, lng: -2.2426 }; // Manchester
 
@@ -36,8 +39,25 @@ export function MapExplorer({ initialBeer = "", initialNear = "" }: { initialBee
   const [error, setError] = useState<string | null>(null);
   const [busy, setBusy] = useState(false);
   const [selectedId, setSelectedId] = useState<string | null>(null);
+  const [suggestions, setSuggestions] = useState<PlaceSuggestion[]>([]);
+  const [showSuggestions, setShowSuggestions] = useState(false);
   const bboxRef = useRef<string | null>(null);
   const abortRef = useRef<AbortController | null>(null);
+  const useMyLocationRef = useRef(false);
+
+  // Place typeahead over every UK town and village.
+  useEffect(() => {
+    if (near.trim().length < 2 || !showSuggestions) return;
+    const ctrl = new AbortController();
+    const t = setTimeout(async () => {
+      const res = await fetch(`/api/places?q=${encodeURIComponent(near)}`, { signal: ctrl.signal }).catch(() => null);
+      if (res?.ok) setSuggestions((await res.json()).places);
+    }, 150);
+    return () => {
+      clearTimeout(t);
+      ctrl.abort();
+    };
+  }, [near, showSuggestions]);
 
   const loadViewport = useCallback(async (bbox: string) => {
     bboxRef.current = bbox;
@@ -59,17 +79,23 @@ export function MapExplorer({ initialBeer = "", initialNear = "" }: { initialBee
   }, []);
 
   const runSearch = useCallback(
-    async (b: string, n: string) => {
-      if (!b.trim()) return;
+    async (b: string, n: string, at?: { lat: number; lng: number }) => {
+      const beerQ = b.trim();
+      const nearQ = n.trim();
+      if (!beerQ && !nearQ && !at) {
+        setError("Type a beer, a place, or both.");
+        return;
+      }
       setBusy(true);
       setError(null);
+      setShowSuggestions(false);
       try {
-        const params = new URLSearchParams({ beer: b.trim() });
-        if (n.trim()) params.set("near", n.trim());
-        else {
-          params.set("lat", String(center.lat));
-          params.set("lng", String(center.lng));
-        }
+        const params = new URLSearchParams();
+        if (beerQ) params.set("beer", beerQ);
+        if (at) {
+          params.set("lat", String(at.lat));
+          params.set("lng", String(at.lng));
+        } else if (nearQ) params.set("near", nearQ);
         const res = await fetch(`/api/search?${params}`);
         const json = await res.json();
         if (!res.ok) {
@@ -77,39 +103,59 @@ export function MapExplorer({ initialBeer = "", initialNear = "" }: { initialBee
           setResults(null);
           return;
         }
+        const n = json.results.length;
+        const where = json.query.near ? `near ${json.query.near}` : at ? "near you" : "anywhere in the UK";
+        const label =
+          json.query.mode === "near"
+            ? `${n} pub${n === 1 ? "" : "s"} and bar${n === 1 ? "" : "s"} within ${json.query.radiusKm} km of ${json.query.near ?? "you"}`
+            : json.query.mode === "beer-near-miss"
+              ? `Nobody's reported “${json.matchedBeers[0]?.name ?? json.query.beer}” ${where} yet. Here are the pubs there: open one and add it if you know it pours it.`
+              : `${n} place${n === 1 ? "" : "s"} pouring ${json.matchedBeers[0]?.name ?? json.query.beer} ${where}`;
         setResults(json.results);
-        setSearchInfo(
-          `${json.results.length} place${json.results.length === 1 ? "" : "s"} with “${json.query.beer}” on draft${json.query.near ? ` near ${json.query.near}` : " near you"}`,
-        );
+        setSearchInfo(label);
         if (json.query.center) setCenter(json.query.center);
         const url = new URL(window.location.href);
-        url.searchParams.set("beer", b.trim());
-        if (n.trim()) url.searchParams.set("near", n.trim());
+        if (beerQ) url.searchParams.set("beer", beerQ);
+        else url.searchParams.delete("beer");
+        if (nearQ && !at) url.searchParams.set("near", nearQ);
         else url.searchParams.delete("near");
         window.history.replaceState(null, "", url);
       } finally {
         setBusy(false);
       }
     },
-    [center.lat, center.lng],
+    [],
   );
 
   // Deep link (/?beer=asahi&near=Richmond): run the search once on mount.
   useEffect(() => {
-    if (!initialBeer) return;
+    if (!initialBeer && !initialNear) return;
     const t = setTimeout(() => runSearch(initialBeer, initialNear), 0);
     return () => clearTimeout(t);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   function useMyLocation() {
-    navigator.geolocation?.getCurrentPosition(
+    if (!navigator.geolocation) {
+      setError("Location isn't available in this browser");
+      return;
+    }
+    useMyLocationRef.current = true;
+    navigator.geolocation.getCurrentPosition(
       (pos) => {
-        setCenter({ lat: pos.coords.latitude, lng: pos.coords.longitude });
+        const at = { lat: pos.coords.latitude, lng: pos.coords.longitude };
+        setCenter(at);
         setNear("");
+        runSearch(beer, "", at);
       },
-      () => setError("Couldn't get your location"),
+      () => setError("Couldn't get your location. Type a place instead."),
     );
+  }
+
+  function pickSuggestion(s: PlaceSuggestion) {
+    setNear(s.name);
+    setShowSuggestions(false);
+    runSearch(beer, s.name);
   }
 
   const resultIds = useMemo(() => new Set(results?.map((r) => r.id) ?? []), [results]);
@@ -143,22 +189,43 @@ export function MapExplorer({ initialBeer = "", initialNear = "" }: { initialBee
           <input
             value={beer}
             onChange={(e) => setBeer(e.target.value)}
-            placeholder="Beer, e.g. Asahi, Guinness, Cloudwater"
+            placeholder="Beer (optional): Guinness, Asahi, Neck Oil"
             className="flex-1 min-w-[12rem] border rounded px-3 py-2"
             aria-label="Beer"
           />
-          <input
-            value={near}
-            onChange={(e) => setNear(e.target.value)}
-            placeholder="Near… Manchester, Richmond, TW9"
-            className="flex-1 min-w-[10rem] border rounded px-3 py-2"
-            aria-label="Place"
-          />
+          <div className="relative flex-1 min-w-[12rem]">
+            <input
+              value={near}
+              onChange={(e) => {
+                setNear(e.target.value);
+                setShowSuggestions(true);
+                if (e.target.value.trim().length < 2) setSuggestions([]);
+              }}
+              onFocus={() => setShowSuggestions(true)}
+              onBlur={() => setTimeout(() => setShowSuggestions(false), 150)}
+              placeholder="Any UK town or village, e.g. Harefield"
+              className="w-full border rounded px-3 py-2"
+              aria-label="Place"
+              autoComplete="off"
+            />
+            {showSuggestions && suggestions.length > 0 && near.trim().length >= 2 && (
+              <ul className="absolute z-[900] mt-1 w-full bg-white border rounded shadow max-h-64 overflow-auto text-sm">
+                {suggestions.map((s) => (
+                  <li key={`${s.name}|${s.lat}|${s.lng}`}>
+                    <button type="button" onMouseDown={(e) => e.preventDefault()} onClick={() => pickSuggestion(s)} className="w-full text-left px-3 py-1.5 hover:bg-stone-100 flex justify-between gap-2">
+                      <span>{s.label}</span>
+                      <span className="text-stone-400">{s.kind}</span>
+                    </button>
+                  </li>
+                ))}
+              </ul>
+            )}
+          </div>
           <button type="button" onClick={useMyLocation} className="text-sm underline text-stone-600" title="Use my location">
             📍 Near me
           </button>
           <button disabled={busy} className="bg-amber-500 hover:bg-amber-400 disabled:opacity-50 text-stone-900 font-medium rounded px-4 py-2">
-            {busy ? "Searching…" : "Find it on draft"}
+            {busy ? "Searching…" : "Search"}
           </button>
         </div>
         {(error || searchInfo) && (
@@ -185,11 +252,16 @@ export function MapExplorer({ initialBeer = "", initialNear = "" }: { initialBee
                         <span className="font-medium">
                           <Link href={`/pub/${r.id}`} className="hover:underline">{r.name}</Link>
                         </span>
-                        <span className="text-xs text-stone-500 whitespace-nowrap">{r.distanceKm} km</span>
+                        <span className="text-xs text-stone-500 whitespace-nowrap">
+                          {r.distanceKm == null ? r.city : r.distanceKm < 1 ? `${Math.round(r.distanceKm * 1000)} m` : `${r.distanceKm} km`}
+                        </span>
                       </div>
                       <div className="text-xs text-stone-500">
-                        {[r.street, r.city].filter(Boolean).join(", ")}
+                        {[r.street, r.city].filter(Boolean).join(", ") || r.kind.replace("_", " ")}
                         {r.plan === "PROMOTED" && <span className="ml-2 text-amber-700 font-medium">Promoted</span>}
+                        {r.matches.length === 0 && (
+                          <span className="ml-2">{r.tapCount ? `${r.tapCount} on tap` : "no tap list yet"}</span>
+                        )}
                       </div>
                       <ul className="mt-1 text-sm">
                         {r.matches.map((m) => (
@@ -211,13 +283,13 @@ export function MapExplorer({ initialBeer = "", initialNear = "" }: { initialBee
               </ol>
             ) : (
               <div className="rounded-lg border border-stone-200 bg-white p-4 text-sm text-stone-600">
-                Nothing found. Try a wider area, or if you know a pub that pours it, open the pub and add it to their tap list.
+                Nothing found. Add a place to browse its pubs, or if you know a pub that pours it, open the pub and add it to their tap list.
               </div>
             )
           ) : (
             <div className="rounded-lg border border-stone-200 bg-white p-4 text-sm text-stone-600 space-y-2">
               <p className="font-medium text-stone-800">{viewportPubs.length} pubs and bars in view</p>
-              <p>Search a beer to see exactly where it&apos;s pouring, or click a pub to see its taps.</p>
+              <p>Search a beer to see exactly where it&apos;s pouring, a place to browse every pub there, or both.</p>
               <p className="text-xs">Tap lists are crowd-sourced. If you&apos;re at the bar, add what you see and rate the pour.</p>
             </div>
           )}
