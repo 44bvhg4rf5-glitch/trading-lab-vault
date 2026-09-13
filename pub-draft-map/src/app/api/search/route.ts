@@ -63,10 +63,10 @@ export const GET = handle(async (req) => {
       const box = bboxAround(center, r);
       const geo = { lat: { gte: box.south, lte: box.north }, lng: { gte: box.west, lte: box.east } };
       if (beerQ && beerIds.length) {
-        pubs = await db.pub.findMany({ where: { ...geo, ...beerFilter }, include, take: 200 });
+        pubs = await db.pub.findMany({ where: { hidden: false, ...geo, ...beerFilter }, include, take: 200 });
         if (pubs.length) break;
       } else if (!beerQ) {
-        pubs = await db.pub.findMany({ where: geo, include, take: 300 });
+        pubs = await db.pub.findMany({ where: { hidden: false, ...geo }, include, take: 300 });
         if (pubs.length >= 8) break;
       } else break;
     }
@@ -75,13 +75,13 @@ export const GET = handle(async (req) => {
       mode = "beer-near-miss";
       const box = bboxAround(center, radiusKm);
       pubs = await db.pub.findMany({
-        where: { lat: { gte: box.south, lte: box.north }, lng: { gte: box.west, lte: box.east } },
+        where: { hidden: false, lat: { gte: box.south, lte: box.north }, lng: { gte: box.west, lte: box.east } },
         include: { ...include, tapListings: { where: { status: "ACTIVE", beerId: { in: [] } }, include: include.tapListings.include } },
         take: 60,
       });
     }
   } else if (beerIds.length) {
-    pubs = await db.pub.findMany({ where: beerFilter, include, take: 300 });
+    pubs = await db.pub.findMany({ where: { hidden: false, ...beerFilter }, include, take: 300 });
   }
 
   const results = pubs

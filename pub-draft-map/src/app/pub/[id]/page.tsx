@@ -43,7 +43,7 @@ export default async function PubPage({ params }: { params: Promise<{ id: string
     }),
     getCurrentUser(),
   ]);
-  if (!pub) notFound();
+  if (!pub || (pub.hidden && !(user && (pub.claimedById === user.id || user.role === "ADMIN")))) notFound();
 
   const isOwner = Boolean(user && (pub.claimedById === user.id || user.role === "ADMIN"));
   const taps = pub.tapListings.map((t) => ({

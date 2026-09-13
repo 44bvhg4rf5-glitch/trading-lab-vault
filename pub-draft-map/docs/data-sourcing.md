@@ -69,6 +69,18 @@ What the reconnaissance found (September 2026), so nobody repeats it:
 
 Do the client-rendered sites once the launch city is live, and ask each group for a feed first: a feed is cheaper for everyone and a scraper is a relationship you can't unburn.
 
+### Per-pub research and delisting (built: `npm run research`)
+The product rule is: we hold the data, drinkers don't enter it, and a pub we can't find anything for comes off the map. `scripts/research-pubs.ts` runs that rule over every pub:
+
+1. **Website.** OSM has one for 14,557 pubs. For the rest, an optional Brave Search lookup (`BRAVE_SEARCH_API_KEY`) finds the pub's own site and discards social, aggregator and booking pages.
+2. **Crawl.** Up to six pages per site, drinks and beer links first, feeds and blogs skipped, robots.txt honoured, plus any drinks PDF and any image the page labels as a menu, board, taps or pumps.
+3. **Extract.** Whole-word matching against `data/beer-catalogue.json` (about 450 UK draught beers and ciders with brewery and ABV) and "<Name> 4.5%" patterns, which need no API key. With `ANTHROPIC_API_KEY` set, every drinks page, PDF and board image is also read by Claude, which is what catches guest ales and local breweries the catalogue can't.
+4. **Decide.** `Pub.evidence` is set to `site_menu`, `company`, `chain`, `people` or `none`, and `none` sets `hidden=true`, which removes the pub from the map, search and its page. Nothing is deleted, so a later source can bring it back.
+
+What the first test run on eight real sites showed: sites that list their beers in text work (Amstel, Boddingtons picked up with ABVs); craft bars mostly embed their Untappd menu, which is a partner feed and not scrapable, and the pipeline records that as a lead; country pubs mostly say "a large selection of beers" and nothing more, so without a board photo they are correctly `none`.
+
+Not done, on purpose: Instagram, Facebook, Google reviews and Untappd. Their terms forbid automated access, they block it aggressively, and Meta litigates. A scraper there would get the project banned before it produced a usable list.
+
 ### Photos (built: `npm run import:photos`)
 Wikimedia Commons hosts Commons' own uploads plus ~1.2 million Geograph photos of Britain (CC BY-SA 2.0), and most pubs have been photographed. `scripts/import-photos.ts` geosearches 150 m around each pub and only accepts a file whose title contains a distinctive word from the pub's name, so it never attaches the neighbour's house. Tested on a sample: no false matches; roughly a third to a half of pubs get a photo. The stored credit string satisfies the licence; show it next to the image.
 

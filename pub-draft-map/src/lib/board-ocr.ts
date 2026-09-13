@@ -68,3 +68,23 @@ export async function readBoard(image: { bytes: Buffer; mediaType: string }, opt
   const text = response.content.filter((b) => b.type === "text").map((b) => b.text).join("");
   return BoardReading.parse(JSON.parse(text));
 }
+
+/**
+ * Same extraction from plain text: a drinks page or a PDF menu from a pub's
+ * website, already converted to text by the research pipeline.
+ */
+export async function readBoardText(pageText: string, opts: { pubName?: string } = {}): Promise<BoardReadingT> {
+  const client = new Anthropic();
+  const response = await client.beta.messages.create({
+    model: "claude-opus-5",
+    max_tokens: 16000,
+    betas: ["server-side-fallback-2026-07-01"],
+    fallbacks: "default",
+    system: SYSTEM + "\n\nThe input is text extracted from a web page or PDF rather than a photo; navigation and unrelated copy may be mixed in. List only draught beers and ciders actually offered at this venue.",
+    output_config: { format: zodOutputFormat(BoardReading) },
+    messages: [{ role: "user", content: `Text from ${opts.pubName ? `${opts.pubName}'s` : "a pub's"} website:\n\n${pageText}` }],
+  });
+  if (response.stop_reason === "refusal") throw new Error("The text couldn't be processed");
+  const text = response.content.filter((b) => b.type === "text").map((b) => b.text).join("");
+  return BoardReading.parse(JSON.parse(text));
+}

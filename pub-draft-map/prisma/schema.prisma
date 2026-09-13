@@ -64,6 +64,15 @@ model Pub {
   operator  String? // OSM operator=* (Greene King, Fuller's, …)
   imageUrl  String? // exterior photo: OSM image=* or Wikimedia Commons, with licence in imageCredit
   imageCredit String?
+  // Research pipeline (scripts/research-pubs.ts): what real evidence backs this pub's tap list.
+  //   site_menu  – beers read from the pub's own website (text, PDF or board photo)
+  //   company    – beers from the pub company's site importer
+  //   chain      – chain / tied-brewery range applied from OSM brand/operator
+  //   people     – a drinker or the landlord published the list
+  //   none       – nothing found; hidden from the app when HIDE_UNRESEARCHED is on
+  evidence     String?
+  researchedAt DateTime?
+  hidden       Boolean   @default(false)
   source    String  @default("osm") // osm | fsa | user | pub_owner
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt

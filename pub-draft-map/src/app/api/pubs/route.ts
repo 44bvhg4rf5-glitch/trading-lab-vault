@@ -21,6 +21,7 @@ export const GET = handle(async (req) => {
 
   const pubs = await db.pub.findMany({
     where: {
+      hidden: false,
       lat: { gte: bbox.south, lte: bbox.north },
       lng: { gte: bbox.west, lte: bbox.east },
       ...(beer
