@@ -136,10 +136,8 @@ export default async function PubPage({ params }: { params: Promise<{ id: string
 
         <section>
           <div className="flex items-baseline justify-between">
-            <h2 className="text-lg font-semibold">
-              On draft ({taps.filter((t) => t.confidence >= 1).length} confirmed{taps.some((t) => t.confidence < 1) ? `, ${taps.filter((t) => t.confidence < 1).length} likely` : ""})
-            </h2>
-            <span className="text-xs text-stone-500">Crowd-sourced · confirm or flag what you see</span>
+            <h2 className="text-lg font-semibold">On draft ({taps.length})</h2>
+            <span className="text-xs text-stone-500">Tap a star to rate a pint</span>
           </div>
           <TapList taps={taps} signedIn={Boolean(user)} />
         </section>
@@ -147,8 +145,8 @@ export default async function PubPage({ params }: { params: Promise<{ id: string
         <AdSlot slot="pub-inline" />
 
         <section className="rounded-lg border border-stone-200 bg-white p-4">
-          <h2 className="font-semibold">Add a beer that&apos;s on draft here</h2>
-          <p className="text-sm text-stone-600 mb-3">At the bar? Tell everyone what&apos;s pouring.</p>
+          <h2 className="font-semibold">Missing something?</h2>
+          <p className="text-sm text-stone-600 mb-3">Tell us what&apos;s pouring and we&apos;ll fix the list for everyone.</p>
           <AddTapForm pubId={pub.id} signedIn={Boolean(user)} />
         </section>
       </div>
@@ -157,8 +155,8 @@ export default async function PubPage({ params }: { params: Promise<{ id: string
         <div className="rounded-lg border border-stone-200 bg-white p-4 text-sm space-y-1">
           <div className="font-medium">About this listing</div>
           <p className="text-stone-600">
-            Location from {pub.source === "osm" ? "OpenStreetMap" : pub.source}. Tap list from drinkers
-            {pub.claimedById ? " and the pub" : ""}.
+            Location from {pub.source === "osm" ? "OpenStreetMap" : pub.source}. Tap list from the pub&apos;s range
+            {pub.claimedById ? ", the pub" : ""} and drinkers.
           </p>
           {!pub.claimedById && (
             <p className="text-stone-600">

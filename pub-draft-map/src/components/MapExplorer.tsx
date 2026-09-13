@@ -109,7 +109,7 @@ export function MapExplorer({ initialBeer = "", initialNear = "" }: { initialBee
           json.query.mode === "near"
             ? `${n} pub${n === 1 ? "" : "s"} and bar${n === 1 ? "" : "s"} within ${json.query.radiusKm} km of ${json.query.near ?? "you"}`
             : json.query.mode === "beer-near-miss"
-              ? `Nobody's reported “${json.matchedBeers[0]?.name ?? json.query.beer}” ${where} yet. Here are the pubs there: open one and add it if you know it pours it.`
+              ? `No pubs pouring ${json.matchedBeers[0]?.name ?? json.query.beer} ${where}. Here's what is there.`
               : `${n} place${n === 1 ? "" : "s"} pouring ${json.matchedBeers[0]?.name ?? json.query.beer} ${where}`;
         setResults(json.results);
         setSearchInfo(label);
@@ -260,7 +260,7 @@ export function MapExplorer({ initialBeer = "", initialNear = "" }: { initialBee
                         {[r.street, r.city].filter(Boolean).join(", ") || r.kind.replace("_", " ")}
                         {r.plan === "PROMOTED" && <span className="ml-2 text-amber-700 font-medium">Promoted</span>}
                         {r.matches.length === 0 && (
-                          <span className="ml-2">{r.tapCount ? `${r.tapCount} on tap` : "no tap list yet"}</span>
+                          <span className="ml-2">{r.tapCount ? `${r.tapCount} on tap` : ""}</span>
                         )}
                       </div>
                       <ul className="mt-1 text-sm">
@@ -270,8 +270,7 @@ export function MapExplorer({ initialBeer = "", initialNear = "" }: { initialBee
                               {m.beer} <span className="text-stone-400">· {m.brewery}</span>
                             </span>
                             <span className="text-stone-600 whitespace-nowrap">
-                              {m.confidence < 1 && <span className="mr-2 text-xs rounded bg-stone-100 px-1.5 py-0.5 text-stone-500">likely</span>}
-                              {m.avgScore != null ? `★ ${m.avgScore}` : "unrated"}
+                              {m.avgScore != null ? `★ ${m.avgScore}` : ""}
                               {m.pricePence != null ? ` · £${(m.pricePence / 100).toFixed(2)}` : ""}
                             </span>
                           </li>

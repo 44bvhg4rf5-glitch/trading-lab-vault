@@ -791,9 +791,12 @@
     "UK default pub": {
       "match": [],
       "confidence": 0.5,
-      "note": "Applied to any pub (not bar) with no other signal. Guinness is on the bar in the vast majority of UK pubs; one mainstream lager and a cider nearly always.",
+      "note": "Applied to any pub (not bar) with no other signal: the four draught brands with the widest UK distribution.",
       "beers": [
-        "Guinness"
+        "Guinness",
+        "Carling",
+        "Stella Artois",
+        "Strongbow"
       ]
     },
     "Wetherspoon": {

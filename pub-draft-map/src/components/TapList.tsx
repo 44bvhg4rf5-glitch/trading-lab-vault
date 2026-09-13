@@ -25,44 +25,36 @@ export type TapView = {
   photos: { id: string; url: string; kind: string; caption: string | null; by: string; avgPourScore: number | null; ratingCount: number }[];
 };
 
+/**
+ * One list, stated as fact. Inferred listings (source/confidence in the data)
+ * are not visually distinguished: the product promise is that we already know
+ * what's on. Corrections live behind "Report a change" so the default view
+ * never asks the drinker to do our job.
+ */
 export function TapList({ taps, signedIn }: { taps: TapView[]; signedIn: boolean }) {
   const [needSignIn, setNeedSignIn] = useState(false);
+  const [editing, setEditing] = useState(false);
   if (!taps.length) {
-    return <p className="mt-2 text-sm text-stone-600 rounded-lg border border-dashed border-stone-300 p-4">No tap list yet. Be the first to add what&apos;s pouring.</p>;
+    return <p className="mt-2 text-sm text-stone-600 rounded-lg border border-dashed border-stone-300 p-4">We don&apos;t have this bar&apos;s range yet.</p>;
   }
-  const confirmed = taps.filter((t) => t.confidence >= 1);
-  const likely = taps.filter((t) => t.confidence < 1);
-  const rangeName = likely.find((t) => t.source === "inferred")?.inferredFrom;
   return (
     <>
-      {confirmed.length > 0 && (
-        <ul className="mt-2 divide-y divide-stone-200 rounded-lg border border-stone-200 bg-white">
-          {confirmed.map((t) => (
-            <TapRow key={t.id} tap={t} signedIn={signedIn} onNeedSignIn={() => setNeedSignIn(true)} />
-          ))}
-        </ul>
-      )}
-      {likely.length > 0 && (
-        <div className="mt-3">
-          <div className="flex items-baseline justify-between px-1">
-            <h3 className="text-sm font-semibold text-stone-700">Likely on tap</h3>
-            <span className="text-xs text-stone-500">
-              {rangeName && rangeName !== "UK default pub" ? `Standard range for ${rangeName} pubs` : rangeName === "UK default pub" ? "On the bar in nearly every UK pub" : "From OpenStreetMap"} · not yet confirmed here
-            </span>
-          </div>
-          <ul className="mt-1 divide-y divide-stone-200 rounded-lg border border-dashed border-stone-300 bg-stone-50">
-            {likely.map((t) => (
-              <TapRow key={t.id} tap={t} signedIn={signedIn} onNeedSignIn={() => setNeedSignIn(true)} />
-            ))}
-          </ul>
-        </div>
-      )}
+      <ul className="mt-2 divide-y divide-stone-200 rounded-lg border border-stone-200 bg-white">
+        {taps.map((t) => (
+          <TapRow key={t.id} tap={t} signedIn={signedIn} editing={editing} onNeedSignIn={() => setNeedSignIn(true)} />
+        ))}
+      </ul>
+      <p className="mt-2 text-xs text-stone-500">
+        <button type="button" onClick={() => setEditing((e) => !e)} className="underline">
+          {editing ? "Done" : "Something wrong with this list? Report a change"}
+        </button>
+      </p>
       {needSignIn && <SignInDialog onClose={() => setNeedSignIn(false)} />}
     </>
   );
 }
 
-function TapRow({ tap, signedIn, onNeedSignIn }: { tap: TapView; signedIn: boolean; onNeedSignIn: () => void }) {
+function TapRow({ tap, signedIn, editing, onNeedSignIn }: { tap: TapView; signedIn: boolean; editing: boolean; onNeedSignIn: () => void }) {
   const router = useRouter();
   const [busy, setBusy] = useState<string | null>(null);
   const [showPhotos, setShowPhotos] = useState(false);
@@ -83,13 +75,13 @@ function TapRow({ tap, signedIn, onNeedSignIn }: { tap: TapView; signedIn: boole
       if (res.ok) router.refresh();
     })();
 
-  const act = (action: "confirm" | "remove") =>
+  const remove = () =>
     gate(async () => {
-      setBusy(action);
-      const res = await fetch(`/api/taps/${tap.id}`, { method: "PATCH", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ action }) });
+      setBusy("remove");
+      const res = await fetch(`/api/taps/${tap.id}`, { method: "PATCH", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ action: "remove" }) });
       setBusy(null);
       if (res.ok) {
-        setMsg(action === "confirm" ? "Thanks — marked as still on." : "Thanks — removed from the tap list.");
+        setMsg("Thanks. Removed from the list.");
         router.refresh();
       }
     })();
@@ -117,8 +109,6 @@ function TapRow({ tap, signedIn, onNeedSignIn }: { tap: TapView; signedIn: boole
       if (res.ok) router.refresh();
     })();
 
-  const seenAgo = timeAgo(new Date(tap.lastSeenAt));
-
   return (
     <li className="p-3 space-y-2">
       <div className="flex flex-wrap items-baseline gap-x-3 gap-y-1">
@@ -132,28 +122,15 @@ function TapRow({ tap, signedIn, onNeedSignIn }: { tap: TapView; signedIn: boole
         </span>
         <span className="ml-auto text-sm text-stone-700">
           {tap.pricePence != null && <span className="mr-3">£{(tap.pricePence / 100).toFixed(2)}{tap.servingMl !== 568 ? ` / ${tap.servingMl}ml` : ""}</span>}
-          {tap.avgScore != null ? (
+          {tap.avgScore != null && (
             <span title={`${tap.ratingCount} rating${tap.ratingCount === 1 ? "" : "s"}`}>★ {tap.avgScore} <span className="text-stone-400">({tap.ratingCount})</span></span>
-          ) : (
-            <span className="text-stone-400">unrated</span>
           )}
         </span>
       </div>
 
       <div className="flex flex-wrap items-center gap-x-4 gap-y-2 text-sm">
         <Stars value={tap.myScore} onRate={rate} label="Rate this beer here" disabled={busy === "rate"} />
-        <span className="text-xs text-stone-500">
-          {tap.confidence < 1
-            ? `likely · ${Math.round(tap.confidence * 100)}% · ${tap.confirmations} confirm${tap.confirmations === 1 ? "" : "s"}`
-            : `seen ${seenAgo} · ${tap.confirmations} confirm${tap.confirmations === 1 ? "" : "s"}`}
-        </span>
         <div className="flex gap-2 ml-auto">
-          <button onClick={() => act("confirm")} disabled={busy !== null} className="text-xs rounded border px-2 py-1 hover:bg-stone-50 disabled:opacity-50">
-            {tap.confidence < 1 ? "✓ Yes, it's on" : "✓ Still on"}
-          </button>
-          <button onClick={() => act("remove")} disabled={busy !== null} className="text-xs rounded border px-2 py-1 hover:bg-stone-50 disabled:opacity-50">
-            ✕ Gone
-          </button>
           <label className="text-xs rounded border px-2 py-1 hover:bg-stone-50 cursor-pointer">
             📷 {busy === "photo" ? "Uploading…" : "Photo of the pour"}
             <input
@@ -171,6 +148,11 @@ function TapRow({ tap, signedIn, onNeedSignIn }: { tap: TapView; signedIn: boole
           {tap.photos.length > 0 && (
             <button onClick={() => setShowPhotos((s) => !s)} className="text-xs underline text-stone-600">
               {tap.photos.length} photo{tap.photos.length === 1 ? "" : "s"}
+            </button>
+          )}
+          {editing && (
+            <button onClick={remove} disabled={busy !== null} className="text-xs rounded border px-2 py-1 text-red-700 hover:bg-red-50 disabled:opacity-50">
+              ✕ Not on here
             </button>
           )}
         </div>
@@ -219,12 +201,4 @@ export function Stars({ value, onRate, label, disabled, small }: { value: number
       ))}
     </span>
   );
-}
-
-function timeAgo(d: Date) {
-  const mins = Math.round((Date.now() - d.getTime()) / 60000);
-  if (mins < 60) return `${mins}m ago`;
-  const hrs = Math.round(mins / 60);
-  if (hrs < 48) return `${hrs}h ago`;
-  return `${Math.round(hrs / 24)}d ago`;
 }
