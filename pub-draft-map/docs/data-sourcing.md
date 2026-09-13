@@ -37,8 +37,23 @@ Claimed pubs keep their own list. Most pubs already maintain a tap list somewher
 - **Brewery tap-finders.** Big brands publish "where to find us" (Asahi, BrewDog, Camden). Import per brand; each one is a sponsorship conversation too.
 - **EPOS / cellar systems** (Zonal, Vianet's iDraught, Star Stock, Tenzo). Vianet alone monitors flow on tens of thousands of UK taps. This is the eventual ground truth and the most valuable partnership in the plan, but it needs a track record first.
 
-### Layer D: inference
-When a pub has no fresh data, show a *likely* list with a clear label: the pub group's standard range, what it had last month, what nearby pubs of the same owner have. Never present inferred as confirmed.
+### Layer D: inference (built: `npm run enrich`)
+Drinkers won't seed 50,000 tap lists, so the app ships with a *likely* list for every pub and lets people confirm or correct it. Two inputs:
+
+1. **OSM tags.** `brand=*` and `operator=*` name the chain or pub company for tens of thousands of UK pubs (every Wetherspoon, Greene King, Fuller's, Toby, Harvester…). A smaller set carry `brewery=*`, which lists the beers actually served. `image=*` / `wikimedia_commons=*` give a licensed exterior photo.
+2. **Brand ranges** (`data/brand-ranges.json`): the core draught range each chain or tied brewery puts in nearly every site. 79 ranges, 157 beers, curated from public menus and trade press; treat it as a living file. Pubs with no signal get the national default (Guinness, 50%).
+
+`scripts/enrich-taps.ts` pulls the tags, stores brand/operator/photo on the pub, and upserts `TapListing` rows with `source=inferred|osm` and a `confidence`. The UI shows these under **Likely on tap**, search labels them *likely* and ranks confirmed sightings above them, and one tap of "Yes, it's on" promotes a listing to confirmed. Inferred rows are never allowed to overwrite a human one, and are withdrawn automatically if the pub's operator changes.
+
+Expected coverage from the OSM tags alone: roughly a third of UK pubs get a chain or brewery range; the rest get the national default until a person or a partner feed fills them in.
+
+### What we deliberately don't scrape
+- **Google Maps / Google Business photos and menus.** Terms forbid storing them, and Google enforces. Photos come from Wikimedia Commons and Geograph (CC licences) and from users.
+- **Untappd venue menus, Instagram, TikTok.** Same problem, and Untappd is the partner we most want. Ask for the feed instead.
+- **CAMRA WhatPub.** Best real-ale data in the country, no licence to copy it. Partnership conversation.
+
+### Scraping we can do, per site, with care
+Pub-company websites publish per-pub drinks menus (Wetherspoon, Greene King, Marston's, Fuller's, Young's, Stonegate brands). Facts about what a pub sells aren't copyrightable, but each site has terms and a `robots.txt`; the plan is one importer per group that honours robots, identifies itself, fetches slowly, and stores only beer names and prices. Do these after the launch city is live and after asking the groups for a feed first, because a feed is cheaper for everyone and a scraper is a relationship you can't unburn.
 
 ## Trust model
 Every listing has a source and a timestamp. Rank sources: EPOS > pub owner > multiple recent drinkers > single drinker > inferred. Conflicts resolve to the higher source; a drinker flag on an owner listing raises a notification to the owner rather than removing it outright.

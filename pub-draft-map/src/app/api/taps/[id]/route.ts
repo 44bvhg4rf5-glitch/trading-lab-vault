@@ -24,7 +24,8 @@ export const PATCH = handle<RouteCtx<{ id: string }>>(async (req, { params }) =>
     where: { id },
     data:
       body.action === "confirm"
-        ? { status: "ACTIVE", removedAt: null, lastSeenAt: new Date(), confirmations: { increment: 1 }, pricePence: body.pricePence ?? undefined }
+        ? // A human confirmation promotes an inferred/osm listing to a confirmed one.
+          { status: "ACTIVE", removedAt: null, lastSeenAt: new Date(), confirmations: { increment: 1 }, pricePence: body.pricePence ?? undefined, source: "user", confidence: 1 }
         : { status: "REMOVED", removedAt: new Date() },
   });
   return ok({ listing });

@@ -103,13 +103,17 @@ export const GET = handle(async (req) => {
         brewery: t.beer.brewery.name,
         pricePence: t.pricePence,
         lastSeenAt: t.lastSeenAt,
+        source: t.source,
+        confidence: t.confidence,
         avgScore: average(t.ratings.map((r) => r.score)),
         ratingCount: t.ratings.length,
       })),
     }))
     .filter((p) => p.distanceKm == null || p.distanceKm <= radiusKm)
+    // Confirmed sightings beat inferred ones; then distance.
     .sort(
       (a, b) =>
+        Math.max(0, ...b.matches.map((m) => m.confidence)) - Math.max(0, ...a.matches.map((m) => m.confidence)) ||
         (a.distanceKm ?? 0) - (b.distanceKm ?? 0) ||
         planRank(b.plan) - planRank(a.plan) ||
         b.tapCount - a.tapCount ||

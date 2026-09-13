@@ -12,7 +12,8 @@
     "import:osm": "tsx scripts/import-osm.ts",
     "postinstall": "prisma generate",
     "build:deploy": "prisma migrate deploy && next build",
-    "db:deploy": "prisma migrate deploy"
+    "db:deploy": "prisma migrate deploy",
+    "enrich": "tsx scripts/enrich-taps.ts"
   },
   "dependencies": {
     "@prisma/client": "^6.19.3",

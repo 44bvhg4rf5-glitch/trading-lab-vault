@@ -16,6 +16,9 @@ export type TapView = {
   servingMl: number;
   lastSeenAt: string;
   confirmations: number;
+  source: string;
+  confidence: number;
+  inferredFrom: string | null;
   avgScore: number | null;
   ratingCount: number;
   myScore: number | null;
@@ -27,13 +30,33 @@ export function TapList({ taps, signedIn }: { taps: TapView[]; signedIn: boolean
   if (!taps.length) {
     return <p className="mt-2 text-sm text-stone-600 rounded-lg border border-dashed border-stone-300 p-4">No tap list yet. Be the first to add what&apos;s pouring.</p>;
   }
+  const confirmed = taps.filter((t) => t.confidence >= 1);
+  const likely = taps.filter((t) => t.confidence < 1);
+  const rangeName = likely.find((t) => t.source === "inferred")?.inferredFrom;
   return (
     <>
-      <ul className="mt-2 divide-y divide-stone-200 rounded-lg border border-stone-200 bg-white">
-        {taps.map((t) => (
-          <TapRow key={t.id} tap={t} signedIn={signedIn} onNeedSignIn={() => setNeedSignIn(true)} />
-        ))}
-      </ul>
+      {confirmed.length > 0 && (
+        <ul className="mt-2 divide-y divide-stone-200 rounded-lg border border-stone-200 bg-white">
+          {confirmed.map((t) => (
+            <TapRow key={t.id} tap={t} signedIn={signedIn} onNeedSignIn={() => setNeedSignIn(true)} />
+          ))}
+        </ul>
+      )}
+      {likely.length > 0 && (
+        <div className="mt-3">
+          <div className="flex items-baseline justify-between px-1">
+            <h3 className="text-sm font-semibold text-stone-700">Likely on tap</h3>
+            <span className="text-xs text-stone-500">
+              {rangeName && rangeName !== "UK default pub" ? `Standard range for ${rangeName} pubs` : rangeName === "UK default pub" ? "On the bar in nearly every UK pub" : "From OpenStreetMap"} · not yet confirmed here
+            </span>
+          </div>
+          <ul className="mt-1 divide-y divide-stone-200 rounded-lg border border-dashed border-stone-300 bg-stone-50">
+            {likely.map((t) => (
+              <TapRow key={t.id} tap={t} signedIn={signedIn} onNeedSignIn={() => setNeedSignIn(true)} />
+            ))}
+          </ul>
+        </div>
+      )}
       {needSignIn && <SignInDialog onClose={() => setNeedSignIn(false)} />}
     </>
   );
@@ -120,11 +143,13 @@ function TapRow({ tap, signedIn, onNeedSignIn }: { tap: TapView; signedIn: boole
       <div className="flex flex-wrap items-center gap-x-4 gap-y-2 text-sm">
         <Stars value={tap.myScore} onRate={rate} label="Rate this beer here" disabled={busy === "rate"} />
         <span className="text-xs text-stone-500">
-          seen {seenAgo} · {tap.confirmations} confirm{tap.confirmations === 1 ? "" : "s"}
+          {tap.confidence < 1
+            ? `likely · ${Math.round(tap.confidence * 100)}% · ${tap.confirmations} confirm${tap.confirmations === 1 ? "" : "s"}`
+            : `seen ${seenAgo} · ${tap.confirmations} confirm${tap.confirmations === 1 ? "" : "s"}`}
         </span>
         <div className="flex gap-2 ml-auto">
           <button onClick={() => act("confirm")} disabled={busy !== null} className="text-xs rounded border px-2 py-1 hover:bg-stone-50 disabled:opacity-50">
-            ✓ Still on
+            {tap.confidence < 1 ? "✓ Yes, it's on" : "✓ Still on"}
           </button>
           <button onClick={() => act("remove")} disabled={busy !== null} className="text-xs rounded border px-2 py-1 hover:bg-stone-50 disabled:opacity-50">
             ✕ Gone

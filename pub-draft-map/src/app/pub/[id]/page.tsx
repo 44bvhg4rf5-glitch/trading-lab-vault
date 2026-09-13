@@ -57,6 +57,9 @@ export default async function PubPage({ params }: { params: Promise<{ id: string
     servingMl: t.servingMl,
     lastSeenAt: t.lastSeenAt.toISOString(),
     confirmations: t.confirmations,
+    source: t.source,
+    confidence: t.confidence,
+    inferredFrom: t.inferredFrom,
     avgScore: average(t.ratings.map((r) => r.score)),
     ratingCount: t.ratings.length,
     myScore: user ? (t.ratings.find((r) => r.userId === user.id)?.score ?? null) : null,
@@ -126,9 +129,16 @@ export default async function PubPage({ params }: { params: Promise<{ id: string
           </section>
         )}
 
+        {pub.imageUrl && (
+          // eslint-disable-next-line @next/next/no-img-element
+          <img src={pub.imageUrl} alt={pub.name} title={pub.imageCredit ?? undefined} className="w-full max-h-64 object-cover rounded-lg border border-stone-200" />
+        )}
+
         <section>
           <div className="flex items-baseline justify-between">
-            <h2 className="text-lg font-semibold">On draft ({taps.length})</h2>
+            <h2 className="text-lg font-semibold">
+              On draft ({taps.filter((t) => t.confidence >= 1).length} confirmed{taps.some((t) => t.confidence < 1) ? `, ${taps.filter((t) => t.confidence < 1).length} likely` : ""})
+            </h2>
             <span className="text-xs text-stone-500">Crowd-sourced · confirm or flag what you see</span>
           </div>
           <TapList taps={taps} signedIn={Boolean(user)} />

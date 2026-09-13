@@ -1,0 +1,1998 @@
+{
+  "_about": "Typical core draught ranges by pub company, chain brand or tied brewery. Used to pre-fill 'likely on tap' listings (source=inferred) until a drinker or the pub confirms them. Keys are matched against OSM brand/operator tags and pub names (case-insensitive, punctuation-insensitive). Ranges are the beers a chain stocks in nearly every site; guest and seasonal beers are deliberately left out. Verify and expand: this is a starting point, not gospel. Ranges with nameMatch=true are also matched against the pub's name (the brand is on the sign); all others match OSM brand/operator tags only.",
+  "beers": {
+    "Guinness": {
+      "brewery": "Guinness",
+      "style": "stout",
+      "abv": 4.2
+    },
+    "Carling": {
+      "brewery": "Molson Coors",
+      "style": "lager",
+      "abv": 4.0
+    },
+    "Stella Artois": {
+      "brewery": "AB InBev",
+      "style": "lager",
+      "abv": 4.6
+    },
+    "Foster's": {
+      "brewery": "Heineken UK",
+      "style": "lager",
+      "abv": 3.7
+    },
+    "Amstel": {
+      "brewery": "Heineken UK",
+      "style": "lager",
+      "abv": 4.1
+    },
+    "Heineken": {
+      "brewery": "Heineken",
+      "style": "lager",
+      "abv": 5.0
+    },
+    "Birra Moretti": {
+      "brewery": "Heineken UK",
+      "style": "lager",
+      "abv": 4.6
+    },
+    "Cruzcampo": {
+      "brewery": "Heineken UK",
+      "style": "lager",
+      "abv": 4.4
+    },
+    "Madri Excepcional": {
+      "brewery": "Molson Coors",
+      "style": "lager",
+      "abv": 4.6
+    },
+    "Coors": {
+      "brewery": "Molson Coors",
+      "style": "lager",
+      "abv": 4.0
+    },
+    "Pravha": {
+      "brewery": "Molson Coors",
+      "style": "lager",
+      "abv": 4.0
+    },
+    "Staropramen": {
+      "brewery": "Molson Coors",
+      "style": "lager",
+      "abv": 5.0
+    },
+    "Peroni Nastro Azzurro": {
+      "brewery": "Asahi",
+      "style": "lager",
+      "abv": 5.0
+    },
+    "Asahi Super Dry": {
+      "brewery": "Asahi",
+      "style": "lager",
+      "abv": 5.0
+    },
+    "Estrella Damm": {
+      "brewery": "Damm",
+      "style": "lager",
+      "abv": 4.6
+    },
+    "San Miguel": {
+      "brewery": "Carlsberg Marston's",
+      "style": "lager",
+      "abv": 5.0
+    },
+    "Carlsberg Danish Pilsner": {
+      "brewery": "Carlsberg Marston's",
+      "style": "lager",
+      "abv": 3.8
+    },
+    "Budweiser": {
+      "brewery": "AB InBev",
+      "style": "lager",
+      "abv": 4.5
+    },
+    "Bud Light": {
+      "brewery": "AB InBev",
+      "style": "lager",
+      "abv": 3.5
+    },
+    "Corona": {
+      "brewery": "AB InBev",
+      "style": "lager",
+      "abv": 4.5
+    },
+    "Camden Hells": {
+      "brewery": "Camden Town Brewery",
+      "style": "lager",
+      "abv": 4.6
+    },
+    "Beavertown Neck Oil": {
+      "brewery": "Beavertown",
+      "style": "session_ipa",
+      "abv": 4.3
+    },
+    "BrewDog Punk IPA": {
+      "brewery": "BrewDog",
+      "style": "ipa",
+      "abv": 5.4
+    },
+    "BrewDog Lost Lager": {
+      "brewery": "BrewDog",
+      "style": "lager",
+      "abv": 4.5
+    },
+    "BrewDog Hazy Jane": {
+      "brewery": "BrewDog",
+      "style": "neipa",
+      "abv": 5.0
+    },
+    "BrewDog Elvis Juice": {
+      "brewery": "BrewDog",
+      "style": "ipa",
+      "abv": 5.1
+    },
+    "Thornbridge Jaipur": {
+      "brewery": "Thornbridge",
+      "style": "ipa",
+      "abv": 5.9
+    },
+    "Strongbow": {
+      "brewery": "Heineken UK",
+      "style": "cider",
+      "abv": 4.5
+    },
+    "Strongbow Dark Fruit": {
+      "brewery": "Heineken UK",
+      "style": "cider",
+      "abv": 4.0
+    },
+    "Inch's": {
+      "brewery": "Heineken UK",
+      "style": "cider",
+      "abv": 4.5
+    },
+    "Thatchers Gold": {
+      "brewery": "Thatchers",
+      "style": "cider",
+      "abv": 4.8
+    },
+    "Aspall Cyder": {
+      "brewery": "Aspall",
+      "style": "cider",
+      "abv": 5.5
+    },
+    "Magners": {
+      "brewery": "C&C",
+      "style": "cider",
+      "abv": 4.5
+    },
+    "Kopparberg Strawberry & Lime": {
+      "brewery": "Kopparberg",
+      "style": "fruit_cider",
+      "abv": 4.0
+    },
+    "Old Mout": {
+      "brewery": "Heineken UK",
+      "style": "fruit_cider",
+      "abv": 4.0
+    },
+    "John Smith's": {
+      "brewery": "Heineken UK",
+      "style": "bitter",
+      "abv": 3.6
+    },
+    "Worthington's": {
+      "brewery": "Molson Coors",
+      "style": "bitter",
+      "abv": 3.6
+    },
+    "Tetley's": {
+      "brewery": "Carlsberg Marston's",
+      "style": "bitter",
+      "abv": 3.7
+    },
+    "Doom Bar": {
+      "brewery": "Sharp's",
+      "style": "bitter",
+      "abv": 4.0
+    },
+    "Ruddles Best": {
+      "brewery": "Greene King",
+      "style": "bitter",
+      "abv": 3.7
+    },
+    "Abbot Ale": {
+      "brewery": "Greene King",
+      "style": "bitter",
+      "abv": 5.0
+    },
+    "Greene King IPA": {
+      "brewery": "Greene King",
+      "style": "bitter",
+      "abv": 3.6
+    },
+    "Ice Breaker": {
+      "brewery": "Greene King",
+      "style": "pale_ale",
+      "abv": 4.5
+    },
+    "Level Head": {
+      "brewery": "Greene King",
+      "style": "session_ipa",
+      "abv": 4.0
+    },
+    "Old Speckled Hen": {
+      "brewery": "Greene King",
+      "style": "bitter",
+      "abv": 4.5
+    },
+    "Belhaven Best": {
+      "brewery": "Belhaven (Greene King)",
+      "style": "bitter",
+      "abv": 3.2
+    },
+    "London Pride": {
+      "brewery": "Fuller's",
+      "style": "bitter",
+      "abv": 4.1
+    },
+    "Fuller's ESB": {
+      "brewery": "Fuller's",
+      "style": "bitter",
+      "abv": 5.5
+    },
+    "Frontier": {
+      "brewery": "Fuller's",
+      "style": "lager",
+      "abv": 4.5
+    },
+    "Dark Star Hophead": {
+      "brewery": "Dark Star (Asahi)",
+      "style": "pale_ale",
+      "abv": 3.8
+    },
+    "Meantime London Lager": {
+      "brewery": "Meantime (Asahi)",
+      "style": "lager",
+      "abv": 4.5
+    },
+    "Meantime London Pale Ale": {
+      "brewery": "Meantime (Asahi)",
+      "style": "pale_ale",
+      "abv": 4.3
+    },
+    "Young's Original": {
+      "brewery": "Young's (Eagle)",
+      "style": "bitter",
+      "abv": 3.7
+    },
+    "Young's Special": {
+      "brewery": "Young's (Eagle)",
+      "style": "bitter",
+      "abv": 4.5
+    },
+    "Wainwright": {
+      "brewery": "Carlsberg Marston's",
+      "style": "golden_ale",
+      "abv": 4.1
+    },
+    "Hobgoblin": {
+      "brewery": "Carlsberg Marston's",
+      "style": "bitter",
+      "abv": 4.5
+    },
+    "Pedigree": {
+      "brewery": "Carlsberg Marston's",
+      "style": "bitter",
+      "abv": 4.5
+    },
+    "Shipyard American Pale Ale": {
+      "brewery": "Carlsberg Marston's",
+      "style": "pale_ale",
+      "abv": 4.5
+    },
+    "Spitfire": {
+      "brewery": "Shepherd Neame",
+      "style": "bitter",
+      "abv": 4.2
+    },
+    "Whitstable Bay Pale Ale": {
+      "brewery": "Shepherd Neame",
+      "style": "pale_ale",
+      "abv": 3.9
+    },
+    "Bishops Finger": {
+      "brewery": "Shepherd Neame",
+      "style": "bitter",
+      "abv": 5.4
+    },
+    "Master Brew": {
+      "brewery": "Shepherd Neame",
+      "style": "bitter",
+      "abv": 3.7
+    },
+    "Bear Island": {
+      "brewery": "Shepherd Neame",
+      "style": "pale_ale",
+      "abv": 4.8
+    },
+    "Unicorn": {
+      "brewery": "Robinsons",
+      "style": "bitter",
+      "abv": 4.2
+    },
+    "Dizzy Blonde": {
+      "brewery": "Robinsons",
+      "style": "golden_ale",
+      "abv": 3.8
+    },
+    "Trooper": {
+      "brewery": "Robinsons",
+      "style": "bitter",
+      "abv": 4.7
+    },
+    "JW Lees Bitter": {
+      "brewery": "JW Lees",
+      "style": "bitter",
+      "abv": 4.0
+    },
+    "Manchester Pale Ale": {
+      "brewery": "JW Lees",
+      "style": "pale_ale",
+      "abv": 3.7
+    },
+    "Joseph Holt Bitter": {
+      "brewery": "Joseph Holt",
+      "style": "bitter",
+      "abv": 4.0
+    },
+    "Holt's Crystal": {
+      "brewery": "Joseph Holt",
+      "style": "lager",
+      "abv": 4.0
+    },
+    "Hydes Original": {
+      "brewery": "Hydes",
+      "style": "bitter",
+      "abv": 3.8
+    },
+    "Thwaites Original": {
+      "brewery": "Thwaites",
+      "style": "bitter",
+      "abv": 3.6
+    },
+    "Wainwright Gold": {
+      "brewery": "Thwaites",
+      "style": "golden_ale",
+      "abv": 4.1
+    },
+    "Tribute": {
+      "brewery": "St Austell",
+      "style": "pale_ale",
+      "abv": 4.2
+    },
+    "Proper Job": {
+      "brewery": "St Austell",
+      "style": "ipa",
+      "abv": 4.5
+    },
+    "Korev": {
+      "brewery": "St Austell",
+      "style": "lager",
+      "abv": 4.8
+    },
+    "Brains SA": {
+      "brewery": "Brains",
+      "style": "bitter",
+      "abv": 4.2
+    },
+    "Brains Bitter": {
+      "brewery": "Brains",
+      "style": "bitter",
+      "abv": 3.7
+    },
+    "Wadworth 6X": {
+      "brewery": "Wadworth",
+      "style": "bitter",
+      "abv": 4.1
+    },
+    "Henry's IPA": {
+      "brewery": "Wadworth",
+      "style": "bitter",
+      "abv": 3.6
+    },
+    "Adnams Southwold Bitter": {
+      "brewery": "Adnams",
+      "style": "bitter",
+      "abv": 3.7
+    },
+    "Adnams Ghost Ship": {
+      "brewery": "Adnams",
+      "style": "pale_ale",
+      "abv": 4.5
+    },
+    "Badger Fursty Ferret": {
+      "brewery": "Hall & Woodhouse",
+      "style": "bitter",
+      "abv": 4.4
+    },
+    "Badger Best": {
+      "brewery": "Hall & Woodhouse",
+      "style": "bitter",
+      "abv": 3.7
+    },
+    "Tanglefoot": {
+      "brewery": "Hall & Woodhouse",
+      "style": "golden_ale",
+      "abv": 4.9
+    },
+    "Timothy Taylor Landlord": {
+      "brewery": "Timothy Taylor",
+      "style": "bitter",
+      "abv": 4.3
+    },
+    "Boltmaker": {
+      "brewery": "Timothy Taylor",
+      "style": "bitter",
+      "abv": 4.0
+    },
+    "Knowle Spring": {
+      "brewery": "Timothy Taylor",
+      "style": "golden_ale",
+      "abv": 4.2
+    },
+    "Everards Tiger": {
+      "brewery": "Everards",
+      "style": "bitter",
+      "abv": 4.2
+    },
+    "Everards Beacon Hill": {
+      "brewery": "Everards",
+      "style": "bitter",
+      "abv": 3.8
+    },
+    "Batemans XB": {
+      "brewery": "Batemans",
+      "style": "bitter",
+      "abv": 3.7
+    },
+    "Batemans XXXB": {
+      "brewery": "Batemans",
+      "style": "bitter",
+      "abv": 4.8
+    },
+    "Hooky": {
+      "brewery": "Hook Norton",
+      "style": "bitter",
+      "abv": 3.5
+    },
+    "Old Hooky": {
+      "brewery": "Hook Norton",
+      "style": "bitter",
+      "abv": 4.6
+    },
+    "McMullen AK": {
+      "brewery": "McMullen",
+      "style": "bitter",
+      "abv": 3.7
+    },
+    "McMullen Country": {
+      "brewery": "McMullen",
+      "style": "bitter",
+      "abv": 4.3
+    },
+    "Rivertown": {
+      "brewery": "McMullen",
+      "style": "lager",
+      "abv": 4.0
+    },
+    "Bombardier": {
+      "brewery": "Carlsberg Marston's",
+      "style": "bitter",
+      "abv": 4.1
+    },
+    "Eagle IPA": {
+      "brewery": "Carlsberg Marston's",
+      "style": "bitter",
+      "abv": 3.6
+    },
+    "Camerons Strongarm": {
+      "brewery": "Camerons",
+      "style": "bitter",
+      "abv": 4.0
+    },
+    "Black Sheep Best Bitter": {
+      "brewery": "Black Sheep",
+      "style": "bitter",
+      "abv": 3.8
+    },
+    "Theakston Best Bitter": {
+      "brewery": "Theakston",
+      "style": "bitter",
+      "abv": 3.8
+    },
+    "Old Peculier": {
+      "brewery": "Theakston",
+      "style": "old_ale",
+      "abv": 5.6
+    },
+    "Harvey's Sussex Best": {
+      "brewery": "Harvey's",
+      "style": "bitter",
+      "abv": 4.0
+    },
+    "Palmers IPA": {
+      "brewery": "Palmers",
+      "style": "bitter",
+      "abv": 4.2
+    },
+    "Palmers Copper Ale": {
+      "brewery": "Palmers",
+      "style": "bitter",
+      "abv": 3.7
+    },
+    "Arkell's 3B": {
+      "brewery": "Arkell's",
+      "style": "bitter",
+      "abv": 4.0
+    },
+    "Arkell's Wiltshire Gold": {
+      "brewery": "Arkell's",
+      "style": "golden_ale",
+      "abv": 3.7
+    },
+    "Donnington BB": {
+      "brewery": "Donnington",
+      "style": "bitter",
+      "abv": 3.5
+    },
+    "Donnington SBA": {
+      "brewery": "Donnington",
+      "style": "bitter",
+      "abv": 4.4
+    },
+    "Elgood's Cambridge Bitter": {
+      "brewery": "Elgood's",
+      "style": "bitter",
+      "abv": 3.8
+    },
+    "Felinfoel Double Dragon": {
+      "brewery": "Felinfoel",
+      "style": "bitter",
+      "abv": 4.2
+    },
+    "Okell's Bitter": {
+      "brewery": "Okell's",
+      "style": "bitter",
+      "abv": 3.7
+    },
+    "Titanic Plum Porter": {
+      "brewery": "Titanic",
+      "style": "porter",
+      "abv": 4.9
+    },
+    "Ossett Yorkshire Blonde": {
+      "brewery": "Ossett",
+      "style": "golden_ale",
+      "abv": 3.9
+    },
+    "Wye Valley HPA": {
+      "brewery": "Wye Valley",
+      "style": "pale_ale",
+      "abv": 4.0
+    },
+    "Wye Valley Butty Bach": {
+      "brewery": "Wye Valley",
+      "style": "bitter",
+      "abv": 4.5
+    },
+    "Otter Bitter": {
+      "brewery": "Otter",
+      "style": "bitter",
+      "abv": 3.6
+    },
+    "Otter Amber": {
+      "brewery": "Otter",
+      "style": "bitter",
+      "abv": 4.0
+    },
+    "Butcombe Original": {
+      "brewery": "Butcombe",
+      "style": "bitter",
+      "abv": 4.0
+    },
+    "Butcombe Gold": {
+      "brewery": "Butcombe",
+      "style": "golden_ale",
+      "abv": 4.4
+    },
+    "Brakspear Bitter": {
+      "brewery": "Brakspear (Carlsberg Marston's)",
+      "style": "bitter",
+      "abv": 3.4
+    },
+    "Brakspear Oxford Gold": {
+      "brewery": "Brakspear (Carlsberg Marston's)",
+      "style": "golden_ale",
+      "abv": 4.0
+    },
+    "Old Golden Hen": {
+      "brewery": "Greene King",
+      "style": "golden_ale",
+      "abv": 4.1
+    },
+    "Deuchars IPA": {
+      "brewery": "Caledonian (Greene King)",
+      "style": "pale_ale",
+      "abv": 3.8
+    },
+    "Tennent's Lager": {
+      "brewery": "Tennent's (C&C)",
+      "style": "lager",
+      "abv": 4.0
+    },
+    "Caledonia Best": {
+      "brewery": "Tennent's (C&C)",
+      "style": "bitter",
+      "abv": 3.2
+    },
+    "Innis & Gunn Lager": {
+      "brewery": "Innis & Gunn",
+      "style": "lager",
+      "abv": 4.6
+    },
+    "Harp": {
+      "brewery": "Diageo",
+      "style": "lager",
+      "abv": 4.0
+    },
+    "Smithwick's": {
+      "brewery": "Diageo",
+      "style": "red_ale",
+      "abv": 3.8
+    },
+    "Samuel Smith Old Brewery Bitter": {
+      "brewery": "Samuel Smith",
+      "style": "bitter",
+      "abv": 4.0
+    },
+    "Samuel Smith Alpine Lager": {
+      "brewery": "Samuel Smith",
+      "style": "lager",
+      "abv": 4.4
+    },
+    "Samuel Smith Taddy Lager": {
+      "brewery": "Samuel Smith",
+      "style": "lager",
+      "abv": 4.4
+    },
+    "Samuel Smith Extra Stout": {
+      "brewery": "Samuel Smith",
+      "style": "stout",
+      "abv": 4.7
+    },
+    "Samuel Smith Organic Cider": {
+      "brewery": "Samuel Smith",
+      "style": "cider",
+      "abv": 5.0
+    },
+    "Sharp's Atlantic": {
+      "brewery": "Sharp's",
+      "style": "pale_ale",
+      "abv": 4.2
+    },
+    "Sharp's Offshore Pilsner": {
+      "brewery": "Sharp's",
+      "style": "lager",
+      "abv": 4.8
+    },
+    "Blue Moon": {
+      "brewery": "Molson Coors",
+      "style": "wheat",
+      "abv": 5.4
+    },
+    "Hop House 13": {
+      "brewery": "Guinness",
+      "style": "lager",
+      "abv": 4.1
+    },
+    "Rockshore": {
+      "brewery": "Guinness",
+      "style": "lager",
+      "abv": 4.0
+    },
+    "Brooklyn Pilsner": {
+      "brewery": "Brooklyn (Carlsberg)",
+      "style": "lager",
+      "abv": 4.6
+    },
+    "Poretti": {
+      "brewery": "Carlsberg Marston's",
+      "style": "lager",
+      "abv": 4.8
+    },
+    "Erdinger": {
+      "brewery": "Erdinger",
+      "style": "wheat",
+      "abv": 5.3
+    },
+    "Leffe Blonde": {
+      "brewery": "AB InBev",
+      "style": "belgian_ale",
+      "abv": 6.6
+    },
+    "Goose Island IPA": {
+      "brewery": "AB InBev",
+      "style": "ipa",
+      "abv": 5.9
+    },
+    "Camden Pale Ale": {
+      "brewery": "Camden Town Brewery",
+      "style": "pale_ale",
+      "abv": 4.0
+    },
+    "Camden Ale": {
+      "brewery": "Camden Town Brewery",
+      "style": "bitter",
+      "abv": 4.5
+    },
+    "Fuller's Honey Dew": {
+      "brewery": "Fuller's",
+      "style": "golden_ale",
+      "abv": 5.0
+    },
+    "Cornish Orchards Gold": {
+      "brewery": "Cornish Orchards (Fuller's)",
+      "style": "cider",
+      "abv": 5.0
+    },
+    "Lilley's Mango Cider": {
+      "brewery": "Lilley's",
+      "style": "fruit_cider",
+      "abv": 4.0
+    },
+    "Westons Stowford Press": {
+      "brewery": "Westons",
+      "style": "cider",
+      "abv": 4.5
+    },
+    "Orchard Pig Reveller": {
+      "brewery": "Orchard Pig",
+      "style": "cider",
+      "abv": 4.5
+    },
+    "Weihenstephaner": {
+      "brewery": "Weihenstephan",
+      "style": "wheat",
+      "abv": 5.4
+    },
+    "Beavertown Gamma Ray": {
+      "brewery": "Beavertown",
+      "style": "pale_ale",
+      "abv": 5.4
+    },
+    "Beavertown Bones": {
+      "brewery": "Beavertown",
+      "style": "lager",
+      "abv": 4.3
+    },
+    "Curious Brew": {
+      "brewery": "Curious",
+      "style": "lager",
+      "abv": 4.7
+    },
+    "Marston's 61 Deep": {
+      "brewery": "Carlsberg Marston's",
+      "style": "pale_ale",
+      "abv": 3.8
+    }
+  },
+  "ranges": {
+    "UK default pub": {
+      "match": [],
+      "confidence": 0.5,
+      "note": "Applied to any pub (not bar) with no other signal. Guinness is on the bar in the vast majority of UK pubs; one mainstream lager and a cider nearly always.",
+      "beers": [
+        "Guinness"
+      ]
+    },
+    "Wetherspoon": {
+      "match": [
+        "wetherspoon",
+        "j d wetherspoon",
+        "jd wetherspoon",
+        "wetherspoons",
+        "j.d. wetherspoon"
+      ],
+      "confidence": 0.9,
+      "beers": [
+        "Guinness",
+        "Carling",
+        "Stella Artois",
+        "Bud Light",
+        "Corona",
+        "Carlsberg Danish Pilsner",
+        "BrewDog Punk IPA",
+        "Ruddles Best",
+        "Abbot Ale",
+        "Doom Bar",
+        "Strongbow",
+        "Strongbow Dark Fruit",
+        "Thatchers Gold",
+        "Kopparberg Strawberry & Lime",
+        "Worthington's"
+      ],
+      "nameMatch": true
+    },
+    "Greene King": {
+      "match": [
+        "greene king",
+        "greene king pubs",
+        "greene king brewing"
+      ],
+      "confidence": 0.8,
+      "beers": [
+        "Guinness",
+        "Greene King IPA",
+        "Abbot Ale",
+        "Ice Breaker",
+        "Level Head",
+        "Old Speckled Hen",
+        "Carling",
+        "Stella Artois",
+        "Madri Excepcional",
+        "Strongbow",
+        "Old Mout"
+      ]
+    },
+    "Hungry Horse": {
+      "match": [
+        "hungry horse"
+      ],
+      "confidence": 0.85,
+      "beers": [
+        "Guinness",
+        "Greene King IPA",
+        "Abbot Ale",
+        "Ice Breaker",
+        "Carling",
+        "Stella Artois",
+        "Madri Excepcional",
+        "Strongbow",
+        "Old Mout"
+      ],
+      "nameMatch": true
+    },
+    "Chef & Brewer": {
+      "match": [
+        "chef & brewer",
+        "chef and brewer"
+      ],
+      "confidence": 0.85,
+      "beers": [
+        "Guinness",
+        "Greene King IPA",
+        "Abbot Ale",
+        "Ice Breaker",
+        "Level Head",
+        "Stella Artois",
+        "Madri Excepcional",
+        "Peroni Nastro Azzurro",
+        "Strongbow",
+        "Aspall Cyder"
+      ],
+      "nameMatch": true
+    },
+    "Farmhouse Inns": {
+      "match": [
+        "farmhouse inns"
+      ],
+      "confidence": 0.85,
+      "beers": [
+        "Guinness",
+        "Greene King IPA",
+        "Abbot Ale",
+        "Ice Breaker",
+        "Carling",
+        "Stella Artois",
+        "Strongbow"
+      ],
+      "nameMatch": true
+    },
+    "Flaming Grill": {
+      "match": [
+        "flaming grill"
+      ],
+      "confidence": 0.85,
+      "beers": [
+        "Guinness",
+        "Greene King IPA",
+        "Ice Breaker",
+        "Carling",
+        "Stella Artois",
+        "Madri Excepcional",
+        "Strongbow",
+        "Old Mout"
+      ],
+      "nameMatch": true
+    },
+    "Belhaven": {
+      "match": [
+        "belhaven"
+      ],
+      "confidence": 0.8,
+      "beers": [
+        "Guinness",
+        "Belhaven Best",
+        "Tennent's Lager",
+        "Stella Artois",
+        "Madri Excepcional",
+        "Strongbow"
+      ]
+    },
+    "Marston's": {
+      "match": [
+        "marston's",
+        "marstons",
+        "marston's pubs",
+        "marston's plc",
+        "carlsberg marston's"
+      ],
+      "confidence": 0.75,
+      "beers": [
+        "Guinness",
+        "Pedigree",
+        "Wainwright",
+        "Hobgoblin",
+        "Carlsberg Danish Pilsner",
+        "San Miguel",
+        "Poretti",
+        "Brooklyn Pilsner",
+        "Estrella Damm",
+        "Strongbow",
+        "Thatchers Gold"
+      ]
+    },
+    "Stonegate": {
+      "match": [
+        "stonegate",
+        "stonegate pub company",
+        "stonegate group",
+        "ei group",
+        "enterprise inns",
+        "ei publican partnerships"
+      ],
+      "confidence": 0.55,
+      "note": "Leased estate: range varies by licensee, but the supply deals put these on most bars.",
+      "beers": [
+        "Guinness",
+        "Carling",
+        "Stella Artois",
+        "Madri Excepcional",
+        "Amstel",
+        "Birra Moretti",
+        "Strongbow",
+        "Inch's"
+      ]
+    },
+    "Slug and Lettuce": {
+      "match": [
+        "slug and lettuce",
+        "slug & lettuce"
+      ],
+      "confidence": 0.85,
+      "beers": [
+        "Guinness",
+        "Amstel",
+        "Birra Moretti",
+        "Peroni Nastro Azzurro",
+        "Madri Excepcional",
+        "Camden Hells",
+        "Inch's",
+        "Kopparberg Strawberry & Lime"
+      ],
+      "nameMatch": true
+    },
+    "Yates": {
+      "match": [
+        "yates",
+        "yates's"
+      ],
+      "confidence": 0.8,
+      "beers": [
+        "Guinness",
+        "Carling",
+        "Stella Artois",
+        "Madri Excepcional",
+        "Amstel",
+        "Strongbow Dark Fruit",
+        "Kopparberg Strawberry & Lime"
+      ],
+      "nameMatch": true
+    },
+    "Walkabout": {
+      "match": [
+        "walkabout"
+      ],
+      "confidence": 0.8,
+      "beers": [
+        "Guinness",
+        "Carling",
+        "Stella Artois",
+        "Foster's",
+        "Madri Excepcional",
+        "Strongbow",
+        "Kopparberg Strawberry & Lime"
+      ],
+      "nameMatch": true
+    },
+    "Be At One": {
+      "match": [
+        "be at one"
+      ],
+      "confidence": 0.7,
+      "beers": [
+        "Amstel",
+        "Birra Moretti",
+        "Madri Excepcional"
+      ],
+      "nameMatch": true
+    },
+    "Craft Union": {
+      "match": [
+        "craft union",
+        "craft union pub company"
+      ],
+      "confidence": 0.8,
+      "beers": [
+        "Guinness",
+        "Carling",
+        "Stella Artois",
+        "Foster's",
+        "John Smith's",
+        "Madri Excepcional",
+        "Strongbow",
+        "Strongbow Dark Fruit"
+      ],
+      "nameMatch": true
+    },
+    "Mitchells & Butlers": {
+      "match": [
+        "mitchells & butlers",
+        "mitchells and butlers",
+        "m&b",
+        "m & b"
+      ],
+      "confidence": 0.7,
+      "beers": [
+        "Guinness",
+        "Carling",
+        "Stella Artois",
+        "Madri Excepcional",
+        "Peroni Nastro Azzurro",
+        "Camden Hells",
+        "Doom Bar",
+        "Strongbow",
+        "Aspall Cyder"
+      ]
+    },
+    "All Bar One": {
+      "match": [
+        "all bar one"
+      ],
+      "confidence": 0.85,
+      "beers": [
+        "Guinness",
+        "Peroni Nastro Azzurro",
+        "Camden Hells",
+        "Asahi Super Dry",
+        "Madri Excepcional",
+        "Beavertown Neck Oil",
+        "Aspall Cyder"
+      ],
+      "nameMatch": true
+    },
+    "Harvester": {
+      "match": [
+        "harvester"
+      ],
+      "confidence": 0.85,
+      "beers": [
+        "Guinness",
+        "Carling",
+        "Stella Artois",
+        "Madri Excepcional",
+        "Doom Bar",
+        "Strongbow",
+        "Strongbow Dark Fruit"
+      ],
+      "nameMatch": true
+    },
+    "Toby Carvery": {
+      "match": [
+        "toby carvery"
+      ],
+      "confidence": 0.85,
+      "beers": [
+        "Guinness",
+        "Carling",
+        "Stella Artois",
+        "Madri Excepcional",
+        "Doom Bar",
+        "Strongbow"
+      ],
+      "nameMatch": true
+    },
+    "O'Neill's": {
+      "match": [
+        "o'neill's",
+        "o'neills",
+        "oneills"
+      ],
+      "confidence": 0.85,
+      "beers": [
+        "Guinness",
+        "Smithwick's",
+        "Harp",
+        "Hop House 13",
+        "Carling",
+        "Madri Excepcional",
+        "Magners"
+      ],
+      "nameMatch": true
+    },
+    "Nicholson's": {
+      "match": [
+        "nicholson's",
+        "nicholsons"
+      ],
+      "confidence": 0.85,
+      "beers": [
+        "Guinness",
+        "Timothy Taylor Landlord",
+        "London Pride",
+        "Doom Bar",
+        "Camden Hells",
+        "Peroni Nastro Azzurro",
+        "Asahi Super Dry",
+        "Aspall Cyder"
+      ],
+      "nameMatch": true
+    },
+    "Ember Inns": {
+      "match": [
+        "ember inns",
+        "ember inn"
+      ],
+      "confidence": 0.85,
+      "beers": [
+        "Guinness",
+        "Carling",
+        "Stella Artois",
+        "Madri Excepcional",
+        "Doom Bar",
+        "Timothy Taylor Landlord",
+        "Strongbow",
+        "Aspall Cyder"
+      ],
+      "nameMatch": true
+    },
+    "Miller & Carter": {
+      "match": [
+        "miller & carter",
+        "miller and carter"
+      ],
+      "confidence": 0.85,
+      "beers": [
+        "Guinness",
+        "Peroni Nastro Azzurro",
+        "Camden Hells",
+        "Madri Excepcional",
+        "Aspall Cyder"
+      ],
+      "nameMatch": true
+    },
+    "Vintage Inns": {
+      "match": [
+        "vintage inns",
+        "vintage inn"
+      ],
+      "confidence": 0.85,
+      "beers": [
+        "Guinness",
+        "Doom Bar",
+        "Timothy Taylor Landlord",
+        "Peroni Nastro Azzurro",
+        "Camden Hells",
+        "Stella Artois",
+        "Aspall Cyder"
+      ],
+      "nameMatch": true
+    },
+    "Sizzling Pubs": {
+      "match": [
+        "sizzling pubs",
+        "sizzling pub"
+      ],
+      "confidence": 0.85,
+      "beers": [
+        "Guinness",
+        "Carling",
+        "Stella Artois",
+        "Foster's",
+        "Madri Excepcional",
+        "Strongbow",
+        "Strongbow Dark Fruit"
+      ],
+      "nameMatch": true
+    },
+    "Browns": {
+      "match": [
+        "browns brasserie",
+        "browns restaurant"
+      ],
+      "confidence": 0.7,
+      "beers": [
+        "Guinness",
+        "Peroni Nastro Azzurro",
+        "Camden Hells"
+      ],
+      "nameMatch": true
+    },
+    "Brewers Fayre": {
+      "match": [
+        "brewers fayre"
+      ],
+      "confidence": 0.85,
+      "beers": [
+        "Guinness",
+        "Carling",
+        "Stella Artois",
+        "Madri Excepcional",
+        "Doom Bar",
+        "Strongbow",
+        "Strongbow Dark Fruit"
+      ],
+      "nameMatch": true
+    },
+    "Beefeater": {
+      "match": [
+        "beefeater"
+      ],
+      "confidence": 0.85,
+      "beers": [
+        "Guinness",
+        "Carling",
+        "Stella Artois",
+        "Madri Excepcional",
+        "Doom Bar",
+        "Strongbow"
+      ],
+      "nameMatch": true
+    },
+    "Whitbread": {
+      "match": [
+        "whitbread"
+      ],
+      "confidence": 0.75,
+      "beers": [
+        "Guinness",
+        "Carling",
+        "Stella Artois",
+        "Madri Excepcional",
+        "Doom Bar",
+        "Strongbow"
+      ]
+    },
+    "Star Pubs & Bars": {
+      "match": [
+        "star pubs & bars",
+        "star pubs and bars",
+        "star pubs",
+        "heineken",
+        "heineken uk"
+      ],
+      "confidence": 0.65,
+      "beers": [
+        "Guinness",
+        "Foster's",
+        "Amstel",
+        "Heineken",
+        "Birra Moretti",
+        "Cruzcampo",
+        "John Smith's",
+        "Strongbow",
+        "Strongbow Dark Fruit",
+        "Inch's",
+        "Old Mout"
+      ]
+    },
+    "Punch": {
+      "match": [
+        "punch taverns",
+        "punch pubs",
+        "punch pubs & co",
+        "punch pubs and co"
+      ],
+      "confidence": 0.5,
+      "beers": [
+        "Guinness",
+        "Carling",
+        "Stella Artois",
+        "Foster's",
+        "Madri Excepcional",
+        "Strongbow"
+      ]
+    },
+    "Admiral Taverns": {
+      "match": [
+        "admiral taverns"
+      ],
+      "confidence": 0.5,
+      "beers": [
+        "Guinness",
+        "Carling",
+        "Foster's",
+        "John Smith's",
+        "Strongbow"
+      ]
+    },
+    "Hawthorn": {
+      "match": [
+        "hawthorn leisure",
+        "hawthorn"
+      ],
+      "confidence": 0.5,
+      "beers": [
+        "Guinness",
+        "Carling",
+        "Foster's",
+        "Strongbow"
+      ]
+    },
+    "Trust Inns": {
+      "match": [
+        "trust inns"
+      ],
+      "confidence": 0.5,
+      "beers": [
+        "Guinness",
+        "Carling",
+        "Foster's",
+        "Strongbow"
+      ]
+    },
+    "Wellington Pub Company": {
+      "match": [
+        "wellington pub company",
+        "wellington pub co"
+      ],
+      "confidence": 0.45,
+      "beers": [
+        "Guinness",
+        "Carling",
+        "Strongbow"
+      ]
+    },
+    "New River": {
+      "match": [
+        "new river",
+        "new river retail"
+      ],
+      "confidence": 0.5,
+      "beers": [
+        "Guinness",
+        "Carling",
+        "Foster's",
+        "Strongbow"
+      ]
+    },
+    "Red Oak Taverns": {
+      "match": [
+        "red oak taverns",
+        "red oak"
+      ],
+      "confidence": 0.5,
+      "beers": [
+        "Guinness",
+        "Carling",
+        "Foster's",
+        "Strongbow"
+      ]
+    },
+    "Fuller's": {
+      "match": [
+        "fuller's",
+        "fullers",
+        "fuller smith & turner",
+        "fuller, smith & turner"
+      ],
+      "confidence": 0.85,
+      "beers": [
+        "Guinness",
+        "London Pride",
+        "Fuller's ESB",
+        "Frontier",
+        "Dark Star Hophead",
+        "Asahi Super Dry",
+        "Peroni Nastro Azzurro",
+        "Meantime London Lager",
+        "Cornish Orchards Gold",
+        "Aspall Cyder"
+      ]
+    },
+    "Young's": {
+      "match": [
+        "young's",
+        "youngs",
+        "young & co",
+        "young & co.'s brewery",
+        "young's pubs"
+      ],
+      "confidence": 0.85,
+      "beers": [
+        "Guinness",
+        "Young's Original",
+        "Young's Special",
+        "Camden Hells",
+        "Peroni Nastro Azzurro",
+        "Asahi Super Dry",
+        "Estrella Damm",
+        "Beavertown Neck Oil",
+        "Aspall Cyder"
+      ]
+    },
+    "Shepherd Neame": {
+      "match": [
+        "shepherd neame"
+      ],
+      "confidence": 0.85,
+      "beers": [
+        "Guinness",
+        "Spitfire",
+        "Master Brew",
+        "Whitstable Bay Pale Ale",
+        "Bishops Finger",
+        "Bear Island",
+        "Asahi Super Dry",
+        "Peroni Nastro Azzurro",
+        "Strongbow"
+      ]
+    },
+    "Robinsons": {
+      "match": [
+        "robinsons",
+        "robinson's",
+        "frederic robinson",
+        "robinsons brewery"
+      ],
+      "confidence": 0.85,
+      "beers": [
+        "Guinness",
+        "Unicorn",
+        "Dizzy Blonde",
+        "Trooper",
+        "Carling",
+        "Estrella Damm",
+        "Strongbow"
+      ]
+    },
+    "JW Lees": {
+      "match": [
+        "jw lees",
+        "j w lees",
+        "j.w. lees",
+        "lees"
+      ],
+      "confidence": 0.85,
+      "beers": [
+        "Guinness",
+        "JW Lees Bitter",
+        "Manchester Pale Ale",
+        "Carling",
+        "Strongbow"
+      ]
+    },
+    "Joseph Holt": {
+      "match": [
+        "joseph holt",
+        "holt's",
+        "holts"
+      ],
+      "confidence": 0.85,
+      "beers": [
+        "Guinness",
+        "Joseph Holt Bitter",
+        "Holt's Crystal",
+        "Carling",
+        "Strongbow"
+      ]
+    },
+    "Hydes": {
+      "match": [
+        "hydes",
+        "hydes brewery"
+      ],
+      "confidence": 0.85,
+      "beers": [
+        "Guinness",
+        "Hydes Original",
+        "Carling",
+        "Strongbow"
+      ]
+    },
+    "Thwaites": {
+      "match": [
+        "thwaites",
+        "daniel thwaites"
+      ],
+      "confidence": 0.8,
+      "beers": [
+        "Guinness",
+        "Thwaites Original",
+        "Wainwright",
+        "Carling",
+        "Strongbow"
+      ]
+    },
+    "St Austell": {
+      "match": [
+        "st austell",
+        "st. austell",
+        "st austell brewery"
+      ],
+      "confidence": 0.85,
+      "beers": [
+        "Guinness",
+        "Tribute",
+        "Proper Job",
+        "Korev",
+        "Peroni Nastro Azzurro",
+        "Thatchers Gold"
+      ]
+    },
+    "Brains": {
+      "match": [
+        "brains",
+        "s a brain",
+        "sa brain",
+        "brain's"
+      ],
+      "confidence": 0.8,
+      "beers": [
+        "Guinness",
+        "Brains SA",
+        "Brains Bitter",
+        "Carling",
+        "Strongbow"
+      ]
+    },
+    "Wadworth": {
+      "match": [
+        "wadworth"
+      ],
+      "confidence": 0.85,
+      "beers": [
+        "Guinness",
+        "Wadworth 6X",
+        "Henry's IPA",
+        "Carling",
+        "Strongbow"
+      ]
+    },
+    "Adnams": {
+      "match": [
+        "adnams"
+      ],
+      "confidence": 0.85,
+      "beers": [
+        "Guinness",
+        "Adnams Southwold Bitter",
+        "Adnams Ghost Ship",
+        "Aspall Cyder"
+      ]
+    },
+    "Hall & Woodhouse": {
+      "match": [
+        "hall & woodhouse",
+        "hall and woodhouse",
+        "badger"
+      ],
+      "confidence": 0.85,
+      "beers": [
+        "Guinness",
+        "Badger Best",
+        "Badger Fursty Ferret",
+        "Tanglefoot",
+        "Carling",
+        "Strongbow"
+      ]
+    },
+    "Timothy Taylor": {
+      "match": [
+        "timothy taylor",
+        "timothy taylor's"
+      ],
+      "confidence": 0.85,
+      "beers": [
+        "Guinness",
+        "Timothy Taylor Landlord",
+        "Boltmaker",
+        "Knowle Spring",
+        "Carling"
+      ]
+    },
+    "Everards": {
+      "match": [
+        "everards"
+      ],
+      "confidence": 0.8,
+      "beers": [
+        "Guinness",
+        "Everards Tiger",
+        "Everards Beacon Hill",
+        "Carling",
+        "Strongbow"
+      ]
+    },
+    "Batemans": {
+      "match": [
+        "batemans",
+        "bateman's"
+      ],
+      "confidence": 0.8,
+      "beers": [
+        "Guinness",
+        "Batemans XB",
+        "Batemans XXXB",
+        "Carling",
+        "Strongbow"
+      ]
+    },
+    "Hook Norton": {
+      "match": [
+        "hook norton"
+      ],
+      "confidence": 0.85,
+      "beers": [
+        "Guinness",
+        "Hooky",
+        "Old Hooky",
+        "Carling",
+        "Strongbow"
+      ]
+    },
+    "McMullen": {
+      "match": [
+        "mcmullen",
+        "mcmullen & sons",
+        "mcmullens"
+      ],
+      "confidence": 0.85,
+      "beers": [
+        "Guinness",
+        "McMullen AK",
+        "McMullen Country",
+        "Rivertown",
+        "Strongbow"
+      ]
+    },
+    "Wells & Co": {
+      "match": [
+        "wells & co",
+        "wells and co",
+        "charles wells"
+      ],
+      "confidence": 0.75,
+      "beers": [
+        "Guinness",
+        "Bombardier",
+        "Eagle IPA",
+        "Estrella Damm",
+        "Strongbow"
+      ]
+    },
+    "Camerons": {
+      "match": [
+        "camerons",
+        "cameron's"
+      ],
+      "confidence": 0.8,
+      "beers": [
+        "Guinness",
+        "Camerons Strongarm",
+        "Carling",
+        "Strongbow"
+      ]
+    },
+    "Black Sheep": {
+      "match": [
+        "black sheep"
+      ],
+      "confidence": 0.8,
+      "beers": [
+        "Guinness",
+        "Black Sheep Best Bitter",
+        "Carling"
+      ]
+    },
+    "Theakston": {
+      "match": [
+        "theakston",
+        "theakstons",
+        "theakston's"
+      ],
+      "confidence": 0.8,
+      "beers": [
+        "Guinness",
+        "Theakston Best Bitter",
+        "Old Peculier",
+        "Carling"
+      ]
+    },
+    "Harvey's": {
+      "match": [
+        "harvey's",
+        "harveys",
+        "harvey's brewery"
+      ],
+      "confidence": 0.85,
+      "beers": [
+        "Guinness",
+        "Harvey's Sussex Best",
+        "Carling",
+        "Strongbow"
+      ]
+    },
+    "Palmers": {
+      "match": [
+        "palmers",
+        "palmers brewery",
+        "j c & r h palmer"
+      ],
+      "confidence": 0.85,
+      "beers": [
+        "Guinness",
+        "Palmers IPA",
+        "Palmers Copper Ale",
+        "Carling",
+        "Thatchers Gold"
+      ]
+    },
+    "Arkell's": {
+      "match": [
+        "arkell's",
+        "arkells"
+      ],
+      "confidence": 0.85,
+      "beers": [
+        "Guinness",
+        "Arkell's 3B",
+        "Arkell's Wiltshire Gold",
+        "Carling",
+        "Strongbow"
+      ]
+    },
+    "Donnington": {
+      "match": [
+        "donnington",
+        "donnington brewery"
+      ],
+      "confidence": 0.85,
+      "beers": [
+        "Donnington BB",
+        "Donnington SBA",
+        "Guinness"
+      ]
+    },
+    "Elgood's": {
+      "match": [
+        "elgood's",
+        "elgoods"
+      ],
+      "confidence": 0.8,
+      "beers": [
+        "Guinness",
+        "Elgood's Cambridge Bitter",
+        "Carling"
+      ]
+    },
+    "Felinfoel": {
+      "match": [
+        "felinfoel"
+      ],
+      "confidence": 0.8,
+      "beers": [
+        "Guinness",
+        "Felinfoel Double Dragon",
+        "Carling"
+      ]
+    },
+    "Okell's": {
+      "match": [
+        "okell's",
+        "okells",
+        "heron & brearley",
+        "heron and brearley"
+      ],
+      "confidence": 0.8,
+      "beers": [
+        "Guinness",
+        "Okell's Bitter",
+        "Carling"
+      ]
+    },
+    "Titanic": {
+      "match": [
+        "titanic",
+        "titanic brewery"
+      ],
+      "confidence": 0.8,
+      "beers": [
+        "Titanic Plum Porter",
+        "Guinness"
+      ]
+    },
+    "Ossett": {
+      "match": [
+        "ossett",
+        "ossett brewery"
+      ],
+      "confidence": 0.8,
+      "beers": [
+        "Ossett Yorkshire Blonde",
+        "Guinness"
+      ]
+    },
+    "Wye Valley": {
+      "match": [
+        "wye valley",
+        "wye valley brewery"
+      ],
+      "confidence": 0.8,
+      "beers": [
+        "Wye Valley HPA",
+        "Wye Valley Butty Bach",
+        "Guinness"
+      ]
+    },
+    "Otter": {
+      "match": [
+        "otter brewery"
+      ],
+      "confidence": 0.8,
+      "beers": [
+        "Otter Bitter",
+        "Otter Amber",
+        "Guinness"
+      ]
+    },
+    "Butcombe": {
+      "match": [
+        "butcombe",
+        "butcombe brewery",
+        "liberation group"
+      ],
+      "confidence": 0.8,
+      "beers": [
+        "Guinness",
+        "Butcombe Original",
+        "Butcombe Gold",
+        "Thatchers Gold"
+      ]
+    },
+    "Brakspear": {
+      "match": [
+        "brakspear"
+      ],
+      "confidence": 0.8,
+      "beers": [
+        "Guinness",
+        "Brakspear Bitter",
+        "Brakspear Oxford Gold",
+        "Carlsberg Danish Pilsner",
+        "Strongbow"
+      ]
+    },
+    "Samuel Smith": {
+      "match": [
+        "samuel smith",
+        "samuel smith's",
+        "sam smith",
+        "sam smith's",
+        "samuel smith old brewery"
+      ],
+      "confidence": 0.95,
+      "note": "Own products only, no national brands at all.",
+      "beers": [
+        "Samuel Smith Old Brewery Bitter",
+        "Samuel Smith Alpine Lager",
+        "Samuel Smith Taddy Lager",
+        "Samuel Smith Extra Stout",
+        "Samuel Smith Organic Cider"
+      ],
+      "nameMatch": true
+    },
+    "BrewDog": {
+      "match": [
+        "brewdog"
+      ],
+      "confidence": 0.95,
+      "beers": [
+        "BrewDog Punk IPA",
+        "BrewDog Lost Lager",
+        "BrewDog Hazy Jane",
+        "BrewDog Elvis Juice"
+      ],
+      "nameMatch": true
+    },
+    "Tennent's": {
+      "match": [
+        "tennent's",
+        "tennents",
+        "tennent caledonian",
+        "c&c group"
+      ],
+      "confidence": 0.75,
+      "beers": [
+        "Guinness",
+        "Tennent's Lager",
+        "Caledonia Best",
+        "Magners"
+      ]
+    },
+    "Caledonian": {
+      "match": [
+        "caledonian",
+        "caledonian brewery"
+      ],
+      "confidence": 0.7,
+      "beers": [
+        "Guinness",
+        "Deuchars IPA",
+        "Tennent's Lager"
+      ]
+    },
+    "Loungers": {
+      "match": [
+        "loungers",
+        "loungers plc"
+      ],
+      "confidence": 0.7,
+      "beers": [
+        "Guinness",
+        "Peroni Nastro Azzurro",
+        "Camden Hells",
+        "Beavertown Neck Oil",
+        "Aspall Cyder"
+      ]
+    },
+    "Revolution": {
+      "match": [
+        "revolution bars",
+        "revolución de cuba",
+        "revolucion de cuba"
+      ],
+      "confidence": 0.7,
+      "beers": [
+        "Amstel",
+        "Birra Moretti",
+        "Madri Excepcional"
+      ],
+      "nameMatch": true
+    },
+    "Sharp's": {
+      "match": [
+        "sharp's",
+        "sharps"
+      ],
+      "confidence": 0.7,
+      "beers": [
+        "Guinness",
+        "Doom Bar",
+        "Sharp's Atlantic",
+        "Sharp's Offshore Pilsner"
+      ]
+    }
+  }
+}

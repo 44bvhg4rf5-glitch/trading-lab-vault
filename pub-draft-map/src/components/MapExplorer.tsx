@@ -22,7 +22,7 @@ type SearchResult = {
   distanceKm: number | null;
   plan: string;
   tapCount: number;
-  matches: { tapListingId: string; beer: string; brewery: string; pricePence: number | null; avgScore: number | null; ratingCount: number; lastSeenAt: string }[];
+  matches: { tapListingId: string; beer: string; brewery: string; pricePence: number | null; avgScore: number | null; ratingCount: number; lastSeenAt: string; source: string; confidence: number }[];
 };
 
 type PlaceSuggestion = { name: string; label: string; kind: string; lat: number; lng: number };
@@ -270,6 +270,7 @@ export function MapExplorer({ initialBeer = "", initialNear = "" }: { initialBee
                               {m.beer} <span className="text-stone-400">· {m.brewery}</span>
                             </span>
                             <span className="text-stone-600 whitespace-nowrap">
+                              {m.confidence < 1 && <span className="mr-2 text-xs rounded bg-stone-100 px-1.5 py-0.5 text-stone-500">likely</span>}
                               {m.avgScore != null ? `★ ${m.avgScore}` : "unrated"}
                               {m.pricePence != null ? ` · £${(m.pricePence / 100).toFixed(2)}` : ""}
                             </span>

@@ -60,6 +60,10 @@ model Pub {
   postcode  String?
   website   String?
   phone     String?
+  brand     String? // OSM brand=* (Wetherspoon, Toby Carvery, …)
+  operator  String? // OSM operator=* (Greene King, Fuller's, …)
+  imageUrl  String? // exterior photo: OSM image=* or Wikimedia Commons, with licence in imageCredit
+  imageCredit String?
   source    String  @default("osm") // osm | fsa | user | pub_owner
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
@@ -118,6 +122,12 @@ model TapListing {
   beerId        String
   beer          Beer      @relation(fields: [beerId], references: [id])
   status        String    @default("ACTIVE") // ACTIVE | REMOVED
+  // Where the listing came from. Search shows inferred ones as "likely on tap"
+  // until a drinker or the pub confirms; a confirm promotes source to "user".
+  //   user | pub_owner | partner | osm (brewery=* tag) | inferred (brand range)
+  source        String    @default("user")
+  confidence    Float     @default(1) // 0..1, meaningful for inferred/osm
+  inferredFrom  String? // e.g. "Wetherspoon", "Fuller's" — the range that produced it
   pricePence    Int? // price per pint in pence, if known
   servingMl     Int       @default(568)
   reportedById  String?
