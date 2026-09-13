@@ -13,12 +13,16 @@
     "postinstall": "prisma generate",
     "build:deploy": "prisma migrate deploy && next build",
     "db:deploy": "prisma migrate deploy",
-    "enrich": "tsx scripts/enrich-taps.ts"
+    "enrich": "tsx scripts/enrich-taps.ts",
+    "import:photos": "tsx scripts/import-photos.ts",
+    "import:menus": "tsx scripts/import-menus.ts"
   },
   "dependencies": {
+    "@anthropic-ai/sdk": "^0.125.0",
     "@prisma/client": "^6.19.3",
     "leaflet": "^1.9.4",
     "next": "16.3.5",
+    "pdf-parse": "^2.4.5",
     "react": "19.2.8",
     "react-dom": "19.2.8",
     "react-leaflet": "^5.0.0",

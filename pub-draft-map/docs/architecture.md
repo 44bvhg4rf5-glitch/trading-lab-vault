@@ -13,6 +13,11 @@
 prisma/schema.prisma        data model (see docs/data-model.md)
 prisma/seed.ts              demo pubs in Manchester + Richmond, beer catalogue
 scripts/import-osm.ts       Overpass importer (bbox / city / whole UK)
+scripts/enrich-taps.ts      brand-range + OSM tag inference → inferred TapListings
+scripts/import-menus.ts     pub-company site importers (scripts/importers/<site>.ts)
+scripts/import-photos.ts    Wikimedia Commons photo matcher
+src/lib/enrich.ts           range matching, brewery-tag parsing
+src/lib/board-ocr.ts        board / menu photo → structured tap list (Claude)
 src/lib/db.ts               Prisma singleton
 src/lib/auth.ts             cookie session (replace with Auth.js at launch)
 src/lib/geo.ts              haversine, bbox, gazetteer, Nominatim
@@ -46,6 +51,8 @@ src/components/*            MapExplorer, PubMap, TapList, AddTapForm, PubDashboa
 | POST | `/api/pubs/:id/deals` | owner | Plan-gated |
 | POST | `/api/pubs/:id/subscription` | owner | Demo plan switch (Stripe later) |
 | GET | `/api/insights/demand?place=&days=` | owner/admin | Aggregated demand |
+| POST | `/api/pubs/:id/board` | user | Read a board photo → proposed tap list |
+| PUT | `/api/pubs/:id/board` | user | Publish a ticked board reading (owner → `pub_owner`, else `user`) |
 
 Errors are `{ error, code? }`. 401 needs sign-in, 402 plan limit, 403 not the owner, 422 validation.
 

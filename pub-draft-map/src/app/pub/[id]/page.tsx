@@ -139,7 +139,7 @@ export default async function PubPage({ params }: { params: Promise<{ id: string
             <h2 className="text-lg font-semibold">On draft ({taps.length})</h2>
             <span className="text-xs text-stone-500">Tap a star to rate a pint</span>
           </div>
-          <TapList taps={taps} signedIn={Boolean(user)} />
+          <TapList taps={taps} signedIn={Boolean(user)} pubId={pub.id} />
         </section>
 
         <AdSlot slot="pub-inline" />

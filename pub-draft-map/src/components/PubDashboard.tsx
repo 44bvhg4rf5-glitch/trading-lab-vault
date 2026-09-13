@@ -3,6 +3,7 @@
 import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 import { PLAN_LIMITS, type Plan } from "@/lib/plans";
+import { BoardScanner } from "./BoardScanner";
 
 type EventRow = { id: string; title: string; startsAt: string; promoted: boolean };
 type DealRow = { id: string; title: string; validTo: string | null; promoted: boolean };
@@ -48,6 +49,12 @@ export function PubDashboard({ pubId, city, plan, events, deals }: { pubId: stri
           ))}
         </div>
         <p className="text-xs text-stone-500">Demo billing: switching plans is instant. Production routes this through Stripe Checkout.</p>
+      </section>
+
+      <section className="rounded-lg border border-stone-200 bg-white p-4 space-y-3 md:col-span-2">
+        <h2 className="font-semibold">Your tap list</h2>
+        <p className="text-sm text-stone-600">The fastest way to keep it right: photograph the board or the pumps whenever it changes.</p>
+        <BoardScanner pubId={pubId} owner />
       </section>
 
       <section className="rounded-lg border border-stone-200 bg-white p-4 space-y-3">

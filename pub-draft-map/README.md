@@ -34,6 +34,16 @@ Demo accounts (any email works; these are pre-seeded):
 - `landlord@draftmap.local` owns The White Cross (Richmond) on the Promoted plan: open `/for-pubs`.
 - `demo@draftmap.local` is a drinker with ratings.
 
+## Fill the tap lists
+
+```bash
+npm run enrich                                 # chain ranges + OSM brewery tags, every pub
+npm run import:menus -- --site wetherspoon     # 827 pubs from Wetherspoon's own site
+npm run import:photos                          # Commons/Geograph photos
+```
+
+Board photos: set `ANTHROPIC_API_KEY` in `.env` and pub owners (dashboard) or drinkers ("Report a change") can photograph the pumps or chalkboard; the list is read, ticked and published in one go.
+
 ## Import real pubs from OpenStreetMap
 
 ```bash
@@ -64,6 +74,9 @@ npm run import:osm -- --uk                                # everything, ~1h, res
 | `npm run db:seed` | Seed demo data |
 | `npm run build:deploy` | Migrate then build (used by Vercel) |
 | `npm run import:osm` | Overpass importer |
+| `npm run enrich` | Pre-fill tap lists from chain ranges and OSM tags |
+| `npm run import:menus -- --site wetherspoon` | Drinks menus from a pub company's own site |
+| `npm run import:photos` | Licensed exterior photos from Wikimedia Commons |
 
 ## Status
 

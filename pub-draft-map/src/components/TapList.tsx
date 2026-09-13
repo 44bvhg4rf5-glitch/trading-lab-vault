@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
 import { SignInDialog } from "./Nav";
+import { BoardScanner } from "./BoardScanner";
 
 export type TapView = {
   id: string;
@@ -31,24 +32,30 @@ export type TapView = {
  * what's on. Corrections live behind "Report a change" so the default view
  * never asks the drinker to do our job.
  */
-export function TapList({ taps, signedIn }: { taps: TapView[]; signedIn: boolean }) {
+export function TapList({ taps, signedIn, pubId }: { taps: TapView[]; signedIn: boolean; pubId: string }) {
   const [needSignIn, setNeedSignIn] = useState(false);
   const [editing, setEditing] = useState(false);
-  if (!taps.length) {
-    return <p className="mt-2 text-sm text-stone-600 rounded-lg border border-dashed border-stone-300 p-4">We don&apos;t have this bar&apos;s range yet.</p>;
-  }
   return (
     <>
-      <ul className="mt-2 divide-y divide-stone-200 rounded-lg border border-stone-200 bg-white">
-        {taps.map((t) => (
-          <TapRow key={t.id} tap={t} signedIn={signedIn} editing={editing} onNeedSignIn={() => setNeedSignIn(true)} />
-        ))}
-      </ul>
+      {taps.length ? (
+        <ul className="mt-2 divide-y divide-stone-200 rounded-lg border border-stone-200 bg-white">
+          {taps.map((t) => (
+            <TapRow key={t.id} tap={t} signedIn={signedIn} editing={editing} onNeedSignIn={() => setNeedSignIn(true)} />
+          ))}
+        </ul>
+      ) : (
+        <p className="mt-2 text-sm text-stone-600 rounded-lg border border-dashed border-stone-300 p-4">We don&apos;t have this bar&apos;s range yet.</p>
+      )}
       <p className="mt-2 text-xs text-stone-500">
-        <button type="button" onClick={() => setEditing((e) => !e)} className="underline">
+        <button type="button" onClick={() => (signedIn ? setEditing((e) => !e) : setNeedSignIn(true))} className="underline">
           {editing ? "Done" : "Something wrong with this list? Report a change"}
         </button>
       </p>
+      {editing && (
+        <div className="mt-2 rounded-lg border border-stone-200 bg-stone-50 p-3">
+          <BoardScanner pubId={pubId} owner={false} onDone={() => setEditing(false)} />
+        </div>
+      )}
       {needSignIn && <SignInDialog onClose={() => setNeedSignIn(false)} />}
     </>
   );

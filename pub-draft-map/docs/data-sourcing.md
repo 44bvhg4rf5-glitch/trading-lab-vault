@@ -52,8 +52,28 @@ Expected coverage from the OSM tags alone: roughly a third of UK pubs get a chai
 - **Untappd venue menus, Instagram, TikTok.** Same problem, and Untappd is the partner we most want. Ask for the feed instead.
 - **CAMRA WhatPub.** Best real-ale data in the country, no licence to copy it. Partnership conversation.
 
-### Scraping we can do, per site, with care
-Pub-company websites publish per-pub drinks menus (Wetherspoon, Greene King, Marston's, Fuller's, Young's, Stonegate brands). Facts about what a pub sells aren't copyrightable, but each site has terms and a `robots.txt`; the plan is one importer per group that honours robots, identifies itself, fetches slowly, and stores only beer names and prices. Do these after the launch city is live and after asking the groups for a feed first, because a feed is cheaper for everyone and a scraper is a relationship you can't unburn.
+### Pub-company websites (built: `npm run import:menus -- --site <key>`)
+Facts about what a pub sells aren't copyrightable, but every site has terms and a `robots.txt`. `scripts/importers/lib.ts` is the shared plumbing: identifies itself with a contact address, checks robots.txt before every host, one request at a time with a delay, disk cache, and it stores only beer names and prices. `scripts/import-menus.ts` matches each site record to our pub by postcode + name (then name + distance) and writes listings with `source=site:<key>` at confidence 0.95, retiring inferred rows the site doesn't list. A human confirmation still wins.
+
+What the reconnaissance found (September 2026), so nobody repeats it:
+
+| Group | Pubs | Status |
+|---|---|---|
+| **Wetherspoon** | 827 | Adapter built. Sitemap + pub pages give identity (name, postcode, coordinates) and the venue id: verified. The drinks list is served by the app's menu API, whose host was blocked from the build sandbox, so `parseMenu` is written schema-tolerant and must be checked with `--limit 3 --dry` on a normal connection. Their public PDF is the food menu only. |
+| **Greene King** | ~2,700 | Sitecore JSS site. Pub finder and pages render client-side; `/api/cards` is allowed by robots but returned 500. Needs a session with the site open in a browser to find the layout-service call. |
+| **Marston's** | ~1,300 | Consumer pub finder at marstonspubs.co.uk/pubs/finder/ is client-rendered; sitemap is corporate only. Same next step as Greene King. |
+| **Fuller's** | ~380 | Cloudflare bot challenge on every page. Do not fight it: ask for a feed. |
+| **Young's** | ~230 | No central pub pages; each pub has its own site. Ask for a feed. |
+| **Stonegate brands** (Slug & Lettuce, Yates, Be At One…) | ~4,500 | robots allow; sitemaps are per-brand and content is client-rendered. Same next step as Greene King. |
+| **Mitchells & Butlers brands** (Nicholson's, All Bar One, Harvester, Toby…) | ~1,700 | robots allow `/national-search/*`; venue pages redirect. Same next step. |
+
+Do the client-rendered sites once the launch city is live, and ask each group for a feed first: a feed is cheaper for everyone and a scraper is a relationship you can't unburn.
+
+### Photos (built: `npm run import:photos`)
+Wikimedia Commons hosts Commons' own uploads plus ~1.2 million Geograph photos of Britain (CC BY-SA 2.0), and most pubs have been photographed. `scripts/import-photos.ts` geosearches 150 m around each pub and only accepts a file whose title contains a distinctive word from the pub's name, so it never attaches the neighbour's house. Tested on a sample: no false matches; roughly a third to a half of pubs get a photo. The stored credit string satisfies the licence; show it next to the image.
+
+### Board photos (built: pub dashboard and "Report a change")
+`src/lib/board-ocr.ts` sends a photo of pump clips, a chalkboard or a printed drinks menu to Claude and gets back a structured list (name, brewery, ABV, price, serving, confidence). The pub owner or drinker ticks what's right and publishes; an owner's publish is `source=pub_owner`, a drinker's is `source=user`, and "this shows the whole board" retires everything else. Needs `ANTHROPIC_API_KEY` on the server. This is the route to the independent and craft bars no chain range or company site will ever cover.
 
 ## Trust model
 Every listing has a source and a timestamp. Rank sources: EPOS > pub owner > multiple recent drinkers > single drinker > inferred. Conflicts resolve to the higher source; a drinker flag on an owner listing raises a notification to the owner rather than removing it outright.
