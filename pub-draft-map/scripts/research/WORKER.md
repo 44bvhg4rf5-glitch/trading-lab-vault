@@ -54,6 +54,13 @@ Not draught, so never listed: bottles, cans, wine, spirits, cocktails, soft drin
 - `abv`: only if the page states it or it is well known for that beer. `pricePence`: only if the page shows a pint price (£6.50 → 650).
 - `website`: the pub's own site (null if none). If the site you found turns out to be a different pub with the same name, evidence `none` and say so in notes.
 
+## Assignment modes
+
+Your assignment names one of these. If it names none, you are in SEARCH mode.
+
+- **READ mode** (no web search at all). For a pub with no website in its packet, write evidence `none` with the note `no website on record; not searched` and move on at once. For a packet whose notes say the site was unreachable or had no drinks page, write `none` with that note and move on; do not fetch anything. Read every packet that has drinks pages, PDFs or images. This mode exists because the session's search allowance is shared and is spent elsewhere.
+- **SEARCH mode**. Exactly one WebSearch per pub with no website on record, never a second, never another search engine; then everything in READ mode.
+
 ## Limits
 
 Work through every pub in the index; do not stop early and do not skip any. Spend at most about three tool calls on a pub with nothing to find. Do not edit any code or any file outside `RESULTS_FILE`. When finished, reply with a short summary: how many `site_menu` and `none`, how many websites you found by search, and anything that went wrong.
