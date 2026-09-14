@@ -306,7 +306,7 @@
   "evidence": "none",
   "beers": [],
   "notes": [
-   "no website on record; search quota exhausted"
+   "searched once, no own website found (CAMRA, directory and review sites only)"
   ],
   "osmId": "way/70764070",
   "name": "The Royal Oak"
@@ -317,7 +317,7 @@
   "evidence": "none",
   "beers": [],
   "notes": [
-   "no website on record; search quota exhausted"
+   "searched once, no own website found (CAMRA, directory and review sites only); third-party source mentions one cider on handpump but this is not the pub's own published information"
   ],
   "osmId": "way/729178633",
   "name": "The Star"
@@ -339,7 +339,7 @@
   "evidence": "none",
   "beers": [],
   "notes": [
-   "no website on record; search quota exhausted"
+   "searched once, no own website found (only CAMRA/Yelp/whatpub/directory listings)"
   ],
   "osmId": "way/712721695",
   "name": "The Robin Hood"
@@ -350,7 +350,7 @@
   "evidence": "none",
   "beers": [],
   "notes": [
-   "no website on record; search quota exhausted"
+   "searched once, no own website found (only Tripadvisor/Fanzo/pubsgalore/directory listings)"
   ],
   "osmId": "way/915956064",
   "name": "The Jolly Butcher"
@@ -383,29 +383,79 @@
   "evidence": "none",
   "beers": [],
   "notes": [
-   "no website on record; search quota exhausted"
+   "searched once, no own website found; search results indicate this pub (Jolly Farmer, Staines) permanently closed in 2010"
   ],
   "osmId": "way/785232539",
   "name": "Jolly Farmer"
  },
  {
   "pubId": "cmu0485ln00je7du2gy3ni0y8",
-  "website": null,
-  "evidence": "none",
-  "beers": [],
+  "website": "https://www.greeneking.co.uk/pubs/middlesex/freeman-arms",
+  "evidence": "site_menu",
+  "beers": [
+   {
+    "name": "Greene King IPA",
+    "brewery": "Greene King",
+    "style": "bitter",
+    "abv": 3.6,
+    "pricePence": null,
+    "url": "https://www.greeneking.co.uk/pubs/middlesex/freeman-arms/our-beers"
+   },
+   {
+    "name": "Abbot Ale",
+    "brewery": "Greene King",
+    "style": "strong ale",
+    "abv": 5.0,
+    "pricePence": null,
+    "url": "https://www.greeneking.co.uk/pubs/middlesex/freeman-arms/our-beers"
+   },
+   {
+    "name": "Genevieve",
+    "brewery": "Greene King / Thornbridge",
+    "style": "pale ale",
+    "abv": null,
+    "pricePence": null,
+    "url": "https://www.greeneking.co.uk/pubs/middlesex/freeman-arms/our-beers"
+   },
+   {
+    "name": "Hazy Day",
+    "brewery": "Greene King",
+    "style": "IPA",
+    "abv": null,
+    "pricePence": null,
+    "url": "https://www.greeneking.co.uk/pubs/middlesex/freeman-arms/our-beers"
+   },
+   {
+    "name": "Flint Eye",
+    "brewery": "Greene King",
+    "style": "lager",
+    "abv": null,
+    "pricePence": null,
+    "url": "https://www.greeneking.co.uk/pubs/middlesex/freeman-arms"
+   },
+   {
+    "name": "Prior Life",
+    "brewery": "Greene King",
+    "style": null,
+    "abv": null,
+    "pricePence": null,
+    "url": "https://www.greeneking.co.uk/pubs/middlesex/freeman-arms"
+   }
+  ],
   "notes": [
-   "no website on record; search quota exhausted"
+   "site found is Greene King's Freeman Arms in Ashford, Middlesex (77 Feltham Road, TW15 1BS) - nearest/only match for this name found in the area; this index record has no address to fully confirm the match",
+   "own-beers page names cask beers Greene King IPA, Abbot Ale and Genevieve (Thornbridge collab), plus craft/keg Hazy Day IPA, and homepage names Flint Eye and Prior Life among 'our own beers'"
   ],
   "osmId": "way/927109516",
   "name": "Freeman Arms"
  },
  {
   "pubId": "cmu04852400717du28e71xla3",
-  "website": null,
+  "website": "https://www.oldredlionstaines.co.uk",
   "evidence": "none",
   "beers": [],
   "notes": [
-   "no website on record; search quota exhausted"
+   "found own site via search (The Old Red Lion, Staines); homepage and food PDFs found but no draught beers named anywhere on site (only generic 'great choice of beers and drinks')"
   ],
   "osmId": "node/3681486426",
   "name": "The Old Red Lion"
@@ -416,7 +466,7 @@
   "evidence": "none",
   "beers": [],
   "notes": [
-   "no website on record; search quota exhausted"
+   "searched once, no own website found; nearest match (Red Lion, Chenies) is a differently-named pub"
   ],
   "osmId": "way/557799504",
   "name": "Old Red Lion"
@@ -544,11 +594,11 @@
  },
  {
   "pubId": "cmu0484uw002c7du21vx5cun2",
-  "website": null,
+  "website": "https://www.thebellspub.co.uk",
   "evidence": "none",
   "beers": [],
   "notes": [
-   "no website on record; search quota exhausted"
+   "found own site via search; drinks menu page lists only bottled beers and ciders (330ml/500ml servings, e.g. Erdinger, Sol, Tiger, Peroni GF, Birra Moretti, Heineken, Aspall, Old Mout, Rekorderlig), no draught (keg/cask/pump) beers named"
   ],
   "osmId": "node/267586086",
   "name": "The Bells"
@@ -559,18 +609,18 @@
   "evidence": "none",
   "beers": [],
   "notes": [
-   "no website on record; search quota exhausted"
+   "searched once, no own website found; ambiguous with several other unrelated Three Tuns pubs"
   ],
   "osmId": "way/1018484220",
   "name": "The Three Tuns"
  },
  {
   "pubId": "cmu0485j600hs7du2xjhspkc0",
-  "website": null,
+  "website": "https://threehorseshoesfeltham.co.uk",
   "evidence": "none",
   "beers": [],
   "notes": [
-   "no website on record; search quota exhausted"
+   "found own site via search; page has a 'Your Drinks' section but only images, no draught beer or cider named in text"
   ],
   "osmId": "way/753263896",
   "name": "Three Horseshoes"
@@ -592,31 +642,29 @@
   "evidence": "none",
   "beers": [],
   "notes": [
-   "no website on record; search quota exhausted"
+   "searched once, no own website found (Facebook page and directory listings only)"
   ],
   "osmId": "way/681082198",
   "name": "Feltham Constitutional Club"
  },
  {
   "pubId": "cmu0485qj00md7du2qejqqsn7",
-  "website": null,
+  "website": "https://www.craftunionpubs.com/sir-john-gibson-stanwell",
   "evidence": "none",
   "beers": [],
   "notes": [
-   "no website on record; search quota exhausted",
-   "duplicate index entry with cmu0484v0002f7du2aa3d7uxl (same pub, same coordinates)"
+   "found own pub-company page (Craft Union, Stanwell); page mentions 'top-value pints of draught beer and cider' generically but names no specific beers"
   ],
   "osmId": "way/1414645920",
   "name": "Sir John Gibson"
  },
  {
   "pubId": "cmu0484v0002f7du2aa3d7uxl",
-  "website": null,
+  "website": "https://www.craftunionpubs.com/sir-john-gibson-stanwell",
   "evidence": "none",
   "beers": [],
   "notes": [
-   "no website on record; search quota exhausted",
-   "duplicate index entry with cmu0485qj00md7du2qejqqsn7 (same pub, same coordinates)"
+   "duplicate entry of the same pub; found own pub-company page (Craft Union, Stanwell) but no specific beer names given, only generic 'draught beer and cider'"
   ],
   "osmId": "node/267892311",
   "name": "Sir John Gibson"
@@ -627,7 +675,7 @@
   "evidence": "none",
   "beers": [],
   "notes": [
-   "no website on record; search quota exhausted"
+   "searched once, no own website found; the pub now trades as a Ukrainian restaurant 'Galicja' under the old Load of Hay name, only directory listings found"
   ],
   "osmId": "way/757101665",
   "name": "The Load of Hay"
@@ -638,7 +686,7 @@
   "evidence": "none",
   "beers": [],
   "notes": [
-   "no website on record; search quota exhausted"
+   "searched once, no own website found (CAMRA, whatpub, Facebook and directory listings only)"
   ],
   "osmId": "way/521702183",
   "name": "The Prince Albert"
@@ -1140,7 +1188,7 @@
   "evidence": "none",
   "beers": [],
   "notes": [
-   "No packet content; this session's web search quota was exhausted before a search could be run for this pub (The Pheasant), so no own website could be looked for"
+   "searched once, no matching pub found in the Rickmansworth/Uxbridge/Egham/Staines area; only unrelated same-named Pheasant pubs elsewhere"
   ],
   "osmId": "node/251385770",
   "name": "The Pheasant"
@@ -1151,7 +1199,7 @@
   "evidence": "none",
   "beers": [],
   "notes": [
-   "No packet content; this session's web search quota was exhausted before a search could be run for this pub (The Jolly Gardeners), so no own website could be looked for"
+   "searched once; sources indicate this pub (94 Uxbridge Road, Hampton Hill) closed in 2000 and was converted to residential - no current own site"
   ],
   "osmId": "node/92560386",
   "name": "The Jolly Gardeners"
@@ -1162,7 +1210,7 @@
   "evidence": "none",
   "beers": [],
   "notes": [
-   "No packet content; this session's web search quota was exhausted before a search could be run for this pub (The Wheatsheaf), so no own website could be looked for"
+   "searched once; found similarly named pubs nearby (Wheatsheaf & Pigeon, Staines; Wheatsheaf Hotel, Egham) but neither matches this exact name and no address to confirm, so not assigned"
   ],
   "osmId": "node/251385779",
   "name": "The Wheatsheaf"
@@ -1173,18 +1221,18 @@
   "evidence": "none",
   "beers": [],
   "notes": [
-   "No packet content; this session's web search quota was exhausted before a search could be run for this pub (Queens Arms), so no own website could be looked for"
+   "searched once, no own website found"
   ],
   "osmId": "way/1338304419",
   "name": "Queens Arms"
  },
  {
   "pubId": "cmu0484u5001v7du2km7061ro",
-  "website": null,
+  "website": "https://www.crownharmondsworth.co.uk",
   "evidence": "none",
   "beers": [],
   "notes": [
-   "No packet content; this session's web search quota was exhausted before a search could be run for this pub (The Crown, High Street, West Drayton), so no own website could be looked for"
+   "found own site via search but it returned HTTP 503 / unreachable on both the packet rebuild and a direct fetch, no drinks content retrievable"
   ],
   "osmId": "node/253822036",
   "name": "The Crown"
@@ -1195,7 +1243,7 @@
   "evidence": "none",
   "beers": [],
   "notes": [
-   "No packet content; this session's web search quota was exhausted before a search could be run for this pub (The Five Bells, High Street, West Drayton), so no own website could be looked for"
+   "searched once, no own website found (pub is actually in Harmondsworth village near West Drayton); only directory/review listings"
   ],
   "osmId": "way/966406124",
   "name": "The Five Bells"
@@ -1206,7 +1254,7 @@
   "evidence": "none",
   "beers": [],
   "notes": [
-   "No packet content; this session's web search quota was exhausted before a search could be run for this pub (Old Oak Tree, The Common, Southall), so no own website could be looked for"
+   "searched once, no own website found (only CAMRA, food-hygiene-ratings and hotel-booking-aggregator listings)"
   ],
   "osmId": "node/2435314188",
   "name": "Old Oak Tree"
@@ -1217,7 +1265,7 @@
   "evidence": "none",
   "beers": [],
   "notes": [
-   "No packet content; this session's web search quota was exhausted before a search could be run for this pub (The Lamb), so no own website could be looked for"
+   "searched once, no matching pub found near Feltham; results returned only unrelated pubs named The Lamb in central London"
   ],
   "osmId": "node/268985214",
   "name": "The Lamb"
@@ -1228,7 +1276,7 @@
   "evidence": "none",
   "beers": [],
   "notes": [
-   "No packet content; this session's web search quota was exhausted before a search could be run for this pub (Simply Snacks, Skyport Drive), so no own website could be looked for"
+   "searched once; this is a mobile food-catering pitch (Simply Snacks, Skyport Drive), not a pub with drinks - no draught info applicable"
   ],
   "osmId": "node/7887739985",
   "name": "Simply Snacks"
@@ -1825,11 +1873,11 @@
  },
  {
   "pubId": "cmu04853x00867du2s74oy0so",
-  "website": null,
+  "website": "https://www.thedolphinuxbridgepub.co.uk",
   "evidence": "none",
   "beers": [],
   "notes": [
-   "no website on record; search quota exhausted"
+   "found own site via search but it returned HTTP 503 / unreachable on both the packet rebuild and a direct fetch, no drinks content retrievable"
   ],
   "osmId": "node/8568369522",
   "name": "The Dolphin"
@@ -1840,29 +1888,29 @@
   "evidence": "none",
   "beers": [],
   "notes": [
-   "no website on record; search quota exhausted"
+   "searched once, no own website found"
   ],
   "osmId": "node/2891310929",
   "name": "The Gardeners Arms"
  },
  {
   "pubId": "cmu0484rk000a7du27fjxg4ul",
-  "website": null,
+  "website": "https://www.whelansuxbridge.co.uk",
   "evidence": "none",
   "beers": [],
   "notes": [
-   "no website on record; search quota exhausted"
+   "found own site via search; page is a minimal business listing with no drinks list"
   ],
   "osmId": "node/26979401",
   "name": "Whelans"
  },
  {
   "pubId": "cmu0485b000ct7du2gboxonno",
-  "website": null,
+  "website": "https://thecrownandtreaty.co.uk",
   "evidence": "none",
   "beers": [],
   "notes": [
-   "no website on record; search quota exhausted"
+   "found own site via search; homepage only mentions 'wide selection of local ales' and 'craft beers' with no beer names given; a third-party listing mentions Windsor & Eton cask ale but that is not the pub's own site so was not counted"
   ],
   "osmId": "way/279612298",
   "name": "The Crown and Treaty"
@@ -1873,7 +1921,7 @@
   "evidence": "none",
   "beers": [],
   "notes": [
-   "no website on record; search quota exhausted"
+   "searched once, no own website found (Hillingdon location near Uxbridge; only directory/review listings)"
   ],
   "osmId": "way/166167347",
   "name": "The Swallow"
@@ -1884,7 +1932,7 @@
   "evidence": "none",
   "beers": [],
   "notes": [
-   "no website on record; search quota exhausted"
+   "searched once, no own website found (AccessAble, Mapcarta and directory listings only)"
   ],
   "osmId": "node/677225981",
   "name": "O'Donnell's Bar"
@@ -1895,7 +1943,7 @@
   "evidence": "none",
   "beers": [],
   "notes": [
-   "no website on record; search quota exhausted"
+   "searched once, no own website found (only Tripadvisor, food-hygiene-ratings, Skiddle and directory listings)"
   ],
   "osmId": "node/36217541",
   "name": "The Horseshoe Bar"
@@ -1906,18 +1954,18 @@
   "evidence": "none",
   "beers": [],
   "notes": [
-   "no website on record; search quota exhausted"
+   "searched once, no own website found (only directory/social listings and an unrelated hotel-booking site)"
   ],
   "osmId": "node/416631800",
   "name": "The Bell"
  },
  {
   "pubId": "cmu0485c800dl7du277rg48ye",
-  "website": null,
+  "website": "https://whelanspubs.co.uk/whelans-premium/the-black-bull",
   "evidence": "none",
   "beers": [],
   "notes": [
-   "no website on record; search quota exhausted"
+   "found pub's own site (Whelan's pub chain) and rebuilt packet; drinks page and two food-menu PDFs found but no draught beers named, only generic mention of 'craft ales' and 'a wide selection of gins'"
   ],
   "osmId": "way/317438415",
   "name": "Black Bull"
@@ -1928,7 +1976,7 @@
   "evidence": "none",
   "beers": [],
   "notes": [
-   "no website on record; search quota exhausted"
+   "searched once, no own website found (AccessAble, food-hygiene-ratings, Tripadvisor and directory listings only)"
   ],
   "osmId": "node/31247045",
   "name": "The Shawl"
@@ -1939,18 +1987,75 @@
   "evidence": "none",
   "beers": [],
   "notes": [
-   "no website on record; search quota exhausted"
+   "searched once, no own website found; nearest match found (16 High Road, UB10 8DF) has a different postcode to this record (UB10 8LJ), so may not even be the same pub"
   ],
   "osmId": "way/1205437506",
   "name": "The Old Fox"
  },
  {
   "pubId": "cmu0485h000gf7du2u97h8zvc",
-  "website": null,
-  "evidence": "none",
-  "beers": [],
+  "website": "https://venue5.com",
+  "evidence": "site_menu",
+  "beers": [
+   {
+    "name": "Kingfisher",
+    "brewery": "Kingfisher",
+    "style": "lager",
+    "abv": 4.8,
+    "pricePence": 620,
+    "url": "https://venue5.com/drinks-menu/"
+   },
+   {
+    "name": "Cobra",
+    "brewery": "Cobra",
+    "style": "lager",
+    "abv": 4.5,
+    "pricePence": 620,
+    "url": "https://venue5.com/drinks-menu/"
+   },
+   {
+    "name": "Peroni Nastro Azzurro",
+    "brewery": "Peroni",
+    "style": "lager",
+    "abv": 5.1,
+    "pricePence": 620,
+    "url": "https://venue5.com/drinks-menu/"
+   },
+   {
+    "name": "Heineken",
+    "brewery": "Heineken",
+    "style": "lager",
+    "abv": 5,
+    "pricePence": 595,
+    "url": "https://venue5.com/drinks-menu/"
+   },
+   {
+    "name": "Birra Moretti",
+    "brewery": "Moretti",
+    "style": "lager",
+    "abv": 4.6,
+    "pricePence": 620,
+    "url": "https://venue5.com/drinks-menu/"
+   },
+   {
+    "name": "Cruzcampo",
+    "brewery": "Cruzcampo",
+    "style": "lager",
+    "abv": 4.8,
+    "pricePence": 620,
+    "url": "https://venue5.com/drinks-menu/"
+   },
+   {
+    "name": "Guinness",
+    "brewery": "Guinness",
+    "style": "stout",
+    "abv": 4.2,
+    "pricePence": 575,
+    "url": "https://venue5.com/drinks-menu/"
+   }
+  ],
   "notes": [
-   "no website on record; search quota exhausted"
+   "own site found via search (venue5.com), rebuilt packet's drinks-menu page lists 7 draught lines with prices; fixed typos 'Bira Moretti' -> 'Birra Moretti' and 'Cruz Campo' -> 'Cruzcampo'"
   ],
   "osmId": "way/586117496",
   "name": "Venue 5"
@@ -1961,7 +2066,7 @@
   "evidence": "none",
   "beers": [],
   "notes": [
-   "no website on record; search quota exhausted"
+   "search found a likely own site (mayapublondon.co.uk) but its domain does not resolve (DNS failure); no other own-domain source found"
   ],
   "osmId": "node/392184134",
   "name": "Maya Pub"
@@ -1972,29 +2077,94 @@
   "evidence": "none",
   "beers": [],
   "notes": [
-   "no website on record; search quota exhausted"
+   "searched once, no own website found; search results indicate this pub closed and later reopened under a different name (The Smuggler's Cove)"
   ],
   "osmId": "way/967407717",
   "name": "The Crock of Gold"
  },
  {
   "pubId": "cmu0485mp00k17du2p6szhtxp",
-  "website": null,
+  "website": "https://www.hopandvinebar.com",
   "evidence": "none",
   "beers": [],
   "notes": [
-   "no website on record; search quota exhausted"
+   "found own site via search; site states it offers cask ales, keg craft beers and ciders but says the selection is 'constantly changing' and points to Instagram/Facebook (not usable per rules) for current beers - no beer names given on the site itself"
   ],
   "osmId": "way/969222770",
   "name": "The Hop & Vine"
  },
  {
   "pubId": "cmu0484ux002d7du2685zdr00",
-  "website": null,
-  "evidence": "none",
-  "beers": [],
+  "website": "http://www.club-2k.co.uk",
+  "evidence": "site_menu",
+  "beers": [
+   {
+    "name": "Carlsberg",
+    "brewery": "Carlsberg",
+    "style": "lager",
+    "abv": null,
+    "pricePence": 400,
+    "url": "http://www.club-2k.co.uk/C2K-drinks.pdf"
+   },
+   {
+    "name": "Cobra",
+    "brewery": "Cobra",
+    "style": "lager",
+    "abv": null,
+    "pricePence": 490,
+    "url": "http://www.club-2k.co.uk/C2K-drinks.pdf"
+   },
+   {
+    "name": "Foster's",
+    "brewery": "Foster's",
+    "style": "lager",
+    "abv": null,
+    "pricePence": 400,
+    "url": "http://www.club-2k.co.uk/C2K-drinks.pdf"
+   },
+   {
+    "name": "Guinness",
+    "brewery": "Guinness",
+    "style": "stout",
+    "abv": null,
+    "pricePence": 520,
+    "url": "http://www.club-2k.co.uk/C2K-drinks.pdf"
+   },
+   {
+    "name": "Kronenbourg 1664",
+    "brewery": "Kronenbourg",
+    "style": "lager",
+    "abv": null,
+    "pricePence": 450,
+    "url": "http://www.club-2k.co.uk/C2K-drinks.pdf"
+   },
+   {
+    "name": "Stella Artois",
+    "brewery": "Stella Artois",
+    "style": "lager",
+    "abv": null,
+    "pricePence": 420,
+    "url": "http://www.club-2k.co.uk/C2K-drinks.pdf"
+   },
+   {
+    "name": "Malabar",
+    "brewery": null,
+    "style": "lager",
+    "abv": null,
+    "pricePence": 550,
+    "url": "http://www.club-2k.co.uk/C2K-drinks.pdf"
+   },
+   {
+    "name": "Birra Moretti",
+    "brewery": "Moretti",
+    "style": "lager",
+    "abv": null,
+    "pricePence": 550,
+    "url": "http://www.club-2k.co.uk/C2K-drinks.pdf"
+   }
+  ],
   "notes": [
-   "no website on record; search quota exhausted"
+   "found pub's own site via search (club-2k.co.uk, an Indian restaurant/sports bar), rebuilt packet; drinks PDF has a 'DRAUGHT BEER' section with pint prices (fixed typos 'Fosterså' -> Foster's, 'Kronenburg 1664' -> Kronenbourg 1664, and bare 'Moretti' -> Birra Moretti); ciders (Magners, Kopparberg) listed under a plain 'CIDERS' heading with no draught/bottle label so not counted"
   ],
   "osmId": "node/267776822",
   "name": "Club 2000"
@@ -2225,11 +2395,11 @@
  },
  {
   "pubId": "cmu0484zj005c7du2p131dnmy",
-  "website": null,
+  "website": "https://www.geobareastcote.co.uk",
   "evidence": "none",
   "beers": [],
   "notes": [
-   "packet had no website and no drinks content; the required WebSearch could not be run because this shared research session had already exhausted its WebSearch quota (200/200) before this pub was reached, so no attempt to find the pub's own site was possible"
+   "found pub's own site via search and rebuilt packet; site has no drinks/menu page (checked via crawl and one WebFetch of the homepage)"
   ],
   "osmId": "node/1319513716",
   "name": "Geo Bar"
@@ -2240,7 +2410,7 @@
   "evidence": "none",
   "beers": [],
   "notes": [
-   "packet had no website and no drinks content; the required WebSearch could not be run because this shared research session had already exhausted its WebSearch quota (200/200) before this pub was reached, so no attempt to find the pub's own site was possible"
+   "searched once, no own website found (only directories, Tripadvisor, CAMRA, Skiddle); this is a different pub from the Three Wishes chain site found for the Northwood branch"
   ],
   "osmId": "node/13464452837",
   "name": "The Three Wishes"
@@ -2251,7 +2421,7 @@
   "evidence": "none",
   "beers": [],
   "notes": [
-   "packet had no website and no drinks content; the required WebSearch could not be run because this shared research session had already exhausted its WebSearch quota (200/200) before this pub was reached, so no attempt to find the pub's own site was possible"
+   "searched once, no own website found (only CAMRA/Facebook/toasttab ordering page/directory listings); described generically as 'cocktails and standard keg beers' with no names given"
   ],
   "osmId": "way/992434887",
   "name": "Arens Bar & Grill at the Six Bells"
@@ -2262,29 +2432,62 @@
   "evidence": "none",
   "beers": [],
   "notes": [
-   "packet had no website and no drinks content; the required WebSearch could not be run because this shared research session had already exhausted its WebSearch quota (200/200) before this pub was reached, so no attempt to find the pub's own site was possible"
+   "searched once; sources indicate this pub (38 High Street, Pinner) closed in 2007, split into a Prezzo restaurant (closed 2018) and a wine bar with no draught beer - no current own site"
   ],
   "osmId": "node/9405520556",
   "name": "Hand in Hand"
  },
  {
   "pubId": "cmu0484tg001f7du2l2eujf5k",
-  "website": null,
-  "evidence": "none",
-  "beers": [],
+  "website": "https://www.queensheadpinner.co.uk",
+  "evidence": "site_menu",
+  "beers": [
+   {
+    "name": "Amstel",
+    "brewery": "Heineken",
+    "style": "lager",
+    "abv": 4.1,
+    "pricePence": null,
+    "url": "https://www.queensheadpinner.co.uk"
+   },
+   {
+    "name": "Beavertown Neck Oil",
+    "brewery": "Beavertown",
+    "style": "pale ale",
+    "abv": 4.3,
+    "pricePence": null,
+    "url": "https://www.queensheadpinner.co.uk"
+   },
+   {
+    "name": "Birra Moretti",
+    "brewery": "Moretti",
+    "style": "lager",
+    "abv": 4.6,
+    "pricePence": null,
+    "url": "https://www.queensheadpinner.co.uk"
+   },
+   {
+    "name": "Cruzcampo",
+    "brewery": "Cruzcampo",
+    "style": "lager",
+    "abv": 4.4,
+    "pricePence": null,
+    "url": "https://www.queensheadpinner.co.uk"
+   }
+  ],
   "notes": [
-   "packet had no website and no drinks content; the required WebSearch could not be run because this shared research session had already exhausted its WebSearch quota (200/200) before this pub was reached, so no attempt to find the pub's own site was possible"
+   "found pub's own site via search (queensheadpinner.co.uk), rebuilt packet; homepage names 4 of its '18 beers on tap' ('and many more' unnamed lines not counted); fixed typos 'Beaverton Neck Oil' -> 'Beavertown Neck Oil' and 'Birra Morretti' -> 'Birra Moretti'"
   ],
   "osmId": "node/240624074",
   "name": "Queen's Head"
  },
  {
   "pubId": "cmu04855w009f7du2qcewz8l3",
-  "website": null,
+  "website": "https://www.threewishespub.com/northwood",
   "evidence": "none",
   "beers": [],
   "notes": [
-   "packet had no website and no drinks content; the required WebSearch could not be run because this shared research session had already exhausted its WebSearch quota (200/200) before this pub was reached, so no attempt to find the pub's own site was possible"
+   "found pub's own site via search and rebuilt packet; site has no drinks/menu page (checked via crawl and one WebFetch of the page)"
   ],
   "osmId": "node/13017760979",
   "name": "The Three Wishes"
@@ -2295,7 +2498,7 @@
   "evidence": "none",
   "beers": [],
   "notes": [
-   "packet had no website and no drinks content; the required WebSearch could not be run because this shared research session had already exhausted its WebSearch quota (200/200) before this pub was reached, so no attempt to find the pub's own site was possible"
+   "searched once, no own website found"
   ],
   "osmId": "way/823932494",
   "name": "The Harefield"
@@ -2306,7 +2509,7 @@
   "evidence": "none",
   "beers": [],
   "notes": [
-   "packet had no website and no drinks content; the required WebSearch could not be run because this shared research session had already exhausted its WebSearch quota (200/200) before this pub was reached, so no attempt to find the pub's own site was possible"
+   "searched once, no own website URL found (search snippet says it's a Brunning & Price pub, but no site link appeared in results)"
   ],
   "osmId": "way/279506287",
   "name": "The Old Orchard"
@@ -2317,7 +2520,7 @@
   "evidence": "none",
   "beers": [],
   "notes": [
-   "packet had no website and no drinks content; the required WebSearch could not be run because this shared research session had already exhausted its WebSearch quota (200/200) before this pub was reached, so no attempt to find the pub's own site was possible"
+   "searched once, no own website found; a similarly-named Kings Arms in Hanwell is a different pub"
   ],
   "osmId": "way/1284240382",
   "name": "The Kings Arms"
@@ -2328,7 +2531,7 @@
   "evidence": "none",
   "beers": [],
   "notes": [
-   "packet had no website and no drinks content; the required WebSearch could not be run because this shared research session had already exhausted its WebSearch quota (200/200) before this pub was reached, so no attempt to find the pub's own site was possible"
+   "searched once; found several same-named pubs (Ruislip, Edgware, Winchmore Hill, Watford, Harrow) but this record has no address to confirm which, and no own website surfaced for the likely Ruislip match"
   ],
   "osmId": "way/1179985789",
   "name": "The Three Wishes"
@@ -2339,7 +2542,7 @@
   "evidence": "none",
   "beers": [],
   "notes": [
-   "packet had no website and no drinks content; the required WebSearch could not be run because this shared research session had already exhausted its WebSearch quota (200/200) before this pub was reached, so no attempt to find the pub's own site was possible"
+   "search found theoakspub.co.uk but it is a parked/for-sale domain, not the pub's real site; no draught info found"
   ],
   "osmId": "node/5284195125",
   "name": "The Oaks"
@@ -2350,7 +2553,7 @@
   "evidence": "none",
   "beers": [],
   "notes": [
-   "packet had no website and no drinks content; the required WebSearch could not be run because this shared research session had already exhausted its WebSearch quota (200/200) before this pub was reached, so no attempt to find the pub's own site was possible"
+   "searched once, no own website found (only whatpub/Yelp/useyourlocal/pubsgalore/Untappd/directory listings)"
   ],
   "osmId": "way/280967381",
   "name": "Prince of Wales"
@@ -2361,7 +2564,7 @@
   "evidence": "none",
   "beers": [],
   "notes": [
-   "packet had no website and no drinks content; the required WebSearch could not be run because this shared research session had already exhausted its WebSearch quota (200/200) before this pub was reached, so no attempt to find the pub's own site was possible"
+   "searched once; found two differently-located pubs with this name (Rose & Crown, Rickmansworth - own site roseandcrownrickmansworth.co.uk; Rose & Crown, Egham - Barons Pubs) but this record has no address to confirm which, so not assigned to avoid misattribution"
   ],
   "osmId": "way/281164293",
   "name": "The Rose and Crown"
@@ -2372,29 +2575,29 @@
   "evidence": "none",
   "beers": [],
   "notes": [
-   "packet had no website and no drinks content; the required WebSearch could not be run because this shared research session had already exhausted its WebSearch quota (200/200) before this pub was reached, so no attempt to find the pub's own site was possible"
+   "searched once, no own website found; only Facebook, Wikipedia (unrelated Australian pub) and directory results"
   ],
   "osmId": "node/301122101",
   "name": "The Dick Whittington"
  },
  {
   "pubId": "cmu0485pk00lr7du2a04v3a0c",
-  "website": null,
+  "website": "https://www.stonegatepubpartners.co.uk/find-a-pub/partridge-oxhey_023284",
   "evidence": "none",
   "beers": [],
   "notes": [
-   "packet had no website and no drinks content; the required WebSearch could not be run because this shared research session had already exhausted its WebSearch quota (200/200) before this pub was reached, so no attempt to find the pub's own site was possible"
+   "found the pub's page on Stonegate Pub Partners via search, but the site was unreachable/robots-blocked when rebuilding the packet, so no drinks content could be retrieved"
   ],
   "osmId": "way/1281260751",
   "name": "The Partrige"
  },
  {
   "pubId": "cmu04852x007j7du253wwimry",
-  "website": null,
+  "website": "https://www.thewatersidevenue.co.uk",
   "evidence": "none",
   "beers": [],
   "notes": [
-   "packet had no website and no drinks content; the required WebSearch could not be run because this shared research session had already exhausted its WebSearch quota (200/200) before this pub was reached, so no attempt to find the pub's own site was possible"
+   "found own site via search; it is a wedding/events venue with a bar but no draught beers named on the site"
   ],
   "osmId": "node/5810947062",
   "name": "The Waterside Venue"
@@ -2405,29 +2608,29 @@
   "evidence": "none",
   "beers": [],
   "notes": [
-   "packet had no website and no drinks content; the required WebSearch could not be run because this shared research session had already exhausted its WebSearch quota (200/200) before this pub was reached, so no attempt to find the pub's own site was possible"
+   "searched once, no own website found in this search (only CAMRA/whatpub/Tripadvisor/Yelp listings); likely the same physical pub as the 'White Bear Pub' record but its own site did not surface in this search"
   ],
   "osmId": "node/411842443",
   "name": "White Bear"
  },
  {
   "pubId": "cmu0485fp00fk7du2bqbrxwa7",
-  "website": null,
+  "website": "https://www.thewhitebearrickmansworth.co.uk",
   "evidence": "none",
   "beers": [],
   "notes": [
-   "packet had no website and no drinks content; the required WebSearch could not be run because this shared research session had already exhausted its WebSearch quota (200/200) before this pub was reached, so no attempt to find the pub's own site was possible"
+   "found own site via search; only generic 'wide range of beverages' mentioned, no draught beers named"
   ],
   "osmId": "way/469209518",
   "name": "White Bear Pub"
  },
  {
   "pubId": "cmu0485lq00jg7du2c3m9qnm9",
-  "website": null,
+  "website": "https://thehalfway-house.co.uk",
   "evidence": "none",
   "beers": [],
   "notes": [
-   "packet had no website and no drinks content; the required WebSearch could not be run because this shared research session had already exhausted its WebSearch quota (200/200) before this pub was reached, so no attempt to find the pub's own site was possible"
+   "found own site via search; full Indian food menu on site but no draught beer or cider named anywhere"
   ],
   "osmId": "way/931079856",
   "name": "The Halfway House"
@@ -2438,18 +2641,107 @@
   "evidence": "none",
   "beers": [],
   "notes": [
-   "packet had no website and no drinks content; the required WebSearch could not be run because this shared research session had already exhausted its WebSearch quota (200/200) before this pub was reached, so no attempt to find the pub's own site was possible"
+   "searched once, no own website found (CAMRA, directory and review sites only)"
   ],
   "osmId": "way/1326139010",
   "name": "Load of Hay"
  },
  {
   "pubId": "cmu0485nt00kp7du2jostzdgz",
-  "website": null,
-  "evidence": "none",
-  "beers": [],
+  "website": "https://www.theroyaloakwatfordheath.co.uk",
+  "evidence": "site_menu",
+  "beers": [
+   {
+    "name": "Cruzcampo",
+    "brewery": "Cruzcampo",
+    "style": "lager",
+    "abv": 4.4,
+    "pricePence": 680,
+    "url": "https://www.theroyaloakwatfordheath.co.uk/_files/ugd/3df888_b3df201ee1494f63970de1c1e46f928c.pdf"
+   },
+   {
+    "name": "Heineken",
+    "brewery": "Heineken",
+    "style": "lager",
+    "abv": 5,
+    "pricePence": 590,
+    "url": "https://www.theroyaloakwatfordheath.co.uk/_files/ugd/3df888_b3df201ee1494f63970de1c1e46f928c.pdf"
+   },
+   {
+    "name": "Pravha",
+    "brewery": null,
+    "style": "lager",
+    "abv": 4,
+    "pricePence": 580,
+    "url": "https://www.theroyaloakwatfordheath.co.uk/_files/ugd/3df888_b3df201ee1494f63970de1c1e46f928c.pdf"
+   },
+   {
+    "name": "Birra Moretti",
+    "brewery": "Moretti",
+    "style": "lager",
+    "abv": 4.6,
+    "pricePence": 670,
+    "url": "https://www.theroyaloakwatfordheath.co.uk/_files/ugd/3df888_b3df201ee1494f63970de1c1e46f928c.pdf"
+   },
+   {
+    "name": "Blue Moon",
+    "brewery": "Blue Moon Brewing Co",
+    "style": "wheat ale",
+    "abv": 5.4,
+    "pricePence": 680,
+    "url": "https://www.theroyaloakwatfordheath.co.uk/_files/ugd/3df888_b3df201ee1494f63970de1c1e46f928c.pdf"
+   },
+   {
+    "name": "Guinness",
+    "brewery": "Guinness",
+    "style": "stout",
+    "abv": 4.1,
+    "pricePence": 630,
+    "url": "https://www.theroyaloakwatfordheath.co.uk/_files/ugd/3df888_b3df201ee1494f63970de1c1e46f928c.pdf"
+   },
+   {
+    "name": "Alpacalypse",
+    "brewery": null,
+    "style": null,
+    "abv": 4.3,
+    "pricePence": 680,
+    "url": "https://www.theroyaloakwatfordheath.co.uk/_files/ugd/3df888_b3df201ee1494f63970de1c1e46f928c.pdf"
+   },
+   {
+    "name": "Aspall",
+    "brewery": "Aspall",
+    "style": "cider",
+    "abv": 4.5,
+    "pricePence": 600,
+    "url": "https://www.theroyaloakwatfordheath.co.uk/_files/ugd/3df888_b3df201ee1494f63970de1c1e46f928c.pdf"
+   },
+   {
+    "name": "Doom Bar",
+    "brewery": "Sharp's Brewery",
+    "style": "amber ale",
+    "abv": 4,
+    "pricePence": 510,
+    "url": "https://www.theroyaloakwatfordheath.co.uk/_files/ugd/3df888_b3df201ee1494f63970de1c1e46f928c.pdf"
+   },
+   {
+    "name": "Tring Seasonal Ale",
+    "brewery": "Tring Brewery",
+    "style": "ale",
+    "abv": null,
+    "pricePence": 540,
+    "url": "https://www.theroyaloakwatfordheath.co.uk/_files/ugd/3df888_b3df201ee1494f63970de1c1e46f928c.pdf"
+   },
+   {
+    "name": "Rebellion Roasted Nuts",
+    "brewery": "Rebellion Beer Co",
+    "style": "brown ale",
+    "abv": 4.6,
+    "pricePence": 550,
+    "url": "https://www.theroyaloakwatfordheath.co.uk/_files/ugd/3df888_b3df201ee1494f63970de1c1e46f928c.pdf"
+   }
+  ],
   "notes": [
-   "packet had no website and no drinks content; the required WebSearch could not be run because this shared research session had already exhausted its WebSearch quota (200/200) before this pub was reached, so no attempt to find the pub's own site was possible"
+   "found pub's own site via search (theroyaloakwatfordheath.co.uk), rebuilt packet; drinks PDF lists 11 draught lines with half/pint prices under a DRAUGHT heading"
   ],
   "osmId": "way/1019815596",
   "name": "The Royal Oak"
@@ -2460,18 +2752,18 @@
   "evidence": "none",
   "beers": [],
   "notes": [
-   "packet had no website and no drinks content; the required WebSearch could not be run because this shared research session had already exhausted its WebSearch quota (200/200) before this pub was reached, so no attempt to find the pub's own site was possible"
+   "searched once, no own website found (only CAMRA/Tripadvisor/Facebook/directory listings)"
   ],
   "osmId": "way/962581058",
   "name": "The Fox and Hounds"
  },
  {
   "pubId": "cmu04854l008k7du2k0f6tb28",
-  "website": null,
+  "website": "https://www.thehorseandchains.uk",
   "evidence": "none",
   "beers": [],
   "notes": [
-   "packet had no website and no drinks content; the required WebSearch could not be run because this shared research session had already exhausted its WebSearch quota (200/200) before this pub was reached, so no attempt to find the pub's own site was possible"
+   "search returned two candidate domains; horseandchains.co.uk is an expired/parked domain (redirects to a GoDaddy for-sale page), so used thehorseandchains.uk instead - rebuilt packet and one WebFetch of the homepage found no drinks content (site appears to render via JavaScript)"
   ],
   "osmId": "node/9837045117",
   "name": "Horse & Chains"
@@ -2482,7 +2774,7 @@
   "evidence": "none",
   "beers": [],
   "notes": [
-   "packet had no website and no drinks content; the required WebSearch could not be run because this shared research session had already exhausted its WebSearch quota (200/200) before this pub was reached, so no attempt to find the pub's own site was possible"
+   "searched once, no own website found (social club, only directory/Yelp/GOV.UK listings)"
   ],
   "osmId": "way/813586238",
   "name": "Chorleywood Club"
@@ -2493,7 +2785,7 @@
   "evidence": "none",
   "beers": [],
   "notes": [
-   "packet had no website and no drinks content; the required WebSearch could not be run because this shared research session had already exhausted its WebSearch quota (200/200) before this pub was reached, so no attempt to find the pub's own site was possible"
+   "searched once; sources indicate this pub (Upper Paddock Road, Oxhey/Bushey) has been closed for 2-3 years and is now a private residence - no current own site"
   ],
   "osmId": "node/410770997",
   "name": "The Haydon Arms"
@@ -2504,7 +2796,7 @@
   "evidence": "none",
   "beers": [],
   "notes": [
-   "packet had no website and no drinks content; the required WebSearch could not be run because this shared research session had already exhausted its WebSearch quota (200/200) before this pub was reached, so no attempt to find the pub's own site was possible"
+   "searched once, no own website found (CAMRA, directory and review sites only); third-party source notes Timothy Taylor's Landlord as a regular beer but this is not the pub's own published information"
   ],
   "osmId": "way/1020021765",
   "name": "The Villiers Arms"
@@ -2515,7 +2807,7 @@
   "evidence": "none",
   "beers": [],
   "notes": [
-   "packet had no website and no drinks content; the required WebSearch could not be run because this shared research session had already exhausted its WebSearch quota (200/200) before this pub was reached, so no attempt to find the pub's own site was possible"
+   "search found a likely own site (theriflevolunteeroxhey.co.uk) but its domain does not resolve (DNS failure); no other own-domain source found"
   ],
   "osmId": "way/1020021768",
   "name": "The Rifle Volunteer"
@@ -2526,18 +2818,83 @@
   "evidence": "none",
   "beers": [],
   "notes": [
-   "packet had no website and no drinks content; the required WebSearch could not be run because this shared research session had already exhausted its WebSearch quota (200/200) before this pub was reached, so no attempt to find the pub's own site was possible"
+   "search found the pub's page on heritagepubs.co.uk, but that domain now redirects (301) to a generic Stonegate Group pub-locator page with no drinks content for this specific pub"
   ],
   "osmId": "way/1058920733",
   "name": "The Red Lion"
  },
  {
   "pubId": "cmu0485nq00kn7du2pfcctjdt",
-  "website": null,
-  "evidence": "none",
-  "beers": [],
+  "website": "https://railwayarmsbushey.com",
+  "evidence": "site_menu",
+  "beers": [
+   {
+    "name": "Abbot Ale",
+    "brewery": "Greene King",
+    "style": "bitter",
+    "abv": 5,
+    "pricePence": null,
+    "url": "https://railwayarmsbushey.com/drinks/"
+   },
+   {
+    "name": "Timothy Taylor's Landlord",
+    "brewery": "Timothy Taylor's",
+    "style": "bitter",
+    "abv": 4.3,
+    "pricePence": null,
+    "url": "https://railwayarmsbushey.com/drinks/"
+   },
+   {
+    "name": "Greene King IPA",
+    "brewery": "Greene King",
+    "style": "bitter",
+    "abv": 3.6,
+    "pricePence": null,
+    "url": "https://railwayarmsbushey.com/drinks/"
+   },
+   {
+    "name": "Kronenbourg 1664",
+    "brewery": "Kronenbourg",
+    "style": "lager",
+    "abv": 5,
+    "pricePence": null,
+    "url": "https://railwayarmsbushey.com/drinks/"
+   },
+   {
+    "name": "Carling",
+    "brewery": "Molson Coors",
+    "style": "lager",
+    "abv": 3.7,
+    "pricePence": null,
+    "url": "https://railwayarmsbushey.com/drinks/"
+   },
+   {
+    "name": "Foster's",
+    "brewery": "Foster's",
+    "style": "lager",
+    "abv": 4,
+    "pricePence": null,
+    "url": "https://railwayarmsbushey.com/drinks/"
+   },
+   {
+    "name": "San Miguel",
+    "brewery": "San Miguel",
+    "style": "lager",
+    "abv": 5,
+    "pricePence": null,
+    "url": "https://railwayarmsbushey.com/drinks/"
+   },
+   {
+    "name": "Carlsberg",
+    "brewery": "Carlsberg",
+    "style": "lager",
+    "abv": 3.8,
+    "pricePence": null,
+    "url": "https://railwayarmsbushey.com/drinks/"
+   }
+  ],
   "notes": [
-   "packet had no website and no drinks content; the required WebSearch could not be run because this shared research session had already exhausted its WebSearch quota (200/200) before this pub was reached, so no attempt to find the pub's own site was possible"
+   "found pub's own site via search (railwayarmsbushey.com), rebuilt packet; drinks page names specific cask ales and lagers (site listed the last as 'Carlsberg Extra Cold', a serving-temperature variant of Carlsberg); also mentions a rotating guest ale with no name given, not recorded"
   ],
   "osmId": "way/1019811174",
   "name": "The Railway Arms"
@@ -2548,18 +2905,123 @@
   "evidence": "none",
   "beers": [],
   "notes": [
-   "packet had no website and no drinks content; the required WebSearch could not be run because this shared research session had already exhausted its WebSearch quota (200/200) before this pub was reached, so no attempt to find the pub's own site was possible"
+   "searched once, no own website found (only directories, Facebook and Tripadvisor)"
   ],
   "osmId": "node/6646417005",
   "name": "The Swan"
  },
  {
   "pubId": "cmu04851t006t7du2yr30aj04",
-  "website": null,
-  "evidence": "none",
-  "beers": [],
+  "website": "https://www.thekingstagbushey.co.uk",
+  "evidence": "site_menu",
+  "beers": [
+   {
+    "name": "Cruzcampo",
+    "brewery": "Cruzcampo",
+    "style": "lager",
+    "abv": 4.4,
+    "pricePence": 680,
+    "url": "https://www.thekingstagbushey.co.uk/_files/ugd/05a3fa_49c302da8ab3401bbbff31c1943c80e8.pdf"
+   },
+   {
+    "name": "Gamma Ray",
+    "brewery": "Beavertown",
+    "style": "pale ale",
+    "abv": 5.4,
+    "pricePence": 700,
+    "url": "https://www.thekingstagbushey.co.uk/_files/ugd/05a3fa_49c302da8ab3401bbbff31c1943c80e8.pdf"
+   },
+   {
+    "name": "Pravha",
+    "brewery": null,
+    "style": "lager",
+    "abv": 4,
+    "pricePence": 580,
+    "url": "https://www.thekingstagbushey.co.uk/_files/ugd/05a3fa_49c302da8ab3401bbbff31c1943c80e8.pdf"
+   },
+   {
+    "name": "Peroni Nastro Azzurro",
+    "brewery": "Peroni",
+    "style": "lager",
+    "abv": 5,
+    "pricePence": 680,
+    "url": "https://www.thekingstagbushey.co.uk/_files/ugd/05a3fa_49c302da8ab3401bbbff31c1943c80e8.pdf"
+   },
+   {
+    "name": "Blue Moon",
+    "brewery": "Blue Moon Brewing Co",
+    "style": "wheat ale",
+    "abv": 5.4,
+    "pricePence": 680,
+    "url": "https://www.thekingstagbushey.co.uk/_files/ugd/05a3fa_49c302da8ab3401bbbff31c1943c80e8.pdf"
+   },
+   {
+    "name": "Camden Pale Ale",
+    "brewery": "Camden Town Brewery",
+    "style": "pale ale",
+    "abv": 4.4,
+    "pricePence": 680,
+    "url": "https://www.thekingstagbushey.co.uk/_files/ugd/05a3fa_49c302da8ab3401bbbff31c1943c80e8.pdf"
+   },
+   {
+    "name": "Level Head",
+    "brewery": "Beavertown",
+    "style": "lager",
+    "abv": 4,
+    "pricePence": 650,
+    "url": "https://www.thekingstagbushey.co.uk/_files/ugd/05a3fa_49c302da8ab3401bbbff31c1943c80e8.pdf"
+   },
+   {
+    "name": "Staggered IPA",
+    "brewery": null,
+    "style": "IPA",
+    "abv": 4,
+    "pricePence": 640,
+    "url": "https://www.thekingstagbushey.co.uk/_files/ugd/05a3fa_49c302da8ab3401bbbff31c1943c80e8.pdf"
+   },
+   {
+    "name": "Guinness",
+    "brewery": "Guinness",
+    "style": "stout",
+    "abv": 4.2,
+    "pricePence": 630,
+    "url": "https://www.thekingstagbushey.co.uk/_files/ugd/05a3fa_49c302da8ab3401bbbff31c1943c80e8.pdf"
+   },
+   {
+    "name": "Inch's Cider",
+    "brewery": "Inch's",
+    "style": "cider",
+    "abv": 4.5,
+    "pricePence": 600,
+    "url": "https://www.thekingstagbushey.co.uk/_files/ugd/05a3fa_49c302da8ab3401bbbff31c1943c80e8.pdf"
+   },
+   {
+    "name": "Jubel Peach",
+    "brewery": "Jubel",
+    "style": "fruit beer",
+    "abv": 4,
+    "pricePence": 690,
+    "url": "https://www.thekingstagbushey.co.uk/_files/ugd/05a3fa_49c302da8ab3401bbbff31c1943c80e8.pdf"
+   },
+   {
+    "name": "King Stag Bitter",
+    "brewery": null,
+    "style": "bitter",
+    "abv": 3.9,
+    "pricePence": 510,
+    "url": "https://www.thekingstagbushey.co.uk/_files/ugd/05a3fa_49c302da8ab3401bbbff31c1943c80e8.pdf"
+   },
+   {
+    "name": "Tribute",
+    "brewery": "St Austell Brewery",
+    "style": "pale ale",
+    "abv": 4.2,
+    "pricePence": 530,
+    "url": "https://www.thekingstagbushey.co.uk/_files/ugd/05a3fa_49c302da8ab3401bbbff31c1943c80e8.pdf"
+   }
+  ],
   "notes": [
-   "packet had no website and no drinks content; the required WebSearch could not be run because this shared research session had already exhausted its WebSearch quota (200/200) before this pub was reached, so no attempt to find the pub's own site was possible"
+   "found pub's own site via search (thekingstagbushey.co.uk), rebuilt packet; drinks PDF lists 13 draught lines under a DRAUGHT heading with half/pint prices (same template as the nearby Royal Oak Watford Heath site)"
   ],
   "osmId": "node/3294939314",
   "name": "The King Stag"
@@ -2570,7 +3032,7 @@
   "evidence": "none",
   "beers": [],
   "notes": [
-   "packet had no website and no drinks content; the required WebSearch could not be run because this shared research session had already exhausted its WebSearch quota (200/200) before this pub was reached, so no attempt to find the pub's own site was possible"
+   "searched once, no own website found (CAMRA, directory and review sites only)"
   ],
   "osmId": "way/1019811175",
   "name": "The Victoria"
@@ -3087,11 +3549,36 @@
  },
  {
   "pubId": "cmu0484s2000l7du238l589ij",
-  "website": null,
-  "evidence": "none",
-  "beers": [],
+  "website": "https://www.perfectpub.co.uk",
+  "evidence": "site_menu",
+  "beers": [
+   {
+    "name": "London Pride",
+    "brewery": "Fuller's",
+    "style": "bitter",
+    "abv": 4.1,
+    "pricePence": null,
+    "url": "https://www.perfectpub.co.uk"
+   },
+   {
+    "name": "Young's Ordinary",
+    "brewery": "Young's",
+    "style": "bitter",
+    "abv": null,
+    "pricePence": null,
+    "url": "https://www.perfectpub.co.uk"
+   },
+   {
+    "name": "Guinness",
+    "brewery": "Guinness",
+    "style": "stout",
+    "abv": 4.2,
+    "pricePence": null,
+    "url": "https://www.perfectpub.co.uk"
+   }
+  ],
   "notes": [
-   "no website on record; search quota exhausted before this pub could be searched"
+   "own site found via search; homepage says 'we have 6 ales on the bar', names Young's Ordinary and Fuller's London Pride as residents, plus Guinness, lager, cider on tap with no other specific names given"
   ],
   "osmId": "node/30483366",
   "name": "The Park Tavern"
@@ -3272,11 +3759,11 @@
  },
  {
   "pubId": "cmu0485bn00d87du2pln53ts6",
-  "website": null,
+  "website": "https://kingsheadteddington.com",
   "evidence": "none",
   "beers": [],
   "notes": [
-   "no website on record; search quota exhausted before a pub-owned site could be confirmed (operator is The White Brasserie Company)"
+   "own site found and rebuilt (Heartwood Inns); text only says 'perfectly poured pints' and 'expertly curated wine list' with no beers named"
   ],
   "osmId": "way/298834131",
   "name": "The King's Head"
@@ -3305,22 +3792,22 @@
  },
  {
   "pubId": "cmu0485lc00j77du2gxh5tuu3",
-  "website": null,
+  "website": "https://thehandandflower.co.uk",
   "evidence": "none",
   "beers": [],
   "notes": [
-   "no website on record; search found a Stonegate Group press release about the pub's reopening but no confirmed pub-owned site before search quota was exhausted"
+   "own site found (search snippet mentioned 'a regular Twickenham Blond Ale plus a changing beer') but the site was unreachable when rebuilding the packet (fetch failed); could not confirm on the pub's own page"
   ],
   "osmId": "way/920239337",
   "name": "Hand & Flower"
  },
  {
   "pubId": "cmu0485k300ie7du2ptxpk9g2",
-  "website": null,
+  "website": "https://thewaldegravearms.co.uk",
   "evidence": "none",
   "beers": [],
   "notes": [
-   "no website on record; search quota exhausted before this pub could be searched"
+   "own site found and rebuilt; site is now an Asian fusion restaurant/cocktail bar (Waldegrave Arms & Siyansh); images are food only, no drinks page or beer list"
   ],
   "osmId": "way/810424702",
   "name": "The Waldegrave Arms"
@@ -3467,11 +3954,11 @@
  },
  {
   "pubId": "cmu0485it00hk7du22oevlt78",
-  "website": null,
+  "website": "https://www.thenewinnham.co.uk",
   "evidence": "none",
   "beers": [],
   "notes": [
-   "no website on record; search quota exhausted before this pub could be searched"
+   "own site found and rebuilt; homepage only mentions 'diverse drink selections' generically, no beers named"
   ],
   "osmId": "way/718214669",
   "name": "The New Inn"
@@ -3482,18 +3969,18 @@
   "evidence": "none",
   "beers": [],
   "notes": [
-   "no website on record; search quota exhausted before this pub could be searched"
+   "searched once, no own website found (CAMRA, whatpub, Tripadvisor and directory listings only)"
   ],
   "osmId": "way/311904774",
   "name": "The Prince of Wales"
  },
  {
   "pubId": "cmu0485je00hx7du2k5wpovwg",
-  "website": null,
+  "website": "https://www.alexanderpope.co.uk",
   "evidence": "none",
   "beers": [],
   "notes": [
-   "no website on record; search quota exhausted before this pub could be searched"
+   "own site found and rebuilt (Young's pub); food-and-drink pages and drinks PDFs found but only cocktails, wines, spirits, and a 'Beer from the fridge' bottled list (Peroni, Erdinger, Corona, Young's Light Ale, Young's Ram Rod, Aspall, Rekorderlig) - all bottles, not draught; text mentions 'familiar beers, craft-y local ales, lagers' with no names given"
   ],
   "osmId": "way/766037869",
   "name": "Alexander Pope Hotel"
@@ -3515,18 +4002,18 @@
   "evidence": "none",
   "beers": [],
   "notes": [
-   "no website on record; search quota exhausted before this pub could be searched"
+   "searched once, no own website found (CAMRA, Tripadvisor, VisitRichmond and directory listings only)"
   ],
   "osmId": "way/629129391",
   "name": "The Sussex Arms"
  },
  {
   "pubId": "cmu04857000a47du2avurs0tu",
-  "website": null,
+  "website": "https://foxandduck.co.uk",
   "evidence": "none",
   "beers": [],
   "notes": [
-   "no website on record; search quota exhausted before this pub could be searched"
+   "own site found and rebuilt; homepage says 'handpicked craft ales' generically with no names; food menu image mentions 'Beef brisket & Guinness pie' but that is Guinness used as a cooking ingredient, not a draught listing"
   ],
   "osmId": "way/75668015",
   "name": "The Fox and Duck"
@@ -3537,7 +4024,7 @@
   "evidence": "none",
   "beers": [],
   "notes": [
-   "no website on record; search quota exhausted before this pub could be searched"
+   "searched once; this is a brewery taproom (Twickenham Fine Ales Ltd) but no own website domain appeared in results (Wikipedia, CAMRA, Companies House and directory listings only)"
   ],
   "osmId": "node/5795078852",
   "name": "Twickenham Fine Ales"
@@ -4613,18 +5100,18 @@
   "evidence": "none",
   "beers": [],
   "notes": [
-   "no website on record; the shared WebSearch quota for this research run was exhausted (200/200) before this pub could be searched, so the required search step could not be run"
+   "searched once, no own website found (micropub reported to serve Ealing Brewing Co beers per third-party beer guides, but no own site or page found)"
   ],
   "osmId": "node/8707334318",
   "name": "The Owl and the Pussycat"
  },
  {
   "pubId": "cmu048543008a7du2rk89vt0h",
-  "website": null,
+  "website": "https://ealingwine.co",
   "evidence": "none",
   "beers": [],
   "notes": [
-   "no website on record; WebSearch quota exhausted before this pub could be searched"
+   "own site found and rebuilt (wine bar & shop); menu PDF beer section lists Budweiser Budvar Original 500ml and Hobgoblin IPA 500ml - both bottles, not draught"
   ],
   "osmId": "node/8702886366",
   "name": "Ealing Wine Co"
@@ -4635,7 +5122,7 @@
   "evidence": "none",
   "beers": [],
   "notes": [
-   "no website on record; WebSearch quota exhausted before this pub could be searched"
+   "searched once; the only 'The Fox' pub site found (thefoxtw1.co.uk, 39 Church Street, Twickenham TW1 3NR) is roughly 6km from this pub's recorded coordinates, too far to confidently be the same pub, so treated as no match"
   ],
   "osmId": "node/242925119",
   "name": "The Fox"
@@ -4646,7 +5133,7 @@
   "evidence": "none",
   "beers": [],
   "notes": [
-   "no website on record; WebSearch quota exhausted before this pub could be searched"
+   "searched once, no own website found (result matched a different Village Inn at Pitshanger Lane W5, not this pub's location)"
   ],
   "osmId": "node/2928263022",
   "name": "Village Inn"
@@ -4657,29 +5144,29 @@
   "evidence": "none",
   "beers": [],
   "notes": [
-   "no website on record; WebSearch quota exhausted before this pub could be searched"
+   "searched once, no own website found"
   ],
   "osmId": "node/2928247913",
   "name": "Prince of Wales"
  },
  {
   "pubId": "cmu04857800a97du2lget3nnv",
-  "website": null,
+  "website": "https://www.grangeealing.co.uk",
   "evidence": "none",
   "beers": [],
   "notes": [
-   "no website on record; WebSearch quota exhausted before this pub could be searched"
+   "own site found via search; food & drink pages and festive drinks PDF mention 'cask ales'/'craft beers' as categories and bottled Peroni/Asahi buckets only - no draught beer named"
   ],
   "osmId": "way/96929137",
   "name": "The Grange"
  },
  {
   "pubId": "cmu04853p00817du2qtc5jyve",
-  "website": null,
+  "website": "https://kingsarmshanwell.co.uk",
   "evidence": "none",
   "beers": [],
   "notes": [
-   "no website on record; this is The Kings Arms, 110 Uxbridge Road, Hanwell W7 3SU; WebSearch quota exhausted before this pub could be searched"
+   "own site found, rebuilt, and homepage plus /menu fetched; site says 'Explore our fine range of beers' with no beers named, food-focused Indian/Nepalese pub, no draught list"
   ],
   "osmId": "node/7581534029",
   "name": "The Kings Arms"
@@ -4690,7 +5177,7 @@
   "evidence": "none",
   "beers": [],
   "notes": [
-   "no website on record; WebSearch quota exhausted before this pub could be searched"
+   "searched once, no own website found"
   ],
   "osmId": "node/9408153322",
   "name": "Lavins"
@@ -4701,7 +5188,7 @@
   "evidence": "none",
   "beers": [],
   "notes": [
-   "no website on record; WebSearch quota exhausted before this pub could be searched"
+   "searched once, no own website found (only Star Pubs & Bars tenancy listing, not a public menu)"
   ],
   "osmId": "node/25592547",
   "name": "The Duke of York"
@@ -4712,7 +5199,7 @@
   "evidence": "none",
   "beers": [],
   "notes": [
-   "no website on record; WebSearch quota exhausted before this pub could be searched"
+   "searched once, no own website found"
   ],
   "osmId": "node/7179078030",
   "name": "The Leather Saddle"
@@ -4723,7 +5210,7 @@
   "evidence": "none",
   "beers": [],
   "notes": [
-   "no website on record; WebSearch quota exhausted before this pub could be searched"
+   "searched once, no own website found"
   ],
   "osmId": "node/7179078032",
   "name": "The Old Hat"
@@ -4734,18 +5221,18 @@
   "evidence": "none",
   "beers": [],
   "notes": [
-   "no website on record; WebSearch quota exhausted before this pub could be searched"
+   "searched once, no own website found; only directory listings (whatpub, camra, facebook, instagram, allinlondon, fanzo, yelp)"
   ],
   "osmId": "node/265255748",
   "name": "Jono's Bar"
  },
  {
   "pubId": "cmu0484rr000e7du25zw2ptrt",
-  "website": null,
+  "website": "https://www.thegrovew5.co.uk",
   "evidence": "none",
   "beers": [],
   "notes": [
-   "no website on record; WebSearch quota exhausted before this pub could be searched"
+   "own site found and rebuilt; beer-garden page found but menus page is a JS single-page app with no static drinks content ('Content is loading...'); a WebFetch of /menus confirmed no drinks list could be extracted"
   ],
   "osmId": "node/27475739",
   "name": "The Grove"
@@ -4756,7 +5243,7 @@
   "evidence": "none",
   "beers": [],
   "notes": [
-   "no website on record; this is King's Arms, 55 The Grove, W5 5DX; WebSearch quota exhausted before this pub could be searched"
+   "searched once, no own website found (CAMRA/WhatPub third-party listing mentions Fuller's London Pride but that is not the pub's own site so not recorded)"
   ],
   "osmId": "node/923084994",
   "name": "King's Arms"
@@ -4767,7 +5254,7 @@
   "evidence": "none",
   "beers": [],
   "notes": [
-   "no website on record; WebSearch quota exhausted before this pub could be searched"
+   "searched once, no own website found"
   ],
   "osmId": "node/5798457755",
   "name": "Crispins Wine Bar"
@@ -4778,7 +5265,7 @@
   "evidence": "none",
   "beers": [],
   "notes": [
-   "no website on record; WebSearch quota exhausted before this pub could be searched"
+   "searched once, no own website found (pub reported long-term closed since lockdown)"
   ],
   "osmId": "node/8427001121",
   "name": "Black George"
@@ -4789,18 +5276,27 @@
   "evidence": "none",
   "beers": [],
   "notes": [
-   "no website on record; WebSearch quota exhausted before this pub could be searched"
+   "searched once, no own website found"
   ],
   "osmId": "node/6572865790",
   "name": "O'Briens"
  },
  {
   "pubId": "cmu0484tr001m7du247bjwl31",
-  "website": null,
-  "evidence": "none",
-  "beers": [],
+  "website": "https://www.princearthur.co.uk",
+  "evidence": "site_menu",
+  "beers": [
+   {
+    "name": "Timothy Taylor's Landlord",
+    "brewery": "Timothy Taylor's",
+    "style": "bitter",
+    "abv": 4.3,
+    "pricePence": null,
+    "url": "https://www.princearthur.co.uk/drink"
+   }
+  ],
   "notes": [
-   "no website on record; WebSearch quota exhausted before this pub could be searched"
+   "own site found and rebuilt; /drink page names 'Well-kept real ales (bitter): Timothy Taylor in addition to guest real ales' and cites a Cask Marque award; product assumed to be their standard Landlord bitter since no other Timothy Taylor's product is named; guest ales not named so not recorded; cocktail/wine PDF has no other draught beers"
   ],
   "osmId": "node/249786782",
   "name": "Prince Arthur"
@@ -4811,51 +5307,140 @@
   "evidence": "none",
   "beers": [],
   "notes": [
-   "no website on record; WebSearch quota exhausted before this pub could be searched"
+   "searched once, no own website found"
   ],
   "osmId": "node/249793689",
   "name": "Star And Scorpion"
  },
  {
   "pubId": "cmu0484x9003u7du29c3u86z1",
-  "website": null,
-  "evidence": "none",
-  "beers": [],
+  "website": "https://www.thecastlebar.uk",
+  "evidence": "site_menu",
+  "beers": [
+   {
+    "name": "Amstel",
+    "brewery": "Amstel",
+    "style": "lager",
+    "abv": 4.1,
+    "pricePence": 590,
+    "url": "https://www.thecastlebar.uk/_files/ugd/f22e3f_b31fa257ca104bebb9b80ed89e91611f.pdf"
+   },
+   {
+    "name": "Blue Moon",
+    "brewery": "Blue Moon Brewing Co",
+    "style": "wheat beer",
+    "abv": 5.4,
+    "pricePence": 680,
+    "url": "https://www.thecastlebar.uk/_files/ugd/f22e3f_b31fa257ca104bebb9b80ed89e91611f.pdf"
+   },
+   {
+    "name": "Beavertown Neck Oil",
+    "brewery": "Beavertown",
+    "style": "IPA",
+    "abv": 4.3,
+    "pricePence": 680,
+    "url": "https://www.thecastlebar.uk/_files/ugd/f22e3f_b31fa257ca104bebb9b80ed89e91611f.pdf"
+   },
+   {
+    "name": "Foster's",
+    "brewery": "Foster's",
+    "style": "lager",
+    "abv": 4.0,
+    "pricePence": 500,
+    "url": "https://www.thecastlebar.uk/_files/ugd/f22e3f_b31fa257ca104bebb9b80ed89e91611f.pdf"
+   },
+   {
+    "name": "Guinness",
+    "brewery": "Guinness",
+    "style": "stout",
+    "abv": 4.1,
+    "pricePence": 630,
+    "url": "https://www.thecastlebar.uk/_files/ugd/f22e3f_b31fa257ca104bebb9b80ed89e91611f.pdf"
+   },
+   {
+    "name": "Red Stripe",
+    "brewery": "Red Stripe",
+    "style": "lager",
+    "abv": 4.7,
+    "pricePence": 590,
+    "url": "https://www.thecastlebar.uk/_files/ugd/f22e3f_b31fa257ca104bebb9b80ed89e91611f.pdf"
+   },
+   {
+    "name": "San Miguel",
+    "brewery": "San Miguel",
+    "style": "lager",
+    "abv": 5.0,
+    "pricePence": 610,
+    "url": "https://www.thecastlebar.uk/_files/ugd/f22e3f_b31fa257ca104bebb9b80ed89e91611f.pdf"
+   },
+   {
+    "name": "Staropramen",
+    "brewery": "Staropramen",
+    "style": "lager",
+    "abv": 5.0,
+    "pricePence": 630,
+    "url": "https://www.thecastlebar.uk/_files/ugd/f22e3f_b31fa257ca104bebb9b80ed89e91611f.pdf"
+   },
+   {
+    "name": "Madrí Excepcional",
+    "brewery": "Madrí",
+    "style": "lager",
+    "abv": 4.6,
+    "pricePence": 630,
+    "url": "https://www.thecastlebar.uk/_files/ugd/f22e3f_b31fa257ca104bebb9b80ed89e91611f.pdf"
+   },
+   {
+    "name": "Aspall",
+    "brewery": "Aspall",
+    "style": "cider",
+    "abv": 4.5,
+    "pricePence": 590,
+    "url": "https://www.thecastlebar.uk/_files/ugd/f22e3f_b31fa257ca104bebb9b80ed89e91611f.pdf"
+   },
+   {
+    "name": "Peroni Nastro Azzurro",
+    "brewery": "Peroni",
+    "style": "lager",
+    "abv": 5.1,
+    "pricePence": 690,
+    "url": "https://www.thecastlebar.uk/_files/ugd/f22e3f_b31fa257ca104bebb9b80ed89e91611f.pdf"
+   }
+  ],
   "notes": [
-   "no website on record; WebSearch quota exhausted before this pub could be searched"
+   "own site found and rebuilt; drinks PDF has a clear 'Draught Beers' section with half/pint prices for all 11 lines listed"
   ],
   "osmId": "node/411901766",
   "name": "The Castlebar"
  },
  {
   "pubId": "cmu0484rp000d7du2ipjwmo78",
-  "website": null,
+  "website": "https://www.thedrapersarmsealing.co.uk",
   "evidence": "none",
   "beers": [],
   "notes": [
-   "no website on record; WebSearch quota exhausted before this pub could be searched"
+   "own site found but rebuild returned 403 (site unreachable or robots-blocked); no drinks info available"
   ],
   "osmId": "node/27408323",
   "name": "The Drapers Arms"
  },
  {
   "pubId": "cmu0484z800557du25fel3gfy",
-  "website": null,
+  "website": "https://www.thelodgestavern.co.uk",
   "evidence": "none",
   "beers": [],
   "notes": [
-   "no website on record; WebSearch quota exhausted before this pub could be searched"
+   "own site found via search; drinks menu lists only cocktails, wines and spirits - no draught beer or cider named"
   ],
   "osmId": "node/1117274863",
   "name": "The Lodge Tavern"
  },
  {
   "pubId": "cmu0484rx000i7du26ej889b5",
-  "website": null,
+  "website": "https://www.thenorthstarealing.co.uk/",
   "evidence": "none",
   "beers": [],
   "notes": [
-   "no website on record; WebSearch quota exhausted before this pub could be searched"
+   "own site found via search (The North Star, Ealing); packet rebuild blocked (403), fetched directly - no draught beer or cider named, only 'rotating craft beers' mentioned generically"
   ],
   "osmId": "node/27476990",
   "name": "The North Star"
@@ -4866,7 +5451,7 @@
   "evidence": "none",
   "beers": [],
   "notes": [
-   "no website on record; WebSearch quota exhausted before this pub could be searched"
+   "searched once, no own website found"
   ],
   "osmId": "node/12436688734",
   "name": "Stack"
@@ -4877,7 +5462,7 @@
   "evidence": "none",
   "beers": [],
   "notes": [
-   "no website on record; WebSearch quota exhausted before this pub could be searched"
+   "searched once, no own website found; this was an in-house microbrewery at the Aeronaut pub in Acton which has since closed"
   ],
   "osmId": "node/4303520980",
   "name": "Laine Brewing Company"
@@ -4888,7 +5473,7 @@
   "evidence": "none",
   "beers": [],
   "notes": [
-   "no website on record; WebSearch quota exhausted before this pub could be searched"
+   "searched once, no own website found; pub is permanently closed and now Woody's Grill - different business"
   ],
   "osmId": "node/27476983",
   "name": "The Shanakee"
@@ -4899,7 +5484,7 @@
   "evidence": "none",
   "beers": [],
   "notes": [
-   "no website on record; search quota exhausted"
+   "searched once, no own website found"
   ],
   "osmId": "node/257807913",
   "name": "The New Inn"
@@ -5245,22 +5830,22 @@
  },
  {
   "pubId": "cmu0484xn00437du22jn0q7zf",
-  "website": null,
+  "website": "https://www.emberinns.co.uk/nationalsearch/london/the-preston-wembley",
   "evidence": "none",
   "beers": [],
   "notes": [
-   "No website on record. This session's WebSearch quota was exhausted before this pub could be searched, so no search for the pub's own site was possible; packet had no drinks content."
+   "found pub's page on Ember Inns (its operator's own site) via search; page is generic marketing copy with no named drinks"
   ],
   "osmId": "node/469765399",
   "name": "The Preston"
  },
  {
   "pubId": "cmu0485b500cw7du2u0bsa4mk",
-  "website": null,
+  "website": "https://windermerepub.com",
   "evidence": "none",
   "beers": [],
   "notes": [
-   "No website on record. This session's WebSearch quota was exhausted before this pub could be searched, so no search for the pub's own site was possible; packet had no drinks content."
+   "own site found; rebuild and a direct WebFetch of the homepage returned only a bare directory listing, no drinks content found"
   ],
   "osmId": "way/279649007",
   "name": "The Windermere"
@@ -5271,7 +5856,7 @@
   "evidence": "none",
   "beers": [],
   "notes": [
-   "No website on record. This session's WebSearch quota was exhausted before this pub could be searched, so no search for the pub's own site was possible; packet had no drinks content."
+   "searched once, no own website found; only directory listings (allinlondon, cylex, facebook, yell)"
   ],
   "osmId": "node/548866030",
   "name": "Baron"
@@ -5282,18 +5867,18 @@
   "evidence": "none",
   "beers": [],
   "notes": [
-   "No website on record. This session's WebSearch quota was exhausted before this pub could be searched, so no search for the pub's own site was possible; packet had no drinks content."
+   "searched once, no own website found; directory listings suggest the pub may be closed"
   ],
   "osmId": "node/2439812541",
   "name": "the fléadh"
  },
  {
   "pubId": "cmu0484zx005m7du2ppeg1xmn",
-  "website": null,
+  "website": "https://www.trinitybar.co.uk",
   "evidence": "none",
   "beers": [],
   "notes": [
-   "No website on record. This session's WebSearch quota was exhausted before this pub could be searched, so no search for the pub's own site was possible; packet had no drinks content."
+   "own site found and rebuilt; homepage only mentions 'a quid of all pints & bottled beers' with no beers named, no menu page"
   ],
   "osmId": "node/1489585778",
   "name": "Trinity"
@@ -5304,29 +5889,29 @@
   "evidence": "none",
   "beers": [],
   "notes": [
-   "No website on record. This session's WebSearch quota was exhausted before this pub could be searched, so no search for the pub's own site was possible; packet had no drinks content."
+   "searched once, no own website found"
   ],
   "osmId": "node/896383686",
   "name": "Ward's Free House"
  },
  {
   "pubId": "cmu04858200at7du24n7vjyz1",
-  "website": null,
+  "website": "https://www.thejunctionharrow.co.uk",
   "evidence": "none",
   "beers": [],
   "notes": [
-   "No website on record. This session's WebSearch quota was exhausted before this pub could be searched, so no search for the pub's own site was possible; packet had no drinks content."
+   "own site found but rebuild returned 403 (site unreachable or robots-blocked); no drinks info available"
   ],
   "osmId": "way/149229416",
   "name": "The Junction"
  },
  {
   "pubId": "cmu0484yx004y7du20tzk4g8s",
-  "website": null,
+  "website": "https://www.craftunionpubs.com/the-george-harrow",
   "evidence": "none",
   "beers": [],
   "notes": [
-   "No website on record. This session's WebSearch quota was exhausted before this pub could be searched, so no search for the pub's own site was possible; packet had no drinks content."
+   "own pub-company page found (Craft Union/Stonegate) and rebuilt; only generic 'top-value pints of draught beer and cider' with no beers named"
   ],
   "osmId": "node/915100777",
   "name": "The George"
@@ -5337,7 +5922,7 @@
   "evidence": "none",
   "beers": [],
   "notes": [
-   "No website on record. This session's WebSearch quota was exhausted before this pub could be searched, so no search for the pub's own site was possible; packet had no drinks content."
+   "searched once, no own website found (nightclub/bar, status uncertain)"
   ],
   "osmId": "node/8357416959",
   "name": "Heat"
@@ -5348,7 +5933,7 @@
   "evidence": "none",
   "beers": [],
   "notes": [
-   "No website on record. This session's WebSearch quota was exhausted before this pub could be searched, so no search for the pub's own site was possible; packet had no drinks content."
+   "searched once, no own website found"
   ],
   "osmId": "way/242803702",
   "name": "Barretts"
@@ -5359,7 +5944,7 @@
   "evidence": "none",
   "beers": [],
   "notes": [
-   "No website on record. This session's WebSearch quota was exhausted before this pub could be searched, so no search for the pub's own site was possible; packet had no drinks content."
+   "searched once, no own website found"
   ],
   "osmId": "way/243002737",
   "name": "The Three Wishes"
@@ -5370,18 +5955,27 @@
   "evidence": "none",
   "beers": [],
   "notes": [
-   "No website on record. This session's WebSearch quota was exhausted before this pub could be searched, so no search for the pub's own site was possible; packet had no drinks content."
+   "searched once, no own website found"
   ],
   "osmId": "node/10174708287",
   "name": "Crystal Lounge"
  },
  {
   "pubId": "cmu0484zk005d7du24mycpyqi",
-  "website": null,
-  "evidence": "none",
-  "beers": [],
+  "website": "https://thebelmontbar.co.uk",
+  "evidence": "site_menu",
+  "beers": [
+   {
+    "name": "Guinness",
+    "brewery": "Guinness",
+    "style": "stout",
+    "abv": 4.2,
+    "pricePence": null,
+    "url": "https://thebelmontbar.co.uk/wp-content/uploads/2023/10/1-scaled.jpg"
+   }
+  ],
   "notes": [
-   "No website on record. This session's WebSearch quota was exhausted before this pub could be searched, so no search for the pub's own site was possible; packet had no drinks content."
+   "own site found and rebuilt; homepage photo of the bar clearly shows a Guinness harp-branded font/tap on the bar top; other taps visible but not legibly identifiable"
   ],
   "osmId": "node/1320961201",
   "name": "The Belmont"
@@ -5392,7 +5986,7 @@
   "evidence": "none",
   "beers": [],
   "notes": [
-   "No website on record. This session's WebSearch quota was exhausted before this pub could be searched, so no search for the pub's own site was possible; packet had no drinks content."
+   "searched once, no own website found"
   ],
   "osmId": "node/10112312066",
   "name": "Life of Reilly"
@@ -5403,29 +5997,29 @@
   "evidence": "none",
   "beers": [],
   "notes": [
-   "No website on record. This session's WebSearch quota was exhausted before this pub could be searched, so no search for the pub's own site was possible; packet had no drinks content."
+   "searched once, no own website found"
   ],
   "osmId": "node/11446454119",
   "name": "The Laurels"
  },
  {
   "pubId": "cmu0485pp00lu7du2x8hodlr6",
-  "website": null,
+  "website": "https://thecaseisaltered.choiceqr.com",
   "evidence": "none",
   "beers": [],
   "notes": [
-   "No website on record. This session's WebSearch quota was exhausted before this pub could be searched, so no search for the pub's own site was possible; packet had no drinks content."
+   "found the pub's own QR-ordering menu site via search, rebuilt packet and WebFetched the /menu page; page is JavaScript-rendered and returned no readable drinks content"
   ],
   "osmId": "way/1302239291",
   "name": "The Case Is Altered"
  },
  {
   "pubId": "cmu0485i600h57du2cuptotfj",
-  "website": null,
+  "website": "https://hareoldredding.com",
   "evidence": "none",
   "beers": [],
   "notes": [
-   "No website on record. This session's WebSearch quota was exhausted before this pub could be searched, so no search for the pub's own site was possible; packet had no drinks content."
+   "found pub's own site via search (hareoldredding.com, likely the same pub as nearby The Case Is Altered on Old Redding); rebuild crawl failed as unreachable, and two WebFetches (home page, /menus/) found the actual Bar/Drinks Menu content is only in images not readable as text - one image caption referenced 'Timothy Taylor Landlord' but this could not be verified as actual page text, so not recorded as confirmed evidence"
   ],
   "osmId": "way/666427950",
   "name": "The Hare"
@@ -5436,7 +6030,7 @@
   "evidence": "none",
   "beers": [],
   "notes": [
-   "No website on record. This session's WebSearch quota was exhausted before this pub could be searched, so no search for the pub's own site was possible; packet had no drinks content."
+   "searched once, no own website found; the pub has closed and the site is now Everest Abercorn, an Indian restaurant - different business"
   ],
   "osmId": "node/672510074",
   "name": "Abercorn Arms"
@@ -5447,7 +6041,7 @@
   "evidence": "none",
   "beers": [],
   "notes": [
-   "No website on record. This session's WebSearch quota was exhausted before this pub could be searched, so no search for the pub's own site was possible; packet had no drinks content."
+   "searched once; the only close match (Three Crowns, Bushey Heath, ~1 mile from Harrow Weald) had no own website in results (whatpub, a Greene King page for a different, Piccadilly pub of the same name, and directories only), and coordinates do not clearly confirm it as the same pub"
   ],
   "osmId": "node/1434251318",
   "name": "Three Crowns"
@@ -5458,7 +6052,7 @@
   "evidence": "none",
   "beers": [],
   "notes": [
-   "No website on record. This session's WebSearch quota was exhausted before this pub could be searched, so no search for the pub's own site was possible; packet had no drinks content."
+   "searched once, no own website found (no pub of this name located in Stanmore/Harrow area)"
   ],
   "osmId": "node/2311905648",
   "name": "the victory"
@@ -6225,7 +6819,7 @@
   "evidence": "none",
   "beers": [],
   "notes": [
-   "site is robots-blocked; could not confirm an alternate site before search quota was exhausted"
+   "website already on record, no search needed; site returns HTTP 503 on repeated attempts (packet rebuild and two direct fetches), no drinks content obtained"
   ],
   "osmId": "way/174088740",
   "name": "Blue Anchor"
@@ -6302,7 +6896,7 @@
   "evidence": "none",
   "beers": [],
   "notes": [
-   "site is robots-blocked; could not confirm an alternate site before search quota was exhausted"
+   "website already on record, no search needed; domain fails to resolve (DNS error) on repeated attempts, no drinks content obtained"
   ],
   "osmId": "node/3796992525",
   "name": "Nell's Jazz & Blues"
@@ -6476,7 +7070,7 @@
   "evidence": "none",
   "beers": [],
   "notes": [
-   "site is robots-blocked; could not confirm content before search quota was exhausted"
+   "website already on record, no search needed; the specific Hammersmith page returns 404 and the site's own location list no longer shows a Hammersmith bar (only London Bridge and Shepherd's Bush) - no drinks content obtained"
   ],
   "osmId": "node/3790295357",
   "name": "Belushi's"
@@ -6697,11 +7291,11 @@
  },
  {
   "pubId": "cmu04851a006h7du2riaqsz73",
-  "website": null,
+  "website": "https://chiswick.theunionbar.co.uk",
   "evidence": "none",
   "beers": [],
   "notes": [
-   "no website on record; search quota exhausted"
+   "own site found via search (The Union Chiswick, part of The Union Bar group); packet rebuild and two direct fetches returned no usable page content (likely JS-rendered), no drinks names obtained"
   ],
   "osmId": "node/2800561600",
   "name": "Union Chiswick"
@@ -6719,11 +7313,20 @@
  },
  {
   "pubId": "cmu0485a600c87du2ywqpicr0",
-  "website": null,
-  "evidence": "none",
-  "beers": [],
+  "website": "https://biddymulligansolympia.com/",
+  "evidence": "site_menu",
+  "beers": [
+   {
+    "name": "Guinness",
+    "brewery": "Guinness",
+    "style": "stout",
+    "abv": 4.2,
+    "pricePence": null,
+    "url": "https://biddymulligansolympia.com"
+   }
+  ],
   "notes": [
-   "no website on record; search quota exhausted"
+   "own site found via search and rebuilt; site is now branded 'The Jameson' at the same address, homepage names 'a refreshing pint of Guinness' among drinks offered, food PDFs have no other beer names"
   ],
   "osmId": "way/225552211",
   "name": "Biddy Mulligan's"
@@ -6800,7 +7403,7 @@
   "evidence": "none",
   "beers": [],
   "notes": [
-   "no website on record; search quota exhausted"
+   "searched once, no own website found; a directory listing notes cask ale is not currently available there"
   ],
   "osmId": "node/288598379",
   "name": "The Stag"
@@ -7204,7 +7807,7 @@
   "evidence": "none",
   "beers": [],
   "notes": [
-   "no website on record; identity unclear (no matching pub found under this name at this location), search quota exhausted"
+   "searched once, no confident matching venue or own website found near this pub's location"
   ],
   "osmId": "node/446882323",
   "name": "Nova Cafe"
@@ -7324,7 +7927,7 @@
   "evidence": "none",
   "beers": [],
   "notes": [
-   "no website on record; OSM name 'Bar / Starbucks' suggests a mislabelled/ambiguous venue, search quota exhausted"
+   "searched once; this is a Starbucks concession inside the Holiday Inn London - West hotel at 4 Portal Way, not an independent pub site"
   ],
   "osmId": "node/11815171811",
   "name": "Bar / Starbucks"
@@ -7358,7 +7961,7 @@
   "evidence": "none",
   "beers": [],
   "notes": [
-   "no official website found; described as an Irish sports pub with 'reasonably priced beers' but no names given, search quota exhausted before exhausting other avenues"
+   "searched once, no own website found; only directory/social listings (google maps, instagram, tripadvisor, lemonrock, novacircle, geodruid)"
   ],
   "osmId": "way/361312259",
   "name": "Angie's Free House"
@@ -7369,7 +7972,7 @@
   "evidence": "none",
   "beers": [],
   "notes": [
-   "no website on record; search quota exhausted"
+   "searched once; pub reported closed long-term as of January 2025, no own website found"
   ],
   "osmId": "node/7259912747",
   "name": "The Chilled Eskimo"
@@ -7380,7 +7983,7 @@
   "evidence": "none",
   "beers": [],
   "notes": [
-   "no website on record; search quota exhausted"
+   "searched once; pub closed since 1 June 2016 and still shuttered as of last reports, no own website found"
   ],
   "osmId": "way/777761485",
   "name": "Frames"
@@ -7391,7 +7994,7 @@
   "evidence": "none",
   "beers": [],
   "notes": [
-   "no website on record; search quota exhausted"
+   "searched once, no matching venue or own website found on Fernhead Road W9"
   ],
   "osmId": "node/12561097383",
   "name": "Caramel"
@@ -7413,7 +8016,7 @@
   "evidence": "none",
   "beers": [],
   "notes": [
-   "no website on record; search quota exhausted"
+   "searched once, no own website found; address matches (786 Harrow Road NW10 5JX, a CAMRA-listed historic pub with guest rooms) but only directory/review sites appeared"
   ],
   "osmId": "way/477964006",
   "name": "William IV"
@@ -7424,7 +8027,7 @@
   "evidence": "none",
   "beers": [],
   "notes": [
-   "no website on record; search quota exhausted"
+   "searched once, no own website found; only directory listings (facebook, tripadvisor, useyourlocal, pubsgalore, yelp, allinlondon)"
   ],
   "osmId": "node/304132917",
   "name": "The Fishermans Arms"
@@ -7435,7 +8038,7 @@
   "evidence": "none",
   "beers": [],
   "notes": [
-   "no website on record; search quota exhausted"
+   "searched once; this appears to be a Spanish tapas restaurant/bar (E Para Poncha) rather than a traditional pub, no own website found"
   ],
   "osmId": "node/3376484693",
   "name": "Épara Poncha"
@@ -7956,11 +8559,84 @@
  },
  {
   "pubId": "cmu04850k00617du2wr6nrkuv",
-  "website": null,
-  "evidence": "none",
-  "beers": [],
+  "website": "https://stadiumsportsbar.uk",
+  "evidence": "site_menu",
+  "beers": [
+   {
+    "name": "Carlsberg",
+    "brewery": "Carlsberg",
+    "style": "lager",
+    "abv": null,
+    "pricePence": null,
+    "url": "https://www.stadiumsportsbar.uk/menu"
+   },
+   {
+    "name": "Foster's",
+    "brewery": "Foster's",
+    "style": "lager",
+    "abv": null,
+    "pricePence": null,
+    "url": "https://www.stadiumsportsbar.uk/menu"
+   },
+   {
+    "name": "Stella Artois",
+    "brewery": "Stella Artois",
+    "style": "lager",
+    "abv": null,
+    "pricePence": null,
+    "url": "https://www.stadiumsportsbar.uk/menu"
+   },
+   {
+    "name": "Coors Light",
+    "brewery": "Coors",
+    "style": "lager",
+    "abv": null,
+    "pricePence": null,
+    "url": "https://www.stadiumsportsbar.uk/menu"
+   },
+   {
+    "name": "Staropramen",
+    "brewery": "Staropramen",
+    "style": "lager",
+    "abv": null,
+    "pricePence": null,
+    "url": "https://www.stadiumsportsbar.uk/menu"
+   },
+   {
+    "name": "Corona",
+    "brewery": "Corona",
+    "style": "lager",
+    "abv": null,
+    "pricePence": null,
+    "url": "https://www.stadiumsportsbar.uk/menu"
+   },
+   {
+    "name": "Orchid Cider",
+    "brewery": null,
+    "style": "cider",
+    "abv": null,
+    "pricePence": null,
+    "url": "https://www.stadiumsportsbar.uk/menu"
+   },
+   {
+    "name": "Carling Black Fruit",
+    "brewery": "Carling",
+    "style": "fruit lager",
+    "abv": null,
+    "pricePence": null,
+    "url": "https://www.stadiumsportsbar.uk/menu"
+   },
+   {
+    "name": "Guinness",
+    "brewery": "Guinness",
+    "style": "stout",
+    "abv": 4.2,
+    "pricePence": null,
+    "url": "https://www.stadiumsportsbar.uk/menu"
+   }
+  ],
   "notes": [
-   "no website on record; search quota exhausted"
+   "own site found via search (Stadium Sports Bar); packet rebuild found no drinks page automatically, fetched /menu directly which lists a 'Beers' (draught) section separate from 'Bottles'"
   ],
   "osmId": "node/2256219333",
   "name": "Sports Bar"
@@ -7971,7 +8647,7 @@
   "evidence": "none",
   "beers": [],
   "notes": [
-   "no website on record; search quota exhausted"
+   "searched once, no own website found; sources indicate the pub was renamed/reverted to 'Ox & Gate' under new management in October 2023"
   ],
   "osmId": "node/812151434",
   "name": "Whelan's"
@@ -7982,7 +8658,7 @@
   "evidence": "none",
   "beers": [],
   "notes": [
-   "no website on record; search quota exhausted"
+   "searched once, no own website found; only directory listings (camra, whatpub, tripadvisor, useyourlocal, facebook, beerintheevening, yelp)"
   ],
   "osmId": "way/627999454",
   "name": "The George"
@@ -7993,7 +8669,7 @@
   "evidence": "none",
   "beers": [],
   "notes": [
-   "no website on record; search quota exhausted"
+   "searched once, no own website found; only directory listings (inapub, allinlondon, flickr, misterwhat)"
   ],
   "osmId": "way/436678592",
   "name": "O'Hanlons"
@@ -8024,7 +8700,7 @@
   "evidence": "none",
   "beers": [],
   "notes": [
-   "no website on record; search quota exhausted"
+   "searched once, no own website found; only directory listings (camra, yelp, allinlondon, pubsgalore, useyourlocal, pubology)"
   ],
   "osmId": "way/968208603",
   "name": "The Green Man"
@@ -8035,7 +8711,7 @@
   "evidence": "none",
   "beers": [],
   "notes": [
-   "no website on record; search quota exhausted"
+   "searched once; pub appears permanently closed, converted to a cafe by 2020, no own website found"
   ],
   "osmId": "node/1993188851",
   "name": "Hennessys"
@@ -8046,7 +8722,7 @@
   "evidence": "none",
   "beers": [],
   "notes": [
-   "no website on record; search quota exhausted"
+   "searched once; Companies House shows Rossi's Bar Ltd dissolved 12 May 2026, pub appears closed, no own website found"
   ],
   "osmId": "node/10924079510",
   "name": "Rossi's Bar"
@@ -8068,18 +8744,18 @@
   "evidence": "none",
   "beers": [],
   "notes": [
-   "no website on record; search quota exhausted"
+   "searched once, no own website found; could not identify a confident matching venue near Kingsbury NW9"
   ],
   "osmId": "node/250080453",
   "name": "The Greyhound"
  },
  {
   "pubId": "cmu04859e00bq7du215u6mlpm",
-  "website": null,
+  "website": "https://www.chandosarms.co.uk",
   "evidence": "none",
   "beers": [],
   "notes": [
-   "no website on record; search quota exhausted"
+   "own site found via search and rebuilt; menu PDF is pizzas/burgers/snacks only, homepage mentions 'a proper pub' generically - no draught beer or cider named"
   ],
   "osmId": "way/199925624",
   "name": "Chandos Arms"
@@ -8090,7 +8766,7 @@
   "evidence": "none",
   "beers": [],
   "notes": [
-   "no website on record; search quota exhausted"
+   "searched once; pub closed November 2022 due to flooding and was boarded up/slated for demolition by 2023, no own website found"
   ],
   "osmId": "node/3196094985",
   "name": "Hind and Hart"
@@ -8101,7 +8777,7 @@
   "evidence": "none",
   "beers": [],
   "notes": [
-   "no website on record; search quota exhausted"
+   "searched once, no own website found; results returned unrelated Bridge Tavern venues elsewhere in the UK, no confident match"
   ],
   "osmId": "node/5762034694",
   "name": "Bridge Tavern"
@@ -8112,18 +8788,18 @@
   "evidence": "none",
   "beers": [],
   "notes": [
-   "no website on record; search quota exhausted"
+   "searched once, no own website found; likely candidate is Adam & Eve, Mill Hill Village NW7 (coordinates are close) but no own domain appeared in results"
   ],
   "osmId": "way/543924851",
   "name": "Adam & Eve"
  },
  {
   "pubId": "cmu0485gm00g67du268geyis7",
-  "website": null,
+  "website": "https://www.therisingsunmillhill.com",
   "evidence": "none",
   "beers": [],
   "notes": [
-   "no website on record; search quota exhausted"
+   "own site found via search (The Rising Sun, Mill Hill, 137 Marsh Lane NW7 4EY, near this pub's coordinates); packet rebuild (4 pages) and a direct fetch of the homepage found no named drinks, only a 'Bar' section with no beverage list"
   ],
   "osmId": "way/543124606",
   "name": "The Rising Sun"
@@ -8134,7 +8810,7 @@
   "evidence": "none",
   "beers": [],
   "notes": [
-   "no website on record; search quota exhausted"
+   "searched once, no own website found; could not identify a specific matching venue near Edgware"
   ],
   "osmId": "node/11697381165",
   "name": "Upper Lounge Bar"
@@ -8145,7 +8821,7 @@
   "evidence": "none",
   "beers": [],
   "notes": [
-   "no website on record; search quota exhausted"
+   "searched once, no own website found; no confident match to a specific 'The Gate' near the pub's coordinates"
   ],
   "osmId": "node/26363049",
   "name": "The Gate"
