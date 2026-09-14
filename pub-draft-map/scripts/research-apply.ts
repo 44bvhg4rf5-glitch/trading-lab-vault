@@ -2,7 +2,7 @@
  * Import what the AI research workers found (see research-packets.ts).
  *
  *   npx tsx scripts/research-apply.ts                 # every .cache/research/results/*.json
- *   npx tsx scripts/research-apply.ts --dir <dir>     # another results folder
+ *   npx tsx scripts/research-apply.ts --dir <dir>     # another results folder, e.g. data/research (committed runs)
  *   npx tsx scripts/research-apply.ts --dry           # report only
  *
  * Each results file is a JSON array of:
@@ -21,6 +21,8 @@ const db = new PrismaClient();
 
 const Result = z.object({
   pubId: z.string(),
+  /** lets a results file written against one database apply to another (ids differ, OSM ids don't) */
+  osmId: z.string().nullable().optional(),
   website: z.string().url().nullable().optional(),
   evidence: z.enum(["site_menu", "none"]),
   beers: z.array(z.object({
@@ -56,7 +58,8 @@ async function main() {
   const tally = { site_menu: 0, company: 0, chain: 0, people: 0, none: 0 };
   let listings = 0, missing = 0;
   for (const r of results.values()) {
-    const pub = await db.pub.findUnique({ where: { id: r.pubId }, select: { id: true, name: true, website: true, claimedById: true } });
+    const select = { id: true, name: true, website: true, claimedById: true };
+    const pub = (await db.pub.findUnique({ where: { id: r.pubId }, select })) ?? (r.osmId ? await db.pub.findUnique({ where: { osmId: r.osmId }, select }) : null);
     if (!pub) { missing++; continue; }
     const beers = r.evidence === "site_menu" ? r.beers : [];
     if (dry) { console.log(`${pub.name.padEnd(32)} ${r.evidence.padEnd(10)} ${r.website ?? "-"}  ${beers.map((b) => b.name).join(", ")}`); continue; }
