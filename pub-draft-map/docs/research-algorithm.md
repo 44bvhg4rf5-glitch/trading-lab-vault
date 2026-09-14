@@ -22,7 +22,7 @@ One workflow, followed by every worker: a Claude Code subagent reading a brief, 
    - Countries, regions, fruit flavours, category headings and marketing copy are not beers.
    - Proper spelling as the brewery writes it; ABV only if stated or well known; pint price only if shown.
    - Confidence below 0.5 is dropped. Serving `bottle` or `can` is dropped. Names matching the junk list in `scripts/research/apply.ts` are dropped.
-   - Without a model, only whole-name matches against `data/beer-catalogue.json` count.
+   - Without a model (`--read none`), only whole-name matches against `data/beer-catalogue.json` count, and only where a draught word sits near the name and no bottle, can or ml wording sits beside it. That mode cannot judge a page the way a model can; it is for testing the pipeline and for sites that literally say "on draught", not for the general run.
 5. **Decide.** `site_menu` if at least one draught beer or cider survives step 4. Otherwise `none`. Never infer from the pub's style, chain or area; the company-range and chain inference steps do that elsewhere with their own evidence label.
 6. **Record**, then go to the next pub.
 

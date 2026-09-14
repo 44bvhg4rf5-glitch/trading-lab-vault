@@ -171,9 +171,17 @@ export function loadCatalogue() {
 
 /**
  * Catalogue matching on plain text. Whole-phrase, longest names first, so
- * "Strongbow Dark Fruit" is not also counted as "Strongbow".
+ * "Strongbow Dark Fruit" is not also counted as "Strongbow". A name only
+ * counts where a draught word (draught, on tap, keg, cask, pint, hand pump)
+ * sits within 160 characters and no dish or bottle/can/ml wording sits right
+ * beside it: without a model this is the only way to tell "Guinness £6.20 a
+ * pint" from "Guinness pie" or a bottled list.
  * Then "<Something> 4.5%" lines, which are nearly always a beer on a drinks page.
  */
+const DRAUGHT_CONTEXT = /draught|draft|on tap|on the bar|keg|cask|pints?\b|hand ?pump|pump clip/i;
+const FOOD_CONTEXT = /\b(sea bass|bass fillet|fillet|pie|stew|gravy|batter|battered|burger|roast|sauce|marrow|bones broth|steak|fish|chips|mussels|pudding|braised|glazed|marinated|beer[- ]battered)\b/i;
+const PACKAGED_CONTEXT = /\b(bottle|bottled|bottles|cans?|canned|\d{3}\s?ml|330|440|500ml)\b/i;
+
 export function extractBeersFromText(text: string, url: string, via: FoundBeer["via"]): FoundBeer[] {
   const cat = loadCatalogue();
   const norm = " " + normaliseName(text) + " ";
@@ -182,12 +190,24 @@ export function extractBeersFromText(text: string, url: string, via: FoundBeer["
   let covered = norm;
   for (const key of names) {
     if (key.length < 4) continue;
-    const idx = covered.indexOf(" " + key + " ");
+    // First occurrence whose context reads like a drinks list (160 chars either side) and not like a dish (40 chars either side).
+    let idx = -1, nth = 0;
+    for (let from = 0; ; ) {
+      const at = covered.indexOf(" " + key + " ", from);
+      if (at < 0) break;
+      const around = norm.slice(Math.max(0, at - 160), at + key.length + 160);
+      const tight = norm.slice(Math.max(0, at - 25), at + key.length + 25);
+      if (DRAUGHT_CONTEXT.test(around) && !FOOD_CONTEXT.test(tight) && !PACKAGED_CONTEXT.test(tight)) { idx = at; break; }
+      from = at + 1;
+      nth++;
+    }
     if (idx < 0) continue;
     const entry = cat.byKey.get(key)!;
-    // Price: first "£x.xx" within 40 chars after the match in the original text.
-    const rawIdx = normaliseName(text).indexOf(key);
-    const window = text.slice(Math.max(0, rawIdx), rawIdx + key.length + 60);
+    // Price: first "£x.xx" within 60 chars after the same (nth) occurrence in the original text.
+    const rawRe = new RegExp(key.split(" ").map((w) => w.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")).join("\\W+"), "gi");
+    let rawIdx = -1;
+    for (let n = 0, m = rawRe.exec(text); m; m = rawRe.exec(text), n++) if (n === nth) { rawIdx = m.index; break; }
+    const window = rawIdx >= 0 ? text.slice(rawIdx, rawIdx + key.length + 60) : "";
     const price = window.match(/£\s?(\d{1,2}(?:\.\d{2})?)/)?.[1];
     out.set(key, { name: entry.name, brewery: entry.brewery, abv: entry.abv ?? null, pricePence: price ? Math.round(parseFloat(price) * 100) : null, via, url, confidence: 0.85 });
     covered = covered.replace(new RegExp(" " + key.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + " ", "g"), " # ");
