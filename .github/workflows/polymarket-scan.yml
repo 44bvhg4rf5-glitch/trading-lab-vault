@@ -1,0 +1,46 @@
+# Free scheduled paper-trading cycle on GitHub's hosted runners.
+# It never trades live: PM_MODE is forced to paper here. State and digests are committed back
+# to the vault so the calibration record grows even when your machine is off.
+name: polymarket-paper-scan
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 */3 * * *"   # every 3 hours (UTC)
+
+permissions:
+  contents: write
+
+concurrency:
+  group: polymarket-scan
+  cancel-in-progress: false
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      PM_MODE: paper
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Unit tests
+        working-directory: polymarket
+        run: python -m unittest discover -s tests
+      - name: Scan and write digest
+        working-directory: polymarket
+        run: python run.py scan --digest --max-events 200
+      - name: Commit state back to the vault
+        run: |
+          git config user.name "polymarket-bot"
+          git config user.email "polymarket-bot@users.noreply.github.com"
+          git add polymarket/state polymarket/digests
+          if git diff --cached --quiet; then echo "no changes"; exit 0; fi
+          git commit -m "polymarket: paper scan $(date -u +%Y-%m-%dT%H:%MZ)"
+          for i in 1 2 3 4; do
+            git pull --rebase origin "${GITHUB_REF_NAME}" && git push origin HEAD:"${GITHUB_REF_NAME}" && exit 0
+            sleep $((2 ** i))
+          done
+          exit 1

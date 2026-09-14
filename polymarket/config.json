@@ -1,0 +1,52 @@
+{
+  "mode": "paper",
+  "bankroll_gbp": 50,
+  "fx_fallback_gbp_usd": 1.30,
+
+  "min_edge": 0.08,
+  "kelly_fraction": 0.25,
+
+  "fees": { "taker_rate": 0.07, "prefer_maker": true },
+
+  "split": { "reinvest": 0.40, "tools": 0.40, "owner": 0.20 },
+  "split_min_profit_usd": 5,
+
+  "risk": {
+    "initial_max_drawdown": 0.20,
+    "trailing_drawdown": 0.10,
+    "daily_loss_halt": 0.05,
+    "max_total_exposure_frac": 0.60,
+    "max_position_frac": 0.15,
+    "max_event_frac": 0.25,
+    "max_new_positions_per_scan": 2,
+    "min_stake_usd": 1.0
+  },
+
+  "filters": {
+    "min_liquidity_usd": 5000,
+    "min_volume24h_usd": 500,
+    "max_spread": 0.04,
+    "min_price": 0.04,
+    "max_price": 0.96,
+    "min_hours_to_resolution": 6,
+    "max_days_to_resolution": 45
+  },
+
+  "exits": { "exit_when_edge_gone": true, "take_profit_margin": 0.01, "use_stop": true, "stop_loss_abs": 0.20 },
+
+  "ensemble": { "prior_strength": 1.0, "min_agents": 2, "min_confidence": 0.25 },
+
+  "scan": { "max_events": 200, "max_research": 60, "workers": 6 },
+
+  "agents": {
+    "event_consistency": { "enabled": true, "weight": 1.5, "tolerance": 0.02 },
+    "orderbook":         { "enabled": true, "weight": 0.8, "ticks": 0.02 },
+    "momentum":          { "enabled": true, "weight": 0.5, "beta": 0.25 },
+    "time_decay":        { "enabled": true, "weight": 1.0, "max_hours": 96 },
+    "favorite_longshot": { "enabled": true, "weight": 0.6, "stretch": 1.12, "confidence": 0.2 },
+    "manifold":          { "enabled": true, "weight": 1.2, "min_similarity": 0.5 },
+    "metaculus":         { "enabled": true, "weight": 1.2, "min_similarity": 0.5 },
+    "news":              { "enabled": true, "weight": 1.0 },
+    "local_llm":         { "enabled": true, "weight": 1.0, "trust": 0.5, "model": "llama3.1" }
+  }
+}
