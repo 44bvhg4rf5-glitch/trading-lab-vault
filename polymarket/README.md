@@ -129,9 +129,51 @@ python3 run.py --config config.smarkets.json loop --interval 900
 python3 run.py projection                                    # the growth arithmetic
 ```
 
-Free scheduling: `.github/workflows/polymarket-scan.yml` runs both paper scans every 3 hours
-on GitHub's hosted runners and commits state + digests back to the vault. Enable it under
-the repo's Actions tab (it needs the default write permission for workflows).
+## Running it with no computer (phone only)
+
+The bot runs on GitHub's hosted runners for free (`.github/workflows/polymarket-scan.yml`):
+Smarkets every hour, Polymarket paper every 6 hours, each run about a minute. Everything
+you need is in the **GitHub mobile app** or the GitHub website in your phone browser.
+
+One-time setup, from the phone:
+
+1. **Merge this branch into `main`.** Scheduled workflows only run from the default branch.
+   Open the repository → Pull requests → create one from
+   `claude/polymarket-kelly-trading-fwq6jf` → merge.
+2. **Enable Actions**: repository → Actions tab → enable workflows if prompted. You can tap
+   "Run workflow" on `prediction-bot` to run it immediately.
+3. **Turn on notifications** for the repository (bell icon → "All activity" or at least
+   Issues). Every time the bot enters, exits, settles or splits profit it opens an issue
+   titled "Bot activity …", which is what pings your phone. A failing run also notifies.
+
+Day to day:
+
+- **Results**: the bot commits state and digests to the `polymarket-bot-state` branch (not
+  `main`, so it never collides with the Trading Lab app). Switch branch in the app and open
+  `polymarket/digests/smarkets-<date>.md`. Each run's page under Actions also shows a summary
+  table (equity, floor, budget, exposure, banked) and the run's events.
+- **Change a setting**: open `polymarket/config.smarkets.json` on `main`, tap the pencil,
+  edit (e.g. `min_edge`, `kelly_fraction`), commit. The next hourly run picks it up.
+- **Pause**: Actions → `prediction-bot` → "…" → Disable workflow. Re-enable the same way.
+- **Withdrawals**: after you move money out of Smarkets, log it so the reserves stay
+  honest: run the `withdraw` command from a Claude Code session on your phone, or edit
+  `reserves` in `polymarket/state/smarkets/state.json` on the state branch.
+
+Going live from the phone, only after the paper period has earned it:
+
+1. Repository → Settings → Secrets and variables → Actions → add `SMARKETS_USERNAME`,
+   `SMARKETS_PASSWORD` and `PM_LIVE_ACK` = `I_UNDERSTAND`.
+2. Edit `polymarket/config.smarkets.json` on `main`: `"mode": "live"`, and set
+   `bankroll_gbp` to what you deposited.
+3. The paper ledger and the live ledger are the same files; run `reset --confirm` from a
+   Claude session (or delete `polymarket/state/smarkets/` on the state branch) so the live
+   account starts from your real deposit rather than the paper balance.
+
+Costs: a private repository gets 2,000 free Actions minutes a month; this schedule uses
+roughly 900. Do not run it more often than hourly without checking that budget. Anything
+that needs a terminal (`withdraw`, `reset`, `projection`) can be run from the Claude Code
+mobile app in a session on this repository, but that uses Claude usage; the schedule itself
+does not.
 
 ### The plan
 

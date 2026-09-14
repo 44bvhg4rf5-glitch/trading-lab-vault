@@ -1,49 +1,102 @@
-# Free scheduled paper-trading cycles (Polymarket + Smarkets) on GitHub's hosted runners.
-# It never trades live: PM_MODE is forced to paper here. State and digests are committed back
-# to the vault so the calibration record grows even when your machine is off.
-name: prediction-paper-scan
+# Runs the prediction-market bot for free on GitHub's hosted runners, so no computer is needed.
+#
+#   * Smarkets every hour (the venue you can actually trade on from the UK)
+#   * Polymarket every 6 hours, paper only (free signal source + calibration record)
+#
+# State, journals and digests live on the `polymarket-bot-state` branch, never on main, so the
+# bot's commits can't collide with the Trading Lab app that writes the rest of this vault.
+# A GitHub issue is opened whenever the bot trades, exits, settles or splits profit — turn on
+# notifications for this repo in the GitHub mobile app to get pinged.
+#
+# Scheduled workflows only run from the repository's default branch: merge this into main.
+name: prediction-bot
 
 on:
   workflow_dispatch:
+    inputs:
+      polymarket:
+        description: "also run the Polymarket paper scan"
+        type: boolean
+        default: false
   schedule:
-    - cron: "17 */3 * * *"   # every 3 hours (UTC)
+    - cron: "7 * * * *"      # Smarkets, hourly
+    - cron: "37 */6 * * *"   # Polymarket paper, every 6 hours
 
 permissions:
   contents: write
+  issues: write
 
 concurrency:
-  group: polymarket-scan
+  group: prediction-bot
   cancel-in-progress: false
 
+env:
+  STATE_BRANCH: polymarket-bot-state
+
 jobs:
-  scan:
+  run:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
-    env:
-      PM_MODE: paper
+    timeout-minutes: 25
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
+
+      - name: Restore bot state from the state branch
+        run: |
+          git fetch origin "$STATE_BRANCH" --depth 1 2>/dev/null && \
+            git checkout "origin/$STATE_BRANCH" -- polymarket/state polymarket/digests || echo "no state branch yet"
+          echo "RUN_START=$(date -u +%Y-%m-%dT%H:%M:%S+00:00)" >> "$GITHUB_ENV"
+
       - name: Unit tests
         working-directory: polymarket
         run: python -m unittest discover -s tests
-      - name: Polymarket paper scan (free signal source + calibration)
+
+      - name: Smarkets scan
         working-directory: polymarket
-        run: python run.py scan --digest --max-events 200
-      - name: Smarkets paper scan (UK-licensed venue)
-        working-directory: polymarket
+        env:
+          # live only when these repo secrets exist AND config.smarkets.json says "mode": "live"
+          PM_LIVE_ACK: ${{ secrets.PM_LIVE_ACK }}
+          SMARKETS_USERNAME: ${{ secrets.SMARKETS_USERNAME }}
+          SMARKETS_PASSWORD: ${{ secrets.SMARKETS_PASSWORD }}
+          METACULUS_TOKEN: ${{ secrets.METACULUS_TOKEN }}
         run: python run.py --config config.smarkets.json scan --digest
-      - name: Commit state back to the vault
+
+      - name: Polymarket paper scan
+        if: github.event.schedule == '37 */6 * * *' || github.event.inputs.polymarket == 'true'
+        working-directory: polymarket
+        env:
+          PM_MODE: paper
+          METACULUS_TOKEN: ${{ secrets.METACULUS_TOKEN }}
+        run: python run.py scan --digest --max-events 120
+
+      - name: Summary and alerts
+        working-directory: polymarket
+        run: python tools/notify.py
+
+      - name: Open an issue when the bot traded
+        if: hashFiles('polymarket/events.md') != ''
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
-          git config user.name "polymarket-bot"
-          git config user.email "polymarket-bot@users.noreply.github.com"
+          gh issue create --title "Bot activity $(date -u +%Y-%m-%d\ %H:%M) UTC" \
+            --body-file polymarket/events.md --label bot-activity 2>/dev/null || \
+          gh issue create --title "Bot activity $(date -u +%Y-%m-%d\ %H:%M) UTC" --body-file polymarket/events.md
+
+      - name: Save bot state to the state branch
+        run: |
+          rm -f polymarket/events.md
+          git config user.name "prediction-bot"
+          git config user.email "prediction-bot@users.noreply.github.com"
           git add polymarket/state polymarket/digests
-          if git diff --cached --quiet; then echo "no changes"; exit 0; fi
-          git commit -m "polymarket: paper scan $(date -u +%Y-%m-%dT%H:%MZ)"
+          if git diff --cached --quiet; then echo "no state changes"; exit 0; fi
+          git commit -m "bot: scan $(date -u +%Y-%m-%dT%H:%MZ)"
+          # state branch = current code + latest state; always fast-forwards from this run's HEAD
           for i in 1 2 3 4; do
-            git pull --rebase origin "${GITHUB_REF_NAME}" && git push origin HEAD:"${GITHUB_REF_NAME}" && exit 0
+            git push --force origin "HEAD:refs/heads/$STATE_BRANCH" && exit 0
             sleep $((2 ** i))
           done
           exit 1
