@@ -16,7 +16,9 @@
     "enrich": "tsx scripts/enrich-taps.ts",
     "import:photos": "tsx scripts/import-photos.ts",
     "import:menus": "tsx scripts/import-menus.ts",
-    "research": "tsx scripts/research-pubs.ts"
+    "research": "tsx scripts/research-pubs.ts",
+    "research:packets": "tsx scripts/research-packets.ts",
+    "research:apply": "tsx scripts/research-apply.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.125.0",

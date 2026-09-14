@@ -79,6 +79,13 @@ The product rule is: we hold the data, drinkers don't enter it, and a pub we can
 
 What the first test run on eight real sites showed: sites that list their beers in text work (Amstel, Boddingtons picked up with ABVs); craft bars mostly embed their Untappd menu, which is a partner feed and not scrapable, and the pipeline records that as a lead; country pubs mostly say "a large selection of beers" and nothing more, so without a board photo they are correctly `none`.
 
+The first full area run (824 pubs, West London, September 2026) found beers on 152 sites, kept 102 on a chain range, and hid 556. Of the hidden, 424 had no website on record and 132 had a site whose drinks were in a PDF, an image or a script-rendered menu that plain text matching can't read. The keyless "<Name> 4.5%" pattern also produced noise (countries, fruit flavours, wines next to a percentage), which `research/apply.ts` now filters with a junk list on every import.
+
+### AI research workers (built: `npm run research:packets` + `research:apply`)
+The reading the key-free pipeline can't do is done by a group of AI workers instead of a paid API: Claude Code subagents, one per geographic area, each with its own slice of pubs. `scripts/research-packets.ts` splits the hidden pubs into areas of similar size and builds one packet per pub with the text that matters (drinks page excerpts, PDF text, board photos saved to disk) using the same polite, robots-honouring fetcher, so a worker never crawls a site itself. `scripts/research/WORKER.md` is the worker's brief: find the pub's own site by web search when none is known (directories and social sites are never a source), read the packet, rebuild it with the found site, decide `site_menu` or `none`, and append a clean record after every pub so progress survives. `scripts/research-apply.ts` validates the records and writes them through the same evidence ladder as the automated run.
+
+Twelve workers cover about 550 pubs in one session. Coverage of the whole country is the same loop repeated area by area, and the packets and results are plain JSON, so it can also run on any other model or machine.
+
 Not done, on purpose: Instagram, Facebook, Google reviews and Untappd. Their terms forbid automated access, they block it aggressively, and Meta litigates. A scraper there would get the project banned before it produced a usable list.
 
 ### Photos (built: `npm run import:photos`)

@@ -44,6 +44,18 @@ npm run import:photos                          # Commons/Geograph photos
 
 Board photos: set `ANTHROPIC_API_KEY` in `.env` and pub owners (dashboard) or drinkers ("Report a change") can photograph the pumps or chalkboard; the list is read, ticked and published in one go.
 
+### Research every pub, for free, with a group of AI workers
+
+`npm run research` finds and reads each pub's website with plain text matching and hides pubs it finds nothing for. The reading that would otherwise need a paid API key can be done by AI workers in a Claude Code session instead, one per area:
+
+```bash
+npm run research:packets -- --hidden --shards 12   # one packet per hidden pub, 12 geographic areas
+# start one worker per area (Claude Code subagent) with scripts/research/WORKER.md as its brief
+npm run research:apply                              # write what the workers found, retire junk names
+```
+
+Each worker gets `.cache/research/packets/<area>/index.json`, searches the web for the pub's own site where none is known, reads the drinks pages, PDFs and board photos the packet builder fetched politely, and writes a clean draught list to `.cache/research/results/<area>.json`.
+
 ## Import real pubs from OpenStreetMap
 
 ```bash
@@ -77,6 +89,8 @@ npm run import:osm -- --uk                                # everything, ~1h, res
 | `npm run enrich` | Pre-fill tap lists from chain ranges and OSM tags |
 | `npm run import:menus -- --site wetherspoon` | Drinks menus from a pub company's own site |
 | `npm run import:photos` | Licensed exterior photos from Wikimedia Commons |
+| `npm run research` | Find and read each pub's own website; hide pubs with nothing |
+| `npm run research:packets` / `research:apply` | Packets for AI research workers, and import of what they found |
 
 ## Status
 

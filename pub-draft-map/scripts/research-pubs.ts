@@ -23,8 +23,8 @@
  */
 import { PrismaClient } from "@prisma/client";
 import { UK_PLACES, bboxAround } from "../src/lib/geo";
-import { upsertBeer } from "../src/lib/beers";
 import { researchPub } from "./research/lib";
+import { applyPubResearch } from "./research/apply";
 
 const db = new PrismaClient();
 
@@ -57,38 +57,14 @@ async function main() {
   for (const [i, p] of pubs.entries()) {
     const r = await researchPub(p);
 
-    // What else already backs this pub?
-    const existing = await db.tapListing.findMany({ where: { pubId: p.id, status: "ACTIVE" }, select: { source: true, inferredFrom: true } });
-    const hasPeople = existing.some((t) => ["user", "pub_owner", "partner"].includes(t.source)) || Boolean(p.claimedById);
-    const hasCompany = existing.some((t) => t.source.startsWith("site:") && t.source !== "site:own");
-    const hasChain = existing.some((t) => ["inferred", "osm"].includes(t.source) && t.inferredFrom && t.inferredFrom !== "UK default pub");
-    const evidence: keyof typeof tally = r.beers.length ? "site_menu" : hasPeople ? "people" : hasCompany ? "company" : hasChain ? "chain" : "none";
-    tally[evidence]++;
-
     if (a.dry) {
-      console.log(`${p.name.padEnd(32)} ${evidence.padEnd(10)} ${r.website ?? "-"}  ${r.beers.map((b) => b.name).join(", ")}  ${r.notes.join("; ")}`);
+      console.log(`${p.name.padEnd(32)} ${r.evidence.padEnd(10)} ${r.website ?? "-"}  ${r.beers.map((b) => b.name).join(", ")}  ${r.notes.join("; ")}`);
       continue;
     }
 
-    for (const b of r.beers) {
-      const beer = await upsertBeer({ name: b.name, breweryName: b.brewery ?? "Unknown brewery", abv: b.abv ?? undefined });
-      await db.tapListing.upsert({
-        where: { pubId_beerId: { pubId: p.id, beerId: beer.id } },
-        update: { status: "ACTIVE", removedAt: null, lastSeenAt: new Date(), pricePence: b.pricePence ?? undefined },
-        create: { pubId: p.id, beerId: beer.id, source: "site:own", confidence: Math.max(0.8, b.confidence), inferredFrom: b.url, pricePence: b.pricePence, confirmations: 0 },
-      });
-      // Upgrade any inferred row for the same beer to site evidence.
-      await db.tapListing.updateMany({ where: { pubId: p.id, beerId: beer.id, source: { in: ["inferred", "osm"] } }, data: { source: "site:own", confidence: Math.max(0.8, b.confidence), inferredFrom: b.url } });
-      listings++;
-    }
-    if (r.beers.length) {
-      // The pub's own menu beats the national default guess.
-      await db.tapListing.updateMany({ where: { pubId: p.id, status: "ACTIVE", source: "inferred", inferredFrom: "UK default pub" }, data: { status: "REMOVED", removedAt: new Date() } });
-    }
-    await db.pub.update({
-      where: { id: p.id },
-      data: { evidence, researchedAt: new Date(), hidden: evidence === "none", website: r.website ?? p.website ?? undefined },
-    });
+    const out = await applyPubResearch(db, p, { website: r.website, beers: r.beers });
+    tally[out.evidence]++;
+    listings += out.listings;
     if (i % 25 === 0) console.log(`${i}/${pubs.length}`, tally, `listings ${listings}`);
   }
   console.log("done", tally, `listings ${listings}`);
