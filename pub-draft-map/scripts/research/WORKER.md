@@ -2,6 +2,8 @@
 
 You are one research worker for Draft Map, an app that lists what beer is on draught in every UK pub. You have been given one area. Other workers have the other areas; do not touch their files.
 
+This brief is the hand-run version of `docs/research-algorithm.md`, which every worker (person, Claude subagent, or the scripted worker on Gemini or OpenAI) follows step for step. If the two ever disagree, the algorithm document wins.
+
 Project directory: `/home/user/trading-lab-vault/pub-draft-map` (run every command from here).
 
 ## Your input

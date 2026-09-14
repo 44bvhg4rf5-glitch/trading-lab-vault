@@ -51,10 +51,13 @@ Board photos: set `ANTHROPIC_API_KEY` in `.env` and pub owners (dashboard) or dr
 `npm run research` finds and reads each pub's website with plain text matching and hides pubs it finds nothing for. The reading that would otherwise need a paid API key can be done by AI workers in a Claude Code session instead, one per area:
 
 ```bash
-npm run research:packets -- --hidden --shards 12   # one packet per hidden pub, 12 geographic areas
-# start one worker per area (Claude Code subagent) with scripts/research/WORKER.md as its brief
+npm run research:packets -- --all --shards 300      # one packet per pub, 300 geographic areas
+npm run research:worker -- --shard area-001 --search gemini --read gemini   # unattended, any provider's free tier
+# or start a Claude Code subagent per area with scripts/research/WORKER.md as its brief
 npm run research:apply                              # write what the workers found, retire junk names
 ```
+
+Every worker follows [docs/research-algorithm.md](docs/research-algorithm.md); `--search` takes `gemini`, `brave` or `none` and `--read` takes `gemini`, `openai`, `anthropic` or `none`. A worker exits with code 3 when a free allowance runs out and resumes from its results file on the next run.
 
 Each worker gets `.cache/research/packets/<area>/index.json`, searches the web for the pub's own site where none is known, reads the drinks pages, PDFs and board photos the packet builder fetched politely, and writes a clean draught list to `.cache/research/results/<area>.json`.
 
@@ -75,6 +78,8 @@ npm run import:osm -- --uk                                # everything, ~1h, res
 | [docs/monetisation.md](docs/monetisation.md) | Ads, pub plans, demand data |
 | [docs/architecture.md](docs/architecture.md) | Stack, API, path to production |
 | [docs/data-model.md](docs/data-model.md) | Schema decisions |
+| [docs/research-algorithm.md](docs/research-algorithm.md) | The one workflow every research worker follows, on any AI provider |
+| [docs/launch-plan.md](docs/launch-plan.md) | Day-by-day runbook to the Thursday evening launch |
 | [docs/roadmap.md](docs/roadmap.md) | Next 6 months |
 
 ## Scripts

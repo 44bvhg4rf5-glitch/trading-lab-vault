@@ -18,7 +18,8 @@
     "import:menus": "tsx scripts/import-menus.ts",
     "research": "tsx scripts/research-pubs.ts",
     "research:packets": "tsx scripts/research-packets.ts",
-    "research:apply": "tsx scripts/research-apply.ts"
+    "research:apply": "tsx scripts/research-apply.ts",
+    "research:worker": "tsx scripts/research-worker.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.125.0",

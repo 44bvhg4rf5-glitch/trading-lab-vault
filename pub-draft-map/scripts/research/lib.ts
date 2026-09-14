@@ -36,7 +36,20 @@ export type Research = {
 // 1. Website discovery
 // ---------------------------------------------------------------------------
 
-const BAD_HOSTS = /facebook\.com|instagram\.com|twitter\.com|x\.com|tiktok\.com|whatpub\.com|untappd\.com|tripadvisor|google\.|yelp\.|booking\.com|opentable|justeat|deliveroo|ubereats|wikipedia|linktr\.ee/i;
+/** Social, review, booking and directory hosts: never the pub speaking, and their terms forbid reuse. */
+export const BAD_HOSTS = /facebook\.com|instagram\.com|twitter\.com|x\.com|tiktok\.com|whatpub\.com|untappd\.com|tripadvisor|google\.|yelp\.|booking\.com|opentable|justeat|deliveroo|ubereats|wikipedia|linktr\.ee|camra\.org|beerintheevening|pubsgalore|inapub\.co|allinlondon|pubsaroundme|foursquare|useyourlocal|pubshistory|timeout\.com|yell\.com|thefork|designmynight|hitched|bing\.com|duckduckgo|apple\.com|threads\.net|linkedin|pinterest|ratebeer|beeradvocate|pubexplorer|realalepubs|closedpubs|thepubs\.uk|pub-explorer/i;
+
+/** The pub's own website from a list of search results, or null. Same rule for every search provider. */
+export function pickOwnSite(results: { url: string; title?: string | null }[], pub: { name: string }): string | null {
+  const tokens = normaliseName(pub.name).split(" ").filter((w) => w.length > 2 && !["the", "inn", "pub", "hotel", "arms", "bar", "and"].includes(w));
+  for (const r of results) {
+    const site = cleanWebsite(r.url);
+    if (!site) continue;
+    const hay = normaliseName((r.title ?? "") + " " + r.url);
+    if (!tokens.length || tokens.some((t) => hay.includes(t))) return new URL(site).origin;
+  }
+  return null;
+}
 
 export function cleanWebsite(raw: string | null | undefined): string | null {
   if (!raw) return null;
@@ -62,22 +75,15 @@ export async function searchWebsite(pub: { name: string; city?: string | null; p
   const res = await fetch(`https://api.search.brave.com/res/v1/web/search?count=8&country=GB&q=${encodeURIComponent(q)}`, { headers: { Accept: "application/json", "X-Subscription-Token": key } });
   if (!res.ok) return null;
   const json = (await res.json()) as { web?: { results?: { url: string; title: string }[] } };
-  const tokens = normaliseName(pub.name).split(" ").filter((w) => w.length > 2 && !["the", "inn", "pub", "hotel", "arms", "bar"].includes(w));
-  for (const r of json.web?.results ?? []) {
-    const site = cleanWebsite(r.url);
-    if (!site) continue;
-    const hay = normaliseName(r.title + " " + r.url);
-    if (tokens.some((t) => hay.includes(t))) return new URL(site).origin;
-  }
-  return null;
+  return pickOwnSite(json.web?.results ?? [], pub);
 }
 
 // ---------------------------------------------------------------------------
 // 2. Crawl
 // ---------------------------------------------------------------------------
 
-const DRINK_LINK = /drink|beer|ale|lager|cider|tap|menu|bar\b|what.?s.?on|brew|cask|keg|pour/i;
-const STRONG_LINK = /drink|beer|tap|cask|keg|ale\b|lager|cider/i; // these go to the front of the queue
+const DRINK_LINK = /drink|beer|ale|lager|cider|tap|menu|bar\b|what.?s.?on|brew|cask|keg|pour|draught|draft|pump|pint/i;
+const STRONG_LINK = /drink|beer|tap|cask|keg|ale\b|lager|cider|draught|draft|pump|pint/i; // these go to the front of the queue
 const SKIP_LINK = /\/feed\b|\/blog\b|\/news\b|\/event|\/gallery|\/careers?\b|\/privacy|\/terms|\/book|\/wp-json|\/tag\/|\/category\/|\/author\/|\?s=|\?p=|\/page\/\d+/i;
 const DRINK_TEXT = /\b(on tap|on draught|on draft|on the bar|cask|keg|real ale|craft beer|guest ale|our beers|beers?\b|lagers?\b|ciders?\b|pints?\b)\b/i;
 const MAX_PAGES = Number(process.env.RESEARCH_MAX_PAGES ?? 6);
