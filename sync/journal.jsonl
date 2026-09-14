@@ -1,0 +1,16 @@
+{"t":"2026-09-14T13:29:13.994Z","type":"durable-restored","files":["state.json","crypto-positions.json","equity-positions.json","cfd-positions.json"]}
+{"t":"2026-09-14T13:29:14.012Z","type":"ai-error","at":"self-test","provider":"gemini","error":"ai cooling down until 2026-09-14T16:23:12.425Z (provider quota)"}
+{"t":"2026-09-14T13:29:19.414Z","type":"equity-position-error","at":"adopt","symbol":"AVGO","error":"unrecognizable structure (no resting stop/target and no journal record) — left as-is, not guessed at"}
+{"t":"2026-09-14T13:29:19.414Z","type":"equity-position-error","at":"adopt","symbol":"BTCUSD","error":"unrecognizable structure (no resting stop/target and no journal record) — left as-is, not guessed at"}
+{"t":"2026-09-14T13:29:19.414Z","type":"equity-position-error","at":"adopt","symbol":"ETHUSD","error":"unrecognizable structure (no resting stop/target and no journal record) — left as-is, not guessed at"}
+{"t":"2026-09-14T13:29:19.414Z","type":"equity-position-error","at":"adopt","symbol":"GOOGL","error":"unrecognizable structure (no resting stop/target and no journal record) — left as-is, not guessed at"}
+{"t":"2026-09-14T13:29:19.414Z","type":"equity-position-error","at":"adopt","symbol":"XOM","error":"unrecognizable structure (no resting stop/target and no journal record) — left as-is, not guessed at"}
+{"t":"2026-09-14T13:29:20.511Z","type":"crypto-liquidity-skip","symbol":"BTC/USD","reasons":["median turnover $0.1M/day below the $20M floor"],"dollarVolume":125468,"spreadBps":2.5}
+{"t":"2026-09-14T13:29:20.511Z","type":"crypto-liquidity-skip","symbol":"ETH/USD","reasons":["median turnover $0.1M/day below the $20M floor"],"dollarVolume":51502,"spreadBps":2.8}
+{"t":"2026-09-14T13:29:20.512Z","type":"crypto-liquidity-skip","symbol":"LTC/USD","reasons":["median turnover $0.0M/day below the $20M floor","spread 57.9bps above the 50bps screen"],"dollarVolume":2651,"spreadBps":57.9}
+{"t":"2026-09-14T13:29:20.512Z","type":"crypto-liquidity-skip","symbol":"LINK/USD","reasons":["median turnover $0.0M/day below the $20M floor"],"dollarVolume":11208,"spreadBps":15.3}
+{"t":"2026-09-14T13:29:20.512Z","type":"crypto-liquidity-skip","symbol":"AVAX/USD","reasons":["median turnover $0.0M/day below the $20M floor","spread 64bps above the 50bps screen"],"dollarVolume":2934,"spreadBps":64}
+{"t":"2026-09-14T13:29:20.512Z","type":"crypto-liquidity-skip","symbol":"DOT/USD","reasons":["median turnover $0.0M/day below the $20M floor"],"dollarVolume":4588,"spreadBps":15.1}
+{"t":"2026-09-14T13:29:20.512Z","type":"crypto-liquidity-skip","symbol":"UNI/USD","reasons":["median turnover $0.0M/day below the $20M floor"],"dollarVolume":13027,"spreadBps":16.8}
+{"t":"2026-09-14T13:29:20.512Z","type":"crypto-liquidity-skip","symbol":"BCH/USD","reasons":["median turnover $0.0M/day below the $20M floor","spread 57.1bps above the 50bps screen"],"dollarVolume":1751,"spreadBps":57.1}
+{"t":"2026-09-14T13:29:21.109Z","type":"cfd-instruments","found":["SPX500_USD","NAS100_USD","UK100_GBP","XAU_USD"],"missing":[]}
