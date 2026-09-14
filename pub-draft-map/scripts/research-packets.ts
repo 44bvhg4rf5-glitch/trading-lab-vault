@@ -16,6 +16,7 @@
  *       every hidden pub, split into 12 geographic areas under .cache/research/
  *   npx tsx scripts/research-packets.ts --all --shards 300
  *       every pub not yet researched (a whole-country run: ~160 pubs an area)
+ *   npx tsx scripts/research-packets.ts --all --shards 300 --part 0/4   # and 1/4, 2/4, 3/4 in parallel
  *   npx tsx scripts/research-packets.ts --pub <id> --website https://example.pub
  *       (re)build one packet with a website a worker found
  *
@@ -34,7 +35,8 @@ const db = new PrismaClient();
 function args() {
   const a = process.argv.slice(2);
   const get = (k: string) => { const i = a.indexOf(`--${k}`); return i >= 0 ? a[i + 1] : undefined; };
-  return { hidden: a.includes("--hidden"), all: a.includes("--all"), shards: Number(get("shards") ?? 12), pub: get("pub"), website: get("website"), out: get("out") ?? path.join(process.cwd(), ".cache", "research"), limit: Number(get("limit") ?? 0) };
+  const part = (get("part") ?? "0/1").split("/").map(Number);
+  return { hidden: a.includes("--hidden"), all: a.includes("--all"), shards: Number(get("shards") ?? 12), pub: get("pub"), website: get("website"), out: get("out") ?? path.join(process.cwd(), ".cache", "research"), limit: Number(get("limit") ?? 0), part: { i: part[0] || 0, n: part[1] || 1 } };
 }
 
 /** Split pubs into roughly square geographic areas of similar size. */
@@ -82,7 +84,9 @@ async function main() {
   writeFileSync(path.join(a.out, "shards.json"), JSON.stringify(shards.map((s) => ({ shard: s.shard, label: s.label, count: s.pubs.length, withWebsite: s.pubs.filter((p) => cleanWebsite(p.website)).length, dir: path.join(a.out, "packets", s.shard), pubIds: s.pubs.map((p) => p.id) })), null, 2));
   console.log(`${pubs.length} pubs in ${shards.length} areas`);
 
-  for (const s of shards) {
+  // --part i/n: build only every n-th area, so several processes can crawl in parallel (a pub is in exactly one area, so no host is hit twice at once).
+  for (const [si, s] of shards.entries()) {
+    if (si % a.part.n !== a.part.i) continue;
     const dir = path.join(a.out, "packets", s.shard);
     mkdirSync(dir, { recursive: true });
     const index: { id: string; name: string; address: string; website: string | null; packet: string }[] = [];
