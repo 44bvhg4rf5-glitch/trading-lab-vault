@@ -89,6 +89,8 @@ async function main() {
     }
     // The site's menu is authoritative for that site's own pubs: retire inferred rows it doesn't list.
     await db.tapListing.updateMany({ where: { pubId: pub.id, status: "ACTIVE", source: { in: ["inferred", "osm", source] }, beerId: { notIn: [...keep] } }, data: { status: "REMOVED", removedAt: new Date() } });
+    // A company-published list is evidence: a pub the research pass hid, or kept on a guessed range, comes back on the map.
+    await db.pub.updateMany({ where: { id: pub.id, evidence: { in: ["none", "chain"] } }, data: { evidence: "company", hidden: false } });
     if (i % 25 === 0) console.log(`${i}/${entries.length} · matched ${matched} · unmatched ${unmatched} · listings ${listings}`);
   }
   console.log(`done. matched ${matched}, unmatched ${unmatched}, no menu ${noMenu}, listings ${listings}`);

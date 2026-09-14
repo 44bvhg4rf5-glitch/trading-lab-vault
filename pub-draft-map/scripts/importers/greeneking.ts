@@ -7,8 +7,12 @@
  *  - The pub page carries schema.org LocalBusiness JSON-LD inside the
  *    Sitecore JSS state: name, street, postcode, latitude/longitude, branchCode.
  *  - /our-beers is server-rendered: a PromoList ("We also do cask beer")
- *    whose items are the cask ales that pub pours (e.g. Greene King IPA,
- *    Abbot Ale, Genevieve). That is the per-pub list we import.
+ *    naming the cask ales on at that pub (Greene King IPA, Abbot Ale and the
+ *    current guest, Genevieve in September 2026). Checked across counties:
+ *    the list is the same at every managed pub, so it is the company's core
+ *    cask range published on each pub's page rather than a pub-by-pub list.
+ *    Still worth importing (it is the company saying what that pub pours),
+ *    and the adapter will pick up any pub whose list starts to differ.
  *  - /menu loads the full drinks list from prod-mobile-bff.greeneking.co.uk,
  *    which sits behind Akamai bot protection and refuses non-browser clients.
  *    We do not work around that: the keg range comes from the brand range
