@@ -4,7 +4,8 @@ from __future__ import annotations
 from datetime import datetime, timezone
 
 from . import calibration
-from .config import DIGEST_DIR, Config
+from . import paths
+from .config import Config
 from .engine import ScanReport, status
 
 
@@ -13,13 +14,15 @@ def write_digest(cfg: Config, rep: ScanReport | None = None, now: datetime | Non
     s = status(cfg)
     cal = calibration.load()
     day = now.date().isoformat()
-    lines = ["---", f"date: {day}", f"mode: {s['mode']}", f"equity_usd: {s['equity_usd']}",
-             f"equity_gbp: {s['equity_gbp']}", f"floor_usd: {s['floor_usd']}",
-             f"banked_tools_usd: {s['banked'].get('tools', 0)}", f"banked_owner_usd: {s['banked'].get('owner', 0)}",
-             "tags: [trading-lab, polymarket, daily-digest]", "---", "",
-             f"# Polymarket day {day}", "",
-             f"Equity **${s['equity_usd']}** (£{s['equity_gbp']}) · floor ${s['floor_usd']} · "
-             f"risk budget ${s['risk_budget_usd']} · banked £{round((s['banked'].get('tools', 0) + s['banked'].get('owner', 0)) / max(cfg.get('fx_fallback_gbp_usd', 1.3), 0.5), 2)}",
+    cur = s["currency"]
+    sym = "£" if cur == "GBP" else "$"
+    lines = ["---", f"date: {day}", f"venue: {s['venue']}", f"mode: {s['mode']}", f"currency: {cur}",
+             f"equity: {s['equity']}", f"equity_gbp: {s['equity_gbp']}", f"floor: {s['floor']}",
+             f"banked_tools: {s['banked'].get('tools', 0)}", f"banked_owner: {s['banked'].get('owner', 0)}",
+             f"tags: [trading-lab, {s['venue']}, daily-digest]", "---", "",
+             f"# {s['venue'].title()} day {day}", "",
+             f"Equity **{sym}{s['equity']}** (£{s['equity_gbp']}) · floor {sym}{s['floor']} · "
+             f"risk budget {sym}{s['risk_budget']} · banked £{s['banked_gbp']}",
              ""]
     if rep:
         lines += ["## Scan", "", f"- Markets scanned: {rep.scanned}; passed filters: {rep.tradeable}; researched: {rep.researched}",
@@ -31,7 +34,7 @@ def write_digest(cfg: Config, rep: ScanReport | None = None, now: datetime | Non
             for c in rep.candidates:
                 d = c.decision
                 lines.append(f"| {c.market.question[:55]} | {c.side} | {d.get('price')} | {round(c.p, 3)} | "
-                             f"{d.get('edge')} | {round(c.confidence, 2)} | ${d.get('stake_usd')} | {c.skipped or 'ENTERED'} |")
+                             f"{d.get('edge')} | {round(c.confidence, 2)} | {sym}{d.get('stake_usd')} | {c.skipped or 'ENTERED'} |")
             lines.append("")
     if s["open_positions"]:
         lines += ["## Open positions", ""]
@@ -50,7 +53,7 @@ def write_digest(cfg: Config, rep: ScanReport | None = None, now: datetime | Non
     else:
         lines.append("- no resolved shadow estimates yet")
     lines.append("")
-    DIGEST_DIR.mkdir(parents=True, exist_ok=True)
-    path = DIGEST_DIR / f"{day}.md"
+    paths.digest_dir().mkdir(parents=True, exist_ok=True)
+    path = paths.digest_dir() / f"{s['venue']}-{day}.md"
     path.write_text("\n".join(lines), encoding="utf-8")
     return str(path)

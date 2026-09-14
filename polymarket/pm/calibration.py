@@ -10,11 +10,11 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
-from .config import STATE_DIR
+from . import paths
 
 
 def _path() -> Path:
-    return STATE_DIR / "calibration.json"
+    return paths.state_dir() / "calibration.json"
 
 
 def load() -> dict:
@@ -25,7 +25,7 @@ def load() -> dict:
 
 
 def save(c: dict) -> None:
-    STATE_DIR.mkdir(parents=True, exist_ok=True)
+    paths.state_dir().mkdir(parents=True, exist_ok=True)
     _path().write_text(json.dumps(c, indent=2, sort_keys=True), encoding="utf-8")
 
 

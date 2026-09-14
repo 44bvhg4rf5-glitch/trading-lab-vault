@@ -13,10 +13,9 @@ import urllib.request
 from pathlib import Path
 from typing import Any
 
-from .config import STATE_DIR
+from . import paths
 
 USER_AGENT = "trading-lab-polymarket/0.1 (+research bot; contact via repo)"
-CACHE_DIR = STATE_DIR / "cache"
 
 
 class HttpError(RuntimeError):
@@ -24,7 +23,7 @@ class HttpError(RuntimeError):
 
 
 def _cache_path(url: str) -> Path:
-    return CACHE_DIR / (hashlib.sha1(url.encode()).hexdigest() + ".json")
+    return paths.cache_dir() / (hashlib.sha1(url.encode()).hexdigest() + ".json")
 
 
 def get_text(url: str, *, timeout: float = 20.0, retries: int = 3, ttl: float = 0.0,
@@ -48,7 +47,7 @@ def get_text(url: str, *, timeout: float = 20.0, retries: int = 3, ttl: float = 
             with urllib.request.urlopen(req, timeout=timeout) as resp:
                 body = resp.read().decode("utf-8", errors="replace")
             if ttl > 0:
-                CACHE_DIR.mkdir(parents=True, exist_ok=True)
+                paths.cache_dir().mkdir(parents=True, exist_ok=True)
                 cp.write_text(json.dumps({"t": time.time(), "body": body}), encoding="utf-8")
             return body
         except urllib.error.HTTPError as e:  # 4xx/5xx

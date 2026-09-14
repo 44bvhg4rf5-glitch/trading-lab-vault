@@ -7,7 +7,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
-from .config import STATE_DIR
+from . import paths
 
 
 @dataclass
@@ -48,7 +48,8 @@ class State:
     positions: list[Position] = field(default_factory=list)
     halted_until: str | None = None
     daily: dict[str, Any] = field(default_factory=dict)   # {"date":..., "start_equity":...}
-    gbp_usd: float = 1.30
+    gbp_usd: float = 1.30            # venue currency units per GBP (1.0 for a GBP venue)
+    currency: str = "USD"
     last_scan: str | None = None
     stats: dict[str, Any] = field(default_factory=dict)
 
@@ -83,7 +84,7 @@ class State:
 
 
 def state_path() -> Path:
-    return STATE_DIR / "state.json"
+    return paths.state_dir() / "state.json"
 
 
 def load_state() -> State | None:
@@ -94,13 +95,13 @@ def load_state() -> State | None:
 
 
 def save_state(st: State) -> None:
-    STATE_DIR.mkdir(parents=True, exist_ok=True)
+    paths.state_dir().mkdir(parents=True, exist_ok=True)
     tmp = state_path().with_suffix(".tmp")
     tmp.write_text(json.dumps(st.to_dict(), indent=2, sort_keys=True), encoding="utf-8")
     tmp.replace(state_path())
 
 
-def new_state(bankroll_usd: float, gbp_usd: float) -> State:
+def new_state(bankroll_usd: float, gbp_usd: float, currency: str = "USD") -> State:
     now = datetime.now(timezone.utc).isoformat()
     return State(created_at=now, initial_bankroll_usd=bankroll_usd, cash_usd=bankroll_usd,
-                 hwm_usd=bankroll_usd, gbp_usd=gbp_usd)
+                 hwm_usd=bankroll_usd, gbp_usd=gbp_usd, currency=currency)

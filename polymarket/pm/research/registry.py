@@ -2,12 +2,14 @@ from __future__ import annotations
 
 from ..config import Config
 from .agents import (EventConsistencyAgent, FavoriteLongshotAgent, LocalLLMAgent, ManifoldAgent,
-                     MetaculusAgent, MomentumAgent, NewsAgent, OrderBookAgent, TimeDecayAgent)
+                     MetaculusAgent, MomentumAgent, NewsAgent, OrderBookAgent, PolymarketPriceAgent,
+                     TimeDecayAgent)
 from .base import Agent
 
 AGENT_CLASSES: dict[str, type[Agent]] = {
     c.name: c for c in (EventConsistencyAgent, OrderBookAgent, MomentumAgent, TimeDecayAgent,
-                        FavoriteLongshotAgent, ManifoldAgent, MetaculusAgent, NewsAgent, LocalLLMAgent)
+                        FavoriteLongshotAgent, ManifoldAgent, MetaculusAgent, PolymarketPriceAgent, NewsAgent,
+                        LocalLLMAgent)
 }
 
 

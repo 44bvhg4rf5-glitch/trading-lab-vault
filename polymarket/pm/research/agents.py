@@ -302,3 +302,49 @@ class LocalLLMAgent(Agent):
                             f"{model}: {str(data.get('rationale', ''))[:160]}")
         except Exception as e:  # model output is untrusted; never let it crash the loop
             return Estimate(self.name, None, 0.0, f"local model error: {e}")
+
+
+# ---------------------------------------------------------------------------
+class PolymarketPriceAgent(Agent):
+    """Cross-venue: Polymarket's own price on a matching question, read for free via Gamma
+    search. Used when trading on another venue (e.g. Smarkets); on Polymarket itself the
+    market price is already the prior, so this agent abstains."""
+    name = "polymarket_price"
+
+    def estimate(self, ctx: MarketContext) -> Estimate | None:
+        if getattr(ctx, "venue", "polymarket") == "polymarket":
+            return None
+        q = ctx.market.question
+        terms = {t for t in (" ".join(keywords(q, 4)), entity_terms(q)) if t}
+        cands: dict[str, dict] = {}
+        for term in terms:
+            try:
+                res = get_json("https://gamma-api.polymarket.com/public-search?q=" +
+                               f"{quote_plus(term)}&limit_per_type=6", ttl=1800, timeout=15)
+            except HttpError:
+                continue
+            for ev in (res or {}).get("events", []) or []:
+                for mk in ev.get("markets", []) or []:
+                    if mk.get("closed") or not mk.get("outcomePrices"):
+                        continue
+                    cands[str(mk.get("id"))] = {"question": mk.get("question", ""), "event": ev.get("title", ""),
+                                                "prices": mk.get("outcomePrices"),
+                                                "liq": float(mk.get("liquidityNum") or mk.get("liquidity") or 0)}
+        best, best_sim = None, 0.0
+        for mk in cands.values():
+            title = mk["question"]
+            if not compatible(q, title)[0]:
+                continue
+            sim = max(jaccard(q, title), 0.85 * jaccard(q, f"{mk['event']} {title}"))
+            if sim > best_sim:
+                best, best_sim = mk, sim
+        min_sim = float(self.params.get("min_similarity", 0.5))
+        if not best or best_sim < min_sim:
+            return None
+        try:
+            p = float(json.loads(best["prices"])[0])
+        except (ValueError, IndexError, TypeError):
+            return None
+        conf = best_sim * min(1.0, best["liq"] / 20000.0) * 0.9
+        return Estimate(self.name, clamp(p), conf,
+                        f"Polymarket '{best['question'][:60]}' p={p:.3f} (sim {best_sim:.2f}, liq ${best['liq']:,.0f})")

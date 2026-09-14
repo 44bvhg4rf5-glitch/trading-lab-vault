@@ -6,7 +6,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
-from .config import STATE_DIR
+from . import paths
 
 
 def _append(path: Path, rec: dict[str, Any]) -> None:
@@ -17,12 +17,12 @@ def _append(path: Path, rec: dict[str, Any]) -> None:
 
 
 def journal(rec: dict[str, Any]) -> None:
-    _append(STATE_DIR / "journal.jsonl", rec)
+    _append(paths.state_dir() / "journal.jsonl", rec)
 
 
 def shadow(rec: dict[str, Any]) -> None:
     """Every estimate we make, traded or not, so agents can be scored when markets resolve."""
-    _append(STATE_DIR / "shadow.jsonl", rec)
+    _append(paths.state_dir() / "shadow.jsonl", rec)
 
 
 def read_jsonl(path: Path) -> list[dict]:
@@ -47,3 +47,7 @@ def rewrite_jsonl(path: Path, rows: list[dict]) -> None:
         for r in rows:
             fh.write(json.dumps(r, default=str) + "\n")
     tmp.replace(path)
+
+
+def shadow_path() -> Path:
+    return paths.state_dir() / "shadow.jsonl"

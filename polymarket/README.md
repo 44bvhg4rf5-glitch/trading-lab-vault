@@ -1,10 +1,28 @@
-# Polymarket Kelly bot
+# Prediction-market Kelly bot (Polymarket + Smarkets)
 
-A self-contained, zero-cost research-and-trading system for Polymarket binary markets.
+A self-contained, zero-cost research-and-trading system for binary prediction markets.
 It lives in this vault so its journals, digests and calibration record sit next to the
 rest of the Trading Lab.
 
 **Read the "What this system cannot promise" section before anything else.**
+
+## Two venues, one engine
+
+| | Polymarket | Smarkets |
+|---|---|---|
+| role | free signal source + paper calibration | the live venue (UK Gambling Commission licensed) |
+| access from the UK | blocked (close-only) | allowed |
+| contract | YES/NO share priced 0–1 in USDC | back (= YES) or lay (= NO) at probability 0–1 in GBP |
+| fees | taker fee on entry, `rate·p·(1−p)` | ~2 % commission on net winnings per market |
+| config | `config.json` | `config.smarkets.json` |
+| state | `state/polymarket/` | `state/smarkets/` |
+| minimum stake | 5 shares | £0.05 |
+
+Everything above the venue adapter is shared: the research agents, the ensemble, Kelly
+sizing, the capital floor, the 40/40/20 split, the shadow ledger and calibration. On
+Smarkets the `polymarket_price` agent reads Polymarket's price on the matching question
+for free and treats it as a second crowd; a compatibility guard (negation, numbers,
+antonyms, party names) stops it pairing a question with its opposite.
 
 ## What it does
 
@@ -26,13 +44,15 @@ Every cycle (`python run.py scan`):
    | `metaculus` | Metaculus API (free token) | superforecaster community estimate |
    | `news` | Google News RSS | headline bursts → trust stale signals less |
    | `local_llm` | Ollama on your own machine | a calibrated-forecaster prompt; free local tokens only |
+   | `polymarket_price` | Polymarket Gamma search | Polymarket's own price when trading elsewhere (Smarkets) |
 
    Agents that cannot reach their source simply abstain. Nothing here spends paid API usage.
 4. **Ensemble** — pools agent log-odds weighted by confidence, then **shrinks toward the
    market price**; disagreement and news storms shrink harder. The market is the strongest
    free forecaster there is, so we only step away from it when independent evidence agrees.
-5. **Kelly** — for the cheaper of YES/NO: `f* = (p − cost) / (1 − cost)` using the
-   fee-inclusive cost. Trade only if `p − cost ≥ 8 %` (`min_edge`). Stake = ¼ Kelly
+5. **Kelly** — for the better of YES/NO: `f* = p − (1 − p) / b` where `b` is the net odds
+   after the venue's fee model (taker fee on Polymarket, commission on winnings on
+   Smarkets). Trade only if `p − breakeven ≥ 8 %` (`min_edge`). Stake = ¼ Kelly
    (`kelly_fraction`) of the *risk capital* (equity above the floor), capped per market
    and per event.
 6. **Risk gate** — see below. Then execute (paper by default), journal, and write a
@@ -59,6 +79,13 @@ bankroll, 40 % goes to a **tools** reserve, 20 % to an **owner** reserve. Reserv
 removed from tradeable cash, so the bot can never risk them. `python run.py status` shows
 the running totals; the "tools" pot is what pays for upgrades (data, compute, paid models).
 
+The bot never moves money. When you actually withdraw from the venue to your bank, record
+it so the ledger matches reality:
+
+```bash
+python3 run.py --config config.smarkets.json withdraw --pot owner --amount 12.50 --note "to Monzo"
+```
+
 ### Self-improvement without tokens
 
 Every estimate, traded or not, is logged. When the market resolves, each agent and the
@@ -82,24 +109,38 @@ into the next ensemble. The daily digest prints the table.
   learning regardless.
 - **Geoblocking.** Polymarket restricts a number of countries. At the time of writing the
   UK is in *close-only* mode (existing positions can be closed, new ones cannot be opened).
-  This code does nothing to bypass restrictions and live mode should only be enabled where
-  you are permitted to trade. Paper mode works everywhere.
+  This code does nothing to bypass restrictions; that is why the live venue for a UK
+  account is Smarkets. Paper mode works everywhere on both venues.
+- **Smarkets is small.** Its politics and current-affairs book is a few hundred contracts,
+  most resolving months out and many thinly quoted. The first dry run found 24 tradeable
+  contracts and no 8 % edges. Expect a handful of real signals a week, not a stream.
 
 ## Running it
 
 ```bash
 cd polymarket
-python3 -m unittest discover -s tests        # stdlib only, no installs
-python3 run.py scan --dry-run --max-events 60 # research only, ~2-4 min
-python3 run.py scan --digest                  # paper trade + write digests/YYYY-MM-DD.md
-python3 run.py status
-python3 run.py loop --interval 900            # keep going
-python3 run.py projection                     # the growth arithmetic
+python3 -m unittest discover -s tests                        # stdlib only, no installs
+python3 run.py --config config.smarkets.json scan --dry-run  # Smarkets research only, ~30 s
+python3 run.py --config config.smarkets.json scan --digest   # Smarkets paper trade + digest
+python3 run.py scan --dry-run --max-events 60                # Polymarket research only, ~2 min
+python3 run.py scan --digest                                 # Polymarket paper trade + digest
+python3 run.py --config config.smarkets.json status
+python3 run.py --config config.smarkets.json loop --interval 900
+python3 run.py projection                                    # the growth arithmetic
 ```
 
-Free scheduling: `.github/workflows/polymarket-scan.yml` runs a paper scan every 3 hours on
-GitHub's hosted runners and commits state + digests back to the vault. Enable it under the
-repo's Actions tab (it needs the default write permission for workflows).
+Free scheduling: `.github/workflows/polymarket-scan.yml` runs both paper scans every 3 hours
+on GitHub's hosted runners and commits state + digests back to the vault. Enable it under
+the repo's Actions tab (it needs the default write permission for workflows).
+
+### The plan
+
+1. Run both venues in paper mode for two to three weeks.
+2. Judge the system on the calibration table in the daily digest: the ensemble must beat
+   the market price's Brier score on resolved questions before any real money goes in.
+3. Open a Smarkets account, ask Smarkets for API-user access (order placement returns 403
+   without it), fund it with £50, and switch `config.smarkets.json` to live.
+4. Keep the floor: £10 maximum drawdown, 90 % of gains locked, 40/40/20 on new highs.
 
 Optional free upgrades (no paid tokens):
 
@@ -108,30 +149,39 @@ Optional free upgrades (no paid tokens):
 
 ### Live mode (deliberately awkward to switch on)
 
-Requires all of: `"mode": "live"` in `config.json` (or `PM_MODE=live`), `PM_LIVE_ACK=I_UNDERSTAND`,
-`POLY_PRIVATE_KEY` (and `POLY_FUNDER` / `POLY_SIG_TYPE` for proxy wallets), and
-`pip install py-clob-client`. Live entries rest as maker limit orders one tick inside the
-spread when there is room (no taker fee), otherwise cross the spread. Reconcile fills with
-`status` before trusting the paper-style ledger.
+Both venues require `"mode": "live"` in the config (or `PM_MODE=live`) **and**
+`PM_LIVE_ACK=I_UNDERSTAND` in the environment.
+
+- **Smarkets**: `SMARKETS_USERNAME` and `SMARKETS_PASSWORD` for an account with API-user
+  access. Orders are immediate-or-cancel at the best quote, snapped to the exchange's
+  odds tick ladder; a NO position is a lay of the contract. Stdlib only, nothing to install.
+- **Polymarket** (only where permitted): `POLY_PRIVATE_KEY` (and `POLY_FUNDER` /
+  `POLY_SIG_TYPE` for proxy wallets) and `pip install py-clob-client`. Entries rest as maker
+  limit orders one tick inside the spread when there is room, otherwise cross the spread.
+
+Reconcile fills with `status` before trusting the paper-style ledger.
 
 ## Layout
 
 ```
 polymarket/
-  run.py                CLI
-  config.json           every knob (edge, Kelly fraction, floor, split, filters, agents)
+  run.py                  CLI (scan, loop, status, digest, withdraw, projection, reset)
+  config.json             Polymarket knobs (edge, Kelly fraction, floor, split, filters, agents)
+  config.smarkets.json    Smarkets knobs
   pm/
-    clients/            gamma.py (discovery), clob.py (books/history), fx.py (GBP/USD)
-    research/           agents.py, ensemble.py, text.py, registry.py
-    kelly.py            binary Kelly with fees
-    risk.py             floor, budget, caps, filters, daily halt
-    treasury.py         40/40/20 split
-    execution.py        paper + live executors
-    engine.py           scan / manage cycle
-    calibration.py      Brier scoring -> agent weights
-    ledger.py, state.py journals and account state
-    digest.py           vault-style daily markdown
-  state/                state.json, journal.jsonl, shadow.jsonl, calibration.json
-  digests/              one markdown file per day
-  tests/                28 unit tests (stdlib unittest)
+    venues/               base.py (interface), polymarket.py, smarkets.py (API, odds mapping, live orders)
+    clients/              gamma.py (discovery), clob.py (books/history), fx.py (GBP/USD)
+    research/             agents.py, ensemble.py, text.py, registry.py
+    kelly.py              binary Kelly with fee models (taker fee / commission)
+    risk.py               floor, budget, caps, filters, daily halt
+    treasury.py           40/40/20 split
+    execution.py          paper executor + Polymarket live executor
+    engine.py             scan / manage cycle, withdraw
+    calibration.py        Brier scoring -> agent weights
+    ledger.py, state.py   journals and account state (per venue)
+    paths.py              per-venue state locations
+    digest.py             vault-style daily markdown
+  state/<venue>/          state.json, journal.jsonl, shadow.jsonl, calibration.json
+  digests/                <venue>-YYYY-MM-DD.md
+  tests/                  37 unit tests (stdlib unittest)
 ```

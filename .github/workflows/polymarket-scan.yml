@@ -1,7 +1,7 @@
-# Free scheduled paper-trading cycle on GitHub's hosted runners.
+# Free scheduled paper-trading cycles (Polymarket + Smarkets) on GitHub's hosted runners.
 # It never trades live: PM_MODE is forced to paper here. State and digests are committed back
 # to the vault so the calibration record grows even when your machine is off.
-name: polymarket-paper-scan
+name: prediction-paper-scan
 
 on:
   workflow_dispatch:
@@ -29,9 +29,12 @@ jobs:
       - name: Unit tests
         working-directory: polymarket
         run: python -m unittest discover -s tests
-      - name: Scan and write digest
+      - name: Polymarket paper scan (free signal source + calibration)
         working-directory: polymarket
         run: python run.py scan --digest --max-events 200
+      - name: Smarkets paper scan (UK-licensed venue)
+        working-directory: polymarket
+        run: python run.py --config config.smarkets.json scan --digest
       - name: Commit state back to the vault
         run: |
           git config user.name "polymarket-bot"

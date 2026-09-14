@@ -1,4 +1,4 @@
-"""The trading cycle.
+"""The trading cycle, venue-agnostic.
 
 scan():    discover markets -> filter -> research (free agents) -> ensemble -> Kelly -> risk gate
            -> execute -> journal + shadow record
@@ -13,20 +13,19 @@ from dataclasses import dataclass, field
 from datetime import datetime, timezone
 from typing import Any
 
-from . import calibration, ledger, risk, treasury
-from .clients import clob, gamma
-from .clients.fx import gbp_usd
+from . import calibration, ledger, paths, risk, treasury
 from .config import Config
-from .execution import build_executor
 from .kelly import decide
 from .research import MarketContext, build_agents, combine
 from .research.agents import fetch_headlines
 from .state import Position, State, load_state, new_state, save_state
+from .venues import build_venue
+from .venues.base import Venue
 
 
 @dataclass
 class Candidate:
-    market: gamma.Market
+    market: Any
     p: float
     confidence: float
     edge: float
@@ -40,6 +39,7 @@ class Candidate:
 @dataclass
 class ScanReport:
     at: str
+    venue: str = ""
     scanned: int = 0
     tradeable: int = 0
     researched: int = 0
@@ -53,22 +53,22 @@ class ScanReport:
     notes: list[str] = field(default_factory=list)
 
 
-def ensure_state(cfg: Config) -> State:
+def ensure_state(cfg: Config, venue: Venue) -> State:
     st = load_state()
     if st is None:
-        fx = gbp_usd(float(cfg.get("fx_fallback_gbp_usd", 1.30)))
-        st = new_state(round(cfg.bankroll_gbp * fx, 2), fx)
+        units = venue.units_per_gbp()
+        st = new_state(round(cfg.bankroll_gbp * units, 2), units, venue.currency)
         save_state(st)
-        ledger.journal({"type": "account-opened", "bankroll_usd": st.cash_usd, "gbp_usd": fx,
-                        "bankroll_gbp": cfg.bankroll_gbp})
+        ledger.journal({"type": "account-opened", "venue": venue.name, "bankroll": st.cash_usd,
+                        "currency": venue.currency, "units_per_gbp": units, "bankroll_gbp": cfg.bankroll_gbp})
     return st
 
 
-def _marks(st: State) -> dict[str, float]:
+def _marks(venue: Venue, st: State) -> dict[str, float]:
     marks: dict[str, float] = {}
     for p in st.open_positions():
         try:
-            b = clob.get_book(p.token_id)
+            b = venue.get_book(p.token_id)
             if b.best_bid is not None:
                 marks[p.token_id] = b.best_bid
         except Exception:
@@ -77,23 +77,23 @@ def _marks(st: State) -> dict[str, float]:
 
 
 # ---------------------------------------------------------------------------
-def research_market(cfg: Config, m: gamma.Market, universe: list[gamma.Market], agents, weights,
+def research_market(cfg: Config, venue: Venue, m, universe, agents, weights,
                     now: datetime) -> tuple[Candidate | None, MarketContext | None, list[str]]:
-    book_yes = clob.get_book(m.yes_token)
-    book_no = clob.get_book(m.no_token)
+    book_yes = venue.get_book(m.yes_token)
+    book_no = venue.get_book(m.no_token)
     hours_left = m.hours_to_resolution(now)
     why = risk.market_filters(cfg, m, book_yes, hours_left)
     if why:
         return None, None, why
-    sibs = gamma.siblings(m, universe)
+    sibs = venue.siblings(m, universe)
     sib_mids = {s.id: s.yes_price for s in sibs}
     try:
-        hist = clob.get_history(m.yes_token)
+        hist = venue.get_history(m.yes_token)
     except Exception:
         hist = []
     ctx = MarketContext(market=m, book_yes=book_yes, book_no=book_no, siblings=sibs,
                         sibling_mids=sib_mids, history=hist, now=now,
-                        headline_loader=lambda: fetch_headlines(m.question))
+                        headline_loader=lambda: fetch_headlines(m.question), venue=venue.name)
     ests = []
     for ag in agents:
         try:
@@ -114,23 +114,25 @@ def research_market(cfg: Config, m: gamma.Market, universe: list[gamma.Market], 
 def scan(cfg: Config, *, dry_run: bool = False, max_events: int | None = None,
          now: datetime | None = None) -> ScanReport:
     now = now or datetime.now(timezone.utc)
-    st = ensure_state(cfg)
-    rep = ScanReport(at=now.isoformat())
+    venue = build_venue(cfg)
+    st = ensure_state(cfg, venue)
+    rep = ScanReport(at=now.isoformat(), venue=venue.name)
     agents = build_agents(cfg)
     base_w = {a.name: a.weight for a in agents}
     weights = calibration.skill_weights(calibration.load(), base_w)
-    executor = build_executor(cfg.mode, cfg.taker_fee_rate, cfg.prefer_maker)
+    executor = venue.build_executor(cfg.mode)
+    fee = venue.fee_model()
 
     # 1. manage what we already hold (exits, settlements, split) before adding risk
-    manage(cfg, st, rep, executor, now)
+    manage(cfg, venue, st, rep, executor, now)
 
-    marks = _marks(st)
+    marks = _marks(venue, st)
     equity = st.equity_usd(marks)
     risk.roll_day(st, equity, now)
     snap = risk.snapshot(cfg, st, marks, now)
     rep.risk = snap.__dict__.copy()
 
-    universe = gamma.scan_markets(max_events=max_events or int(cfg.get("scan.max_events", 200)))
+    universe = venue.scan_markets(max_events or int(cfg.get("scan.max_events", 200)))
     rep.scanned = len(universe)
     universe.sort(key=lambda m: -m.volume_24h)
     max_research = int(cfg.get("scan.max_research", 60))
@@ -138,26 +140,26 @@ def scan(cfg: Config, *, dry_run: bool = False, max_events: int | None = None,
     min_conf = float(cfg.get("ensemble.min_confidence", 0.25))
     per_scan_cap = int(cfg.get("risk.max_new_positions_per_scan", 2))
     opened = 0
-    shadow_seen = {(r.get("market_id"), r.get("day"))
-                   for r in ledger.read_jsonl(ledger.STATE_DIR / "shadow.jsonl")}
+    shadow_seen = {(r.get("market_id"), r.get("day")) for r in ledger.read_jsonl(ledger.shadow_path())}
+
+    todo = [m for m in universe if m.id not in open_ids]
+    venue.prefetch(todo)
 
     # research runs in a small thread pool (network-bound, free APIs); decisions stay sequential
     def _research(m):
         try:
-            return m, research_market(cfg, m, universe, agents, weights, now)
+            return m, research_market(cfg, venue, m, universe, agents, weights, now)
         except Exception as ex:
             ledger.journal({"type": "research-error", "market": m.id, "error": str(ex)})
             return m, (None, None, ["error"])
 
-    todo = [m for m in universe if m.id not in open_ids]
     workers = int(cfg.get("scan.workers", 6))
     results: list = []
     with ThreadPoolExecutor(max_workers=workers) as pool:
         futs = [pool.submit(_research, m) for m in todo]
         for f in futs:
             results.append(f.result())
-            researched = sum(1 for _, (c, _, w) in results if not w)
-            if researched >= max_research:
+            if sum(1 for _, (c, _, w) in results if not w) >= max_research:
                 break
         for f in futs:
             f.cancel()
@@ -172,20 +174,21 @@ def scan(cfg: Config, *, dry_run: bool = False, max_events: int | None = None,
         rep.tradeable += 1
         rep.researched += 1
         assert cand is not None and ctx is not None
-        budget = snap.budget if not dry_run else max(snap.budget, 0.0)
         cap = risk.position_caps(cfg, st, snap.equity, m.event_id, m.id)
-        max_stake = min(budget, cap)
+        max_stake = min(snap.budget, cap)
         dec = decide(cand.p, ctx.book_yes.best_ask, ctx.book_no.best_ask,
-                     bankroll=max(snap.equity - snap.floor, 0.0), fee_rate=cfg.taker_fee_rate,
-                     maker=False, fraction=cfg.kelly_fraction, min_edge=cfg.min_edge,
+                     bankroll=max(snap.equity - snap.floor, 0.0), fee=fee,
+                     fraction=cfg.kelly_fraction, min_edge=cfg.min_edge,
                      max_stake=max_stake if max_stake > 0 else 1e9)
         # shadow record for calibration, regardless of trade (one per market per day)
-        if (m.id, now.date().isoformat()) not in shadow_seen:
-            shadow_seen.add((m.id, now.date().isoformat()))
+        key = (m.id, now.date().isoformat())
+        if key not in shadow_seen:
+            shadow_seen.add(key)
             ledger.shadow({"type": "estimate", "market_id": m.id, "condition_id": m.condition_id,
                            "question": m.question, "market_p": round(ctx.mid, 4),
                            "ensemble_p": round(cand.p, 4), "confidence": round(cand.confidence, 3),
-                           "estimates": cand.estimates, "end_date": m.end_date.isoformat() if m.end_date else None,
+                           "estimates": cand.estimates,
+                           "end_date": m.end_date.isoformat() if m.end_date else None,
                            "day": now.date().isoformat()})
         if dec is None:
             continue
@@ -207,7 +210,7 @@ def scan(cfg: Config, *, dry_run: bool = False, max_events: int | None = None,
         min_cost = m.min_order_size * dec.price
         stake = min(dec.stake_usd, max_stake)
         if stake < max(min_cost, float(cfg.get("risk.min_stake_usd", 1.0))):
-            cand.skipped = f"stake ${stake:.2f} below minimum"
+            cand.skipped = f"stake {stake:.2f} below minimum"
             continue
         fill = executor.buy(token, book, stake, m.tick)
         if not fill or fill.shares <= 0:
@@ -221,15 +224,15 @@ def scan(cfg: Config, *, dry_run: bool = False, max_events: int | None = None,
         st.cash_usd -= fill.cost_usd
         opened += 1
         snap = risk.snapshot(cfg, st, marks, now)
-        rec = {"type": "entry", "mode": cfg.mode, "position": pos.__dict__,
+        rec = {"type": "entry", "venue": venue.name, "mode": cfg.mode, "position": pos.__dict__,
                "decision": dec.as_dict(), "p": round(cand.p, 4), "confidence": round(cand.confidence, 3),
                "estimates": cand.estimates, "flags": cand.flags}
         ledger.journal(rec)
         rep.trades.append(rec)
 
     st.last_scan = now.isoformat()
-    st.stats = {"equity_usd": round(st.equity_usd(marks), 2), "floor_usd": round(snap.floor, 2),
-                "exposure_usd": round(st.exposure_usd(), 2), "banked_usd": round(st.total_banked_usd(), 2)}
+    st.stats = {"equity": round(st.equity_usd(marks), 2), "floor": round(snap.floor, 2),
+                "exposure": round(st.exposure_usd(), 2), "banked": round(st.total_banked_usd(), 2)}
     if not dry_run:
         save_state(st)
     rep.risk = risk.snapshot(cfg, st, marks, now).__dict__.copy()
@@ -237,29 +240,32 @@ def scan(cfg: Config, *, dry_run: bool = False, max_events: int | None = None,
 
 
 # ---------------------------------------------------------------------------
-def manage(cfg: Config, st: State, rep: ScanReport, executor, now: datetime) -> None:
+def manage(cfg: Config, venue: Venue, st: State, rep: ScanReport, executor, now: datetime) -> None:
+    fee = venue.fee_model()
     for pos in st.open_positions():
         try:
-            m = gamma.get_market(pos.market_id)
+            m = venue.get_market(pos.market_id)
         except Exception as ex:
             rep.notes.append(f"{pos.market_id}: refresh failed ({ex})")
             continue
         if m is None:
             continue
-        # settlement
+        if m.closed and m.raw.get("voided"):
+            _close(st, pos, pos.cost_usd, "voided", now, exit_price=pos.avg_price)
+            rep.settlements.append({"position": pos.id, "question": pos.question, "won": None, "pnl_usd": 0.0})
+            continue
         outcome = m.resolved_outcome()
         if outcome is not None:
             won = (outcome == 0 and pos.side == "YES") or (outcome == 1 and pos.side == "NO")
-            payout = pos.shares if won else 0.0
+            payout = fee.settle(pos.shares, pos.cost_usd) if won else 0.0
             _close(st, pos, payout, "resolved-win" if won else "resolved-loss", now)
             rep.settlements.append({"position": pos.id, "question": pos.question, "won": won,
                                     "pnl_usd": pos.pnl_usd})
             continue
         if m.closed:
             continue  # closed but not yet resolved: wait
-        # exit logic on live book
         try:
-            book = clob.get_book(pos.token_id)
+            book = venue.get_book(pos.token_id)
         except Exception:
             continue
         bid = book.best_bid
@@ -269,20 +275,18 @@ def manage(cfg: Config, st: State, rep: ScanReport, executor, now: datetime) -> 
         take_profit_at = pos.p_est - float(cfg.get("exits.take_profit_margin", 0.01))
         if bool(cfg.get("exits.exit_when_edge_gone", True)) and bid >= take_profit_at:
             reason = "edge-gone"
-        # thesis invalidated: market moved hard against us
         stop = pos.avg_price - float(cfg.get("exits.stop_loss_abs", 0.20))
         if bid <= stop and bool(cfg.get("exits.use_stop", True)):
             reason = "stop"
         if reason:
             fill = executor.sell(pos.token_id, book, pos.shares, m.tick)
             if fill and fill.shares > 0:
-                _close(st, pos, fill.cost_usd, reason, now, exit_price=fill.avg_price)
+                net = fee.settle(fill.cost_usd, pos.cost_usd)
+                _close(st, pos, net, reason, now, exit_price=fill.avg_price)
                 rep.exits.append({"position": pos.id, "question": pos.question, "reason": reason,
                                   "pnl_usd": pos.pnl_usd})
-    # settle shadow records for calibration
-    _score_shadow(now)
-    # ratchet + split
-    marks = _marks(st)
+    _score_shadow(venue, now)
+    marks = _marks(venue, st)
     equity = st.equity_usd(marks)
     if equity > st.hwm_usd:
         st.hwm_usd = equity
@@ -303,9 +307,9 @@ def _close(st: State, pos: Position, proceeds: float, reason: str, now: datetime
     ledger.journal({"type": "exit", "position": pos.__dict__})
 
 
-def _score_shadow(now: datetime) -> None:
+def _score_shadow(venue: Venue, now: datetime) -> None:
     """Resolve shadow estimates whose end date passed; keep unresolved ones."""
-    path = ledger.STATE_DIR / "shadow.jsonl"
+    path = ledger.shadow_path()
     rows = ledger.read_jsonl(path)
     if not rows:
         return
@@ -319,7 +323,7 @@ def _score_shadow(now: datetime) -> None:
             continue
         end = r.get("end_date")
         try:
-            due = end and datetime.fromisoformat(end) <= now
+            due = bool(end) and datetime.fromisoformat(end) <= now
         except ValueError:
             due = False
         if not due:
@@ -328,7 +332,7 @@ def _score_shadow(now: datetime) -> None:
         mid = r["market_id"]
         if mid not in checked:
             try:
-                m = gamma.get_market(mid)
+                m = venue.get_market(mid)
                 checked[mid] = m.resolved_outcome() if m else None
             except Exception:
                 checked[mid] = None
@@ -348,18 +352,21 @@ def _score_shadow(now: datetime) -> None:
 
 # ---------------------------------------------------------------------------
 def status(cfg: Config) -> dict[str, Any]:
-    st = ensure_state(cfg)
-    marks = _marks(st)
+    venue = build_venue(cfg)
+    st = ensure_state(cfg, venue)
+    marks = _marks(venue, st)
     snap = risk.snapshot(cfg, st, marks)
-    fx = st.gbp_usd or 1.3
+    units = st.gbp_usd or 1.0
     banked = st.total_banked_usd()
+    cur = st.currency
     return {
-        "mode": cfg.mode,
-        "equity_usd": round(snap.equity, 2), "equity_gbp": round(snap.equity / fx, 2),
-        "cash_usd": round(st.cash_usd, 2), "exposure_usd": round(snap.exposure, 2),
-        "floor_usd": round(snap.floor, 2), "risk_budget_usd": round(snap.budget, 2),
-        "hwm_usd": round(st.hwm_usd, 2), "banked": {k: round(v, 2) for k, v in st.reserves.items()},
-        "total_incl_banked_gbp": round((snap.equity + banked) / fx, 2),
+        "venue": venue.name, "mode": cfg.mode, "currency": cur,
+        "equity": round(snap.equity, 2), "equity_gbp": round(snap.equity / units, 2),
+        "cash": round(st.cash_usd, 2), "exposure": round(snap.exposure, 2),
+        "floor": round(snap.floor, 2), "risk_budget": round(snap.budget, 2),
+        "hwm": round(st.hwm_usd, 2), "banked": {k: round(v, 2) for k, v in st.reserves.items()},
+        "banked_gbp": round(banked / units, 2),
+        "total_incl_banked_gbp": round((snap.equity + banked) / units, 2),
         "halted": snap.halted, "halt_reason": snap.reason,
         "open_positions": [{"q": p.question[:60], "side": p.side, "shares": round(p.shares, 2),
                             "avg": round(p.avg_price, 3), "mark": marks.get(p.token_id),
@@ -367,3 +374,26 @@ def status(cfg: Config) -> dict[str, Any]:
         "closed": len([p for p in st.positions if p.status == "closed"]),
         "last_scan": st.last_scan,
     }
+
+
+def withdraw(cfg: Config, pot: str, amount_gbp: float, note: str = "") -> dict[str, Any]:
+    """Record a real-world transfer out of a reserve pot. The bot never moves money itself;
+    this keeps the ledger reconciled with what you actually withdrew from the venue."""
+    if pot not in ("tools", "owner"):
+        raise ValueError("pot must be 'tools' or 'owner'")
+    if amount_gbp <= 0:
+        raise ValueError("amount must be positive")
+    venue = build_venue(cfg)
+    st = ensure_state(cfg, venue)
+    units = st.gbp_usd or 1.0
+    amount = amount_gbp * units
+    avail = st.reserves.get(pot, 0.0)
+    if amount > avail + 1e-9:
+        raise ValueError(f"{pot} reserve holds {avail / units:.2f} GBP, cannot withdraw {amount_gbp:.2f}")
+    st.reserves[pot] = avail - amount
+    save_state(st)
+    rec = {"type": "withdrawal", "venue": venue.name, "pot": pot, "amount_gbp": round(amount_gbp, 2),
+           "amount": round(amount, 2), "currency": st.currency, "note": note,
+           "remaining_gbp": round(st.reserves[pot] / units, 2)}
+    ledger.journal(rec)
+    return rec

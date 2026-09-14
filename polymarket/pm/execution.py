@@ -1,10 +1,9 @@
 """Executors. Paper mode simulates fills against the live order book (conservatively as a
-taker). Live mode uses the official py-clob-client and is opt-in only.
+taker). Live executors are opt-in only and venue-specific.
 
 LIVE TRADING IS GATED: it requires mode=live in config, PM_LIVE_ACK=I_UNDERSTAND in the
-environment, and POLY_PRIVATE_KEY. Polymarket geoblocks a number of countries (the UK is in
-close-only mode at the time of writing). It is your responsibility to only trade where you
-are allowed to; this code does nothing to bypass any restriction.
+environment, and the venue's credentials. Venues geoblock some countries; it is your
+responsibility to only trade where you are allowed to. This code bypasses nothing.
 """
 from __future__ import annotations
 
@@ -13,32 +12,34 @@ import uuid
 from dataclasses import dataclass
 
 from .clients.clob import Book
-from .kelly import taker_fee_per_share
+from .kelly import FeeModel
 
 
 @dataclass
 class Fill:
     order_id: str
     shares: float
-    avg_price: float      # incl. fees
-    cost_usd: float
+    avg_price: float      # per share incl. any entry fee
+    cost_usd: float       # buy: total cost; sell: net proceeds
     maker: bool
+
+
+def require_live_ack() -> None:
+    if os.environ.get("PM_LIVE_ACK") != "I_UNDERSTAND":
+        raise RuntimeError("live mode requires PM_LIVE_ACK=I_UNDERSTAND in the environment")
 
 
 class PaperExecutor:
     name = "paper"
 
-    def __init__(self, fee_rate: float, prefer_maker: bool):
-        self.fee_rate = fee_rate
-        # paper mode never assumes a maker fill it cannot verify: always price as taker
-        self.prefer_maker = prefer_maker
+    def __init__(self, fee: FeeModel):
+        self.fee = fee
 
     def buy(self, token_id: str, book: Book, usd: float, tick: float) -> Fill | None:
         shares, avg = book.fill_cost(usd)
         if shares <= 0:
             return None
-        fee = taker_fee_per_share(avg, self.fee_rate) * shares
-        cost = shares * avg + fee
+        cost = shares * avg + self.fee.entry_fee(avg, shares)
         return Fill(order_id="paper-" + uuid.uuid4().hex[:8], shares=shares,
                     avg_price=cost / shares, cost_usd=cost, maker=False)
 
@@ -47,19 +48,17 @@ class PaperExecutor:
         if proceeds <= 0:
             return None
         sold = proceeds / avg
-        fee = taker_fee_per_share(avg, self.fee_rate) * sold
-        net = proceeds - fee
+        net = proceeds - self.fee.entry_fee(avg, sold)   # taker fee on the sell leg, 0 for commission venues
         return Fill(order_id="paper-" + uuid.uuid4().hex[:8], shares=sold,
                     avg_price=net / sold, cost_usd=net, maker=False)
 
 
 class LiveExecutor:
-    """Thin wrapper over py-clob-client. Imported lazily so paper mode has no dependency."""
+    """Polymarket: thin wrapper over py-clob-client, imported lazily."""
     name = "live"
 
-    def __init__(self, fee_rate: float, prefer_maker: bool):
-        if os.environ.get("PM_LIVE_ACK") != "I_UNDERSTAND":
-            raise RuntimeError("live mode requires PM_LIVE_ACK=I_UNDERSTAND in the environment")
+    def __init__(self, fee: FeeModel, prefer_maker: bool):
+        require_live_ack()
         key = os.environ.get("POLY_PRIVATE_KEY")
         if not key:
             raise RuntimeError("live mode requires POLY_PRIVATE_KEY")
@@ -67,7 +66,7 @@ class LiveExecutor:
             from py_clob_client.client import ClobClient  # type: ignore
         except ImportError as e:  # pragma: no cover
             raise RuntimeError("pip install py-clob-client for live mode") from e
-        self.fee_rate = fee_rate
+        self.fee = fee
         self.prefer_maker = prefer_maker
         self.client = ClobClient("https://clob.polymarket.com", key=key, chain_id=137,
                                  signature_type=int(os.environ.get("POLY_SIG_TYPE", "0")),
@@ -88,15 +87,12 @@ class LiveExecutor:
         if ask is None:
             return None
         if self.prefer_maker and book.best_bid is not None and ask - book.best_bid > tick + 1e-9:
-            price = round(book.best_bid + tick, 2)     # rest inside the spread, pay no fee
-            maker = True
+            price, maker = round(book.best_bid + tick, 2), True    # rest inside the spread, no fee
         else:
-            price = ask                                 # cross the spread
-            maker = False
+            price, maker = ask, False                                # cross the spread
         shares = usd / price
         oid = self._limit(token_id, price, shares, "BUY")
-        fee = 0.0 if maker else taker_fee_per_share(price, self.fee_rate) * shares
-        cost = shares * price + fee
+        cost = shares * price + (0.0 if maker else self.fee.entry_fee(price, shares))
         return Fill(order_id=oid, shares=shares, avg_price=cost / shares, cost_usd=cost, maker=maker)
 
     def sell(self, token_id: str, book: Book, shares: float, tick: float) -> Fill | None:
@@ -104,12 +100,5 @@ class LiveExecutor:
         if bid is None:
             return None
         oid = self._limit(token_id, bid, shares, "SELL")
-        fee = taker_fee_per_share(bid, self.fee_rate) * shares
-        net = shares * bid - fee
+        net = shares * bid - self.fee.entry_fee(bid, shares)
         return Fill(order_id=oid, shares=shares, avg_price=net / shares, cost_usd=net, maker=False)
-
-
-def build_executor(mode: str, fee_rate: float, prefer_maker: bool):
-    if mode == "live":
-        return LiveExecutor(fee_rate, prefer_maker)
-    return PaperExecutor(fee_rate, prefer_maker)

@@ -134,6 +134,11 @@ class TextTests(unittest.TestCase):
         self.assertFalse(compatible("Will Bitcoin reach $80,000 in September?", "Will Bitcoin reach $100,000 in September?")[0])
         self.assertTrue(compatible("Will the Fed decrease interest rates by 25 bps after the September 2026 meeting?",
                                    "Will the Fed cut rates by 25 bps at its next meeting?")[0])
+        # party mismatch across venues (Polymarket abbreviates parties to D / R)
+        self.assertFalse(compatible("Balance of Power After the 2026 Midterms: Republican Senate + Democratic House",
+                                    "2026 Balance of Power: D Senate, D House")[0])
+        self.assertTrue(compatible("Balance of Power After the 2026 Midterms: Democratic Senate + Democratic House",
+                                   "2026 Balance of Power: D Senate, D House")[0])
 
 
 if __name__ == "__main__":

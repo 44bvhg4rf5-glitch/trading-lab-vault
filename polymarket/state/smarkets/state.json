@@ -1,0 +1,18 @@
+{
+  "cash_usd": 50.0,
+  "created_at": "2026-09-14T19:58:49.155247+00:00",
+  "currency": "GBP",
+  "daily": {},
+  "distributed_profit_usd": 0.0,
+  "gbp_usd": 1.0,
+  "halted_until": null,
+  "hwm_usd": 50.0,
+  "initial_bankroll_usd": 50.0,
+  "last_scan": null,
+  "positions": [],
+  "reserves": {
+    "owner": 0.0,
+    "tools": 0.0
+  },
+  "stats": {}
+}

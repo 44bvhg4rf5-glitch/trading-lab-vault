@@ -16,7 +16,11 @@ SYNONYMS = {"raise": "increase", "raises": "increase", "hike": "increase", "hike
             "cut": "decrease", "cuts": "decrease", "lower": "decrease", "lowers": "decrease",
             "reduce": "decrease", "win": "win", "wins": "win", "become": "be", "becomes": "be",
             "reach": "hit", "reaches": "hit", "hits": "hit", "exceed": "above", "exceeds": "above",
-            "rate": "rates", "meeting": "", "bps": "", "bp": ""}
+            "rate": "rates", "meeting": "", "bps": "", "bp": "",
+            # party names, including the one-letter forms Polymarket uses ("D Senate, R House")
+            "democrats": "democratic", "democrat": "democratic", "dem": "democratic", "d": "democratic",
+            "republicans": "republican", "gop": "republican", "rep": "republican", "r": "republican",
+            "labour": "labour", "tories": "conservative", "tory": "conservative", "conservatives": "conservative"}
 
 
 def tokens(text: str, normalize: bool = True) -> list[str]:
@@ -76,7 +80,8 @@ def entity_terms(question: str, n: int = 5) -> str:
 
 NEGATIONS = {"no", "not", "never", "without", "fail", "fails", "neither", "nor", "unchanged"}
 ANTONYMS = [("increase", "decrease"), ("above", "below"), ("win", "lose"), ("yes", "no"),
-            ("before", "after"), ("more", "less"), ("higher", "lower"), ("over", "under")]
+            ("before", "after"), ("more", "less"), ("higher", "lower"), ("over", "under"),
+            ("republican", "democratic"), ("labour", "conservative")]
 _NUM = re.compile(r"\d+(?:\.\d+)?")
 
 

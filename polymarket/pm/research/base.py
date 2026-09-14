@@ -34,6 +34,7 @@ class MarketContext:
     history: list[tuple[int, float]]        # (unix ts, YES price)
     now: datetime
     headline_loader: Callable[[], list[dict]] | None = None
+    venue: str = "polymarket"
     _headlines: list[dict] | None = None
 
     @property

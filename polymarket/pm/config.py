@@ -68,6 +68,8 @@ def load_config(path: str | os.PathLike | None = None) -> Config:
         raw = json.load(fh)
     cfg = Config(raw=raw)
     _validate(cfg)
+    from . import paths
+    paths.use_venue(cfg.get("venue", "polymarket"))
     return cfg
 
 
@@ -82,3 +84,5 @@ def _validate(cfg: Config) -> None:
         raise ValueError("min_edge must be in [0, 1)")
     if cfg.mode not in {"paper", "live"}:
         raise ValueError("mode must be 'paper' or 'live'")
+    if cfg.get("venue", "polymarket") not in {"polymarket", "smarkets"}:
+        raise ValueError("venue must be 'polymarket' or 'smarkets'")
