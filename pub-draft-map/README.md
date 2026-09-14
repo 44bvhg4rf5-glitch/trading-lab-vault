@@ -39,6 +39,8 @@ Demo accounts (any email works; these are pre-seeded):
 ```bash
 npm run enrich                                 # chain ranges + OSM brewery tags, every pub
 npm run import:menus -- --site wetherspoon     # 827 pubs from Wetherspoon's own site
+npm run import:menus -- --site greeneking      # 753 managed pubs, cask list per pub
+npm run import:menus -- --site allbarone       # Mitchells & Butlers brands: only "On Tap" sections
 npm run import:photos                          # Commons/Geograph photos
 ```
 

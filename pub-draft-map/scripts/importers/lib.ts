@@ -75,7 +75,8 @@ export async function politeFetch(url: string, opts: { ttlHours?: number; json?:
   for (let attempt = 1; attempt <= 3; attempt++) {
     let res: Response;
     try {
-      res = await fetch(url, { headers: { "User-Agent": UA, Accept: opts.json ? "application/json" : "text/html" }, redirect: "follow", signal: AbortSignal.timeout(30_000) });
+      // Ordinary browser-shaped Accept headers: some CDNs score a bare "Accept: text/html" as a bot regardless of the honest User-Agent.
+      res = await fetch(url, { headers: { "User-Agent": UA, Accept: opts.json ? "application/json, text/plain, */*" : "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8", "Accept-Language": "en-GB,en;q=0.9" }, redirect: "follow", signal: AbortSignal.timeout(30_000) });
     } catch (e) {
       // DNS failure, blocked host, timeout: the importer keeps going without this page.
       console.warn(`unreachable ${url}: ${(e as Error).message}`);
@@ -84,6 +85,8 @@ export async function politeFetch(url: string, opts: { ttlHours?: number; json?:
     if (res.ok) { const body = await res.text(); writeFileSync(file, body); return body; }
     if (res.status === 404) return null;
     if (res.status === 429 || res.status >= 500) { await new Promise((r) => setTimeout(r, 10_000 * attempt)); continue; }
+    // CDN bot scoring (Cloudflare) sometimes rejects one request and accepts the identical next one; one more try, then give up.
+    if (res.status === 403 && attempt === 1) { await new Promise((r) => setTimeout(r, 5_000)); continue; }
     console.warn(`${res.status} ${url}`);
     return null;
   }

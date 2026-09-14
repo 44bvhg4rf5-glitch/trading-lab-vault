@@ -3,6 +3,9 @@
  *
  *   npm run import:menus -- --site wetherspoon
  *   npm run import:menus -- --site wetherspoon --limit 20 --dry
+ *   npm run import:menus -- --site greeneking --filter "middlesex|greater-london"
+ *   sites: wetherspoon, greeneking, allbarone, oneills, nicholsons, tobycarvery,
+ *          harvester, browns, emberinns, vintageinn, millerandcarter, sizzlingpubs
  *
  * One adapter per site (scripts/importers/<site>.ts). Every adapter goes
  * through politeFetch(): robots.txt honoured, throttled, cached, identified
@@ -18,14 +21,16 @@ import { normaliseName } from "../src/lib/enrich";
 import { upsertBeer } from "../src/lib/beers";
 import type { Adapter, MenuRecord } from "./importers/lib";
 import { wetherspoon } from "./importers/wetherspoon";
+import { greeneking } from "./importers/greeneking";
+import { mbAdapters } from "./importers/mbplc";
 
 const db = new PrismaClient();
-const ADAPTERS: Record<string, Adapter> = { wetherspoon };
+const ADAPTERS: Record<string, Adapter> = { wetherspoon, greeneking, ...mbAdapters };
 
 function args() {
   const a = process.argv.slice(2);
   const get = (k: string) => { const i = a.indexOf(`--${k}`); return i >= 0 ? a[i + 1] : undefined; };
-  return { site: get("site"), limit: Number(get("limit") ?? 0), dry: a.includes("--dry") };
+  return { site: get("site"), limit: Number(get("limit") ?? 0), dry: a.includes("--dry"), filter: get("filter") ? new RegExp(get("filter")!, "i") : null };
 }
 
 const normPostcode = (s: string | null | undefined) => (s ?? "").toUpperCase().replace(/\s+/g, "");
@@ -55,8 +60,10 @@ async function main() {
   const adapter = a.site ? ADAPTERS[a.site] : undefined;
   if (!adapter) throw new Error(`--site must be one of: ${Object.keys(ADAPTERS).join(", ")}`);
 
-  const entries = await adapter.list();
-  console.log(`${adapter.key}: ${entries.length} venues listed`);
+  const all = await adapter.list();
+  // --filter <regex> limits the run to matching venue URLs (e.g. a county) when the database only covers one area.
+  const entries = a.filter ? all.filter((e) => a.filter!.test(e.url)) : all;
+  console.log(`${adapter.key}: ${all.length} venues listed${a.filter ? `, ${entries.length} match --filter` : ""}`);
   let matched = 0, unmatched = 0, listings = 0, noMenu = 0;
   const unmatchedNames: string[] = [];
   for (const [i, entry] of (a.limit ? entries.slice(0, a.limit) : entries).entries()) {
