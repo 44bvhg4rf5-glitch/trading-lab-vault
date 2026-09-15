@@ -1,6 +1,6 @@
 {
   "venue": "smarkets",
-  "mode": "live",
+  "mode": "paper",
   "bankroll_gbp": 50,
 
   "min_edge": 0.08,
