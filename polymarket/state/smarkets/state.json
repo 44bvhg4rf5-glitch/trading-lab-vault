@@ -2,17 +2,25 @@
   "cash_usd": 50.0,
   "created_at": "2026-09-14T19:58:49.155247+00:00",
   "currency": "GBP",
-  "daily": {},
+  "daily": {
+    "date": "2026-09-19",
+    "start_equity": 50.0
+  },
   "distributed_profit_usd": 0.0,
   "gbp_usd": 1.0,
   "halted_until": null,
   "hwm_usd": 50.0,
   "initial_bankroll_usd": 50.0,
-  "last_scan": null,
+  "last_scan": "2026-09-19T17:56:13.044382+00:00",
   "positions": [],
   "reserves": {
     "owner": 0.0,
     "tools": 0.0
   },
-  "stats": {}
+  "stats": {
+    "banked": 0.0,
+    "equity": 50.0,
+    "exposure": 0,
+    "floor": 40.0
+  }
 }
