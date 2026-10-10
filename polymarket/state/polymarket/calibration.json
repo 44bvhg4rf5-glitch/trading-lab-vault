@@ -1,0 +1,42 @@
+{
+  "agents": {
+    "event_consistency": {
+      "brier": 15.49324681,
+      "market_brier": 15.543248749999991,
+      "n": 108
+    },
+    "favorite_longshot": {
+      "brier": 368.6499779099984,
+      "market_brier": 367.5468589999989,
+      "n": 2002
+    },
+    "manifold": {
+      "brier": 17.9164766,
+      "market_brier": 15.835076750000002,
+      "n": 54
+    },
+    "momentum": {
+      "brier": 330.07214374999927,
+      "market_brier": 328.87102949999894,
+      "n": 1782
+    },
+    "orderbook": {
+      "brier": 367.4617771899996,
+      "market_brier": 367.5468589999989,
+      "n": 2002
+    },
+    "time_decay": {
+      "brier": 1.04805812,
+      "market_brier": 0.8715712499999999,
+      "n": 8
+    }
+  },
+  "ensemble": {
+    "brier": 367.07272959,
+    "n": 2002
+  },
+  "market": {
+    "brier": 367.5468589999989,
+    "n": 2002
+  }
+}
