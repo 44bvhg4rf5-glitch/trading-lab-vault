@@ -483,3 +483,10 @@
 {"t":"2026-10-13T19:59:59.329Z","type":"thesis-counterfactual","id":"9979aa8b","symbol":"COST","strategy":"momentum-breakdown","filteredBy":["name-downtrend","market-downtrend"],"entry":954.26,"stop":956.82,"target":949.14}
 {"t":"2026-10-13T19:59:59.331Z","type":"thesis-counterfactual","id":"3ea947b3","symbol":"PM","strategy":"momentum-breakdown","filteredBy":["name-downtrend","market-downtrend"],"entry":199.54,"stop":200.44,"target":197.74}
 {"t":"2026-10-13T19:59:59.333Z","type":"thesis-counterfactual","id":"938858c9","symbol":"PTC","strategy":"momentum-breakdown","filteredBy":["name-downtrend","market-downtrend"],"entry":193.88,"stop":194.15,"target":193.34}
+{"t":"2026-10-13T20:00:03.767Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-13T20:00:05.679Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-13T20:00:55.228Z","type":"ai-error","at":"post-mortem","error":"ai cooling down until 2026-10-13T22:46:11.131Z (provider quota)"}
+{"t":"2026-10-13T20:00:59.758Z","type":"vault-pushed","date":"2026-10-13","repo":"44bvhg4rf5-glitch/trading-lab-vault","files":["digests/2026-10-13.md","journal/2026-10-13.jsonl","lessons/lesson-book.md"]}
+{"t":"2026-10-13T20:00:59.758Z","type":"digest","date":"2026-10-13","entries":487,"vaultPushed":true}
+{"t":"2026-10-13T20:01:29.016Z","type":"ai-error","at":"briefing","error":"ai cooling down until 2026-10-13T22:46:11.131Z (provider quota)"}
+{"t":"2026-10-13T20:01:29.191Z","type":"ai-error","at":"continuing-education","error":"ai cooling down until 2026-10-13T22:46:11.131Z (provider quota)"}
