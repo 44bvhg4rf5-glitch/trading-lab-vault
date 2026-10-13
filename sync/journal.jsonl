@@ -1828,3 +1828,5 @@
 {"t":"2026-10-13T17:46:18.342Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
 {"t":"2026-10-13T17:47:17.916Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
 {"t":"2026-10-13T17:48:15.842Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-13T17:49:16.337Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-13T17:50:13.088Z","type":"shadow-outcome","id":"a910fa3a","symbol":"PM","strategy":"momentum-breakdown:filtered","source":"filter-blocked","entry":200.32,"stop":201.41,"target":198.14,"status":"stopped","r":-1,"exit":201.41,"openedAt":"2026-10-13T14:30:08.874Z","side":"sell","counterfactual":true,"filteredBy":["name-downtrend","market-downtrend"],"regime":"trending"}
