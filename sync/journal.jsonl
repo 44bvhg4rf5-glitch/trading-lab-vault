@@ -1402,3 +1402,6 @@
 {"t":"2026-10-13T14:45:11.183Z","type":"shadow-outcome","id":"73683053","symbol":"TSLA","strategy":"momentum-breakdown:filtered","source":"filter-blocked","entry":373.27,"stop":375.49,"target":368.83,"status":"stopped","r":-1,"exit":375.49,"openedAt":"2026-10-13T13:30:30.523Z","side":"sell","counterfactual":true,"filteredBy":["name-downtrend","market-downtrend"],"regime":"trending"}
 {"t":"2026-10-13T14:45:15.476Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
 {"t":"2026-10-13T14:45:18.005Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-13T14:46:14.549Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-13T14:47:11.349Z","type":"approve-blocked","id":"84b4ab1e","symbol":"HCA","reasons":["price ran away (ask 474.02 vs entry 460.57)"]}
+{"t":"2026-10-13T14:47:11.349Z","type":"auto-skip","id":"84b4ab1e","reason":"price moved >1% past the thesis entry (ask 474.02); not chasing"}
