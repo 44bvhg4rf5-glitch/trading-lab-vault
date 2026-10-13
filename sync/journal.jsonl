@@ -114,3 +114,10 @@
 {"t":"2026-10-13T19:05:18.479Z","type":"spread-dislocation","pair":"EUR_JPY/CAD_JPY","z":-2.52,"halfLifeDays":5.1,"expectedGainBps":90.6,"costBps":18.9,"netBps":71.7,"richLeg":"CAD_JPY","cheapLeg":"EUR_JPY","reason":"CAD_JPY is 2.52σ rich vs EUR_JPY; 90.6bp of expected reversion against 18.9bp of cost, half-life 5.1d"}
 {"t":"2026-10-13T19:05:18.714Z","type":"thesis-incubation","id":"013cb36a","strategy":"cfd-pair-reversion","symbol":"EUR_JPY/CAD_JPY","side":"buy","reason":"CAD_JPY is 2.52σ rich vs EUR_JPY — short the rich leg, buy the cheap one, exit when the ratio is back within 0.5σ of its 60-session mean","entry":0.46570590867395123,"stop":0.46030445245166673,"target":0.47296989459755695,"z":-2.52,"mean":0.4747703800049851,"std":0.00360097081485634,"halfLifeDays":5.1,"legs":[{"symbol":"CAD_JPY","side":"sell"},{"symbol":"EUR_JPY","side":"buy"}],"maxHoldDays":15,"meta":{"unit":"log-spread","a":"EUR_JPY","b":"CAD_JPY","expectedGainBps":90.6,"costBps":18.9,"netBps":71.7},"market":"cfd-pair","createdAt":"2026-10-13T19:05:18.714Z"}
 {"t":"2026-10-13T19:05:19.438Z","type":"auto-skip","id":"d08333e7","reason":"limit is not defined"}
+{"t":"2026-10-13T19:05:21.713Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-13T19:05:23.501Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-13T19:05:24.642Z","type":"vault-pushed","files":["sync/equity-positions.json"]}
+{"t":"2026-10-13T19:05:55.067Z","type":"fill","orderId":"22ed3035-1b05-405a-bbae-634816f78960","symbol":"KO","side":"buy","qty":"228","avgPrice":"90.42","legs":0,"clientId":"tl-d08333e7"}
+{"t":"2026-10-13T19:06:02.015Z","type":"thesis-counterfactual","id":"3ec4b4f6","symbol":"CRM","strategy":"pullback-trend","filteredBy":["near-60d-high"],"entry":239.79,"stop":226.66,"target":266.05}
+{"t":"2026-10-13T19:06:02.019Z","type":"thesis-counterfactual","id":"30b26129","symbol":"PEP","strategy":"momentum-breakout","filteredBy":["name-uptrend"],"entry":127.25,"stop":126.7,"target":128.35}
+{"t":"2026-10-13T19:06:02.328Z","type":"slippage","book":"equities","phase":"entry","symbol":"KO","side":"buy","intended":90.36,"filled":90.42,"costR":0.207,"bps":6.6}
