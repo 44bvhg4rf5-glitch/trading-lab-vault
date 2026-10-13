@@ -1595,3 +1595,8 @@
 {"t":"2026-10-13T16:05:18.906Z","type":"vault-pushed","files":["sync/shadow.json"]}
 {"t":"2026-10-13T16:06:11.604Z","type":"thesis-counterfactual","id":"b1afa645","symbol":"JNJ","strategy":"momentum-breakdown","filteredBy":["earnings-window","market-downtrend"],"entry":247.76,"stop":250.35,"target":242.58}
 {"t":"2026-10-13T16:06:15.388Z","type":"shadow-outcome","id":"3a346e9f","symbol":"JNJ","strategy":"momentum-breakdown:filtered","source":"filter-blocked","entry":253.02,"stop":255.65,"target":247.76,"status":"target","r":2,"exit":247.76,"openedAt":"2026-10-13T13:37:07.328Z","side":"sell","counterfactual":true,"filteredBy":["earnings-window","market-downtrend"],"regime":"trending"}
+{"t":"2026-10-13T16:06:18.474Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-13T16:06:19.732Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-13T16:07:08.423Z","type":"thesis-counterfactual","id":"08628dae","symbol":"JNJ","strategy":"momentum-breakdown","filteredBy":["earnings-window","market-downtrend"],"entry":247.42,"stop":250.06,"target":242.14}
+{"t":"2026-10-13T16:07:08.424Z","type":"thesis-counterfactual","id":"f9a2d8d6","symbol":"GILD","strategy":"momentum-breakdown","filteredBy":["market-downtrend"],"entry":148.09,"stop":149.05,"target":146.17}
+{"t":"2026-10-13T16:07:23.105Z","type":"shadow-outcome","id":"d8e2161a","symbol":"GILD","strategy":"momentum-breakdown:filtered","source":"filter-blocked","entry":149.7,"stop":150.5,"target":148.1,"status":"target","r":2,"exit":148.1,"openedAt":"2026-10-13T13:31:20.141Z","side":"sell","counterfactual":true,"filteredBy":["name-downtrend","market-downtrend"],"regime":"trending"}
