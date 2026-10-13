@@ -815,3 +815,6 @@
 {"t":"2026-10-13T13:07:18.808Z","type":"shadow-outcome","id":"CAD_JPY-mv6csu1g","symbol":"CAD_JPY","strategy":"cfd-momentum-breakdown","source":"incubation","entry":110.87,"stop":111.07,"target":110.47,"status":"stopped","r":-1,"exit":111.07,"openedAt":"2026-10-13T07:22:40.275Z","side":"sell","regime":"choppy"}
 {"t":"2026-10-13T13:07:18.809Z","type":"shadow-outcome","id":"CAD_JPY-mv6cu9go","symbol":"CAD_JPY","strategy":"cfd-momentum-breakdown","source":"incubation","entry":110.87,"stop":111.07,"target":110.47,"status":"stopped","r":-1,"exit":111.07,"openedAt":"2026-10-13T07:23:46.920Z","side":"sell","regime":"choppy"}
 {"t":"2026-10-13T13:07:18.810Z","type":"shadow-outcome","id":"CAD_JPY-mv6d3aaq","symbol":"CAD_JPY","strategy":"cfd-momentum-breakdown","source":"incubation","entry":110.87,"stop":111.07,"target":110.47,"status":"stopped","r":-1,"exit":111.07,"openedAt":"2026-10-13T07:30:47.906Z","side":"sell","regime":"choppy"}
+{"t":"2026-10-13T13:07:22.479Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-13T13:07:23.882Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-13T13:07:25.965Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
