@@ -460,3 +460,14 @@
 {"t":"2026-10-13T19:57:59.036Z","type":"thesis-counterfactual","id":"b7bf46e5","symbol":"COST","strategy":"momentum-breakdown","filteredBy":["name-downtrend","market-downtrend"],"entry":954.14,"stop":956.66,"target":949.1}
 {"t":"2026-10-13T19:57:59.037Z","type":"thesis-counterfactual","id":"156dad38","symbol":"PM","strategy":"momentum-breakdown","filteredBy":["name-downtrend","market-downtrend"],"entry":199.75,"stop":200.6,"target":198.05}
 {"t":"2026-10-13T19:57:59.039Z","type":"thesis-counterfactual","id":"8469228f","symbol":"PTC","strategy":"momentum-breakdown","filteredBy":["name-downtrend","market-downtrend"],"entry":194.02,"stop":194.29,"target":193.48}
+{"t":"2026-10-13T19:58:03.163Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-13T19:58:04.946Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-13T19:58:59.049Z","type":"thesis-counterfactual","id":"d8333060","symbol":"MSFT","strategy":"momentum-breakdown","filteredBy":["name-downtrend","market-downtrend"],"entry":543.35,"stop":545.87,"target":538.31}
+{"t":"2026-10-13T19:58:59.050Z","type":"thesis-counterfactual","id":"921dc9b5","symbol":"NFLX","strategy":"momentum-breakdown","filteredBy":["market-downtrend"],"entry":70.49,"stop":70.86,"target":69.75}
+{"t":"2026-10-13T19:58:59.052Z","type":"thesis-counterfactual","id":"d18d43e1","symbol":"JPM","strategy":"momentum-breakdown","filteredBy":["earnings-window","market-downtrend"],"entry":332.38,"stop":335.03,"target":327.08}
+{"t":"2026-10-13T19:58:59.054Z","type":"thesis-counterfactual","id":"7b5a32ae","symbol":"WMT","strategy":"momentum-breakdown","filteredBy":["name-downtrend","market-downtrend"],"entry":112.23,"stop":112.74,"target":111.21}
+{"t":"2026-10-13T19:58:59.056Z","type":"thesis-counterfactual","id":"7715f698","symbol":"DIS","strategy":"momentum-breakdown","filteredBy":["name-downtrend","market-downtrend"],"entry":108.31,"stop":108.85,"target":107.23}
+{"t":"2026-10-13T19:58:59.058Z","type":"thesis-counterfactual","id":"25d5cdd0","symbol":"CRM","strategy":"pullback-trend","filteredBy":["near-60d-high"],"entry":239,"stop":226.4,"target":264.2}
+{"t":"2026-10-13T19:58:59.059Z","type":"thesis-counterfactual","id":"23f11626","symbol":"COST","strategy":"momentum-breakdown","filteredBy":["name-downtrend","market-downtrend"],"entry":953.95,"stop":956.51,"target":948.83}
+{"t":"2026-10-13T19:58:59.061Z","type":"thesis-counterfactual","id":"68a978d5","symbol":"PM","strategy":"momentum-breakdown","filteredBy":["name-downtrend","market-downtrend"],"entry":199.36,"stop":200.26,"target":197.56}
+{"t":"2026-10-13T19:58:59.063Z","type":"thesis-counterfactual","id":"df803a87","symbol":"PTC","strategy":"momentum-breakdown","filteredBy":["name-downtrend","market-downtrend"],"entry":193.95,"stop":194.22,"target":193.41}
