@@ -1513,3 +1513,4 @@
 {"t":"2026-10-13T15:30:18.498Z","type":"shadow-outcome","id":"2d540c99","symbol":"PEP","strategy":"momentum-breakdown:filtered","source":"filter-blocked","entry":125.9,"stop":126.66,"target":124.38,"status":"stopped","r":-1,"exit":126.66,"openedAt":"2026-10-13T14:14:06.408Z","side":"sell","counterfactual":true,"filteredBy":["market-downtrend"],"regime":"trending"}
 {"t":"2026-10-13T15:30:22.444Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
 {"t":"2026-10-13T15:30:24.688Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-13T15:31:17.568Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
