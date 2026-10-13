@@ -103,3 +103,9 @@
 {"t":"2026-10-13T07:23:46.664Z","type":"spread-dislocation","pair":"EUR_JPY/CAD_JPY","z":-2.52,"halfLifeDays":5.1,"expectedGainBps":90.6,"costBps":19.3,"netBps":71.3,"richLeg":"CAD_JPY","cheapLeg":"EUR_JPY","reason":"CAD_JPY is 2.52σ rich vs EUR_JPY; 90.6bp of expected reversion against 19.3bp of cost, half-life 5.1d"}
 {"t":"2026-10-13T07:23:46.920Z","type":"thesis-incubation","strategy":"cfd-momentum-breakdown","market":"cfd","symbol":"CAD_JPY","side":"sell","entry":110.87,"stop":111.07,"target":110.47,"reason":"CAD_JPY broke its 20-hour low (110.9) on 1.7× average volume, below its 20-day average. Stop 2.5×ATR above, target 2R.","maxHoldDays":5,"createdAt":"2026-10-13T07:23:46.920Z"}
 {"t":"2026-10-13T07:23:46.922Z","type":"thesis-incubation","id":"80f2947b","strategy":"cfd-pair-reversion","symbol":"EUR_JPY/CAD_JPY","side":"buy","reason":"CAD_JPY is 2.52σ rich vs EUR_JPY — short the rich leg, buy the cheap one, exit when the ratio is back within 0.5σ of its 60-session mean","entry":0.46570590867395123,"stop":0.46030445245166673,"target":0.47296989459755695,"z":-2.52,"mean":0.4747703800049851,"std":0.00360097081485634,"halfLifeDays":5.1,"legs":[{"symbol":"CAD_JPY","side":"sell"},{"symbol":"EUR_JPY","side":"buy"}],"maxHoldDays":15,"meta":{"unit":"log-spread","a":"EUR_JPY","b":"CAD_JPY","expectedGainBps":90.6,"costBps":19.3,"netBps":71.3},"market":"cfd-pair","createdAt":"2026-10-13T07:23:46.922Z"}
+{"t":"2026-10-13T07:23:48.416Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-13T07:23:49.966Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-10-13T07:23:51.482Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-13T07:23:52.762Z","type":"vault-pushed","files":["sync/crypto-positions.json"]}
+{"t":"2026-10-13T07:23:54.374Z","type":"vault-pushed","files":["sync/equity-positions.json"]}
+{"t":"2026-10-13T07:23:55.592Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
