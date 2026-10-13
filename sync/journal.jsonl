@@ -343,3 +343,11 @@
 {"t":"2026-10-13T19:44:59.837Z","type":"thesis-counterfactual","id":"989ba001","symbol":"CRM","strategy":"pullback-trend","filteredBy":["near-60d-high"],"entry":239.28,"stop":226.66,"target":264.52}
 {"t":"2026-10-13T19:44:59.839Z","type":"thesis-counterfactual","id":"482075dd","symbol":"COST","strategy":"momentum-breakdown","filteredBy":["name-downtrend","market-downtrend"],"entry":956.23,"stop":958.64,"target":951.41}
 {"t":"2026-10-13T19:44:59.841Z","type":"thesis-counterfactual","id":"2c6afe7d","symbol":"ANET","strategy":"momentum-breakout","filteredBy":["name-uptrend"],"entry":204.79,"stop":202.96,"target":208.45}
+{"t":"2026-10-13T19:45:04.251Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-13T19:45:05.953Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-13T19:46:01.736Z","type":"thesis-counterfactual","id":"9e6e7ab4","symbol":"WMT","strategy":"momentum-breakdown","filteredBy":["name-downtrend","market-downtrend"],"entry":112.7,"stop":113.17,"target":111.76}
+{"t":"2026-10-13T19:46:01.737Z","type":"thesis-counterfactual","id":"af59e289","symbol":"DIS","strategy":"momentum-breakdown","filteredBy":["name-downtrend","market-downtrend"],"entry":108.51,"stop":109.01,"target":107.51}
+{"t":"2026-10-13T19:46:01.742Z","type":"thesis-counterfactual","id":"30a063c3","symbol":"CRM","strategy":"pullback-trend","filteredBy":["near-60d-high"],"entry":239.28,"stop":226.66,"target":264.52}
+{"t":"2026-10-13T19:46:01.747Z","type":"thesis-counterfactual","id":"fbacddf3","symbol":"COST","strategy":"momentum-breakdown","filteredBy":["name-downtrend","market-downtrend"],"entry":955.64,"stop":958.09,"target":950.74}
+{"t":"2026-10-13T19:46:01.750Z","type":"thesis-counterfactual","id":"8bd0aefe","symbol":"ANET","strategy":"momentum-breakout","filteredBy":["name-uptrend"],"entry":204.96,"stop":203.09,"target":208.7}
+{"t":"2026-10-13T19:46:07.214Z","type":"shadow-outcome","id":"272a95b7","symbol":"ANET","strategy":"momentum-breakdown:filtered","source":"filter-blocked","entry":201.88,"stop":205.16,"target":195.32,"status":"stopped","r":-1,"exit":205.16,"openedAt":"2026-10-13T13:40:06.932Z","side":"sell","counterfactual":true,"filteredBy":["name-downtrend","market-downtrend"],"regime":"trending"}
