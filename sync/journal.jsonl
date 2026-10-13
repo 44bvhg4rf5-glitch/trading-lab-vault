@@ -1353,3 +1353,6 @@
 {"t":"2026-10-13T14:21:26.811Z","type":"shadow-outcome","id":"AMZN-mv6q8z7p","symbol":"AMZN","strategy":"momentum-breakout","source":"gate-blocked","entry":261.95,"stop":260.62,"target":264.61,"status":"stopped","r":-1,"exit":260.62,"openedAt":"2026-10-13T13:39:08.485Z","regime":"trending","conviction":75}
 {"t":"2026-10-13T14:21:31.148Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
 {"t":"2026-10-13T14:21:34.583Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-13T14:22:14.096Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-13T14:23:08.476Z","type":"shadow-outcome","id":"a0ce9ace","symbol":"BAC","strategy":"momentum-breakdown:filtered","source":"filter-blocked","entry":53.69,"stop":54.06,"target":52.95,"status":"stopped","r":-1,"exit":54.06,"openedAt":"2026-10-13T14:07:06.799Z","side":"sell","counterfactual":true,"filteredBy":["earnings-window","market-downtrend"],"regime":"trending"}
+{"t":"2026-10-13T14:23:08.477Z","type":"shadow-outcome","id":"e431c222","symbol":"BAC","strategy":"momentum-breakdown:filtered","source":"filter-blocked","entry":53.67,"stop":54.04,"target":52.93,"status":"stopped","r":-1,"exit":54.04,"openedAt":"2026-10-13T14:08:06.498Z","side":"sell","counterfactual":true,"filteredBy":["earnings-window","market-downtrend"],"regime":"trending"}
