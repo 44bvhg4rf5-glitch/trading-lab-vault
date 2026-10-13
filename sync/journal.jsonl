@@ -1505,3 +1505,9 @@
 {"t":"2026-10-13T15:28:18.547Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
 {"t":"2026-10-13T15:28:20.221Z","type":"vault-pushed","files":["sync/shadow.json"]}
 {"t":"2026-10-13T15:29:07.778Z","type":"thesis-counterfactual","id":"bded331a","symbol":"JNJ","strategy":"momentum-breakdown","filteredBy":["earnings-window","market-downtrend"],"entry":248.81,"stop":251.58,"target":243.27}
+{"t":"2026-10-13T15:29:16.446Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-13T15:29:18.967Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-13T15:30:09.691Z","type":"thesis-counterfactual","id":"f94ca14d","symbol":"JNJ","strategy":"momentum-breakdown","filteredBy":["earnings-window","market-downtrend"],"entry":248.86,"stop":251.63,"target":243.32}
+{"t":"2026-10-13T15:30:18.492Z","type":"cfd-tick-error","error":"oanda GET /v3/accounts/101-004-40071397-001/summary: 401 Insufficient authorization to perform request."}
+{"t":"2026-10-13T15:30:18.498Z","type":"shadow-outcome","id":"02a08866","symbol":"PEP","strategy":"momentum-breakdown:filtered","source":"filter-blocked","entry":125.95,"stop":126.71,"target":124.43,"status":"stopped","r":-1,"exit":126.71,"openedAt":"2026-10-13T14:13:06.710Z","side":"sell","counterfactual":true,"filteredBy":["market-downtrend"],"regime":"trending"}
+{"t":"2026-10-13T15:30:18.498Z","type":"shadow-outcome","id":"2d540c99","symbol":"PEP","strategy":"momentum-breakdown:filtered","source":"filter-blocked","entry":125.9,"stop":126.66,"target":124.38,"status":"stopped","r":-1,"exit":126.66,"openedAt":"2026-10-13T14:14:06.408Z","side":"sell","counterfactual":true,"filteredBy":["market-downtrend"],"regime":"trending"}
