@@ -313,3 +313,12 @@
 {"t":"2026-10-13T19:41:00.040Z","type":"thesis-counterfactual","id":"ae2703ce","symbol":"CRM","strategy":"pullback-trend","filteredBy":["near-60d-high"],"entry":239.2,"stop":226.6,"target":264.4}
 {"t":"2026-10-13T19:41:00.051Z","type":"thesis-counterfactual","id":"a2d6d0cd","symbol":"COST","strategy":"momentum-breakdown","filteredBy":["name-downtrend","market-downtrend"],"entry":955.94,"stop":958.35,"target":951.12}
 {"t":"2026-10-13T19:41:00.068Z","type":"thesis-counterfactual","id":"8809b08f","symbol":"PEP","strategy":"momentum-breakout","filteredBy":["name-uptrend"],"entry":127.39,"stop":126.86,"target":128.45}
+{"t":"2026-10-13T19:41:04.788Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-13T19:41:06.452Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-13T19:42:00.963Z","type":"thesis-counterfactual","id":"0286d1b7","symbol":"WMT","strategy":"momentum-breakdown","filteredBy":["name-downtrend","market-downtrend"],"entry":112.77,"stop":113.24,"target":111.83}
+{"t":"2026-10-13T19:42:00.964Z","type":"thesis-counterfactual","id":"f024c090","symbol":"DIS","strategy":"momentum-breakdown","filteredBy":["name-downtrend","market-downtrend"],"entry":108.61,"stop":109.09,"target":107.65}
+{"t":"2026-10-13T19:42:00.966Z","type":"thesis-counterfactual","id":"ac14b522","symbol":"CRM","strategy":"pullback-trend","filteredBy":["near-60d-high"],"entry":239.28,"stop":226.66,"target":264.52}
+{"t":"2026-10-13T19:42:00.968Z","type":"thesis-counterfactual","id":"565a1d9f","symbol":"COST","strategy":"momentum-breakdown","filteredBy":["name-downtrend","market-downtrend"],"entry":956.23,"stop":958.64,"target":951.41}
+{"t":"2026-10-13T19:42:00.969Z","type":"thesis-counterfactual","id":"2297abd7","symbol":"PEP","strategy":"momentum-breakout","filteredBy":["name-uptrend"],"entry":127.38,"stop":126.85,"target":128.44}
+{"t":"2026-10-13T19:42:03.428Z","type":"approve-blocked","id":"fee35a07","symbol":"NTAP","sleeve":true,"reasons":["price ran away (ask 248.85)"]}
+{"t":"2026-10-13T19:42:03.428Z","type":"auto-skip","id":"fee35a07","reason":"price moved >1% past the thesis entry (ask 248.85); not chasing"}
