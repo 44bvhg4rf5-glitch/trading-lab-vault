@@ -324,3 +324,6 @@
 {"t":"2026-10-13T09:12:12.007Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
 {"t":"2026-10-13T09:13:18.997Z","type":"thesis-incubation","strategy":"cfd-momentum-breakdown","market":"cfd","symbol":"EUR_JPY","side":"sell","entry":176.51,"stop":176.96,"target":175.61,"reason":"EUR_JPY broke its 20-hour low (176.7) on 2.4× average volume, below its 20-day average. Stop 2.5×ATR above, target 2R.","maxHoldDays":5,"createdAt":"2026-10-13T09:13:18.997Z"}
 {"t":"2026-10-13T09:13:18.997Z","type":"thesis-incubation","strategy":"cfd-momentum-breakdown","market":"cfd","symbol":"AUD_JPY","side":"sell","entry":110.05,"stop":110.35,"target":109.45,"reason":"AUD_JPY broke its 20-hour low (110.07) on 2.1× average volume, below its 20-day average. Stop 2.5×ATR above, target 2R.","maxHoldDays":5,"createdAt":"2026-10-13T09:13:18.997Z"}
+{"t":"2026-10-13T09:13:20.988Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-13T09:13:23.074Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-13T09:13:24.451Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
