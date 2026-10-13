@@ -1793,3 +1793,6 @@
 {"t":"2026-10-13T17:27:15.759Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
 {"t":"2026-10-13T17:28:13.563Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
 {"t":"2026-10-13T17:29:14.280Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-13T17:30:24.062Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-13T17:31:15.322Z","type":"shadow-outcome","id":"458fff0d","symbol":"JNJ","strategy":"momentum-breakdown:filtered","source":"filter-blocked","entry":245.34,"stop":247.97,"target":240.08,"status":"stopped","r":-1,"exit":247.97,"openedAt":"2026-10-13T16:35:09.190Z","side":"sell","counterfactual":true,"filteredBy":["earnings-window","market-downtrend"],"regime":"trending"}
+{"t":"2026-10-13T17:31:15.322Z","type":"shadow-outcome","id":"d6fe5c36","symbol":"JNJ","strategy":"momentum-breakdown:filtered","source":"filter-blocked","entry":245.33,"stop":247.96,"target":240.07,"status":"stopped","r":-1,"exit":247.96,"openedAt":"2026-10-13T16:36:09.131Z","side":"sell","counterfactual":true,"filteredBy":["earnings-window","market-downtrend"],"regime":"trending"}
