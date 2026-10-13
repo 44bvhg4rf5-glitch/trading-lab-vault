@@ -143,3 +143,7 @@
 {"t":"2026-10-13T19:09:11.608Z","type":"vault-pushed","files":["sync/equity-positions.json"]}
 {"t":"2026-10-13T19:10:01.117Z","type":"thesis-counterfactual","id":"294d206b","symbol":"CRM","strategy":"pullback-trend","filteredBy":["near-60d-high"],"entry":239.79,"stop":226.66,"target":266.05}
 {"t":"2026-10-13T19:10:01.117Z","type":"thesis-counterfactual","id":"1fe43fdb","symbol":"PEP","strategy":"momentum-breakout","filteredBy":["name-uptrend"],"entry":127.27,"stop":126.72,"target":128.37}
+{"t":"2026-10-13T19:10:06.002Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-13T19:10:07.461Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-13T19:11:03.378Z","type":"thesis-counterfactual","id":"23e79a3b","symbol":"CRM","strategy":"pullback-trend","filteredBy":["near-60d-high"],"entry":239.35,"stop":226.66,"target":264.73}
+{"t":"2026-10-13T19:11:03.378Z","type":"thesis-counterfactual","id":"af0be095","symbol":"PEP","strategy":"momentum-breakout","filteredBy":["name-uptrend"],"entry":127.31,"stop":126.75,"target":128.43}
