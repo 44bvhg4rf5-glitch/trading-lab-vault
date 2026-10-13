@@ -1913,3 +1913,7 @@
 {"t":"2026-10-13T18:48:14.177Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
 {"t":"2026-10-13T18:49:14.846Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
 {"t":"2026-10-13T18:50:17.028Z","type":"auto-skip","id":"55dd4a9b","reason":"limit is not defined"}
+{"t":"2026-10-13T18:50:19.953Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-13T18:50:20.999Z","type":"vault-pushed","files":["sync/equity-positions.json"]}
+{"t":"2026-10-13T18:51:03.793Z","type":"fill","orderId":"69e1fdf4-3f38-4ee7-8473-74ef46ae21c2","symbol":"HD","side":"buy","qty":"69","avgPrice":"293.9","legs":0,"clientId":"tl-55dd4a9b"}
+{"t":"2026-10-13T18:51:09.677Z","type":"slippage","book":"equities","phase":"entry","symbol":"HD","side":"buy","intended":294.05,"filled":293.9,"costR":-0.118,"bps":5.1}
