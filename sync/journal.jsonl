@@ -1644,3 +1644,7 @@
 {"t":"2026-10-13T16:15:17.449Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
 {"t":"2026-10-13T16:15:19.183Z","type":"vault-pushed","files":["sync/shadow.json"]}
 {"t":"2026-10-13T16:16:08.746Z","type":"thesis-counterfactual","id":"5ac1a360","symbol":"GILD","strategy":"momentum-breakdown","filteredBy":["market-downtrend"],"entry":147.93,"stop":148.92,"target":145.95}
+{"t":"2026-10-13T16:16:17.071Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-13T16:16:19.503Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-13T16:17:11.929Z","type":"thesis-counterfactual","id":"45b7d484","symbol":"GILD","strategy":"momentum-breakdown","filteredBy":["market-downtrend"],"entry":147.93,"stop":148.92,"target":145.95}
+{"t":"2026-10-13T16:17:11.939Z","type":"thesis-incubation","strategy":"pullback-trend","symbol":"AMD","side":"buy","entry":594.51,"stop":559.43,"target":664.67,"reason":"Dip to the 20-day zone in a stacked uptrend (20>50>200 SMA, within 10% of the 60-day high), closing back up. Stop under the pullback low, target 2R.","maxHoldDays":21,"createdAt":"2026-10-13T16:17:11.939Z"}
