@@ -1439,3 +1439,5 @@
 {"t":"2026-10-13T15:02:17.190Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
 {"t":"2026-10-13T15:03:22.923Z","type":"thesis-incubation","strategy":"cfd-momentum-breakdown","market":"cfd","symbol":"XAG_USD","side":"sell","entry":59.48,"stop":60.24,"target":57.96,"reason":"XAG_USD broke its 20-hour low (59.58) on 1.9× average volume, below its 20-day average. Stop 2.5×ATR above, target 2R.","maxHoldDays":5,"createdAt":"2026-10-13T15:03:22.923Z"}
 {"t":"2026-10-13T15:03:22.926Z","type":"shadow-outcome","id":"AU200_AUD-mv6e6hvp","symbol":"AU200_AUD","strategy":"cfd-momentum-breakout","source":"gate-blocked","entry":8812.8,"stop":8757.8,"target":8895.3,"status":"stopped","r":-1,"exit":8757.8,"openedAt":"2026-10-13T08:01:17.317Z","regime":"trending","conviction":60}
+{"t":"2026-10-13T15:03:26.566Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-13T15:03:27.985Z","type":"vault-pushed","files":["sync/shadow.json"]}
