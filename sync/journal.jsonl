@@ -48,3 +48,7 @@
 {"t":"2026-10-13T18:56:43.107Z","type":"vault-pushed","files":["sync/shadow.json"]}
 {"t":"2026-10-13T18:56:44.095Z","type":"vault-pushed","files":["sync/equity-positions.json"]}
 {"t":"2026-10-13T18:57:32.679Z","type":"thesis-counterfactual","id":"113bcdd6","symbol":"CRM","strategy":"pullback-trend","filteredBy":["near-60d-high"],"entry":239.77,"stop":226.66,"target":265.99}
+{"t":"2026-10-13T18:57:38.081Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-13T18:57:39.917Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-13T18:58:32.359Z","type":"thesis-counterfactual","id":"8b3f8fa6","symbol":"CRM","strategy":"pullback-trend","filteredBy":["near-60d-high"],"entry":239.77,"stop":226.66,"target":265.99}
+{"t":"2026-10-13T18:58:32.359Z","type":"thesis-counterfactual","id":"76934cb4","symbol":"PTC","strategy":"momentum-breakdown","filteredBy":["name-downtrend","market-downtrend"],"entry":194.11,"stop":194.35,"target":193.63}
