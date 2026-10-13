@@ -1,1 +1,1 @@
-[]
+[{"id":"55dd4a9b","symbol":"HD","qty":69,"entry":294.05,"stop":292.78,"target":296.59,"currentStop":292.78,"side":"buy","strategy":"momentum-breakout","regime":"trending","parentOrderId":"69e1fdf4-3f38-4ee7-8473-74ef46ae21c2","stopLegId":null,"targetLegId":null,"thesisId":"55dd4a9b","enteredAt":"2026-10-13T18:50:17.028Z","timeoutAt":"2026-10-18T18:50:17.028Z","bestPrice":294.05,"sleeve":false,"intraday":false}]
