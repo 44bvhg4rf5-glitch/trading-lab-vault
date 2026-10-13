@@ -304,3 +304,6 @@
 {"t":"2026-10-13T09:02:08.365Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
 {"t":"2026-10-13T09:03:06.446Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
 {"t":"2026-10-13T09:03:07.679Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-13T09:04:07.822Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-13T09:04:08.934Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-13T09:05:09.771Z","type":"cfd-tick-error","error":"oanda GET /v3/accounts/101-004-40071397-001/pricing?instruments=EUR_USD%2CGBP_USD%2CUSD_JPY%2CUSD_CHF%2CAUD_USD%2CUSD_CAD%2CNZD_USD%2CEUR_GBP%2CEUR_JPY%2CGBP_JPY%2CEUR_CHF%2CAUD_JPY%2CCAD_JPY%2CEUR_AUD%2CAUD_NZD%2CXAU_USD%2CXAG_USD%2CSPX500_USD%2CNAS100_USD%2CUS2000_USD%2CUK100_GBP%2CDE30_EUR%2CEU50_EUR%2CFR40_EUR%2CJP225_USD%2CAU200_AUD%2CHK33_HKD%2CWTICO_USD%2CBCO_USD: 401 Insufficient authorization to perform request."}
