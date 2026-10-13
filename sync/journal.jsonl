@@ -1155,3 +1155,8 @@
 {"t":"2026-10-13T13:47:16.514Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
 {"t":"2026-10-13T13:48:06.120Z","type":"thesis-counterfactual","id":"c0cc1b16","symbol":"GILD","strategy":"momentum-breakdown","filteredBy":["name-downtrend","market-downtrend"],"entry":148.84,"stop":149.72,"target":147.08}
 {"t":"2026-10-13T13:48:08.680Z","type":"shadow-outcome","id":"a778e0fb","symbol":"JPM","strategy":"momentum-breakout:filtered","source":"filter-blocked","entry":338.36,"stop":335.95,"target":343.18,"status":"stopped","r":-1,"exit":335.95,"openedAt":"2026-10-13T13:39:07.742Z","counterfactual":true,"filteredBy":["earnings-window","name-uptrend"],"regime":"trending"}
+{"t":"2026-10-13T13:48:11.743Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-13T13:48:13.325Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-13T13:49:06.052Z","type":"thesis-counterfactual","id":"481e10cf","symbol":"PM","strategy":"momentum-breakdown","filteredBy":["name-downtrend","market-downtrend"],"entry":200.79,"stop":201.81,"target":198.75}
+{"t":"2026-10-13T13:49:06.053Z","type":"thesis-counterfactual","id":"d8be84fe","symbol":"GILD","strategy":"momentum-breakdown","filteredBy":["name-downtrend","market-downtrend"],"entry":148.76,"stop":149.64,"target":147}
+{"t":"2026-10-13T13:49:08.124Z","type":"shadow-outcome","id":"PTC-mv6q2k6y","symbol":"PTC","strategy":"momentum-breakout","source":"gate-blocked","entry":194.79,"stop":194.42,"target":195.53,"status":"stopped","r":-1,"exit":194.42,"openedAt":"2026-10-13T13:34:09.082Z","regime":"trending","conviction":83}
