@@ -167,3 +167,7 @@
 {"t":"2026-10-13T19:15:00.247Z","type":"thesis-counterfactual","id":"bb422364","symbol":"CRM","strategy":"pullback-trend","filteredBy":["near-60d-high"],"entry":239.35,"stop":226.66,"target":264.73}
 {"t":"2026-10-13T19:15:00.248Z","type":"thesis-counterfactual","id":"5c2911dc","symbol":"PEP","strategy":"momentum-breakout","filteredBy":["name-uptrend"],"entry":127.35,"stop":126.79,"target":128.47}
 {"t":"2026-10-13T19:15:03.491Z","type":"shadow-outcome","id":"KMI-mv6pydjb","symbol":"KMI","strategy":"momentum-breakout","source":"gate-blocked","entry":33.09,"stop":32.96,"target":33.35,"status":"target","r":2,"exit":33.35,"openedAt":"2026-10-13T13:30:53.831Z","regime":"trending","conviction":68}
+{"t":"2026-10-13T19:15:05.035Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-13T19:15:06.677Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-13T19:16:02.030Z","type":"thesis-counterfactual","id":"4241a959","symbol":"CRM","strategy":"pullback-trend","filteredBy":["near-60d-high"],"entry":239.35,"stop":226.66,"target":264.73}
+{"t":"2026-10-13T19:16:02.031Z","type":"thesis-counterfactual","id":"f04d9540","symbol":"PEP","strategy":"momentum-breakout","filteredBy":["name-uptrend"],"entry":127.35,"stop":126.79,"target":128.47}
