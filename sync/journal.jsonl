@@ -1345,3 +1345,5 @@
 {"t":"2026-10-13T14:16:15.991Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
 {"t":"2026-10-13T14:16:17.266Z","type":"vault-pushed","files":["sync/shadow.json"]}
 {"t":"2026-10-13T14:17:10.092Z","type":"shadow-outcome","id":"e7234cdc","symbol":"BAC","strategy":"momentum-breakdown:filtered","source":"filter-blocked","entry":53.66,"stop":54.03,"target":52.92,"status":"stopped","r":-1,"exit":54.03,"openedAt":"2026-10-13T14:06:07.492Z","side":"sell","counterfactual":true,"filteredBy":["earnings-window","market-downtrend"],"regime":"trending"}
+{"t":"2026-10-13T14:17:12.696Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-13T14:17:14.162Z","type":"vault-pushed","files":["sync/shadow.json"]}
