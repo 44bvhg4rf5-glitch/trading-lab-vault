@@ -183,3 +183,5 @@
 {"t":"2026-10-13T08:04:07.274Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
 {"t":"2026-10-13T08:05:06.864Z","type":"slippage","book":"cfd","phase":"entry","symbol":"UK100_GBP","side":"buy","intended":10766.2,"filled":10758.7,"costR":-0.111,"bps":7}
 {"t":"2026-10-13T08:05:06.865Z","type":"order-placed","id":"7cd2f18f","orderId":"120","symbol":"UK100_GBP","qty":1.7,"limit":10758.7,"stop":10698.48,"target":10867.78,"strategy":"cfd-momentum-breakout","by":"auto","analystVerdict":null,"market":"cfd"}
+{"t":"2026-10-13T08:05:08.320Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-13T08:05:09.925Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
