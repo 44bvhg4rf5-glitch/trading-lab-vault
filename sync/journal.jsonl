@@ -1366,3 +1366,7 @@
 {"t":"2026-10-13T14:26:15.315Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
 {"t":"2026-10-13T14:26:16.840Z","type":"vault-pushed","files":["sync/shadow.json"]}
 {"t":"2026-10-13T14:27:08.981Z","type":"shadow-outcome","id":"945112c6","symbol":"BAC","strategy":"momentum-breakdown:filtered","source":"filter-blocked","entry":53.83,"stop":54.2,"target":53.09,"status":"stopped","r":-1,"exit":54.2,"openedAt":"2026-10-13T14:10:06.923Z","side":"sell","counterfactual":true,"filteredBy":["earnings-window","market-downtrend"],"regime":"trending"}
+{"t":"2026-10-13T14:27:13.182Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-13T14:27:14.836Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-13T14:28:08.988Z","type":"shadow-outcome","id":"3f453018","symbol":"GILD","strategy":"momentum-breakdown:filtered","source":"filter-blocked","entry":148.35,"stop":149.28,"target":146.49,"status":"stopped","r":-1,"exit":149.28,"openedAt":"2026-10-13T14:07:06.802Z","side":"sell","counterfactual":true,"filteredBy":["name-downtrend","market-downtrend"],"regime":"trending"}
+{"t":"2026-10-13T14:28:08.988Z","type":"shadow-outcome","id":"1cb82783","symbol":"GILD","strategy":"momentum-breakdown:filtered","source":"filter-blocked","entry":148.35,"stop":149.28,"target":146.49,"status":"stopped","r":-1,"exit":149.28,"openedAt":"2026-10-13T14:08:06.501Z","side":"sell","counterfactual":true,"filteredBy":["name-downtrend","market-downtrend"],"regime":"trending"}
