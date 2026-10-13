@@ -1393,3 +1393,5 @@
 {"t":"2026-10-13T14:40:15.380Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
 {"t":"2026-10-13T14:41:14.428Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
 {"t":"2026-10-13T14:42:23.324Z","type":"shadow-outcome","id":"CRM-mv6qbma7","symbol":"CRM","strategy":"momentum-breakout","source":"gate-blocked","entry":241.5,"stop":238.77,"target":246.96,"status":"stopped","r":-1,"exit":238.77,"openedAt":"2026-10-13T13:41:11.695Z","regime":"trending","conviction":90}
+{"t":"2026-10-13T14:42:27.262Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-13T14:42:28.872Z","type":"vault-pushed","files":["sync/shadow.json"]}
