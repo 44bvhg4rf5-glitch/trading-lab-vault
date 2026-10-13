@@ -1410,3 +1410,4 @@
 {"t":"2026-10-13T14:49:09.081Z","type":"shadow-outcome","id":"5efd3da4","symbol":"CRM","strategy":"momentum-breakout:filtered","source":"filter-blocked","entry":241,"stop":238.32,"target":246.36,"status":"stopped","r":-1,"exit":238.32,"openedAt":"2026-10-13T13:39:07.750Z","counterfactual":true,"filteredBy":["name-uptrend"],"regime":"trending"}
 {"t":"2026-10-13T14:49:12.257Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
 {"t":"2026-10-13T14:49:13.960Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-13T14:50:13.399Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
