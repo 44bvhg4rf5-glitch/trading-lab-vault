@@ -121,3 +121,11 @@
 {"t":"2026-10-13T19:06:02.015Z","type":"thesis-counterfactual","id":"3ec4b4f6","symbol":"CRM","strategy":"pullback-trend","filteredBy":["near-60d-high"],"entry":239.79,"stop":226.66,"target":266.05}
 {"t":"2026-10-13T19:06:02.019Z","type":"thesis-counterfactual","id":"30b26129","symbol":"PEP","strategy":"momentum-breakout","filteredBy":["name-uptrend"],"entry":127.25,"stop":126.7,"target":128.35}
 {"t":"2026-10-13T19:06:02.328Z","type":"slippage","book":"equities","phase":"entry","symbol":"KO","side":"buy","intended":90.36,"filled":90.42,"costR":0.207,"bps":6.6}
+{"t":"2026-10-13T19:06:07.308Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-13T19:06:09.197Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-10-13T19:06:10.849Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-13T19:06:12.314Z","type":"vault-pushed","files":["sync/equity-positions.json"]}
+{"t":"2026-10-13T19:07:02.826Z","type":"thesis-counterfactual","id":"37da34a3","symbol":"CRM","strategy":"pullback-trend","filteredBy":["near-60d-high"],"entry":239.79,"stop":226.66,"target":266.05}
+{"t":"2026-10-13T19:07:02.827Z","type":"thesis-counterfactual","id":"b1922da3","symbol":"PEP","strategy":"momentum-breakout","filteredBy":["name-uptrend"],"entry":127.25,"stop":126.7,"target":128.35}
+{"t":"2026-10-13T19:07:03.419Z","type":"thesis-rejected-gate","strategy":"momentum-breakout","symbol":"COP","side":"buy","entry":140.84,"stop":140.26,"target":142,"reason":"Broke 20-bar high (140.82) with stock and SPY above their 20-day averages. Stop 2×ATR below, target 2R.","maxHoldDays":5,"conviction":{"score":72,"tier":"high","reasons":["+4 reward:risk 2.0","+10 Monte Carlo expected +0.88R (56% to target)","+6 market trending","+8 sector rank 2/11","+4 VIX 15.21 — calm tape","+6 insiders net buying (MSPR 22)","-8 revenue -28.5% YoY — shrinking","-6 net margin down 4.3pp","+4 buying back (-3.9% shares)","-6 66% short-sale volume"]},"reasons":["already at max 8 open positions"]}
+{"t":"2026-10-13T19:07:03.433Z","type":"sleeve-declined","symbol":"COP","conviction":72,"reasons":["conviction 72 below the sleeve's 75 bar"]}
