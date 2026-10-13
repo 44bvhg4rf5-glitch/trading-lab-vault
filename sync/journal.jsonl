@@ -109,3 +109,5 @@
 {"t":"2026-10-13T07:23:52.762Z","type":"vault-pushed","files":["sync/crypto-positions.json"]}
 {"t":"2026-10-13T07:23:54.374Z","type":"vault-pushed","files":["sync/equity-positions.json"]}
 {"t":"2026-10-13T07:23:55.592Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-13T07:24:34.943Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-13T07:24:36.398Z","type":"vault-pushed","files":["sync/state.json"]}
