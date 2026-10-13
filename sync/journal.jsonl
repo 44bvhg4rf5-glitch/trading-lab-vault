@@ -103,3 +103,7 @@
 {"t":"2026-10-13T19:03:02.328Z","type":"thesis-counterfactual","id":"a1c516ff","symbol":"PEP","strategy":"momentum-breakout","filteredBy":["name-uptrend"],"entry":127.26,"stop":126.71,"target":128.36}
 {"t":"2026-10-13T19:03:05.142Z","type":"cfd-instruments","found":["EUR_USD","GBP_USD","USD_JPY","USD_CHF","AUD_USD","USD_CAD","NZD_USD","EUR_GBP","EUR_JPY","GBP_JPY","EUR_CHF","AUD_JPY","CAD_JPY","EUR_AUD","AUD_NZD","XAU_USD","XAG_USD","SPX500_USD","NAS100_USD","US2000_USD","UK100_GBP","DE30_EUR","EU50_EUR","FR40_EUR","JP225_USD","AU200_AUD","HK33_HKD","WTICO_USD","BCO_USD"],"missing":["DE40_EUR"],"duplicatesSkipped":[],"offeredByAccount":123}
 {"t":"2026-10-13T19:03:10.669Z","type":"cfd-tick-error","error":"oanda GET /v3/instruments/USD_JPY/candles?granularity=D&count=400&price=M: 401 Insufficient authorization to perform request."}
+{"t":"2026-10-13T19:03:12.527Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-13T19:03:14.289Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-13T19:04:01.432Z","type":"thesis-counterfactual","id":"b46a6066","symbol":"CRM","strategy":"pullback-trend","filteredBy":["near-60d-high"],"entry":239.79,"stop":226.66,"target":266.05}
+{"t":"2026-10-13T19:04:10.301Z","type":"cfd-tick-error","error":"oanda GET /v3/accounts/101-004-40071397-001/summary: 401 Insufficient authorization to perform request."}
