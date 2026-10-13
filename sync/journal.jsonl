@@ -1744,3 +1744,5 @@
 {"t":"2026-10-13T16:43:22.715Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
 {"t":"2026-10-13T16:44:15.189Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
 {"t":"2026-10-13T16:45:15.964Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-13T16:46:15.261Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-13T16:47:08.115Z","type":"thesis-counterfactual","id":"884ff4d5","symbol":"NFLX","strategy":"momentum-breakdown","filteredBy":["name-downtrend","market-downtrend"],"entry":70.54,"stop":70.97,"target":69.68}
