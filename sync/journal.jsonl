@@ -1555,3 +1555,4 @@
 {"t":"2026-10-13T15:47:09.809Z","type":"shadow-outcome","id":"MCK-mv6pydj4","symbol":"MCK","strategy":"momentum-breakout","source":"gate-blocked","entry":955.42,"stop":951.15,"target":963.96,"status":"target","r":2,"exit":963.96,"openedAt":"2026-10-13T13:30:53.824Z","regime":"trending","conviction":89}
 {"t":"2026-10-13T15:47:12.830Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
 {"t":"2026-10-13T15:47:16.614Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-13T15:48:13.078Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
