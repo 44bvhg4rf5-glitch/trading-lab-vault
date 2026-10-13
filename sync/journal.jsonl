@@ -1349,3 +1349,5 @@
 {"t":"2026-10-13T14:17:14.162Z","type":"vault-pushed","files":["sync/shadow.json"]}
 {"t":"2026-10-13T14:18:13.332Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
 {"t":"2026-10-13T14:19:16.053Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-13T14:20:13.896Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-13T14:21:26.811Z","type":"shadow-outcome","id":"AMZN-mv6q8z7p","symbol":"AMZN","strategy":"momentum-breakout","source":"gate-blocked","entry":261.95,"stop":260.62,"target":264.61,"status":"stopped","r":-1,"exit":260.62,"openedAt":"2026-10-13T13:39:08.485Z","regime":"trending","conviction":75}
