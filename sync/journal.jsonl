@@ -373,3 +373,10 @@
 {"t":"2026-10-13T19:48:59.115Z","type":"thesis-counterfactual","id":"8f92504a","symbol":"DIS","strategy":"momentum-breakdown","filteredBy":["name-downtrend","market-downtrend"],"entry":108.35,"stop":108.84,"target":107.37}
 {"t":"2026-10-13T19:48:59.117Z","type":"thesis-counterfactual","id":"7e71e849","symbol":"CRM","strategy":"pullback-trend","filteredBy":["near-60d-high"],"entry":239.28,"stop":226.66,"target":264.52}
 {"t":"2026-10-13T19:48:59.119Z","type":"thesis-counterfactual","id":"6faed867","symbol":"COST","strategy":"momentum-breakdown","filteredBy":["name-downtrend","market-downtrend"],"entry":955.02,"stop":957.38,"target":950.3}
+{"t":"2026-10-13T19:49:04.296Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-13T19:49:12.940Z","type":"vault-error","at":"sync/shadow.json","error":"github 409: Repository rule violations found\n\nTimed out validating the rule.\n\n"}
+{"t":"2026-10-13T19:49:58.832Z","type":"thesis-counterfactual","id":"7f2aac7e","symbol":"MSFT","strategy":"momentum-breakdown","filteredBy":["name-downtrend","market-downtrend"],"entry":544.2,"stop":546.63,"target":539.34}
+{"t":"2026-10-13T19:49:58.834Z","type":"thesis-counterfactual","id":"5481d919","symbol":"WMT","strategy":"momentum-breakdown","filteredBy":["name-downtrend","market-downtrend"],"entry":112.66,"stop":113.11,"target":111.76}
+{"t":"2026-10-13T19:49:58.836Z","type":"thesis-counterfactual","id":"6291981a","symbol":"DIS","strategy":"momentum-breakdown","filteredBy":["name-downtrend","market-downtrend"],"entry":108.27,"stop":108.77,"target":107.27}
+{"t":"2026-10-13T19:49:58.839Z","type":"thesis-counterfactual","id":"f5fa1d90","symbol":"CRM","strategy":"pullback-trend","filteredBy":["near-60d-high"],"entry":239.28,"stop":226.66,"target":264.52}
+{"t":"2026-10-13T19:49:58.840Z","type":"thesis-counterfactual","id":"5c4b156d","symbol":"COST","strategy":"momentum-breakdown","filteredBy":["name-downtrend","market-downtrend"],"entry":955.02,"stop":957.38,"target":950.3}
