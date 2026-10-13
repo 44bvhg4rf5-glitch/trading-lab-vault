@@ -1005,3 +1005,16 @@
 {"t":"2026-10-13T13:38:06.491Z","type":"thesis-counterfactual","id":"e0016645","symbol":"CRM","strategy":"pullback-trend","filteredBy":["near-60d-high"],"entry":233.68,"stop":220.31,"target":260.42}
 {"t":"2026-10-13T13:38:06.492Z","type":"thesis-counterfactual","id":"3b9cabd7","symbol":"PEP","strategy":"momentum-breakout","filteredBy":["name-uptrend"],"entry":127.49,"stop":126.81,"target":128.85}
 {"t":"2026-10-13T13:38:06.493Z","type":"thesis-counterfactual","id":"5abaeeec","symbol":"ANET","strategy":"momentum-breakdown","filteredBy":["name-downtrend","market-downtrend"],"entry":201.15,"stop":204.43,"target":194.59}
+{"t":"2026-10-13T13:38:15.155Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-13T13:38:16.267Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-13T13:38:17.436Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-13T13:39:07.741Z","type":"thesis-counterfactual","id":"a44b65be","symbol":"AMD","strategy":"momentum-breakdown","filteredBy":["market-downtrend"],"entry":577.5,"stop":584.5,"target":563.5}
+{"t":"2026-10-13T13:39:07.742Z","type":"thesis-counterfactual","id":"a778e0fb","symbol":"JPM","strategy":"momentum-breakout","filteredBy":["earnings-window","name-uptrend"],"entry":338.36,"stop":335.95,"target":343.18}
+{"t":"2026-10-13T13:39:07.743Z","type":"thesis-counterfactual","id":"f37aab88","symbol":"JNJ","strategy":"momentum-breakdown","filteredBy":["earnings-window","market-downtrend"],"entry":254,"stop":256.66,"target":248.68}
+{"t":"2026-10-13T13:39:07.746Z","type":"thesis-counterfactual","id":"048ec7ad","symbol":"HD","strategy":"momentum-breakout","filteredBy":["name-uptrend"],"entry":294.69,"stop":292.93,"target":298.21}
+{"t":"2026-10-13T13:39:07.750Z","type":"thesis-counterfactual","id":"5efd3da4","symbol":"CRM","strategy":"momentum-breakout","filteredBy":["name-uptrend"],"entry":241,"stop":238.32,"target":246.36}
+{"t":"2026-10-13T13:39:07.755Z","type":"thesis-counterfactual","id":"1943d3bf","symbol":"CRM","strategy":"pullback-trend","filteredBy":["near-60d-high"],"entry":233.68,"stop":220.31,"target":260.42}
+{"t":"2026-10-13T13:39:07.757Z","type":"thesis-counterfactual","id":"39184d1c","symbol":"PEP","strategy":"momentum-breakout","filteredBy":["name-uptrend"],"entry":127.41,"stop":126.73,"target":128.77}
+{"t":"2026-10-13T13:39:07.759Z","type":"thesis-counterfactual","id":"a4344228","symbol":"ANET","strategy":"momentum-breakdown","filteredBy":["name-downtrend","market-downtrend"],"entry":201.75,"stop":205.03,"target":195.19}
+{"t":"2026-10-13T13:39:07.760Z","type":"thesis-counterfactual","id":"4b091f22","symbol":"GILD","strategy":"momentum-breakdown","filteredBy":["name-downtrend","market-downtrend"],"entry":149.61,"stop":150.45,"target":147.93}
+{"t":"2026-10-13T13:39:08.485Z","type":"thesis-rejected-gate","strategy":"momentum-breakout","symbol":"AMZN","side":"buy","entry":261.95,"stop":260.62,"target":264.61,"reason":"Broke 20-bar high (261.72) with stock and SPY above their 20-day averages. Stop 2×ATR below, target 2R.","maxHoldDays":5,"conviction":{"score":75,"tier":"high","reasons":["+8 reward:risk 2.0","+5 Monte Carlo expected +0.31R","+6 market trending","+4 VIX 14.84 — calm tape","+5 Street strongly positive","-6 insiders net selling (MSPR -48)","+3 light shorting"]},"reasons":["first 15 min after open"]}
