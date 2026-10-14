@@ -8276,3 +8276,12 @@
 {"t":"2026-10-14T20:00:01.427Z","type":"shadow-outcome","id":"ced6bc12","symbol":"BAC","strategy":"equity-opening-range:filtered","source":"filter-blocked","entry":50.53,"stop":49.44,"target":52.17,"status":"timeout","r":0.8,"exit":51.405,"openedAt":"2026-10-14T15:40:00.374Z","counterfactual":true,"filteredBy":["macro-cpi","earnings-window"],"regime":"trending"}
 {"t":"2026-10-14T20:00:01.429Z","type":"shadow-outcome","id":"121a2b90","symbol":"COST","strategy":"momentum-breakout:filtered","source":"filter-blocked","entry":973.16,"stop":968.71,"target":982.06,"status":"target","r":2,"exit":982.06,"openedAt":"2026-10-14T15:43:59.875Z","counterfactual":true,"filteredBy":["macro-cpi"],"regime":"trending"}
 {"t":"2026-10-14T20:00:01.429Z","type":"shadow-outcome","id":"dde20c45","symbol":"COST","strategy":"momentum-breakout:filtered","source":"filter-blocked","entry":973.15,"stop":968.7,"target":982.05,"status":"target","r":2,"exit":982.05,"openedAt":"2026-10-14T15:44:59.961Z","counterfactual":true,"filteredBy":["macro-cpi"],"regime":"trending"}
+{"t":"2026-10-14T20:00:04.678Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-14T20:00:07.993Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-14T20:00:09.168Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-14T20:01:01.158Z","type":"ai-error","at":"post-mortem","error":"gemini 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later."}
+{"t":"2026-10-14T20:01:05.970Z","type":"vault-pushed","date":"2026-10-14","repo":"44bvhg4rf5-glitch/trading-lab-vault","files":["digests/2026-10-14.md","journal/2026-10-14.jsonl","lessons/lesson-book.md"]}
+{"t":"2026-10-14T20:01:05.970Z","type":"digest","date":"2026-10-14","entries":7147,"vaultPushed":true}
+{"t":"2026-10-14T20:01:06.348Z","type":"ai-cooldown","until":"2026-10-15T00:01:06.347Z","reason":"provider quota (429)"}
+{"t":"2026-10-14T20:01:06.349Z","type":"ai-error","at":"continuing-education","error":"ai cooling down until 2026-10-15T00:01:06.347Z (provider quota)"}
+{"t":"2026-10-14T20:01:11.233Z","type":"shadow-outcome","id":"6ec3ce35","symbol":"BAC","strategy":"equity-opening-range:filtered","source":"filter-blocked","entry":50.58,"stop":49.44,"target":52.29,"status":"timeout","r":0.72,"exit":51.405,"openedAt":"2026-10-14T15:41:01.173Z","counterfactual":true,"filteredBy":["macro-cpi","earnings-window"],"regime":"trending"}
