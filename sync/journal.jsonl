@@ -745,3 +745,13 @@
 {"t":"2026-10-13T23:56:59.053Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
 {"t":"2026-10-13T23:58:00.027Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
 {"t":"2026-10-13T23:58:58.425Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-13T23:59:58.281Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-14T00:00:56.253Z","type":"crypto-liquidity-skip","symbol":"BTC/USD","reasons":["median turnover $0.1M/day below the $20M floor"],"dollarVolume":99124,"spreadBps":3.5}
+{"t":"2026-10-14T00:00:56.253Z","type":"crypto-liquidity-skip","symbol":"ETH/USD","reasons":["median turnover $0.0M/day below the $20M floor"],"dollarVolume":28737,"spreadBps":2.1}
+{"t":"2026-10-14T00:00:56.253Z","type":"crypto-liquidity-skip","symbol":"LTC/USD","reasons":["median turnover $0.0M/day below the $20M floor","spread 64.6bps above the 50bps screen"],"dollarVolume":4048,"spreadBps":64.6}
+{"t":"2026-10-14T00:00:56.253Z","type":"crypto-liquidity-skip","symbol":"LINK/USD","reasons":["median turnover $0.0M/day below the $20M floor"],"dollarVolume":8775,"spreadBps":22.1}
+{"t":"2026-10-14T00:00:56.253Z","type":"crypto-liquidity-skip","symbol":"AVAX/USD","reasons":["median turnover $0.0M/day below the $20M floor","spread 63.9bps above the 50bps screen"],"dollarVolume":10009,"spreadBps":63.9}
+{"t":"2026-10-14T00:00:56.253Z","type":"crypto-liquidity-skip","symbol":"DOT/USD","reasons":["median turnover $0.0M/day below the $20M floor"],"dollarVolume":9479,"spreadBps":15}
+{"t":"2026-10-14T00:00:56.254Z","type":"crypto-liquidity-skip","symbol":"UNI/USD","reasons":["median turnover $0.0M/day below the $20M floor"],"dollarVolume":12718,"spreadBps":24.3}
+{"t":"2026-10-14T00:00:56.254Z","type":"crypto-liquidity-skip","symbol":"BCH/USD","reasons":["median turnover $0.0M/day below the $20M floor","spread 62.8bps above the 50bps screen"],"dollarVolume":2863,"spreadBps":62.8}
+{"t":"2026-10-14T00:01:26.144Z","type":"thesis-incubation","id":"ce0a96ed","strategy":"cfd-pair-reversion","symbol":"EUR_JPY/CAD_JPY","side":"buy","reason":"CAD_JPY is 2.53σ rich vs EUR_JPY — short the rich leg, buy the cheap one, exit when the ratio is back within 0.5σ of its 60-session mean","entry":0.4649411363320593,"stop":0.4592147137896548,"target":0.4726929393230254,"z":-2.53,"mean":0.4746017468371603,"std":0.003817615028269691,"halfLifeDays":6,"legs":[{"symbol":"CAD_JPY","side":"sell"},{"symbol":"EUR_JPY","side":"buy"}],"maxHoldDays":18,"meta":{"unit":"log-spread","a":"EUR_JPY","b":"CAD_JPY","expectedGainBps":96.6,"costBps":19.2,"netBps":77.4},"market":"cfd-pair","createdAt":"2026-10-14T00:01:26.144Z"}
