@@ -1135,3 +1135,6 @@
 {"t":"2026-10-14T04:01:10.138Z","type":"screener","date":"2026-10-14","scanned":475,"tookMs":14910,"promoted":[{"sym":"WMB","kind":"momentum","score":1.49},{"sym":"MA","kind":"momentum","score":1.47},{"sym":"ELV","kind":"momentum","score":1.46},{"sym":"V","kind":"momentum","score":1.45},{"sym":"DVN","kind":"momentum","score":1.44},{"sym":"NTAP","kind":"momentum","score":1.42},{"sym":"MCK","kind":"momentum","score":1.42},{"sym":"PSX","kind":"momentum","score":1.34},{"sym":"KDP","kind":"momentum","score":1.33},{"sym":"PTC","kind":"momentum","score":1.32},{"sym":"COP","kind":"momentum","score":1.31},{"sym":"PGR","kind":"momentum","score":1.31},{"sym":"HCA","kind":"momentum","score":1.28},{"sym":"PFE","kind":"momentum","score":1.27},{"sym":"DHR","kind":"momentum","score":1.27},{"sym":"ADI","kind":"momentum","score":1.27}]}
 {"t":"2026-10-14T04:01:11.378Z","type":"macro-guard","label":"CPI release","scope":"crypto"}
 {"t":"2026-10-14T04:01:11.658Z","type":"macro-guard","label":"CPI release","scope":"cfd"}
+{"t":"2026-10-14T04:01:13.860Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-14T04:01:15.319Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-10-14T04:01:16.422Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
