@@ -6523,3 +6523,12 @@
 {"t":"2026-10-14T17:51:00.030Z","type":"thesis-counterfactual","id":"b1e754ef","symbol":"PFE","strategy":"pullback-trend","filteredBy":["macro-cpi"],"entry":29.48,"stop":28.13,"target":32.18}
 {"t":"2026-10-14T17:51:00.036Z","type":"thesis-counterfactual","id":"f088777f","symbol":"DHR","strategy":"pullback-trend","filteredBy":["macro-cpi"],"entry":224.49,"stop":216.02,"target":241.43}
 {"t":"2026-10-14T17:51:00.043Z","type":"thesis-counterfactual","id":"e2b24f3e","symbol":"BAC","strategy":"mean-reversion","filteredBy":["macro-cpi","earnings-window","news-quiet","above-200-sma"],"entry":50.78,"stop":48.8,"target":55}
+{"t":"2026-10-14T17:51:05.858Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-14T17:51:08.943Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-14T17:51:10.245Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-14T17:52:00.709Z","type":"thesis-counterfactual","id":"b7dbd771","symbol":"AAPL","strategy":"pullback-trend","filteredBy":["macro-cpi"],"entry":342.27,"stop":332.32,"target":362.17}
+{"t":"2026-10-14T17:52:00.714Z","type":"thesis-counterfactual","id":"b0a17ec3","symbol":"NVDA","strategy":"momentum-breakdown","filteredBy":["macro-cpi"],"entry":220.98,"stop":222.62,"target":217.7}
+{"t":"2026-10-14T17:52:00.719Z","type":"thesis-counterfactual","id":"03dd6a2c","symbol":"UNH","strategy":"post-earnings-drift","filteredBy":["macro-cpi"],"entry":390.4,"stop":368.75,"target":433.7}
+{"t":"2026-10-14T17:52:00.725Z","type":"thesis-counterfactual","id":"65b06b19","symbol":"PFE","strategy":"pullback-trend","filteredBy":["macro-cpi"],"entry":29.38,"stop":28.13,"target":31.88}
+{"t":"2026-10-14T17:52:00.729Z","type":"thesis-counterfactual","id":"ce12ccf8","symbol":"DHR","strategy":"pullback-trend","filteredBy":["macro-cpi"],"entry":224.36,"stop":215.89,"target":241.3}
+{"t":"2026-10-14T17:52:00.734Z","type":"thesis-counterfactual","id":"fdc863c8","symbol":"BAC","strategy":"mean-reversion","filteredBy":["macro-cpi","earnings-window","news-quiet","above-200-sma"],"entry":50.98,"stop":49,"target":55.01}
