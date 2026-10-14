@@ -1932,3 +1932,6 @@
 {"t":"2026-10-14T10:17:58.708Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
 {"t":"2026-10-14T10:18:00.090Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
 {"t":"2026-10-14T10:18:55.744Z","type":"equity-stop-trailed","id":"55dd4a9b","symbol":"HD","from":295.06,"to":295.18,"breakeven":false}
+{"t":"2026-10-14T10:18:59.447Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-14T10:19:00.846Z","type":"vault-pushed","files":["sync/equity-positions.json"]}
+{"t":"2026-10-14T10:19:02.051Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
