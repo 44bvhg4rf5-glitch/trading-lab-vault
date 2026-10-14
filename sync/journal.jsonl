@@ -1752,3 +1752,7 @@
 {"t":"2026-10-14T08:53:58.942Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
 {"t":"2026-10-14T08:54:00.199Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
 {"t":"2026-10-14T08:54:55.616Z","type":"equity-stop-trailed","id":"55dd4a9b","symbol":"HD","from":294.57,"to":294.74,"breakeven":false}
+{"t":"2026-10-14T08:54:59.255Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-14T08:55:00.405Z","type":"vault-pushed","files":["sync/equity-positions.json"]}
+{"t":"2026-10-14T08:55:01.588Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-14T08:55:55.698Z","type":"equity-stop-trailed","id":"55dd4a9b","symbol":"HD","from":294.74,"to":294.98,"breakeven":false}
