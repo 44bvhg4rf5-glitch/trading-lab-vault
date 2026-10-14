@@ -6515,3 +6515,11 @@
 {"t":"2026-10-14T17:49:59.520Z","type":"thesis-counterfactual","id":"fd2c12f0","symbol":"DHR","strategy":"pullback-trend","filteredBy":["macro-cpi"],"entry":224.49,"stop":216.02,"target":241.43}
 {"t":"2026-10-14T17:49:59.527Z","type":"thesis-counterfactual","id":"ee69d35c","symbol":"BAC","strategy":"mean-reversion","filteredBy":["macro-cpi","earnings-window","news-quiet","above-200-sma"],"entry":50.78,"stop":48.8,"target":55}
 {"t":"2026-10-14T17:50:01.632Z","type":"shadow-outcome","id":"b6029dee","symbol":"NFLX","strategy":"momentum-breakdown:filtered","source":"filter-blocked","entry":69.74,"stop":70.33,"target":68.56,"status":"stopped","r":-1,"exit":70.33,"openedAt":"2026-10-14T14:51:59.115Z","side":"sell","counterfactual":true,"filteredBy":["macro-cpi","market-downtrend"],"regime":"trending"}
+{"t":"2026-10-14T17:50:04.251Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-14T17:50:07.110Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-14T17:50:08.462Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-14T17:51:00.015Z","type":"thesis-counterfactual","id":"1e219814","symbol":"AAPL","strategy":"pullback-trend","filteredBy":["macro-cpi"],"entry":341.79,"stop":331.84,"target":361.69}
+{"t":"2026-10-14T17:51:00.022Z","type":"thesis-counterfactual","id":"cd6c08b6","symbol":"UNH","strategy":"post-earnings-drift","filteredBy":["macro-cpi"],"entry":389.86,"stop":368.21,"target":433.16}
+{"t":"2026-10-14T17:51:00.030Z","type":"thesis-counterfactual","id":"b1e754ef","symbol":"PFE","strategy":"pullback-trend","filteredBy":["macro-cpi"],"entry":29.48,"stop":28.13,"target":32.18}
+{"t":"2026-10-14T17:51:00.036Z","type":"thesis-counterfactual","id":"f088777f","symbol":"DHR","strategy":"pullback-trend","filteredBy":["macro-cpi"],"entry":224.49,"stop":216.02,"target":241.43}
+{"t":"2026-10-14T17:51:00.043Z","type":"thesis-counterfactual","id":"e2b24f3e","symbol":"BAC","strategy":"mean-reversion","filteredBy":["macro-cpi","earnings-window","news-quiet","above-200-sma"],"entry":50.78,"stop":48.8,"target":55}
