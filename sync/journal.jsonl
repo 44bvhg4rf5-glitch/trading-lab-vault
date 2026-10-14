@@ -8421,3 +8421,6 @@
 {"t":"2026-10-14T21:03:00.541Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
 {"t":"2026-10-14T21:03:02.664Z","type":"vault-pushed","files":["sync/state.json"]}
 {"t":"2026-10-14T21:03:59.977Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-14T21:05:00.211Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-14T21:05:01.742Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-14T21:06:01.949Z","type":"cfd-tick-error","error":"oanda GET /v3/accounts/101-004-40071397-001/summary: 401 Insufficient authorization to perform request."}
