@@ -6506,3 +6506,12 @@
 {"t":"2026-10-14T17:48:59.264Z","type":"thesis-counterfactual","id":"2d034aa3","symbol":"PFE","strategy":"pullback-trend","filteredBy":["macro-cpi"],"entry":29.48,"stop":28.13,"target":32.18}
 {"t":"2026-10-14T17:48:59.270Z","type":"thesis-counterfactual","id":"6e9b027d","symbol":"DHR","strategy":"pullback-trend","filteredBy":["macro-cpi"],"entry":224.49,"stop":216.02,"target":241.43}
 {"t":"2026-10-14T17:48:59.276Z","type":"thesis-counterfactual","id":"9e3711dc","symbol":"BAC","strategy":"mean-reversion","filteredBy":["macro-cpi","earnings-window","news-quiet","above-200-sma"],"entry":50.78,"stop":48.8,"target":55}
+{"t":"2026-10-14T17:49:14.483Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-14T17:49:17.484Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-14T17:49:19.071Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-14T17:49:59.497Z","type":"thesis-counterfactual","id":"881b1c34","symbol":"AAPL","strategy":"pullback-trend","filteredBy":["macro-cpi"],"entry":341.79,"stop":331.84,"target":361.69}
+{"t":"2026-10-14T17:49:59.505Z","type":"thesis-counterfactual","id":"100ae587","symbol":"UNH","strategy":"post-earnings-drift","filteredBy":["macro-cpi"],"entry":389.86,"stop":368.21,"target":433.16}
+{"t":"2026-10-14T17:49:59.512Z","type":"thesis-counterfactual","id":"cc0916dd","symbol":"PFE","strategy":"pullback-trend","filteredBy":["macro-cpi"],"entry":29.48,"stop":28.13,"target":32.18}
+{"t":"2026-10-14T17:49:59.520Z","type":"thesis-counterfactual","id":"fd2c12f0","symbol":"DHR","strategy":"pullback-trend","filteredBy":["macro-cpi"],"entry":224.49,"stop":216.02,"target":241.43}
+{"t":"2026-10-14T17:49:59.527Z","type":"thesis-counterfactual","id":"ee69d35c","symbol":"BAC","strategy":"mean-reversion","filteredBy":["macro-cpi","earnings-window","news-quiet","above-200-sma"],"entry":50.78,"stop":48.8,"target":55}
+{"t":"2026-10-14T17:50:01.632Z","type":"shadow-outcome","id":"b6029dee","symbol":"NFLX","strategy":"momentum-breakdown:filtered","source":"filter-blocked","entry":69.74,"stop":70.33,"target":68.56,"status":"stopped","r":-1,"exit":70.33,"openedAt":"2026-10-14T14:51:59.115Z","side":"sell","counterfactual":true,"filteredBy":["macro-cpi","market-downtrend"],"regime":"trending"}
