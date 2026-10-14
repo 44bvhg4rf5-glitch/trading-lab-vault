@@ -8296,3 +8296,7 @@
 {"t":"2026-10-14T20:03:03.466Z","type":"vault-pushed","files":["sync/shadow.json"]}
 {"t":"2026-10-14T20:03:04.639Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
 {"t":"2026-10-14T20:03:57.261Z","type":"shadow-outcome","id":"dc3df78e","symbol":"BAC","strategy":"equity-opening-range:filtered","source":"filter-blocked","entry":50.59,"stop":49.44,"target":52.32,"status":"timeout","r":0.71,"exit":51.405,"openedAt":"2026-10-14T15:43:00.544Z","counterfactual":true,"filteredBy":["macro-cpi","earnings-window"],"regime":"trending"}
+{"t":"2026-10-14T20:04:01.754Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-14T20:04:07.819Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-14T20:04:11.211Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-14T20:04:57.555Z","type":"shadow-outcome","id":"7d94f7a2","symbol":"BAC","strategy":"equity-opening-range:filtered","source":"filter-blocked","entry":50.53,"stop":49.44,"target":52.17,"status":"timeout","r":0.8,"exit":51.405,"openedAt":"2026-10-14T15:43:59.862Z","counterfactual":true,"filteredBy":["macro-cpi","earnings-window"],"regime":"trending"}
