@@ -8395,3 +8395,5 @@
 {"t":"2026-10-14T20:49:01.144Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
 {"t":"2026-10-14T20:50:00.306Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
 {"t":"2026-10-14T20:50:01.586Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-14T20:51:00.078Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-14T20:51:01.288Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
