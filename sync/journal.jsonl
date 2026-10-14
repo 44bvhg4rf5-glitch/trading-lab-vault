@@ -4121,3 +4121,24 @@
 {"t":"2026-10-14T14:59:59.421Z","type":"thesis-counterfactual","id":"4bfd2ac5","symbol":"PFE","strategy":"pullback-trend","filteredBy":["macro-cpi"],"entry":29.01,"stop":28.13,"target":30.77}
 {"t":"2026-10-14T14:59:59.424Z","type":"thesis-counterfactual","id":"7eca4d52","symbol":"DHR","strategy":"pullback-trend","filteredBy":["macro-cpi"],"entry":223.53,"stop":215.06,"target":240.47}
 {"t":"2026-10-14T14:59:59.428Z","type":"thesis-counterfactual","id":"1fc6d074","symbol":"BAC","strategy":"mean-reversion","filteredBy":["macro-cpi","earnings-window","news-quiet","above-200-sma"],"entry":49.93,"stop":47.95,"target":54.96}
+{"t":"2026-10-14T15:00:03.530Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-14T15:00:05.647Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-14T15:00:07.588Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-14T15:01:02.325Z","type":"thesis-counterfactual","id":"a3086729","symbol":"AAPL","strategy":"pullback-trend","filteredBy":["macro-cpi"],"entry":344.46,"stop":334.51,"target":364.36}
+{"t":"2026-10-14T15:01:02.328Z","type":"thesis-counterfactual","id":"d18f576a","symbol":"NFLX","strategy":"momentum-breakdown","filteredBy":["macro-cpi","market-downtrend"],"entry":69.61,"stop":70.22,"target":68.39}
+{"t":"2026-10-14T15:01:02.332Z","type":"thesis-counterfactual","id":"7a6fd1b3","symbol":"UNH","strategy":"post-earnings-drift","filteredBy":["macro-cpi"],"entry":387.99,"stop":366.34,"target":431.29}
+{"t":"2026-10-14T15:01:02.335Z","type":"thesis-counterfactual","id":"4d48644a","symbol":"PFE","strategy":"pullback-trend","filteredBy":["macro-cpi"],"entry":29.01,"stop":28.13,"target":30.77}
+{"t":"2026-10-14T15:01:02.338Z","type":"thesis-counterfactual","id":"b3edbdab","symbol":"DHR","strategy":"pullback-trend","filteredBy":["macro-cpi"],"entry":223.53,"stop":215.06,"target":240.47}
+{"t":"2026-10-14T15:01:02.342Z","type":"thesis-counterfactual","id":"69d5ae14","symbol":"BAC","strategy":"mean-reversion","filteredBy":["macro-cpi","earnings-window","news-quiet","above-200-sma"],"entry":49.93,"stop":47.95,"target":54.96}
+{"t":"2026-10-14T15:01:11.661Z","type":"cfd-tick-error","error":"oanda GET /v3/accounts/101-004-40071397-001/summary: 401 Insufficient authorization to perform request."}
+{"t":"2026-10-14T15:01:14.709Z","type":"vault-error","at":"sync/journal.jsonl","error":"github 500: error"}
+{"t":"2026-10-14T15:01:17.154Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-14T15:02:00.528Z","type":"thesis-counterfactual","id":"4e1aa479","symbol":"AAPL","strategy":"pullback-trend","filteredBy":["macro-cpi"],"entry":344.46,"stop":334.51,"target":364.36}
+{"t":"2026-10-14T15:02:00.532Z","type":"thesis-counterfactual","id":"11db92b8","symbol":"NFLX","strategy":"momentum-breakdown","filteredBy":["macro-cpi","market-downtrend"],"entry":69.54,"stop":70.12,"target":68.38}
+{"t":"2026-10-14T15:02:00.536Z","type":"thesis-counterfactual","id":"a504ebac","symbol":"UNH","strategy":"post-earnings-drift","filteredBy":["macro-cpi"],"entry":387.99,"stop":366.34,"target":431.29}
+{"t":"2026-10-14T15:02:00.539Z","type":"thesis-counterfactual","id":"41854371","symbol":"PTC","strategy":"momentum-breakdown","filteredBy":["macro-cpi","name-downtrend","market-downtrend"],"entry":193.45,"stop":193.77,"target":192.81}
+{"t":"2026-10-14T15:02:00.543Z","type":"thesis-counterfactual","id":"71bdb12d","symbol":"PFE","strategy":"pullback-trend","filteredBy":["macro-cpi"],"entry":29.01,"stop":28.13,"target":30.77}
+{"t":"2026-10-14T15:02:00.546Z","type":"thesis-counterfactual","id":"0e7dc95e","symbol":"DHR","strategy":"pullback-trend","filteredBy":["macro-cpi"],"entry":223.53,"stop":215.06,"target":240.47}
+{"t":"2026-10-14T15:02:00.549Z","type":"thesis-counterfactual","id":"d4d874ab","symbol":"BAC","strategy":"mean-reversion","filteredBy":["macro-cpi","earnings-window","news-quiet","above-200-sma"],"entry":49.93,"stop":47.95,"target":54.96}
+{"t":"2026-10-14T15:02:15.367Z","type":"shadow-outcome","id":"GBP_JPY-mv6r0zxu","symbol":"GBP_JPY","strategy":"cfd-momentum-breakout","source":"gate-blocked","entry":209.73,"stop":209.06,"target":210.73,"status":"stopped","r":-1,"exit":209.06,"openedAt":"2026-10-13T14:00:55.794Z","regime":"trending","conviction":60}
+{"t":"2026-10-14T15:02:15.376Z","type":"shadow-outcome","id":"a6ead7f2","symbol":"PGR","strategy":"momentum-breakdown:filtered","source":"filter-blocked","entry":202.48,"stop":206.28,"target":194.88,"status":"stopped","r":-1,"exit":206.28,"openedAt":"2026-10-14T13:39:59.637Z","side":"sell","counterfactual":true,"filteredBy":["macro-cpi","name-downtrend","market-downtrend"],"regime":"trending"}
