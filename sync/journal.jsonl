@@ -910,3 +910,6 @@
 {"t":"2026-10-14T02:12:57.133Z","type":"order-placed","id":"94072601","orderId":"130","symbol":"BCO_USD","qty":230,"limit":109.174,"stop":107.39,"target":111.94,"strategy":"cfd-momentum-breakout","by":"auto","analystVerdict":null,"market":"cfd"}
 {"t":"2026-10-14T02:12:59.390Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
 {"t":"2026-10-14T02:13:00.444Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-14T02:13:59.919Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-14T02:14:01.533Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-10-14T02:14:02.618Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
