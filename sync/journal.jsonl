@@ -2323,3 +2323,6 @@
 {"t":"2026-10-14T13:02:00.154Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
 {"t":"2026-10-14T13:02:58.940Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
 {"t":"2026-10-14T13:03:00.252Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-14T13:04:00.739Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-14T13:04:02.946Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-14T13:05:13.898Z","type":"shadow-outcome","id":"XAG_USD-mv6t9b8s","symbol":"XAG_USD","strategy":"cfd-momentum-breakdown","source":"incubation","entry":59.48,"stop":60.24,"target":57.96,"status":"target","r":2,"exit":57.96,"openedAt":"2026-10-13T15:03:22.923Z","side":"sell","regime":"choppy"}
