@@ -6888,3 +6888,12 @@
 {"t":"2026-10-14T18:24:00.347Z","type":"thesis-counterfactual","id":"a34a1f1e","symbol":"PFE","strategy":"pullback-trend","filteredBy":["macro-cpi"],"entry":29.36,"stop":28.13,"target":31.82}
 {"t":"2026-10-14T18:24:00.355Z","type":"thesis-counterfactual","id":"2f2bd7b6","symbol":"DHR","strategy":"pullback-trend","filteredBy":["macro-cpi"],"entry":224.84,"stop":216.37,"target":241.78}
 {"t":"2026-10-14T18:24:00.362Z","type":"thesis-counterfactual","id":"a7afab35","symbol":"BAC","strategy":"mean-reversion","filteredBy":["macro-cpi","earnings-window","news-quiet","above-200-sma"],"entry":50.76,"stop":48.78,"target":55}
+{"t":"2026-10-14T18:24:04.186Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-14T18:24:06.292Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-14T18:24:07.775Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-14T18:25:00.441Z","type":"thesis-counterfactual","id":"e80042f8","symbol":"AAPL","strategy":"pullback-trend","filteredBy":["macro-cpi"],"entry":342.66,"stop":332.71,"target":362.56}
+{"t":"2026-10-14T18:25:00.447Z","type":"thesis-counterfactual","id":"a54eddbf","symbol":"UNH","strategy":"post-earnings-drift","filteredBy":["macro-cpi"],"entry":392.66,"stop":371.01,"target":435.96}
+{"t":"2026-10-14T18:25:00.453Z","type":"thesis-counterfactual","id":"eca32c25","symbol":"JNJ","strategy":"momentum-breakout","filteredBy":["macro-cpi","name-uptrend","market-uptrend"],"entry":253.48,"stop":251.8,"target":256.84}
+{"t":"2026-10-14T18:25:00.458Z","type":"thesis-counterfactual","id":"a3ac127b","symbol":"PFE","strategy":"pullback-trend","filteredBy":["macro-cpi"],"entry":29.38,"stop":28.13,"target":31.88}
+{"t":"2026-10-14T18:25:00.463Z","type":"thesis-counterfactual","id":"156934fd","symbol":"DHR","strategy":"pullback-trend","filteredBy":["macro-cpi"],"entry":225.14,"stop":216.67,"target":242.08}
+{"t":"2026-10-14T18:25:00.467Z","type":"thesis-counterfactual","id":"3c203957","symbol":"BAC","strategy":"mean-reversion","filteredBy":["macro-cpi","earnings-window","news-quiet","above-200-sma"],"entry":50.78,"stop":48.8,"target":55}
