@@ -6532,3 +6532,13 @@
 {"t":"2026-10-14T17:52:00.725Z","type":"thesis-counterfactual","id":"65b06b19","symbol":"PFE","strategy":"pullback-trend","filteredBy":["macro-cpi"],"entry":29.38,"stop":28.13,"target":31.88}
 {"t":"2026-10-14T17:52:00.729Z","type":"thesis-counterfactual","id":"ce12ccf8","symbol":"DHR","strategy":"pullback-trend","filteredBy":["macro-cpi"],"entry":224.36,"stop":215.89,"target":241.3}
 {"t":"2026-10-14T17:52:00.734Z","type":"thesis-counterfactual","id":"fdc863c8","symbol":"BAC","strategy":"mean-reversion","filteredBy":["macro-cpi","earnings-window","news-quiet","above-200-sma"],"entry":50.98,"stop":49,"target":55.01}
+{"t":"2026-10-14T17:52:06.300Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-14T17:52:09.421Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-14T17:52:11.133Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-14T17:52:59.367Z","type":"thesis-counterfactual","id":"002952c7","symbol":"AAPL","strategy":"pullback-trend","filteredBy":["macro-cpi"],"entry":342.27,"stop":332.32,"target":362.17}
+{"t":"2026-10-14T17:52:59.375Z","type":"thesis-counterfactual","id":"8b3ba1fe","symbol":"NVDA","strategy":"momentum-breakdown","filteredBy":["macro-cpi"],"entry":220.66,"stop":222.34,"target":217.3}
+{"t":"2026-10-14T17:52:59.381Z","type":"thesis-counterfactual","id":"8bd38417","symbol":"UNH","strategy":"post-earnings-drift","filteredBy":["macro-cpi"],"entry":390.4,"stop":368.75,"target":433.7}
+{"t":"2026-10-14T17:52:59.386Z","type":"thesis-counterfactual","id":"eb6d949b","symbol":"PFE","strategy":"pullback-trend","filteredBy":["macro-cpi"],"entry":29.38,"stop":28.13,"target":31.88}
+{"t":"2026-10-14T17:52:59.390Z","type":"thesis-counterfactual","id":"23a43735","symbol":"DHR","strategy":"pullback-trend","filteredBy":["macro-cpi"],"entry":224.36,"stop":215.89,"target":241.3}
+{"t":"2026-10-14T17:52:59.394Z","type":"thesis-counterfactual","id":"72dcfea1","symbol":"BAC","strategy":"mean-reversion","filteredBy":["macro-cpi","earnings-window","news-quiet","above-200-sma"],"entry":50.98,"stop":49,"target":55.01}
+{"t":"2026-10-14T17:53:01.313Z","type":"shadow-outcome","id":"45f9c11e","symbol":"NVDA","strategy":"momentum-breakdown:filtered","source":"filter-blocked","entry":224.3,"stop":226.08,"target":220.74,"status":"target","r":2,"exit":220.74,"openedAt":"2026-10-14T13:38:59.923Z","side":"sell","counterfactual":true,"filteredBy":["macro-cpi","name-downtrend","market-downtrend"],"regime":"trending"}
