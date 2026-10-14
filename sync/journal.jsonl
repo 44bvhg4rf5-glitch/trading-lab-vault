@@ -4879,3 +4879,13 @@
 {"t":"2026-10-14T15:48:58.878Z","type":"thesis-counterfactual","id":"9357eb00","symbol":"PFE","strategy":"pullback-trend","filteredBy":["macro-cpi"],"entry":29.19,"stop":28.13,"target":31.31}
 {"t":"2026-10-14T15:48:58.882Z","type":"thesis-counterfactual","id":"46686fe1","symbol":"DHR","strategy":"pullback-trend","filteredBy":["macro-cpi"],"entry":223.19,"stop":214.72,"target":240.13}
 {"t":"2026-10-14T15:48:58.886Z","type":"thesis-counterfactual","id":"1d177cc2","symbol":"BAC","strategy":"mean-reversion","filteredBy":["macro-cpi","earnings-window","news-quiet","above-200-sma"],"entry":50.53,"stop":48.55,"target":54.99}
+{"t":"2026-10-14T15:49:03.960Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-14T15:49:06.261Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-14T15:49:07.544Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-14T15:49:58.603Z","type":"thesis-counterfactual","id":"54303c1a","symbol":"AAPL","strategy":"pullback-trend","filteredBy":["macro-cpi"],"entry":345.94,"stop":335.99,"target":365.84}
+{"t":"2026-10-14T15:49:58.607Z","type":"thesis-counterfactual","id":"05d49f40","symbol":"UNH","strategy":"post-earnings-drift","filteredBy":["macro-cpi"],"entry":391.68,"stop":370.03,"target":434.98}
+{"t":"2026-10-14T15:49:58.612Z","type":"thesis-counterfactual","id":"a6cbb504","symbol":"NTAP","strategy":"momentum-breakdown","filteredBy":["macro-cpi","name-downtrend"],"entry":225.82,"stop":229.24,"target":218.98}
+{"t":"2026-10-14T15:49:58.617Z","type":"thesis-counterfactual","id":"c3f5a707","symbol":"HCA","strategy":"momentum-breakout","filteredBy":["macro-cpi","market-uptrend"],"entry":467.35,"stop":464.9,"target":472.25}
+{"t":"2026-10-14T15:49:58.621Z","type":"thesis-counterfactual","id":"4f4a3193","symbol":"PFE","strategy":"pullback-trend","filteredBy":["macro-cpi"],"entry":29.19,"stop":28.13,"target":31.31}
+{"t":"2026-10-14T15:49:58.625Z","type":"thesis-counterfactual","id":"92b3db3d","symbol":"DHR","strategy":"pullback-trend","filteredBy":["macro-cpi"],"entry":223.19,"stop":214.72,"target":240.13}
+{"t":"2026-10-14T15:49:58.630Z","type":"thesis-counterfactual","id":"f8193d6e","symbol":"BAC","strategy":"mean-reversion","filteredBy":["macro-cpi","earnings-window","news-quiet","above-200-sma"],"entry":50.53,"stop":48.55,"target":54.99}
