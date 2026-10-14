@@ -903,3 +903,8 @@
 {"t":"2026-10-14T02:09:09.706Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
 {"t":"2026-10-14T02:09:58.518Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
 {"t":"2026-10-14T02:10:59.065Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-14T02:11:58.648Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-14T02:12:56.891Z","type":"slippage","book":"cfd","phase":"entry","symbol":"WTICO_USD","side":"buy","intended":96.12,"filled":96.098,"costR":-0.013,"bps":2.3}
+{"t":"2026-10-14T02:12:56.891Z","type":"order-placed","id":"b9ecfb79","orderId":"126","symbol":"WTICO_USD","qty":262,"limit":96.098,"stop":94.49,"target":98.57,"strategy":"cfd-momentum-breakout","by":"auto","analystVerdict":null,"market":"cfd"}
+{"t":"2026-10-14T02:12:57.133Z","type":"slippage","book":"cfd","phase":"entry","symbol":"BCO_USD","side":"buy","intended":109.21,"filled":109.174,"costR":-0.02,"bps":3.3}
+{"t":"2026-10-14T02:12:57.133Z","type":"order-placed","id":"94072601","orderId":"130","symbol":"BCO_USD","qty":230,"limit":109.174,"stop":107.39,"target":111.94,"strategy":"cfd-momentum-breakout","by":"auto","analystVerdict":null,"market":"cfd"}
