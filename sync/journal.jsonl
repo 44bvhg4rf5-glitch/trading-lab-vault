@@ -4852,3 +4852,12 @@
 {"t":"2026-10-14T15:46:02.470Z","type":"thesis-counterfactual","id":"1507c850","symbol":"PFE","strategy":"pullback-trend","filteredBy":["macro-cpi"],"entry":29.19,"stop":28.13,"target":31.31}
 {"t":"2026-10-14T15:46:02.539Z","type":"thesis-counterfactual","id":"09c23237","symbol":"DHR","strategy":"pullback-trend","filteredBy":["macro-cpi"],"entry":223.19,"stop":214.72,"target":240.13}
 {"t":"2026-10-14T15:46:02.543Z","type":"thesis-counterfactual","id":"cb938546","symbol":"BAC","strategy":"mean-reversion","filteredBy":["macro-cpi","earnings-window","news-quiet","above-200-sma"],"entry":50.53,"stop":48.55,"target":54.99}
+{"t":"2026-10-14T15:46:08.479Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-14T15:46:11.079Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-14T15:46:12.426Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-14T15:46:59.907Z","type":"thesis-counterfactual","id":"e8ef7e88","symbol":"AAPL","strategy":"pullback-trend","filteredBy":["macro-cpi"],"entry":345.94,"stop":335.99,"target":365.84}
+{"t":"2026-10-14T15:46:59.913Z","type":"thesis-counterfactual","id":"54045acf","symbol":"UNH","strategy":"post-earnings-drift","filteredBy":["macro-cpi"],"entry":391.68,"stop":370.03,"target":434.98}
+{"t":"2026-10-14T15:46:59.917Z","type":"thesis-counterfactual","id":"8a5b953d","symbol":"HCA","strategy":"momentum-breakout","filteredBy":["macro-cpi","market-uptrend"],"entry":467.01,"stop":464.43,"target":472.17}
+{"t":"2026-10-14T15:46:59.922Z","type":"thesis-counterfactual","id":"a41e85ca","symbol":"PFE","strategy":"pullback-trend","filteredBy":["macro-cpi"],"entry":29.19,"stop":28.13,"target":31.31}
+{"t":"2026-10-14T15:46:59.928Z","type":"thesis-counterfactual","id":"b13a3e22","symbol":"DHR","strategy":"pullback-trend","filteredBy":["macro-cpi"],"entry":223.19,"stop":214.72,"target":240.13}
+{"t":"2026-10-14T15:46:59.932Z","type":"thesis-counterfactual","id":"505796f1","symbol":"BAC","strategy":"mean-reversion","filteredBy":["macro-cpi","earnings-window","news-quiet","above-200-sma"],"entry":50.53,"stop":48.55,"target":54.99}
