@@ -8426,3 +8426,5 @@
 {"t":"2026-10-14T21:06:01.949Z","type":"cfd-tick-error","error":"oanda GET /v3/accounts/101-004-40071397-001/summary: 401 Insufficient authorization to perform request."}
 {"t":"2026-10-14T21:06:04.215Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
 {"t":"2026-10-14T21:07:02.808Z","type":"cfd-tick-error","error":"oanda GET /v3/accounts/101-004-40071397-001/pricing?instruments=EUR_USD%2CGBP_USD%2CUSD_JPY%2CUSD_CHF%2CAUD_USD%2CUSD_CAD%2CNZD_USD%2CEUR_GBP%2CEUR_JPY%2CGBP_JPY%2CEUR_CHF%2CAUD_JPY%2CCAD_JPY%2CEUR_AUD%2CAUD_NZD%2CXAU_USD%2CXAG_USD%2CSPX500_USD%2CNAS100_USD%2CUS2000_USD%2CUK100_GBP%2CDE30_EUR%2CEU50_EUR%2CFR40_EUR%2CJP225_USD%2CAU200_AUD%2CHK33_HKD%2CWTICO_USD%2CBCO_USD: 401 Insufficient authorization to perform request."}
+{"t":"2026-10-14T21:07:05.185Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-14T21:08:07.557Z","type":"spread-dislocation","pair":"XAU_USD/XAG_USD","z":3.73,"halfLifeDays":7.4,"expectedGainBps":824.4,"costBps":73.3,"netBps":751.1,"richLeg":"XAU_USD","cheapLeg":"XAG_USD","reason":"XAU_USD is 3.73σ rich vs XAG_USD; 824.4bp of expected reversion against 73.3bp of cost, half-life 7.4d"}
