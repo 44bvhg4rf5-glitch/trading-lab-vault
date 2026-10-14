@@ -8430,3 +8430,5 @@
 {"t":"2026-10-14T21:08:07.557Z","type":"spread-dislocation","pair":"XAU_USD/XAG_USD","z":3.73,"halfLifeDays":7.4,"expectedGainBps":824.4,"costBps":73.3,"netBps":751.1,"richLeg":"XAU_USD","cheapLeg":"XAG_USD","reason":"XAU_USD is 3.73σ rich vs XAG_USD; 824.4bp of expected reversion against 73.3bp of cost, half-life 7.4d"}
 {"t":"2026-10-14T21:08:10.630Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
 {"t":"2026-10-14T21:08:11.818Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-14T21:08:59.726Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-14T21:09:00.943Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
