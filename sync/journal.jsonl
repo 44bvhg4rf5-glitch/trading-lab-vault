@@ -7680,3 +7680,14 @@
 {"t":"2026-10-14T19:23:00.639Z","type":"thesis-counterfactual","id":"d4292d0a","symbol":"DHR","strategy":"pullback-trend","filteredBy":["macro-cpi"],"entry":224.95,"stop":216.48,"target":241.89}
 {"t":"2026-10-14T19:23:00.643Z","type":"thesis-counterfactual","id":"42422ff2","symbol":"BAC","strategy":"mean-reversion","filteredBy":["macro-cpi","earnings-window","news-quiet","above-200-sma"],"entry":51.24,"stop":49.26,"target":55.03}
 {"t":"2026-10-14T19:23:12.250Z","type":"shadow-outcome","id":"cad49eb7","symbol":"ADI","strategy":"momentum-breakdown:filtered","source":"filter-blocked","entry":401.72,"stop":405.23,"target":394.7,"status":"stopped","r":-1,"exit":405.23,"openedAt":"2026-10-14T18:03:02.791Z","side":"sell","counterfactual":true,"filteredBy":["macro-cpi","name-downtrend"],"regime":"choppy"}
+{"t":"2026-10-14T19:23:14.890Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-14T19:23:17.340Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-14T19:23:18.646Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-14T19:23:59.964Z","type":"thesis-counterfactual","id":"fd26fc31","symbol":"AAPL","strategy":"pullback-trend","filteredBy":["macro-cpi"],"entry":343.04,"stop":333.09,"target":362.94}
+{"t":"2026-10-14T19:23:59.971Z","type":"thesis-counterfactual","id":"079e4c73","symbol":"BAC","strategy":"momentum-breakout","filteredBy":["macro-cpi","earnings-window","name-uptrend","market-uptrend"],"entry":51.36,"stop":50.77,"target":52.54}
+{"t":"2026-10-14T19:23:59.979Z","type":"thesis-counterfactual","id":"2cf3cc62","symbol":"UNH","strategy":"momentum-breakout","filteredBy":["macro-cpi","market-uptrend"],"entry":393.91,"stop":390.13,"target":401.47}
+{"t":"2026-10-14T19:23:59.986Z","type":"thesis-counterfactual","id":"7b790ac3","symbol":"UNH","strategy":"post-earnings-drift","filteredBy":["macro-cpi"],"entry":393.38,"stop":371.73,"target":436.68}
+{"t":"2026-10-14T19:23:59.992Z","type":"thesis-counterfactual","id":"72fa71b4","symbol":"ELV","strategy":"momentum-breakout","filteredBy":["macro-cpi","market-uptrend"],"entry":427.05,"stop":423.6,"target":433.95}
+{"t":"2026-10-14T19:23:59.997Z","type":"thesis-counterfactual","id":"d5c26175","symbol":"PFE","strategy":"pullback-trend","filteredBy":["macro-cpi"],"entry":29.29,"stop":28.13,"target":31.61}
+{"t":"2026-10-14T19:24:00.003Z","type":"thesis-counterfactual","id":"00e01aca","symbol":"DHR","strategy":"pullback-trend","filteredBy":["macro-cpi"],"entry":224.95,"stop":216.48,"target":241.89}
+{"t":"2026-10-14T19:24:00.010Z","type":"thesis-counterfactual","id":"4a52b107","symbol":"BAC","strategy":"mean-reversion","filteredBy":["macro-cpi","earnings-window","news-quiet","above-200-sma"],"entry":51.24,"stop":49.26,"target":55.03}
