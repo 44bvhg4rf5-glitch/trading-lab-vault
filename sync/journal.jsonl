@@ -4017,3 +4017,11 @@
 {"t":"2026-10-14T14:49:59.222Z","type":"thesis-counterfactual","id":"329deeab","symbol":"DHR","strategy":"pullback-trend","filteredBy":["macro-cpi"],"entry":223.43,"stop":215,"target":240.29}
 {"t":"2026-10-14T14:49:59.226Z","type":"thesis-counterfactual","id":"e2c844d6","symbol":"BAC","strategy":"mean-reversion","filteredBy":["macro-cpi","earnings-window","news-quiet","above-200-sma"],"entry":49.7,"stop":47.72,"target":54.95}
 {"t":"2026-10-14T14:50:00.570Z","type":"shadow-outcome","id":"afe7246c","symbol":"PFE","strategy":"momentum-breakout:filtered","source":"filter-blocked","entry":29.19,"stop":28.96,"target":29.65,"status":"stopped","r":-1,"exit":28.96,"openedAt":"2026-10-14T14:06:00.942Z","counterfactual":true,"filteredBy":["macro-cpi"],"regime":"trending"}
+{"t":"2026-10-14T14:50:02.782Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-14T14:50:04.675Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-14T14:50:05.932Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-14T14:50:59.618Z","type":"thesis-counterfactual","id":"17b69290","symbol":"AAPL","strategy":"pullback-trend","filteredBy":["macro-cpi"],"entry":345.71,"stop":335.76,"target":365.61}
+{"t":"2026-10-14T14:50:59.621Z","type":"thesis-counterfactual","id":"617b462a","symbol":"UNH","strategy":"post-earnings-drift","filteredBy":["macro-cpi"],"entry":387.49,"stop":365.84,"target":430.79}
+{"t":"2026-10-14T14:50:59.625Z","type":"thesis-counterfactual","id":"3ab2668a","symbol":"PFE","strategy":"pullback-trend","filteredBy":["macro-cpi"],"entry":29.05,"stop":28.13,"target":30.89}
+{"t":"2026-10-14T14:50:59.628Z","type":"thesis-counterfactual","id":"d56ad0fc","symbol":"DHR","strategy":"pullback-trend","filteredBy":["macro-cpi"],"entry":223.43,"stop":215,"target":240.29}
+{"t":"2026-10-14T14:50:59.632Z","type":"thesis-counterfactual","id":"74321b55","symbol":"BAC","strategy":"mean-reversion","filteredBy":["macro-cpi","earnings-window","news-quiet","above-200-sma"],"entry":49.7,"stop":47.72,"target":54.95}
