@@ -11955,3 +11955,11 @@
 {"t":"2026-10-15T14:45:05.253Z","type":"shadow-outcome","id":"2c8aab45","symbol":"PEP","strategy":"momentum-breakout:filtered","source":"filter-blocked","entry":132.67,"stop":131.51,"target":134.99,"status":"stopped","r":-1,"exit":131.51,"openedAt":"2026-10-15T13:56:59.079Z","counterfactual":true,"filteredBy":["market-uptrend"],"regime":"choppy"}
 {"t":"2026-10-15T14:45:05.253Z","type":"shadow-outcome","id":"3929e9f8","symbol":"PEP","strategy":"momentum-breakout:filtered","source":"filter-blocked","entry":132.65,"stop":131.45,"target":135.05,"status":"stopped","r":-1,"exit":131.45,"openedAt":"2026-10-15T13:59:58.510Z","counterfactual":true,"filteredBy":["market-uptrend"],"regime":"choppy"}
 {"t":"2026-10-15T14:45:05.254Z","type":"shadow-outcome","id":"cf239d0d","symbol":"ABBV","strategy":"momentum-breakout:filtered","source":"filter-blocked","entry":290.61,"stop":287.85,"target":296.13,"status":"stopped","r":-1,"exit":287.85,"openedAt":"2026-10-15T13:59:58.520Z","counterfactual":true,"filteredBy":["market-uptrend"],"regime":"choppy"}
+{"t":"2026-10-15T14:45:07.958Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-15T14:45:10.760Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-15T14:45:12.240Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-15T14:46:00.657Z","type":"thesis-counterfactual","id":"34d34712","symbol":"NFLX","strategy":"momentum-breakout","filteredBy":["market-uptrend"],"entry":72.81,"stop":71.88,"target":74.67}
+{"t":"2026-10-15T14:46:00.666Z","type":"thesis-counterfactual","id":"9c1a7630","symbol":"DIS","strategy":"momentum-breakout","filteredBy":["market-uptrend"],"entry":111.3,"stop":110.43,"target":113.04}
+{"t":"2026-10-15T14:46:00.675Z","type":"thesis-counterfactual","id":"cf40a820","symbol":"HLT","strategy":"momentum-breakout","filteredBy":["market-uptrend"],"entry":338.81,"stop":336.07,"target":344.29}
+{"t":"2026-10-15T14:46:00.682Z","type":"thesis-counterfactual","id":"83ac5e48","symbol":"MRNA","strategy":"momentum-breakout","filteredBy":["market-uptrend"],"entry":236.15,"stop":230.32,"target":247.81}
+{"t":"2026-10-15T14:46:00.690Z","type":"thesis-counterfactual","id":"77a22998","symbol":"BAC","strategy":"mean-reversion","filteredBy":["news-quiet","above-200-sma"],"entry":51.55,"stop":49.63,"target":54.7}
