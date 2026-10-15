@@ -13885,3 +13885,13 @@
 {"t":"2026-10-15T19:20:01.981Z","type":"thesis-counterfactual","id":"71e1c9f7","symbol":"PM","strategy":"momentum-breakdown","filteredBy":["name-downtrend","market-downtrend"],"entry":199.83,"stop":201.42,"target":196.65}
 {"t":"2026-10-15T19:20:01.988Z","type":"thesis-counterfactual","id":"89f0606f","symbol":"BAC","strategy":"mean-reversion","filteredBy":["news-quiet","above-200-sma"],"entry":51.8,"stop":49.88,"target":54.72}
 {"t":"2026-10-15T19:20:01.994Z","type":"thesis-counterfactual","id":"e22d4a54","symbol":"WMT","strategy":"mean-reversion-short","filteredBy":["news-quiet"],"entry":118.01,"stop":121.73,"target":109.02}
+{"t":"2026-10-15T19:20:10.012Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-15T19:20:12.949Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-15T19:20:14.075Z","type":"vault-pushed","files":["sync/equity-positions.json"]}
+{"t":"2026-10-15T19:20:15.411Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-15T19:21:03.828Z","type":"thesis-counterfactual","id":"a8bd4b9f","symbol":"CVX","strategy":"momentum-breakdown","filteredBy":["name-downtrend","market-downtrend"],"entry":218.69,"stop":219.66,"target":216.75}
+{"t":"2026-10-15T19:21:03.841Z","type":"thesis-counterfactual","id":"66b4a863","symbol":"KO","strategy":"momentum-breakdown","filteredBy":["name-downtrend","market-downtrend"],"entry":92.07,"stop":92.58,"target":91.05}
+{"t":"2026-10-15T19:21:03.850Z","type":"thesis-counterfactual","id":"83083dfd","symbol":"PEP","strategy":"momentum-breakdown","filteredBy":["name-downtrend","market-downtrend"],"entry":127.85,"stop":128.94,"target":125.67}
+{"t":"2026-10-15T19:21:03.857Z","type":"thesis-counterfactual","id":"ec960a95","symbol":"PM","strategy":"momentum-breakdown","filteredBy":["name-downtrend","market-downtrend"],"entry":199.94,"stop":201.53,"target":196.76}
+{"t":"2026-10-15T19:21:03.866Z","type":"thesis-counterfactual","id":"2ad961ae","symbol":"BAC","strategy":"mean-reversion","filteredBy":["news-quiet","above-200-sma"],"entry":51.8,"stop":49.88,"target":54.72}
+{"t":"2026-10-15T19:21:03.876Z","type":"thesis-counterfactual","id":"15e8c652","symbol":"WMT","strategy":"mean-reversion-short","filteredBy":["news-quiet"],"entry":118.01,"stop":121.73,"target":109.02}
