@@ -12789,3 +12789,10 @@
 {"t":"2026-10-15T16:56:05.836Z","type":"shadow-outcome","id":"b2451730","symbol":"CVX","strategy":"momentum-breakout:filtered","source":"filter-blocked","entry":221.06,"stop":219.66,"target":223.86,"status":"stopped","r":-1,"exit":219.66,"openedAt":"2026-10-14T16:13:59.437Z","counterfactual":true,"filteredBy":["macro-cpi","market-uptrend"],"regime":"choppy"}
 {"t":"2026-10-15T16:56:05.836Z","type":"shadow-outcome","id":"9ba946e4","symbol":"CVX","strategy":"momentum-breakout:filtered","source":"filter-blocked","entry":221.11,"stop":219.71,"target":223.91,"status":"stopped","r":-1,"exit":219.71,"openedAt":"2026-10-14T16:14:59.225Z","counterfactual":true,"filteredBy":["macro-cpi","market-uptrend"],"regime":"choppy"}
 {"t":"2026-10-15T16:56:05.918Z","type":"shadow-outcome","id":"d33a04fa","symbol":"JNJ","strategy":"momentum-breakout:filtered","source":"filter-blocked","entry":258.5,"stop":255.88,"target":263.74,"status":"stopped","r":-1,"exit":255.88,"openedAt":"2026-10-15T13:43:59.212Z","counterfactual":true,"filteredBy":["name-uptrend","market-uptrend"],"regime":"choppy"}
+{"t":"2026-10-15T16:56:08.594Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-15T16:56:11.248Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-15T16:56:12.380Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-15T16:56:59.369Z","type":"thesis-counterfactual","id":"d9e12a0b","symbol":"CVX","strategy":"momentum-breakdown","filteredBy":["name-downtrend"],"entry":219.62,"stop":220.74,"target":217.38}
+{"t":"2026-10-15T16:56:59.378Z","type":"thesis-counterfactual","id":"78efb670","symbol":"V","strategy":"momentum-breakout","filteredBy":["market-uptrend"],"entry":400.11,"stop":397.48,"target":405.37}
+{"t":"2026-10-15T16:56:59.388Z","type":"thesis-counterfactual","id":"c287232c","symbol":"PM","strategy":"momentum-breakdown","filteredBy":["name-downtrend"],"entry":201.37,"stop":203.18,"target":197.75}
+{"t":"2026-10-15T16:56:59.396Z","type":"thesis-counterfactual","id":"886800fa","symbol":"BAC","strategy":"mean-reversion","filteredBy":["news-quiet","above-200-sma"],"entry":51.81,"stop":49.89,"target":54.72}
