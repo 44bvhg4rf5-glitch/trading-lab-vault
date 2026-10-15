@@ -14399,3 +14399,7 @@
 {"t":"2026-10-15T21:00:02.812Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
 {"t":"2026-10-15T21:01:02.553Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
 {"t":"2026-10-15T21:01:56.525Z","type":"ai-error","at":"continuing-education","error":"ai cooling down until 2026-10-15T23:05:16.076Z (provider quota)"}
+{"t":"2026-10-15T21:02:03.960Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-15T21:02:05.142Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-10-15T21:03:10.281Z","type":"spread-dislocation","pair":"DE30_EUR/EU50_EUR","z":2.73,"halfLifeDays":5,"expectedGainBps":157.1,"costBps":18.3,"netBps":138.8,"richLeg":"DE30_EUR","cheapLeg":"EU50_EUR","reason":"DE30_EUR is 2.73σ rich vs EU50_EUR; 157.1bp of expected reversion against 18.3bp of cost, half-life 5d"}
+{"t":"2026-10-15T21:03:10.404Z","type":"thesis-incubation","id":"035b5bc8","strategy":"cfd-pair-reversion","symbol":"DE30_EUR/EU50_EUR","side":"sell","reason":"DE30_EUR is 2.73σ rich vs EU50_EUR — short the rich leg, buy the cheap one, exit when the ratio is back within 0.5σ of its 60-session mean","entry":1.4144863043864917,"stop":1.4231244694001834,"target":1.4016573783452535,"z":2.73,"mean":1.3987779900073563,"std":0.005758776675794554,"halfLifeDays":5,"legs":[{"symbol":"DE30_EUR","side":"sell"},{"symbol":"EU50_EUR","side":"buy"}],"maxHoldDays":15,"meta":{"unit":"log-spread","a":"DE30_EUR","b":"EU50_EUR","expectedGainBps":157.1,"costBps":18.3,"netBps":138.8},"market":"cfd-pair","createdAt":"2026-10-15T21:03:10.404Z"}
