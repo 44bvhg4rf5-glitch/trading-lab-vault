@@ -8777,3 +8777,7 @@
 {"t":"2026-10-14T23:58:09.562Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
 {"t":"2026-10-14T23:59:00.003Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
 {"t":"2026-10-14T23:59:01.287Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-14T23:59:59.788Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-15T00:00:01.049Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-15T00:00:57.171Z","type":"macro-guard","label":"CPI release","scope":"crypto"}
+{"t":"2026-10-15T00:00:57.450Z","type":"macro-guard","label":"CPI release","scope":"cfd"}
