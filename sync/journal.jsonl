@@ -13412,3 +13412,10 @@
 {"t":"2026-10-15T18:20:05.855Z","type":"shadow-outcome","id":"2473d00f","symbol":"ISRG","strategy":"momentum-breakout:filtered","source":"filter-blocked","entry":420.91,"stop":417.63,"target":427.47,"status":"target","r":2,"exit":427.47,"openedAt":"2026-10-15T13:41:01.051Z","counterfactual":true,"filteredBy":["market-uptrend"],"regime":"choppy"}
 {"t":"2026-10-15T18:20:05.909Z","type":"shadow-outcome","id":"d68513c4","symbol":"ISRG","strategy":"momentum-breakout:filtered","source":"filter-blocked","entry":420.77,"stop":417.45,"target":427.41,"status":"target","r":2,"exit":427.41,"openedAt":"2026-10-15T13:44:58.593Z","counterfactual":true,"filteredBy":["market-uptrend"],"regime":"choppy"}
 {"t":"2026-10-15T18:20:05.909Z","type":"shadow-outcome","id":"a72d53c8","symbol":"ISRG","strategy":"momentum-breakout:filtered","source":"filter-blocked","entry":420.46,"stop":417.14,"target":427.1,"status":"target","r":2,"exit":427.1,"openedAt":"2026-10-15T13:46:00.407Z","counterfactual":true,"filteredBy":["market-uptrend"],"regime":"choppy"}
+{"t":"2026-10-15T18:20:08.634Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-15T18:20:10.936Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-15T18:20:12.233Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-15T18:21:02.260Z","type":"thesis-counterfactual","id":"0da9628e","symbol":"V","strategy":"momentum-breakout","filteredBy":["market-uptrend"],"entry":402.03,"stop":399.5,"target":407.09}
+{"t":"2026-10-15T18:21:02.270Z","type":"thesis-counterfactual","id":"bfc7f83d","symbol":"MA","strategy":"momentum-breakout","filteredBy":["market-uptrend"],"entry":617.75,"stop":613.82,"target":625.61}
+{"t":"2026-10-15T18:21:02.277Z","type":"thesis-counterfactual","id":"8def5efe","symbol":"ISRG","strategy":"momentum-breakout","filteredBy":["market-uptrend"],"entry":427.39,"stop":424.63,"target":432.91}
+{"t":"2026-10-15T18:21:02.284Z","type":"thesis-counterfactual","id":"79102826","symbol":"BAC","strategy":"mean-reversion","filteredBy":["news-quiet","above-200-sma"],"entry":51.69,"stop":49.77,"target":54.71}
