@@ -8781,3 +8781,6 @@
 {"t":"2026-10-15T00:00:01.049Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
 {"t":"2026-10-15T00:00:57.171Z","type":"macro-guard","label":"CPI release","scope":"crypto"}
 {"t":"2026-10-15T00:00:57.450Z","type":"macro-guard","label":"CPI release","scope":"cfd"}
+{"t":"2026-10-15T00:01:00.296Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-15T00:01:01.438Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-10-15T00:01:02.622Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
