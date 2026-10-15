@@ -12148,3 +12148,7 @@
 {"t":"2026-10-15T15:02:22.548Z","type":"vault-pushed","files":["sync/shadow.json"]}
 {"t":"2026-10-15T15:02:24.395Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
 {"t":"2026-10-15T15:03:00.752Z","type":"thesis-counterfactual","id":"26c0df37","symbol":"BAC","strategy":"mean-reversion","filteredBy":["news-quiet","above-200-sma"],"entry":51.44,"stop":49.52,"target":54.7}
+{"t":"2026-10-15T15:03:08.733Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-15T15:03:11.974Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-15T15:03:13.213Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-15T15:04:00.350Z","type":"thesis-counterfactual","id":"aed267ac","symbol":"BAC","strategy":"mean-reversion","filteredBy":["news-quiet","above-200-sma"],"entry":51.44,"stop":49.52,"target":54.7}
