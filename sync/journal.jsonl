@@ -13350,3 +13350,11 @@
 {"t":"2026-10-15T18:13:21.714Z","type":"shadow-outcome","id":"88293b12","symbol":"HLT","strategy":"momentum-breakout:filtered","source":"filter-blocked","entry":337.59,"stop":334.87,"target":343.03,"status":"target","r":2,"exit":343.03,"openedAt":"2026-10-15T14:21:59.787Z","counterfactual":true,"filteredBy":["market-uptrend"],"regime":"choppy"}
 {"t":"2026-10-15T18:13:21.714Z","type":"shadow-outcome","id":"d01aa58b","symbol":"HLT","strategy":"momentum-breakout:filtered","source":"filter-blocked","entry":337.58,"stop":334.86,"target":343.02,"status":"target","r":2,"exit":343.02,"openedAt":"2026-10-15T14:23:59.534Z","counterfactual":true,"filteredBy":["market-uptrend"],"regime":"choppy"}
 {"t":"2026-10-15T18:13:21.714Z","type":"shadow-outcome","id":"aaeca7de","symbol":"HLT","strategy":"momentum-breakout:filtered","source":"filter-blocked","entry":337.51,"stop":334.79,"target":342.95,"status":"target","r":2,"exit":342.95,"openedAt":"2026-10-15T14:24:59.212Z","counterfactual":true,"filteredBy":["market-uptrend"],"regime":"choppy"}
+{"t":"2026-10-15T18:13:24.638Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-15T18:13:27.496Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-15T18:13:28.807Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-15T18:14:02.000Z","type":"thesis-counterfactual","id":"b1911abc","symbol":"V","strategy":"momentum-breakout","filteredBy":["market-uptrend"],"entry":401.84,"stop":399.16,"target":407.2}
+{"t":"2026-10-15T18:14:02.036Z","type":"thesis-counterfactual","id":"3902ee83","symbol":"MA","strategy":"momentum-breakout","filteredBy":["market-uptrend"],"entry":617.39,"stop":613.23,"target":625.71}
+{"t":"2026-10-15T18:14:02.056Z","type":"thesis-counterfactual","id":"42b54e5b","symbol":"HLT","strategy":"momentum-breakout","filteredBy":["market-uptrend"],"entry":343.08,"stop":340.61,"target":348.02}
+{"t":"2026-10-15T18:14:02.086Z","type":"thesis-counterfactual","id":"70d1edc4","symbol":"PM","strategy":"momentum-breakdown","filteredBy":["name-downtrend"],"entry":200.55,"stop":202.36,"target":196.93}
+{"t":"2026-10-15T18:14:02.111Z","type":"thesis-counterfactual","id":"93421b91","symbol":"BAC","strategy":"mean-reversion","filteredBy":["news-quiet","above-200-sma"],"entry":51.69,"stop":49.77,"target":54.71}
