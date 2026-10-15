@@ -13772,3 +13772,21 @@
 {"t":"2026-10-15T19:09:10.135Z","type":"auto-skip","id":"5a7aa973","reason":"limit is not defined"}
 {"t":"2026-10-15T19:09:10.378Z","type":"auto-skip","id":"f0bf3d7e","reason":"limit is not defined"}
 {"t":"2026-10-15T19:09:10.617Z","type":"auto-skip","id":"5151c2c1","reason":"limit is not defined"}
+{"t":"2026-10-15T19:09:13.055Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-15T19:09:15.408Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-15T19:09:16.780Z","type":"vault-pushed","files":["sync/equity-positions.json"]}
+{"t":"2026-10-15T19:09:17.935Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-15T19:09:56.141Z","type":"fill","orderId":"91092800-fc79-484e-864e-81951f1ce60a","symbol":"ISRG","side":"buy","qty":"41","avgPrice":"428","legs":0,"clientId":"tl-5151c2c1"}
+{"t":"2026-10-15T19:09:56.141Z","type":"fill","orderId":"7f8018e7-955c-4e43-80a5-9578cbe98574","symbol":"AMZN","side":"buy","qty":"69","avgPrice":"255.07","legs":0,"clientId":"tl-f0bf3d7e"}
+{"t":"2026-10-15T19:09:56.141Z","type":"fill","orderId":"a66e3cb3-a8b3-4c7d-9cd6-e125b48a01df","symbol":"MA","side":"buy","qty":"28","avgPrice":"619.39","legs":0,"clientId":"tl-5a7aa973"}
+{"t":"2026-10-15T19:09:56.141Z","type":"fill","orderId":"b012eb37-6cdd-4c1d-8a42-dd92b0843136","symbol":"V","side":"buy","qty":"43","avgPrice":"403.06","legs":0,"clientId":"tl-7212745a"}
+{"t":"2026-10-15T19:09:56.141Z","type":"fill","orderId":"39bf2954-4098-4d3a-a6c3-f5f43c999d84","symbol":"MSFT","side":"buy","qty":"32","avgPrice":"540.59","legs":0,"clientId":"tl-fa1ebcad"}
+{"t":"2026-10-15T19:10:01.110Z","type":"thesis-counterfactual","id":"f1a1c60f","symbol":"CVX","strategy":"momentum-breakdown","filteredBy":["name-downtrend","market-downtrend"],"entry":218.93,"stop":219.91,"target":216.97}
+{"t":"2026-10-15T19:10:01.118Z","type":"thesis-counterfactual","id":"dff36c0b","symbol":"KO","strategy":"momentum-breakdown","filteredBy":["name-downtrend","market-downtrend"],"entry":92.19,"stop":92.66,"target":91.25}
+{"t":"2026-10-15T19:10:01.127Z","type":"thesis-counterfactual","id":"072fc5ca","symbol":"BAC","strategy":"mean-reversion","filteredBy":["news-quiet","above-200-sma"],"entry":51.77,"stop":49.85,"target":54.72}
+{"t":"2026-10-15T19:10:01.134Z","type":"thesis-counterfactual","id":"6d0fef90","symbol":"WMT","strategy":"mean-reversion-short","filteredBy":["news-quiet"],"entry":118.23,"stop":121.95,"target":109.03}
+{"t":"2026-10-15T19:10:02.014Z","type":"slippage","book":"equities","phase":"entry","symbol":"MSFT","side":"buy","intended":540.54,"filled":540.59,"costR":0.017,"bps":0.9}
+{"t":"2026-10-15T19:10:02.099Z","type":"slippage","book":"equities","phase":"entry","symbol":"V","side":"buy","intended":402.7,"filled":403.06,"costR":0.149,"bps":8.9}
+{"t":"2026-10-15T19:10:02.176Z","type":"slippage","book":"equities","phase":"entry","symbol":"MA","side":"buy","intended":618.76,"filled":619.39,"costR":0.176,"bps":10.2}
+{"t":"2026-10-15T19:10:02.253Z","type":"slippage","book":"equities","phase":"entry","symbol":"AMZN","side":"buy","intended":254.56,"filled":255.07,"costR":0.305,"bps":20}
+{"t":"2026-10-15T19:10:02.330Z","type":"slippage","book":"equities","phase":"entry","symbol":"ISRG","side":"buy","intended":427.85,"filled":428,"costR":0.06,"bps":3.5}
