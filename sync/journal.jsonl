@@ -13574,3 +13574,9 @@
 {"t":"2026-10-15T18:41:02.825Z","type":"thesis-counterfactual","id":"139869e8","symbol":"WMT","strategy":"momentum-breakdown","filteredBy":["name-downtrend"],"entry":118.39,"stop":119.31,"target":116.55}
 {"t":"2026-10-15T18:41:02.833Z","type":"thesis-counterfactual","id":"fe882b93","symbol":"HLT","strategy":"momentum-breakout","filteredBy":["market-uptrend"],"entry":343.53,"stop":341.2,"target":348.19}
 {"t":"2026-10-15T18:41:02.839Z","type":"thesis-counterfactual","id":"2bb6fcb7","symbol":"BAC","strategy":"mean-reversion","filteredBy":["news-quiet","above-200-sma"],"entry":51.77,"stop":49.85,"target":54.72}
+{"t":"2026-10-15T18:41:10.913Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-15T18:41:13.940Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-15T18:41:15.127Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-15T18:42:01.777Z","type":"thesis-counterfactual","id":"fba2bd1a","symbol":"WMT","strategy":"momentum-breakdown","filteredBy":["name-downtrend"],"entry":118.35,"stop":119.27,"target":116.51}
+{"t":"2026-10-15T18:42:01.787Z","type":"thesis-counterfactual","id":"d22b5093","symbol":"HLT","strategy":"momentum-breakout","filteredBy":["market-uptrend"],"entry":343.56,"stop":341.23,"target":348.22}
+{"t":"2026-10-15T18:42:01.795Z","type":"thesis-counterfactual","id":"7a802023","symbol":"BAC","strategy":"mean-reversion","filteredBy":["news-quiet","above-200-sma"],"entry":51.77,"stop":49.85,"target":54.72}
