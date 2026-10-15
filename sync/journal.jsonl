@@ -11816,3 +11816,10 @@
 {"t":"2026-10-15T14:31:03.127Z","type":"thesis-counterfactual","id":"2c2e4adc","symbol":"HLT","strategy":"momentum-breakout","filteredBy":["market-uptrend"],"entry":338.1,"stop":335.34,"target":343.62}
 {"t":"2026-10-15T14:31:03.136Z","type":"thesis-counterfactual","id":"4674ddd0","symbol":"BAC","strategy":"mean-reversion","filteredBy":["news-quiet","above-200-sma"],"entry":51.19,"stop":49.27,"target":54.69}
 {"t":"2026-10-15T14:31:18.557Z","type":"shadow-outcome","id":"d4c7d44c","symbol":"MA","strategy":"momentum-breakout:filtered","source":"filter-blocked","entry":615.16,"stop":610.71,"target":624.06,"status":"stopped","r":-1,"exit":610.71,"openedAt":"2026-10-15T13:38:00.692Z","counterfactual":true,"filteredBy":["market-uptrend"],"regime":"choppy"}
+{"t":"2026-10-15T14:31:21.622Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-15T14:31:24.432Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-15T14:31:25.669Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-15T14:32:01.846Z","type":"thesis-counterfactual","id":"92e62910","symbol":"HLT","strategy":"momentum-breakout","filteredBy":["market-uptrend"],"entry":338.85,"stop":336.18,"target":344.19}
+{"t":"2026-10-15T14:32:01.855Z","type":"thesis-counterfactual","id":"e15c07b4","symbol":"BAC","strategy":"mean-reversion","filteredBy":["news-quiet","above-200-sma"],"entry":51.19,"stop":49.27,"target":54.69}
+{"t":"2026-10-15T14:32:06.237Z","type":"shadow-outcome","id":"8a1ce1b8","symbol":"HLT","strategy":"momentum-breakout:filtered","source":"filter-blocked","entry":334.15,"stop":331.99,"target":338.47,"status":"target","r":2,"exit":338.47,"openedAt":"2026-10-15T13:33:07.221Z","counterfactual":true,"filteredBy":["market-uptrend"],"regime":"choppy"}
+{"t":"2026-10-15T14:32:06.238Z","type":"shadow-outcome","id":"14ebb11c","symbol":"HLT","strategy":"momentum-breakout:filtered","source":"filter-blocked","entry":334.15,"stop":331.99,"target":338.47,"status":"target","r":2,"exit":338.47,"openedAt":"2026-10-15T13:34:03.405Z","counterfactual":true,"filteredBy":["market-uptrend"],"regime":"choppy"}
