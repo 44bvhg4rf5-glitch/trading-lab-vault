@@ -14267,3 +14267,10 @@
 {"t":"2026-10-15T20:00:06.624Z","type":"shadow-outcome","id":"2e45cb99","symbol":"V","strategy":"momentum-breakout:filtered","source":"filter-blocked","entry":402.13,"stop":399.6,"target":407.19,"status":"stopped","r":-1,"exit":399.6,"openedAt":"2026-10-15T18:18:01.387Z","counterfactual":true,"filteredBy":["market-uptrend"],"regime":"choppy"}
 {"t":"2026-10-15T20:00:06.624Z","type":"shadow-outcome","id":"6d9a07e8","symbol":"V","strategy":"momentum-breakout:filtered","source":"filter-blocked","entry":402.11,"stop":399.58,"target":407.17,"status":"stopped","r":-1,"exit":399.58,"openedAt":"2026-10-15T18:19:00.865Z","counterfactual":true,"filteredBy":["market-uptrend"],"regime":"choppy"}
 {"t":"2026-10-15T20:00:06.624Z","type":"shadow-outcome","id":"047aa14d","symbol":"V","strategy":"momentum-breakout:filtered","source":"filter-blocked","entry":402.1,"stop":399.57,"target":407.16,"status":"stopped","r":-1,"exit":399.57,"openedAt":"2026-10-15T18:20:00.573Z","counterfactual":true,"filteredBy":["market-uptrend"],"regime":"choppy"}
+{"t":"2026-10-15T20:00:09.466Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-15T20:00:11.528Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-15T20:00:12.770Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-15T20:00:58.957Z","type":"ai-error","at":"post-mortem","error":"ai cooling down until 2026-10-15T23:05:16.076Z (provider quota)"}
+{"t":"2026-10-15T20:01:04.033Z","type":"vault-pushed","date":"2026-10-15","repo":"44bvhg4rf5-glitch/trading-lab-vault","files":["digests/2026-10-15.md","journal/2026-10-15.jsonl","lessons/lesson-book.md"]}
+{"t":"2026-10-15T20:01:04.033Z","type":"digest","date":"2026-10-15","entries":5113,"vaultPushed":true}
+{"t":"2026-10-15T20:01:04.185Z","type":"ai-error","at":"continuing-education","error":"ai cooling down until 2026-10-15T23:05:16.076Z (provider quota)"}
