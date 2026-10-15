@@ -10049,3 +10049,7 @@
 {"t":"2026-10-15T13:06:00.935Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
 {"t":"2026-10-15T13:06:02.314Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
 {"t":"2026-10-15T13:07:25.491Z","type":"ai-error","at":"briefing","error":"ai cooling down until 2026-10-15T16:38:56.231Z (provider quota)"}
+{"t":"2026-10-15T13:07:32.873Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-15T13:07:34.168Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-10-15T13:07:35.379Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-15T13:08:13.152Z","type":"thesis-incubation","strategy":"cfd-momentum-breakdown","market":"cfd","symbol":"AUD_JPY","side":"sell","entry":108.95,"stop":109.49,"target":107.87,"reason":"AUD_JPY broke its 20-hour low (109.02) on 1.3× average volume, below its 20-day average. Stop 2.5×ATR above, target 2R.","maxHoldDays":5,"createdAt":"2026-10-15T13:08:13.152Z"}
