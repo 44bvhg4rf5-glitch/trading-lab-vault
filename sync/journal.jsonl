@@ -13496,3 +13496,11 @@
 {"t":"2026-10-15T18:31:05.866Z","type":"thesis-counterfactual","id":"5abfa0f3","symbol":"MA","strategy":"momentum-breakout","filteredBy":["market-uptrend"],"entry":618.21,"stop":614.44,"target":625.75}
 {"t":"2026-10-15T18:31:05.872Z","type":"thesis-counterfactual","id":"7e6ac943","symbol":"BAC","strategy":"mean-reversion","filteredBy":["news-quiet","above-200-sma"],"entry":51.63,"stop":49.71,"target":54.71}
 {"t":"2026-10-15T18:31:11.858Z","type":"shadow-outcome","id":"0347fdbd","symbol":"CVX","strategy":"momentum-breakout:filtered","source":"filter-blocked","entry":220.75,"stop":219.33,"target":223.59,"status":"stopped","r":-1,"exit":219.33,"openedAt":"2026-10-14T15:14:59.435Z","counterfactual":true,"filteredBy":["macro-cpi"],"regime":"trending"}
+{"t":"2026-10-15T18:31:14.489Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-15T18:31:17.023Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-15T18:31:18.269Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-15T18:32:04.087Z","type":"thesis-counterfactual","id":"acac923a","symbol":"CVX","strategy":"momentum-breakdown","filteredBy":["name-downtrend"],"entry":219.16,"stop":220.19,"target":217.1}
+{"t":"2026-10-15T18:32:04.208Z","type":"thesis-counterfactual","id":"27e56b98","symbol":"V","strategy":"momentum-breakout","filteredBy":["market-uptrend"],"entry":402.5,"stop":400.01,"target":407.48}
+{"t":"2026-10-15T18:32:04.231Z","type":"thesis-counterfactual","id":"924def4b","symbol":"MA","strategy":"momentum-breakout","filteredBy":["market-uptrend"],"entry":618.21,"stop":614.44,"target":625.75}
+{"t":"2026-10-15T18:32:04.315Z","type":"thesis-counterfactual","id":"4e34e3c9","symbol":"BAC","strategy":"mean-reversion","filteredBy":["news-quiet","above-200-sma"],"entry":51.63,"stop":49.71,"target":54.71}
+{"t":"2026-10-15T18:32:09.638Z","type":"shadow-outcome","id":"254fd6ee","symbol":"CVX","strategy":"momentum-breakout:filtered","source":"filter-blocked","entry":220.51,"stop":219.22,"target":223.09,"status":"stopped","r":-1,"exit":219.22,"openedAt":"2026-10-14T13:33:02.564Z","counterfactual":true,"filteredBy":["macro-cpi"],"regime":"trending"}
