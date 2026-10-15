@@ -13876,3 +13876,12 @@
 {"t":"2026-10-15T19:19:03.223Z","type":"thesis-counterfactual","id":"cc03a7f6","symbol":"PM","strategy":"momentum-breakdown","filteredBy":["name-downtrend","market-downtrend"],"entry":199.84,"stop":201.43,"target":196.66}
 {"t":"2026-10-15T19:19:03.230Z","type":"thesis-counterfactual","id":"75b2ebee","symbol":"BAC","strategy":"mean-reversion","filteredBy":["news-quiet","above-200-sma"],"entry":51.8,"stop":49.88,"target":54.72}
 {"t":"2026-10-15T19:19:03.236Z","type":"thesis-counterfactual","id":"b4d2ecdc","symbol":"WMT","strategy":"mean-reversion-short","filteredBy":["news-quiet"],"entry":118.01,"stop":121.73,"target":109.02}
+{"t":"2026-10-15T19:19:10.676Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-15T19:19:14.455Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-15T19:19:15.670Z","type":"vault-pushed","files":["sync/equity-positions.json"]}
+{"t":"2026-10-15T19:19:16.951Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-15T19:20:01.967Z","type":"thesis-counterfactual","id":"094e1873","symbol":"CVX","strategy":"momentum-breakdown","filteredBy":["name-downtrend","market-downtrend"],"entry":218.59,"stop":219.56,"target":216.65}
+{"t":"2026-10-15T19:20:01.975Z","type":"thesis-counterfactual","id":"0bf48997","symbol":"PEP","strategy":"momentum-breakdown","filteredBy":["name-downtrend","market-downtrend"],"entry":128.57,"stop":129.66,"target":126.39}
+{"t":"2026-10-15T19:20:01.981Z","type":"thesis-counterfactual","id":"71e1c9f7","symbol":"PM","strategy":"momentum-breakdown","filteredBy":["name-downtrend","market-downtrend"],"entry":199.83,"stop":201.42,"target":196.65}
+{"t":"2026-10-15T19:20:01.988Z","type":"thesis-counterfactual","id":"89f0606f","symbol":"BAC","strategy":"mean-reversion","filteredBy":["news-quiet","above-200-sma"],"entry":51.8,"stop":49.88,"target":54.72}
+{"t":"2026-10-15T19:20:01.994Z","type":"thesis-counterfactual","id":"e22d4a54","symbol":"WMT","strategy":"mean-reversion-short","filteredBy":["news-quiet"],"entry":118.01,"stop":121.73,"target":109.02}
