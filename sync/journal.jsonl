@@ -12169,3 +12169,11 @@
 {"t":"2026-10-15T15:06:14.821Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
 {"t":"2026-10-15T15:07:00.909Z","type":"thesis-counterfactual","id":"4ed58fba","symbol":"BAC","strategy":"mean-reversion","filteredBy":["news-quiet","above-200-sma"],"entry":51.44,"stop":49.52,"target":54.7}
 {"t":"2026-10-15T15:07:04.748Z","type":"shadow-outcome","id":"ef412672","symbol":"KR","strategy":"momentum-breakout:filtered","source":"filter-blocked","entry":64.31,"stop":63.57,"target":65.79,"status":"stopped","r":-1,"exit":63.57,"openedAt":"2026-10-15T13:39:59.827Z","counterfactual":true,"filteredBy":["market-uptrend"],"regime":"choppy"}
+{"t":"2026-10-15T15:07:08.238Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-15T15:07:09.502Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-10-15T15:07:11.970Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-15T15:07:13.222Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-15T15:07:59.982Z","type":"thesis-counterfactual","id":"c2042489","symbol":"BAC","strategy":"mean-reversion","filteredBy":["news-quiet","above-200-sma"],"entry":51.44,"stop":49.52,"target":54.7}
+{"t":"2026-10-15T15:08:03.522Z","type":"shadow-outcome","id":"94626336","symbol":"KO","strategy":"momentum-breakout:filtered","source":"filter-blocked","entry":93.4,"stop":92.85,"target":94.5,"status":"stopped","r":-1,"exit":92.85,"openedAt":"2026-10-15T13:31:22.615Z","counterfactual":true,"filteredBy":["market-uptrend"],"regime":"choppy"}
+{"t":"2026-10-15T15:08:03.522Z","type":"shadow-outcome","id":"TSLA-mv9kupe9","symbol":"TSLA","strategy":"momentum-breakdown","source":"incubation","entry":358.58,"stop":362.17,"target":351.4,"status":"stopped","r":-1,"exit":362.17,"openedAt":"2026-10-15T13:31:23.024Z","side":"sell","regime":"choppy"}
+{"t":"2026-10-15T15:08:03.523Z","type":"shadow-outcome","id":"9edf07fc","symbol":"KO","strategy":"momentum-breakout:filtered","source":"filter-blocked","entry":93.4,"stop":92.85,"target":94.5,"status":"stopped","r":-1,"exit":92.85,"openedAt":"2026-10-15T13:32:08.404Z","counterfactual":true,"filteredBy":["market-uptrend"],"regime":"choppy"}
