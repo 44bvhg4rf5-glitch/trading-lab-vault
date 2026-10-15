@@ -12499,3 +12499,8 @@
 {"t":"2026-10-15T16:05:26.250Z","type":"shadow-outcome","id":"caa958dc","symbol":"KDP","strategy":"momentum-breakout:filtered","source":"filter-blocked","entry":34.15,"stop":33.78,"target":34.89,"status":"stopped","r":-1,"exit":33.78,"openedAt":"2026-10-15T13:39:00.641Z","counterfactual":true,"filteredBy":["market-uptrend"],"regime":"choppy"}
 {"t":"2026-10-15T16:05:26.252Z","type":"shadow-outcome","id":"SPX500_USD-mv9lvwjd","symbol":"SPX500_USD","strategy":"cfd-momentum-breakdown","source":"incubation","entry":7688.1,"stop":7729.85,"target":7604.6,"status":"stopped","r":-1,"exit":7729.85,"openedAt":"2026-10-15T14:00:18.552Z","side":"sell","regime":"choppy"}
 {"t":"2026-10-15T16:05:26.253Z","type":"shadow-outcome","id":"NAS100_USD-mv9lvwkv","symbol":"NAS100_USD","strategy":"cfd-momentum-breakdown","source":"incubation","entry":29503.6,"stop":29819.16,"target":28872.48,"status":"stopped","r":-1,"exit":29819.16,"openedAt":"2026-10-15T14:00:18.606Z","side":"sell","regime":"choppy"}
+{"t":"2026-10-15T16:05:28.670Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-15T16:05:31.149Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-15T16:05:33.037Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-15T16:06:02.538Z","type":"thesis-counterfactual","id":"c852c388","symbol":"PM","strategy":"momentum-breakdown","filteredBy":["name-downtrend"],"entry":202.04,"stop":203.97,"target":198.18}
+{"t":"2026-10-15T16:06:02.547Z","type":"thesis-counterfactual","id":"b3ab45b0","symbol":"BAC","strategy":"mean-reversion","filteredBy":["news-quiet","above-200-sma"],"entry":51.33,"stop":49.41,"target":54.69}
