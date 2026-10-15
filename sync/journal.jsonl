@@ -9627,3 +9627,6 @@
 {"t":"2026-10-15T09:38:10.440Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
 {"t":"2026-10-15T09:38:11.477Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
 {"t":"2026-10-15T09:38:55.965Z","type":"ai-error","at":"continuing-education","error":"ai cooling down until 2026-10-15T12:08:56.267Z (provider quota)"}
+{"t":"2026-10-15T09:39:00.666Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-15T09:39:01.798Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-10-15T09:39:02.988Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
