@@ -13954,3 +13954,12 @@
 {"t":"2026-10-15T19:28:00.946Z","type":"thesis-counterfactual","id":"9b3b5a66","symbol":"CVX","strategy":"momentum-breakdown","filteredBy":["name-downtrend","market-downtrend"],"entry":218.71,"stop":219.68,"target":216.77}
 {"t":"2026-10-15T19:28:00.956Z","type":"thesis-counterfactual","id":"e7994007","symbol":"PEP","strategy":"momentum-breakdown","filteredBy":["name-downtrend","market-downtrend"],"entry":128.52,"stop":129.64,"target":126.28}
 {"t":"2026-10-15T19:28:00.965Z","type":"thesis-counterfactual","id":"9b935337","symbol":"BAC","strategy":"mean-reversion","filteredBy":["news-quiet","above-200-sma"],"entry":51.84,"stop":49.92,"target":54.72}
+{"t":"2026-10-15T19:28:14.851Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-15T19:28:16.808Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-15T19:28:17.996Z","type":"vault-pushed","files":["sync/equity-positions.json"]}
+{"t":"2026-10-15T19:28:19.219Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-15T19:29:00.900Z","type":"thesis-counterfactual","id":"07a18668","symbol":"CVX","strategy":"momentum-breakdown","filteredBy":["name-downtrend","market-downtrend"],"entry":218.81,"stop":219.78,"target":216.87}
+{"t":"2026-10-15T19:29:00.911Z","type":"thesis-counterfactual","id":"109e304e","symbol":"KO","strategy":"momentum-breakdown","filteredBy":["name-downtrend","market-downtrend"],"entry":92.01,"stop":92.53,"target":90.97}
+{"t":"2026-10-15T19:29:00.920Z","type":"thesis-counterfactual","id":"81a0c614","symbol":"PEP","strategy":"momentum-breakdown","filteredBy":["name-downtrend","market-downtrend"],"entry":128.21,"stop":129.33,"target":125.97}
+{"t":"2026-10-15T19:29:00.929Z","type":"thesis-counterfactual","id":"6add1ff2","symbol":"PM","strategy":"momentum-breakdown","filteredBy":["name-downtrend","market-downtrend"],"entry":199.93,"stop":201.53,"target":196.73}
+{"t":"2026-10-15T19:29:00.940Z","type":"thesis-counterfactual","id":"5285f5a9","symbol":"BAC","strategy":"mean-reversion","filteredBy":["news-quiet","above-200-sma"],"entry":51.84,"stop":49.92,"target":54.72}
