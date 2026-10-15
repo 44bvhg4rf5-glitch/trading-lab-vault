@@ -12164,3 +12164,8 @@
 {"t":"2026-10-15T15:06:01.849Z","type":"thesis-counterfactual","id":"8a3ab8b1","symbol":"BAC","strategy":"mean-reversion","filteredBy":["news-quiet","above-200-sma"],"entry":51.44,"stop":49.52,"target":54.7}
 {"t":"2026-10-15T15:06:08.376Z","type":"slippage","book":"cfd","phase":"entry","symbol":"WTICO_USD","side":"buy","intended":97.52,"filled":97.471,"costR":-0.023,"bps":5}
 {"t":"2026-10-15T15:06:08.376Z","type":"order-placed","id":"2b4fdba7","orderId":"161","symbol":"WTICO_USD","qty":241,"limit":97.471,"stop":95.37,"target":100.74,"strategy":"cfd-momentum-breakout","by":"auto","analystVerdict":null,"market":"cfd"}
+{"t":"2026-10-15T15:06:10.835Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-15T15:06:13.607Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-15T15:06:14.821Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-15T15:07:00.909Z","type":"thesis-counterfactual","id":"4ed58fba","symbol":"BAC","strategy":"mean-reversion","filteredBy":["news-quiet","above-200-sma"],"entry":51.44,"stop":49.52,"target":54.7}
+{"t":"2026-10-15T15:07:04.748Z","type":"shadow-outcome","id":"ef412672","symbol":"KR","strategy":"momentum-breakout:filtered","source":"filter-blocked","entry":64.31,"stop":63.57,"target":65.79,"status":"stopped","r":-1,"exit":63.57,"openedAt":"2026-10-15T13:39:59.827Z","counterfactual":true,"filteredBy":["market-uptrend"],"regime":"choppy"}
