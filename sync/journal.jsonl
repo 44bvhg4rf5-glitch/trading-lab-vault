@@ -11710,3 +11710,11 @@
 {"t":"2026-10-15T14:13:59.078Z","type":"thesis-counterfactual","id":"6bc0a1af","symbol":"HLT","strategy":"momentum-breakout","filteredBy":["market-uptrend"],"entry":336.85,"stop":334.12,"target":342.31}
 {"t":"2026-10-15T14:13:59.089Z","type":"thesis-counterfactual","id":"73384bbd","symbol":"MRNA","strategy":"momentum-breakout","filteredBy":["market-uptrend"],"entry":231.91,"stop":226.26,"target":243.21}
 {"t":"2026-10-15T14:13:59.100Z","type":"thesis-counterfactual","id":"4f108749","symbol":"BAC","strategy":"mean-reversion","filteredBy":["news-quiet","above-200-sma"],"entry":51.34,"stop":49.42,"target":54.69}
+{"t":"2026-10-15T14:14:04.547Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-15T14:14:07.912Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-15T14:14:09.899Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-15T14:14:59.178Z","type":"thesis-counterfactual","id":"5c62e43b","symbol":"HD","strategy":"momentum-breakout","filteredBy":["market-uptrend"],"entry":308,"stop":304.57,"target":314.86}
+{"t":"2026-10-15T14:14:59.189Z","type":"thesis-counterfactual","id":"ecacbcd3","symbol":"HLT","strategy":"momentum-breakout","filteredBy":["market-uptrend"],"entry":337.23,"stop":334.45,"target":342.79}
+{"t":"2026-10-15T14:14:59.198Z","type":"thesis-counterfactual","id":"4e829f2d","symbol":"MRNA","strategy":"momentum-breakout","filteredBy":["market-uptrend"],"entry":232.43,"stop":226.77,"target":243.75}
+{"t":"2026-10-15T14:14:59.208Z","type":"thesis-counterfactual","id":"f88810ed","symbol":"BAC","strategy":"mean-reversion","filteredBy":["news-quiet","above-200-sma"],"entry":51.34,"stop":49.42,"target":54.69}
+{"t":"2026-10-15T14:15:02.418Z","type":"shadow-outcome","id":"97e0d93f","symbol":"CRM","strategy":"momentum-breakout:filtered","source":"filter-blocked","entry":240.66,"stop":238.32,"target":245.34,"status":"target","r":2,"exit":245.34,"openedAt":"2026-10-15T13:35:02.986Z","counterfactual":true,"filteredBy":["market-uptrend"],"regime":"choppy"}
