@@ -11728,3 +11728,8 @@
 {"t":"2026-10-15T14:16:08.423Z","type":"shadow-outcome","id":"5859842f","symbol":"CRM","strategy":"momentum-breakout:filtered","source":"filter-blocked","entry":240.98,"stop":238.64,"target":245.66,"status":"target","r":2,"exit":245.66,"openedAt":"2026-10-15T13:36:05.047Z","counterfactual":true,"filteredBy":["market-uptrend"],"regime":"choppy"}
 {"t":"2026-10-15T14:16:08.424Z","type":"shadow-outcome","id":"669a621a","symbol":"CRM","strategy":"momentum-breakout:filtered","source":"filter-blocked","entry":240.9,"stop":238.53,"target":245.64,"status":"target","r":2,"exit":245.64,"openedAt":"2026-10-15T13:37:02.145Z","counterfactual":true,"filteredBy":["market-uptrend"],"regime":"choppy"}
 {"t":"2026-10-15T14:16:08.424Z","type":"shadow-outcome","id":"68a3c501","symbol":"CRM","strategy":"momentum-breakout:filtered","source":"filter-blocked","entry":240.92,"stop":238.55,"target":245.66,"status":"target","r":2,"exit":245.66,"openedAt":"2026-10-15T13:38:00.531Z","counterfactual":true,"filteredBy":["market-uptrend"],"regime":"choppy"}
+{"t":"2026-10-15T14:16:11.159Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-15T14:16:14.143Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-15T14:16:16.435Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-15T14:17:00.709Z","type":"thesis-counterfactual","id":"b6cae181","symbol":"HD","strategy":"momentum-breakout","filteredBy":["market-uptrend"],"entry":308.6,"stop":305.34,"target":315.12}
+{"t":"2026-10-15T14:17:00.718Z","type":"thesis-counterfactual","id":"e698837c","symbol":"BAC","strategy":"mean-reversion","filteredBy":["news-quiet","above-200-sma"],"entry":51.34,"stop":49.42,"target":54.69}
