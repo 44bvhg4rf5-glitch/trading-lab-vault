@@ -12219,3 +12219,10 @@
 {"t":"2026-10-15T15:13:11.545Z","type":"shadow-outcome","id":"bc4e4897","symbol":"MRNA","strategy":"momentum-breakout:filtered","source":"filter-blocked","entry":231.19,"stop":225.77,"target":242.03,"status":"target","r":2,"exit":242.03,"openedAt":"2026-10-15T14:05:00.329Z","counterfactual":true,"filteredBy":["market-uptrend"],"regime":"choppy"}
 {"t":"2026-10-15T15:13:11.546Z","type":"shadow-outcome","id":"72de5e39","symbol":"MRNA","strategy":"momentum-breakout:filtered","source":"filter-blocked","entry":231.13,"stop":225.71,"target":241.97,"status":"target","r":2,"exit":241.97,"openedAt":"2026-10-15T14:06:00.941Z","counterfactual":true,"filteredBy":["market-uptrend"],"regime":"choppy"}
 {"t":"2026-10-15T15:13:11.546Z","type":"shadow-outcome","id":"3ae0e0d9","symbol":"MRNA","strategy":"momentum-breakout:filtered","source":"filter-blocked","entry":230.99,"stop":225.52,"target":241.93,"status":"target","r":2,"exit":241.93,"openedAt":"2026-10-15T14:11:00.326Z","counterfactual":true,"filteredBy":["market-uptrend"],"regime":"choppy"}
+{"t":"2026-10-15T15:13:14.953Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-15T15:13:18.014Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-15T15:13:19.511Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-15T15:13:59.107Z","type":"thesis-counterfactual","id":"01d68c2d","symbol":"AMZN","strategy":"momentum-breakout","filteredBy":["name-uptrend","market-uptrend"],"entry":254.35,"stop":251.99,"target":259.07}
+{"t":"2026-10-15T15:13:59.116Z","type":"thesis-counterfactual","id":"032ca620","symbol":"HLT","strategy":"momentum-breakout","filteredBy":["market-uptrend"],"entry":341.41,"stop":338.58,"target":347.07}
+{"t":"2026-10-15T15:13:59.124Z","type":"thesis-counterfactual","id":"b00d6add","symbol":"MRNA","strategy":"momentum-breakout","filteredBy":["market-uptrend"],"entry":240.89,"stop":234.67,"target":253.33}
+{"t":"2026-10-15T15:13:59.132Z","type":"thesis-counterfactual","id":"40cb120c","symbol":"BAC","strategy":"mean-reversion","filteredBy":["news-quiet","above-200-sma"],"entry":51.44,"stop":49.52,"target":54.7}
