@@ -17143,3 +17143,10 @@
 {"t":"2026-10-16T13:51:15.421Z","type":"shadow-outcome","id":"c4764f9d","symbol":"COST","strategy":"momentum-breakdown:filtered","source":"filter-blocked","entry":980.25,"stop":986.43,"target":967.89,"status":"stopped","r":-1,"exit":986.43,"openedAt":"2026-10-15T19:56:03.824Z","side":"sell","counterfactual":true,"filteredBy":["name-downtrend","market-downtrend"],"regime":"trending"}
 {"t":"2026-10-16T13:51:15.422Z","type":"shadow-outcome","id":"77f26257","symbol":"COST","strategy":"momentum-breakdown:filtered","source":"filter-blocked","entry":979.88,"stop":986.06,"target":967.52,"status":"stopped","r":-1,"exit":986.06,"openedAt":"2026-10-15T19:57:01.030Z","side":"sell","counterfactual":true,"filteredBy":["name-downtrend","market-downtrend"],"regime":"trending"}
 {"t":"2026-10-16T13:51:15.424Z","type":"shadow-outcome","id":"ACN-mvb0b3ac","symbol":"ACN","strategy":"momentum-breakout","source":"gate-blocked","entry":230.22,"stop":227.09,"target":236.48,"status":"stopped","r":-1,"exit":227.09,"openedAt":"2026-10-16T13:31:47.940Z","regime":"trending","conviction":78}
+{"t":"2026-10-16T13:51:19.001Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-16T13:51:21.700Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-16T13:51:22.968Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-16T13:52:02.314Z","type":"thesis-counterfactual","id":"1000338d","symbol":"MRNA","strategy":"momentum-breakdown","filteredBy":["name-downtrend","market-downtrend"],"entry":221.07,"stop":228.11,"target":206.99}
+{"t":"2026-10-16T13:52:02.322Z","type":"thesis-counterfactual","id":"97479f4e","symbol":"BAC","strategy":"mean-reversion","filteredBy":["above-200-sma"],"entry":52.25,"stop":50.39,"target":54.44}
+{"t":"2026-10-16T13:52:02.329Z","type":"thesis-counterfactual","id":"e2d92538","symbol":"STX","strategy":"mean-reversion","filteredBy":["above-200-sma"],"entry":662.64,"stop":589.27,"target":835.99}
+{"t":"2026-10-16T13:52:03.789Z","type":"equity-stop-trailed","id":"5a7aa973","symbol":"MA","from":615.18,"to":618.88,"breakeven":false}
