@@ -18430,3 +18430,8 @@
 {"t":"2026-10-16T18:25:20.273Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
 {"t":"2026-10-16T18:26:05.270Z","type":"thesis-counterfactual","id":"f00073ce","symbol":"AAPL","strategy":"momentum-breakdown","filteredBy":["name-downtrend"],"entry":341.9,"stop":344.69,"target":336.32}
 {"t":"2026-10-16T18:26:05.279Z","type":"thesis-counterfactual","id":"178d57c6","symbol":"COST","strategy":"momentum-breakout","filteredBy":["market-uptrend"],"entry":992.62,"stop":988.25,"target":1001.36}
+{"t":"2026-10-16T18:26:15.902Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-16T18:26:18.430Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-16T18:26:19.447Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-16T18:27:02.825Z","type":"thesis-counterfactual","id":"ef075048","symbol":"AAPL","strategy":"momentum-breakdown","filteredBy":["name-downtrend"],"entry":341.54,"stop":344.35,"target":335.92}
+{"t":"2026-10-16T18:27:02.835Z","type":"thesis-counterfactual","id":"e35dc6be","symbol":"COST","strategy":"momentum-breakout","filteredBy":["market-uptrend"],"entry":992.7,"stop":988.33,"target":1001.44}
