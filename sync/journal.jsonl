@@ -18027,3 +18027,11 @@
 {"t":"2026-10-16T16:48:16.673Z","type":"vault-pushed","files":["sync/shadow.json"]}
 {"t":"2026-10-16T16:48:17.946Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
 {"t":"2026-10-16T16:49:02.419Z","type":"thesis-counterfactual","id":"62a3fb36","symbol":"BAC","strategy":"mean-reversion","filteredBy":["news-quiet","above-200-sma"],"entry":51.86,"stop":49.95,"target":54.42}
+{"t":"2026-10-16T16:49:12.789Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-16T16:49:13.847Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-10-16T16:49:16.572Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-16T16:49:17.650Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-16T16:50:01.159Z","type":"thesis-counterfactual","id":"b4bb27a0","symbol":"BAC","strategy":"mean-reversion","filteredBy":["news-quiet","above-200-sma"],"entry":51.86,"stop":49.95,"target":54.42}
+{"t":"2026-10-16T16:50:07.205Z","type":"shadow-outcome","id":"e0df6dc8","symbol":"BAC","strategy":"momentum-breakout:filtered","source":"filter-blocked","entry":52.24,"stop":51.8,"target":53.12,"status":"stopped","r":-1,"exit":51.8,"openedAt":"2026-10-16T13:43:02.643Z","counterfactual":true,"filteredBy":["name-uptrend"],"regime":"trending"}
+{"t":"2026-10-16T16:50:07.206Z","type":"shadow-outcome","id":"4cc99580","symbol":"BAC","strategy":"momentum-breakout:filtered","source":"filter-blocked","entry":52.24,"stop":51.8,"target":53.12,"status":"stopped","r":-1,"exit":51.8,"openedAt":"2026-10-16T13:44:02.036Z","counterfactual":true,"filteredBy":["name-uptrend"],"regime":"trending"}
+{"t":"2026-10-16T16:50:07.206Z","type":"shadow-outcome","id":"b8342a18","symbol":"BAC","strategy":"momentum-breakout:filtered","source":"filter-blocked","entry":52.22,"stop":51.78,"target":53.1,"status":"stopped","r":-1,"exit":51.78,"openedAt":"2026-10-16T13:45:01.813Z","counterfactual":true,"filteredBy":["name-uptrend"],"regime":"trending"}
