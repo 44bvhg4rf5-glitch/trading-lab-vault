@@ -17275,3 +17275,10 @@
 {"t":"2026-10-16T14:05:16.201Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
 {"t":"2026-10-16T14:06:04.100Z","type":"thesis-counterfactual","id":"38edb9fe","symbol":"BAC","strategy":"mean-reversion","filteredBy":["news-quiet","above-200-sma"],"entry":52.15,"stop":50.29,"target":54.43}
 {"t":"2026-10-16T14:06:04.127Z","type":"thesis-counterfactual","id":"fc22139c","symbol":"STX","strategy":"mean-reversion","filteredBy":["news-quiet","above-200-sma"],"entry":657.43,"stop":583.4,"target":835.73}
+{"t":"2026-10-16T14:06:14.278Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-16T14:06:17.176Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-16T14:06:18.388Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-16T14:07:02.064Z","type":"thesis-counterfactual","id":"fa07663a","symbol":"BAC","strategy":"mean-reversion","filteredBy":["news-quiet","above-200-sma"],"entry":52.15,"stop":50.29,"target":54.43}
+{"t":"2026-10-16T14:07:02.075Z","type":"thesis-counterfactual","id":"129926c8","symbol":"STX","strategy":"mean-reversion","filteredBy":["news-quiet","above-200-sma"],"entry":657.43,"stop":583.4,"target":835.73}
+{"t":"2026-10-16T14:07:07.644Z","type":"slippage","book":"cfd","phase":"entry","symbol":"UK100_GBP","side":"buy","intended":10886.1,"filled":10881.1,"costR":-0.063,"bps":4.6}
+{"t":"2026-10-16T14:07:07.646Z","type":"order-placed","id":"934275f0","orderId":"174","symbol":"UK100_GBP","qty":1.6,"limit":10881.1,"stop":10806.98,"target":11004.78,"strategy":"cfd-momentum-breakout","by":"auto","analystVerdict":null,"market":"cfd"}
