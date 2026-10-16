@@ -17348,3 +17348,9 @@
 {"t":"2026-10-16T14:22:10.320Z","type":"vault-pushed","files":["sync/shadow.json"]}
 {"t":"2026-10-16T14:22:11.438Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
 {"t":"2026-10-16T14:23:00.573Z","type":"thesis-counterfactual","id":"6511affa","symbol":"BAC","strategy":"momentum-breakout","filteredBy":["name-uptrend","market-uptrend"],"entry":52.39,"stop":51.94,"target":53.29}
+{"t":"2026-10-16T14:23:07.614Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-16T14:23:10.493Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-16T14:23:11.810Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-16T14:23:56.539Z","type":"fill","orderId":"6d523f08-b79c-48d0-abe1-8bf87416afed","symbol":"MA","side":"sell","qty":"28","avgPrice":"618.8","legs":0,"clientId":"23fc8f4f-4fee-4b8e-afc1-defb62416c91"}
+{"t":"2026-10-16T14:24:02.322Z","type":"thesis-counterfactual","id":"21afa4c0","symbol":"BAC","strategy":"momentum-breakout","filteredBy":["name-uptrend","market-uptrend"],"entry":52.4,"stop":51.95,"target":53.3}
+{"t":"2026-10-16T14:24:03.750Z","type":"equity-position-closed","sleeve":false,"qty":28,"id":"5a7aa973","symbol":"MA","status":"stopped","r":0.01,"exit":618.8,"approx":false,"entry":618.76,"stop":615.18,"target":625.92,"strategy":"momentum-breakout","regime":"trending","peakR":1.03,"captureRatio":0.01}
