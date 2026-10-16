@@ -17365,3 +17365,8 @@
 {"t":"2026-10-16T14:25:10.273Z","type":"vault-pushed","files":["sync/shadow.json"]}
 {"t":"2026-10-16T14:25:11.476Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
 {"t":"2026-10-16T14:26:00.632Z","type":"thesis-counterfactual","id":"c7220f75","symbol":"BAC","strategy":"momentum-breakout","filteredBy":["name-uptrend","market-uptrend"],"entry":52.45,"stop":52,"target":53.35}
+{"t":"2026-10-16T14:26:07.857Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-16T14:26:10.587Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-16T14:26:12.177Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-16T14:27:00.279Z","type":"thesis-counterfactual","id":"d49aab8c","symbol":"BAC","strategy":"momentum-breakout","filteredBy":["name-uptrend","market-uptrend"],"entry":52.43,"stop":51.98,"target":53.33}
+{"t":"2026-10-16T14:27:03.933Z","type":"shadow-outcome","id":"CVX-mvb0b3a5","symbol":"CVX","strategy":"momentum-breakout","source":"gate-blocked","entry":222.76,"stop":221.24,"target":225.8,"status":"stopped","r":-1,"exit":221.24,"openedAt":"2026-10-16T13:31:47.932Z","regime":"trending","conviction":78}
