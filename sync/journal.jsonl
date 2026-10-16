@@ -18867,3 +18867,7 @@
 {"t":"2026-10-16T20:01:05.829Z","type":"vault-pushed","date":"2026-10-16","repo":"44bvhg4rf5-glitch/trading-lab-vault","files":["digests/2026-10-16.md","journal/2026-10-16.jsonl","lessons/lesson-book.md"]}
 {"t":"2026-10-16T20:01:05.829Z","type":"digest","date":"2026-10-16","entries":3589,"vaultPushed":true}
 {"t":"2026-10-16T20:01:06.045Z","type":"ai-error","at":"continuing-education","error":"ai cooling down until 2026-10-16T20:02:35.044Z (provider quota)"}
+{"t":"2026-10-16T20:01:15.842Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-16T20:01:17.143Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-10-16T20:01:20.093Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-16T20:01:21.311Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
