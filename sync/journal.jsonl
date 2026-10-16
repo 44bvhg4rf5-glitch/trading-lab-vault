@@ -17459,3 +17459,7 @@
 {"t":"2026-10-16T14:50:14.896Z","type":"vault-pushed","files":["sync/shadow.json"]}
 {"t":"2026-10-16T14:50:15.994Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
 {"t":"2026-10-16T14:51:02.964Z","type":"thesis-counterfactual","id":"0a3cb4d5","symbol":"HCA","strategy":"momentum-breakdown","filteredBy":["name-downtrend","market-downtrend"],"entry":464.63,"stop":468.68,"target":456.53}
+{"t":"2026-10-16T14:51:08.807Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-16T14:51:11.027Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-16T14:51:12.401Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-16T14:52:02.540Z","type":"thesis-counterfactual","id":"691cf4e7","symbol":"HCA","strategy":"momentum-breakdown","filteredBy":["name-downtrend","market-downtrend"],"entry":464.19,"stop":468.28,"target":456.01}
