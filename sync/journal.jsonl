@@ -17801,3 +17801,8 @@
 {"t":"2026-10-16T16:06:05.794Z","type":"thesis-counterfactual","id":"c4fa6eaa","symbol":"BAC","strategy":"mean-reversion","filteredBy":["news-quiet","above-200-sma"],"entry":52.12,"stop":50.21,"target":54.43}
 {"t":"2026-10-16T16:06:12.010Z","type":"slippage","book":"cfd","phase":"entry","symbol":"BCO_USD","side":"buy","intended":109.22,"filled":109.527,"costR":0.141,"bps":28.1}
 {"t":"2026-10-16T16:06:12.010Z","type":"order-placed","id":"50c49479","orderId":"178","symbol":"BCO_USD","qty":228,"limit":109.527,"stop":107.04,"target":112.49,"strategy":"cfd-momentum-breakout","by":"auto","analystVerdict":null,"market":"cfd"}
+{"t":"2026-10-16T16:06:15.048Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-16T16:06:17.592Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-16T16:06:18.710Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-16T16:07:04.519Z","type":"thesis-counterfactual","id":"a1ab4984","symbol":"HCA","strategy":"momentum-breakdown","filteredBy":["name-downtrend"],"entry":462.48,"stop":466.03,"target":455.38}
+{"t":"2026-10-16T16:07:04.527Z","type":"thesis-counterfactual","id":"384d74a2","symbol":"BAC","strategy":"mean-reversion","filteredBy":["news-quiet","above-200-sma"],"entry":52.12,"stop":50.21,"target":54.43}
