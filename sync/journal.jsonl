@@ -18440,3 +18440,9 @@
 {"t":"2026-10-16T18:27:17.154Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
 {"t":"2026-10-16T18:28:02.253Z","type":"thesis-counterfactual","id":"a2a204ff","symbol":"AAPL","strategy":"momentum-breakdown","filteredBy":["name-downtrend"],"entry":341.37,"stop":344.22,"target":335.67}
 {"t":"2026-10-16T18:28:02.264Z","type":"thesis-counterfactual","id":"09f40439","symbol":"COST","strategy":"momentum-breakout","filteredBy":["market-uptrend"],"entry":992.7,"stop":988.33,"target":1001.44}
+{"t":"2026-10-16T18:28:11.229Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-16T18:28:13.675Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-16T18:28:14.752Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-16T18:29:05.337Z","type":"thesis-counterfactual","id":"d25d9c1b","symbol":"AAPL","strategy":"momentum-breakdown","filteredBy":["name-downtrend"],"entry":341.3,"stop":344.17,"target":335.56}
+{"t":"2026-10-16T18:29:05.344Z","type":"thesis-counterfactual","id":"9dbc3318","symbol":"COST","strategy":"momentum-breakout","filteredBy":["market-uptrend"],"entry":992.76,"stop":988.39,"target":1001.5}
+{"t":"2026-10-16T18:29:18.115Z","type":"shadow-outcome","id":"V-mvb0bphv","symbol":"V","strategy":"momentum-breakout","source":"gate-blocked","entry":403.54,"stop":400.42,"target":409.78,"status":"stopped","r":-1,"exit":400.42,"openedAt":"2026-10-16T13:32:16.722Z","regime":"trending","conviction":65}
