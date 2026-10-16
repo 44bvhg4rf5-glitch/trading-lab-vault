@@ -18397,3 +18397,6 @@
 {"t":"2026-10-16T18:18:32.653Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
 {"t":"2026-10-16T18:19:04.083Z","type":"thesis-counterfactual","id":"3ee1eb63","symbol":"COST","strategy":"momentum-breakout","filteredBy":["market-uptrend"],"entry":992.37,"stop":988.06,"target":1000.99}
 {"t":"2026-10-16T18:19:14.674Z","type":"cfd-tick-error","error":"oanda GET /v3/accounts/101-004-40071397-001/summary: 401 Insufficient authorization to perform request."}
+{"t":"2026-10-16T18:19:17.838Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-16T18:19:19.662Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-16T18:20:03.748Z","type":"thesis-counterfactual","id":"75226f18","symbol":"COST","strategy":"momentum-breakout","filteredBy":["market-uptrend"],"entry":992.37,"stop":988.06,"target":1000.99}
