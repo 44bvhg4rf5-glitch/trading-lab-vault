@@ -18550,3 +18550,6 @@
 {"t":"2026-10-16T18:56:13.806Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
 {"t":"2026-10-16T18:56:14.858Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
 {"t":"2026-10-16T18:57:02.713Z","type":"thesis-counterfactual","id":"082962a3","symbol":"AAPL","strategy":"momentum-breakdown","filteredBy":["name-downtrend"],"entry":340.52,"stop":343.34,"target":334.88}
+{"t":"2026-10-16T18:57:14.073Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-16T18:57:16.941Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-16T18:57:18.064Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
