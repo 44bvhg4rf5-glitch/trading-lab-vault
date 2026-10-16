@@ -18230,3 +18230,11 @@
 {"t":"2026-10-16T17:21:16.363Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
 {"t":"2026-10-16T17:22:02.955Z","type":"thesis-counterfactual","id":"25b065f7","symbol":"MA","strategy":"momentum-breakdown","filteredBy":["name-downtrend"],"entry":613.65,"stop":616.8,"target":607.35}
 {"t":"2026-10-16T17:22:02.964Z","type":"thesis-counterfactual","id":"ed33bfbc","symbol":"HCA","strategy":"momentum-breakdown","filteredBy":["name-downtrend"],"entry":459.48,"stop":462.73,"target":452.98}
+{"t":"2026-10-16T17:22:11.338Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-16T17:22:13.275Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-16T17:22:14.239Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-16T17:23:01.307Z","type":"thesis-counterfactual","id":"693c10db","symbol":"MA","strategy":"momentum-breakdown","filteredBy":["name-downtrend"],"entry":613.61,"stop":616.77,"target":607.29}
+{"t":"2026-10-16T17:23:01.315Z","type":"thesis-counterfactual","id":"ed67dc75","symbol":"HCA","strategy":"momentum-breakdown","filteredBy":["name-downtrend"],"entry":459.58,"stop":462.83,"target":453.08}
+{"t":"2026-10-16T17:23:06.235Z","type":"shadow-outcome","id":"f62aba63","symbol":"BAC","strategy":"momentum-breakout:filtered","source":"filter-blocked","entry":51.88,"stop":51.48,"target":52.68,"status":"stopped","r":-1,"exit":51.48,"openedAt":"2026-10-16T13:31:43.869Z","counterfactual":true,"filteredBy":["name-uptrend"],"regime":"trending"}
+{"t":"2026-10-16T17:23:06.235Z","type":"shadow-outcome","id":"a6a737cb","symbol":"BAC","strategy":"momentum-breakout:filtered","source":"filter-blocked","entry":51.88,"stop":51.48,"target":52.68,"status":"stopped","r":-1,"exit":51.48,"openedAt":"2026-10-16T13:32:16.268Z","counterfactual":true,"filteredBy":["name-uptrend"],"regime":"trending"}
+{"t":"2026-10-16T17:23:06.236Z","type":"shadow-outcome","id":"ed362698","symbol":"BAC","strategy":"momentum-breakout:filtered","source":"filter-blocked","entry":51.88,"stop":51.48,"target":52.68,"status":"stopped","r":-1,"exit":51.48,"openedAt":"2026-10-16T13:35:06.822Z","counterfactual":true,"filteredBy":["name-uptrend"],"regime":"trending"}
