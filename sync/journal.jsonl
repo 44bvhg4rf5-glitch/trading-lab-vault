@@ -17334,3 +17334,8 @@
 {"t":"2026-10-16T14:18:10.667Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
 {"t":"2026-10-16T14:19:08.861Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
 {"t":"2026-10-16T14:19:10.083Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-16T14:20:10.284Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-16T14:20:11.449Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-16T14:21:01.362Z","type":"thesis-counterfactual","id":"e48be6ca","symbol":"BAC","strategy":"momentum-breakout","filteredBy":["name-uptrend","market-uptrend"],"entry":52.41,"stop":51.97,"target":53.29}
+{"t":"2026-10-16T14:21:07.453Z","type":"shadow-outcome","id":"55e3aa35","symbol":"BAC","strategy":"momentum-breakout:filtered","source":"filter-blocked","entry":51.2,"stop":50.6,"target":52.4,"status":"target","r":2,"exit":52.4,"openedAt":"2026-10-14T19:10:00.661Z","counterfactual":true,"filteredBy":["macro-cpi","earnings-window","name-uptrend","market-uptrend"],"regime":"choppy"}
+{"t":"2026-10-16T14:21:07.453Z","type":"shadow-outcome","id":"c4fda5d6","symbol":"BAC","strategy":"momentum-breakout:filtered","source":"filter-blocked","entry":51.2,"stop":50.6,"target":52.4,"status":"target","r":2,"exit":52.4,"openedAt":"2026-10-14T19:11:00.180Z","counterfactual":true,"filteredBy":["macro-cpi","earnings-window","name-uptrend","market-uptrend"],"regime":"choppy"}
