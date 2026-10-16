@@ -18565,3 +18565,9 @@
 {"t":"2026-10-16T19:00:45.157Z","type":"vault-pushed","files":["sync/shadow.json"]}
 {"t":"2026-10-16T19:01:08.627Z","type":"thesis-counterfactual","id":"5a5aa3be","symbol":"HCA","strategy":"momentum-breakdown","filteredBy":["name-downtrend"],"entry":458.85,"stop":461.55,"target":453.45}
 {"t":"2026-10-16T19:01:26.318Z","type":"thesis-incubation","strategy":"cfd-momentum-breakdown","market":"cfd","symbol":"EU50_EUR","side":"sell","entry":6160.2,"stop":6205.61,"target":6069.38,"reason":"EU50_EUR broke its 20-hour low (6165.7) on 1.7× average volume, below its 20-day average. Stop 2.5×ATR above, target 2R.","maxHoldDays":5,"createdAt":"2026-10-16T19:01:26.318Z"}
+{"t":"2026-10-16T19:01:29.645Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-16T19:01:32.076Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-16T19:01:33.163Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-16T19:02:07.107Z","type":"thesis-counterfactual","id":"f115a872","symbol":"HCA","strategy":"momentum-breakdown","filteredBy":["name-downtrend"],"entry":458.31,"stop":460.89,"target":453.15}
+{"t":"2026-10-16T19:02:13.923Z","type":"shadow-outcome","id":"ffab8606","symbol":"HCA","strategy":"momentum-breakdown:filtered","source":"filter-blocked","entry":466.56,"stop":470.48,"target":458.72,"status":"target","r":2,"exit":458.72,"openedAt":"2026-10-16T13:44:02.046Z","side":"sell","counterfactual":true,"filteredBy":["name-downtrend","market-downtrend"],"regime":"trending"}
+{"t":"2026-10-16T19:02:13.923Z","type":"shadow-outcome","id":"ec76c478","symbol":"HCA","strategy":"momentum-breakdown:filtered","source":"filter-blocked","entry":466.55,"stop":470.47,"target":458.71,"status":"target","r":2,"exit":458.71,"openedAt":"2026-10-16T13:46:06.342Z","side":"sell","counterfactual":true,"filteredBy":["name-downtrend","market-downtrend"],"regime":"trending"}
