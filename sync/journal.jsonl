@@ -18745,3 +18745,7 @@
 {"t":"2026-10-16T19:34:18.850Z","type":"vault-pushed","files":["sync/shadow.json"]}
 {"t":"2026-10-16T19:34:19.897Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
 {"t":"2026-10-16T19:35:03.462Z","type":"thesis-counterfactual","id":"cb6416e5","symbol":"HCA","strategy":"momentum-breakdown","filteredBy":["name-downtrend"],"entry":455.06,"stop":457.92,"target":449.34}
+{"t":"2026-10-16T19:35:16.860Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-16T19:35:19.652Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-16T19:35:20.808Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-16T19:36:11.655Z","type":"shadow-outcome","id":"082962a3","symbol":"AAPL","strategy":"momentum-breakdown:filtered","source":"filter-blocked","entry":340.52,"stop":343.34,"target":334.88,"status":"stopped","r":-1,"exit":343.34,"openedAt":"2026-10-16T18:57:02.713Z","side":"sell","counterfactual":true,"filteredBy":["name-downtrend"],"regime":"choppy"}
