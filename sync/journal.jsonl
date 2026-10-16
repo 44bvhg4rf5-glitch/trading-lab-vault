@@ -19133,3 +19133,5 @@
 {"t":"2026-10-16T22:18:59.263Z","type":"cfd-tick-error","error":"oanda GET /v3/accounts/101-004-40071397-001/summary: 503 System under maintenance, please try again later."}
 {"t":"2026-10-16T22:19:02.603Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
 {"t":"2026-10-16T22:19:59.784Z","type":"cfd-tick-error","error":"oanda GET /v3/accounts/101-004-40071397-001/summary: 503 System under maintenance, please try again later."}
+{"t":"2026-10-16T22:20:03.211Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-16T22:20:59.533Z","type":"cfd-tick-error","error":"oanda GET /v3/accounts/101-004-40071397-001/summary: 503 System under maintenance, please try again later."}
