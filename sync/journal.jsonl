@@ -18354,3 +18354,6 @@
 {"t":"2026-10-16T18:01:28.588Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
 {"t":"2026-10-16T18:02:10.619Z","type":"thesis-incubation","strategy":"momentum-breakdown","symbol":"NVDA","side":"sell","entry":214.92,"stop":216.65,"target":211.46,"reason":"Broke 20-bar low (215.06) with stock and SPY below their 20-day averages. Stop 2×ATR above, target 2R.","maxHoldDays":5,"createdAt":"2026-10-16T18:02:10.619Z"}
 {"t":"2026-10-16T18:02:19.341Z","type":"shadow-outcome","id":"049bf44a","symbol":"DIS","strategy":"momentum-breakout:filtered","source":"filter-blocked","entry":111.15,"stop":110.29,"target":112.87,"status":"stopped","r":-1,"exit":110.29,"openedAt":"2026-10-15T14:39:59.108Z","counterfactual":true,"filteredBy":["market-uptrend"],"regime":"choppy"}
+{"t":"2026-10-16T18:02:22.850Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-16T18:02:25.669Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-16T18:02:26.986Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
