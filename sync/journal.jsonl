@@ -19259,3 +19259,5 @@
 {"t":"2026-10-16T23:31:03.728Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
 {"t":"2026-10-16T23:32:02.954Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
 {"t":"2026-10-16T23:33:04.403Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-16T23:34:02.614Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-16T23:34:56.717Z","type":"ai-error","at":"continuing-education","error":"ai cooling down until 2026-10-17T00:31:56.874Z (provider quota)"}
