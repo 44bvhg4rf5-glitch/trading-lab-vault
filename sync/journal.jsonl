@@ -15804,3 +15804,6 @@
 {"t":"2026-10-16T08:12:03.527Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
 {"t":"2026-10-16T08:13:01.668Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
 {"t":"2026-10-16T08:13:02.689Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-16T08:14:01.966Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-16T08:14:03.226Z","type":"vault-pushed","files":["sync/equity-positions.json"]}
+{"t":"2026-10-16T08:14:04.304Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
