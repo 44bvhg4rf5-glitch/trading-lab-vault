@@ -18762,3 +18762,6 @@
 {"t":"2026-10-16T19:37:16.722Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
 {"t":"2026-10-16T19:37:19.325Z","type":"vault-pushed","files":["sync/shadow.json"]}
 {"t":"2026-10-16T19:37:20.518Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-16T19:38:12.445Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-16T19:38:13.713Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-16T19:39:09.043Z","type":"shadow-outcome","id":"e207e790","symbol":"AAPL","strategy":"momentum-breakdown:filtered","source":"filter-blocked","entry":340.93,"stop":343.81,"target":335.17,"status":"stopped","r":-1,"exit":343.81,"openedAt":"2026-10-16T18:44:03.803Z","side":"sell","counterfactual":true,"filteredBy":["name-downtrend"],"regime":"choppy"}
