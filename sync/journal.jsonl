@@ -17572,3 +17572,6 @@
 {"t":"2026-10-16T15:17:23.699Z","type":"vault-pushed","files":["sync/shadow.json"]}
 {"t":"2026-10-16T15:17:24.924Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
 {"t":"2026-10-16T15:18:01.662Z","type":"thesis-counterfactual","id":"17366089","symbol":"PEP","strategy":"momentum-breakout","filteredBy":["market-uptrend"],"entry":131.16,"stop":129.96,"target":133.56}
+{"t":"2026-10-16T15:18:09.532Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-16T15:18:11.781Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-16T15:18:12.913Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
