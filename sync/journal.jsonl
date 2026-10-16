@@ -17542,3 +17542,7 @@
 {"t":"2026-10-16T15:11:03.913Z","type":"thesis-incubation","strategy":"momentum-breakdown","symbol":"TSLA","side":"sell","entry":359.66,"stop":365.66,"target":347.66,"reason":"Broke 20-bar low (359.82) with stock and SPY below their 20-day averages. Stop 2×ATR above, target 2R.","maxHoldDays":5,"createdAt":"2026-10-16T15:11:03.913Z"}
 {"t":"2026-10-16T15:11:07.353Z","type":"shadow-outcome","id":"67cadb84","symbol":"NVDA","strategy":"momentum-breakout:filtered","source":"filter-blocked","entry":218.54,"stop":216.54,"target":222.54,"status":"stopped","r":-1,"exit":216.54,"openedAt":"2026-10-16T14:45:01.543Z","counterfactual":true,"filteredBy":["name-uptrend"],"regime":"trending"}
 {"t":"2026-10-16T15:11:07.353Z","type":"shadow-outcome","id":"0de0a974","symbol":"NVDA","strategy":"momentum-breakout:filtered","source":"filter-blocked","entry":218.46,"stop":216.46,"target":222.46,"status":"stopped","r":-1,"exit":216.46,"openedAt":"2026-10-16T14:46:03.237Z","counterfactual":true,"filteredBy":["name-uptrend"],"regime":"trending"}
+{"t":"2026-10-16T15:11:10.123Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-16T15:11:12.424Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-16T15:11:13.668Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-16T15:12:01.829Z","type":"thesis-counterfactual","id":"a2b5fe31","symbol":"KO","strategy":"momentum-breakout","filteredBy":["market-uptrend"],"entry":93.55,"stop":92.82,"target":95.01}
