@@ -18277,3 +18277,6 @@
 {"t":"2026-10-16T17:34:15.372Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
 {"t":"2026-10-16T17:35:21.075Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
 {"t":"2026-10-16T17:35:22.211Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-16T17:36:16.000Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-16T17:36:17.020Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-16T17:37:03.394Z","type":"thesis-counterfactual","id":"2b8b9903","symbol":"HCA","strategy":"momentum-breakdown","filteredBy":["name-downtrend"],"entry":459.26,"stop":462.43,"target":452.92}
