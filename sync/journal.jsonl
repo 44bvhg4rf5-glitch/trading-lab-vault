@@ -17055,3 +17055,10 @@
 {"t":"2026-10-16T13:42:04.334Z","type":"thesis-counterfactual","id":"638d4733","symbol":"BAC","strategy":"momentum-breakout","filteredBy":["name-uptrend"],"entry":52.26,"stop":51.82,"target":53.14}
 {"t":"2026-10-16T13:42:04.367Z","type":"thesis-counterfactual","id":"9684f620","symbol":"HCA","strategy":"momentum-breakdown","filteredBy":["name-downtrend","market-downtrend"],"entry":466.69,"stop":470.47,"target":459.13}
 {"t":"2026-10-16T13:42:05.832Z","type":"equity-position-closed","sleeve":false,"qty":41,"id":"5151c2c1","symbol":"ISRG","status":"stopped-or-closed","r":0.48,"exit":429.04,"approx":true,"entry":427.85,"stop":425.36,"target":432.83,"strategy":"momentum-breakout","regime":"trending","peakR":1.59,"captureRatio":0.3}
+{"t":"2026-10-16T13:42:13.996Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-16T13:42:15.109Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-10-16T13:42:17.438Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-16T13:42:18.534Z","type":"vault-pushed","files":["sync/equity-positions.json"]}
+{"t":"2026-10-16T13:42:20.024Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-16T13:43:02.643Z","type":"thesis-counterfactual","id":"e0df6dc8","symbol":"BAC","strategy":"momentum-breakout","filteredBy":["name-uptrend"],"entry":52.24,"stop":51.8,"target":53.12}
+{"t":"2026-10-16T13:43:02.667Z","type":"thesis-counterfactual","id":"0cb99785","symbol":"HCA","strategy":"momentum-breakdown","filteredBy":["name-downtrend","market-downtrend"],"entry":465.89,"stop":469.81,"target":458.05}
