@@ -18609,3 +18609,8 @@
 {"t":"2026-10-16T19:09:18.232Z","type":"vault-pushed","files":["sync/shadow.json"]}
 {"t":"2026-10-16T19:09:19.277Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
 {"t":"2026-10-16T19:10:09.687Z","type":"thesis-counterfactual","id":"60330cd5","symbol":"HCA","strategy":"momentum-breakdown","filteredBy":["name-downtrend"],"entry":458.03,"stop":460.67,"target":452.75}
+{"t":"2026-10-16T19:10:20.588Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-16T19:10:23.199Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-16T19:10:24.347Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-16T19:11:05.310Z","type":"thesis-counterfactual","id":"e91690fe","symbol":"PEP","strategy":"momentum-breakout","filteredBy":["market-uptrend"],"entry":131.31,"stop":130.55,"target":132.83}
+{"t":"2026-10-16T19:11:05.317Z","type":"thesis-counterfactual","id":"895481e9","symbol":"HCA","strategy":"momentum-breakdown","filteredBy":["name-downtrend"],"entry":458.03,"stop":460.67,"target":452.75}
