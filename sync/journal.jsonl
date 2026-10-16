@@ -18846,3 +18846,7 @@
 {"t":"2026-10-16T19:58:06.928Z","type":"shadow-outcome","id":"93a06146","symbol":"MA","strategy":"momentum-breakdown:filtered","source":"filter-blocked","entry":613.65,"stop":616.8,"target":607.35,"status":"stopped","r":-1,"exit":616.8,"openedAt":"2026-10-16T17:21:04.704Z","side":"sell","counterfactual":true,"filteredBy":["name-downtrend"],"regime":"choppy"}
 {"t":"2026-10-16T19:58:06.928Z","type":"shadow-outcome","id":"25b065f7","symbol":"MA","strategy":"momentum-breakdown:filtered","source":"filter-blocked","entry":613.65,"stop":616.8,"target":607.35,"status":"stopped","r":-1,"exit":616.8,"openedAt":"2026-10-16T17:22:02.955Z","side":"sell","counterfactual":true,"filteredBy":["name-downtrend"],"regime":"choppy"}
 {"t":"2026-10-16T19:58:06.928Z","type":"shadow-outcome","id":"693c10db","symbol":"MA","strategy":"momentum-breakdown:filtered","source":"filter-blocked","entry":613.61,"stop":616.77,"target":607.29,"status":"stopped","r":-1,"exit":616.77,"openedAt":"2026-10-16T17:23:01.307Z","side":"sell","counterfactual":true,"filteredBy":["name-downtrend"],"regime":"choppy"}
+{"t":"2026-10-16T19:58:10.453Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-16T19:58:12.390Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-16T19:58:13.504Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-16T19:59:01.212Z","type":"thesis-counterfactual","id":"64cc17b2","symbol":"PEP","strategy":"momentum-breakout","filteredBy":["market-uptrend"],"entry":131.48,"stop":130.7,"target":133.04}
