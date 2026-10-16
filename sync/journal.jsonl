@@ -17361,3 +17361,7 @@
 {"t":"2026-10-16T14:24:30.966Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
 {"t":"2026-10-16T14:24:59.957Z","type":"thesis-counterfactual","id":"2696ad8f","symbol":"BAC","strategy":"momentum-breakout","filteredBy":["name-uptrend","market-uptrend"],"entry":52.44,"stop":51.99,"target":53.34}
 {"t":"2026-10-16T14:25:03.342Z","type":"shadow-outcome","id":"e2804d81","symbol":"ABBV","strategy":"momentum-breakdown:filtered","source":"filter-blocked","entry":283.83,"stop":285.88,"target":279.73,"status":"stopped","r":-1,"exit":285.88,"openedAt":"2026-10-15T19:53:01.135Z","side":"sell","counterfactual":true,"filteredBy":["name-downtrend","market-downtrend"],"regime":"trending"}
+{"t":"2026-10-16T14:25:07.108Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-16T14:25:10.273Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-16T14:25:11.476Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-16T14:26:00.632Z","type":"thesis-counterfactual","id":"c7220f75","symbol":"BAC","strategy":"momentum-breakout","filteredBy":["name-uptrend","market-uptrend"],"entry":52.45,"stop":52,"target":53.35}
