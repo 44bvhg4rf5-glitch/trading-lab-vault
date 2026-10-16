@@ -18532,3 +18532,7 @@
 {"t":"2026-10-16T18:52:04.272Z","type":"thesis-counterfactual","id":"09b18159","symbol":"COST","strategy":"momentum-breakout","filteredBy":["market-uptrend"],"entry":992.82,"stop":988.73,"target":1001}
 {"t":"2026-10-16T18:52:04.281Z","type":"thesis-counterfactual","id":"2426b3b0","symbol":"HCA","strategy":"momentum-breakdown","filteredBy":["name-downtrend"],"entry":458.92,"stop":461.61,"target":453.54}
 {"t":"2026-10-16T18:52:11.112Z","type":"shadow-outcome","id":"4f15b1b2","symbol":"HCA","strategy":"momentum-breakdown:filtered","source":"filter-blocked","entry":466.71,"stop":470.63,"target":458.87,"status":"target","r":2,"exit":458.87,"openedAt":"2026-10-16T13:45:01.823Z","side":"sell","counterfactual":true,"filteredBy":["name-downtrend","market-downtrend"],"regime":"trending"}
+{"t":"2026-10-16T18:52:14.633Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-16T18:52:17.370Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-16T18:52:18.609Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-16T18:53:02.483Z","type":"thesis-counterfactual","id":"a7d7a4a1","symbol":"COST","strategy":"momentum-breakout","filteredBy":["market-uptrend"],"entry":992.79,"stop":988.7,"target":1000.97}
