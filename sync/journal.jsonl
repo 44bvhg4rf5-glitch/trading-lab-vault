@@ -17287,3 +17287,11 @@
 {"t":"2026-10-16T14:07:13.452Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
 {"t":"2026-10-16T14:08:01.239Z","type":"thesis-counterfactual","id":"8f1c507c","symbol":"BAC","strategy":"mean-reversion","filteredBy":["news-quiet","above-200-sma"],"entry":52.15,"stop":50.29,"target":54.43}
 {"t":"2026-10-16T14:08:01.248Z","type":"thesis-counterfactual","id":"6bf3f0ed","symbol":"STX","strategy":"mean-reversion","filteredBy":["news-quiet","above-200-sma"],"entry":657.43,"stop":583.4,"target":835.73}
+{"t":"2026-10-16T14:08:08.374Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-16T14:08:09.521Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-10-16T14:08:12.459Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-16T14:08:13.877Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-16T14:09:01.056Z","type":"thesis-counterfactual","id":"089ff47f","symbol":"BAC","strategy":"mean-reversion","filteredBy":["news-quiet","above-200-sma"],"entry":52.15,"stop":50.29,"target":54.43}
+{"t":"2026-10-16T14:09:01.068Z","type":"thesis-counterfactual","id":"73ee1901","symbol":"STX","strategy":"mean-reversion","filteredBy":["news-quiet","above-200-sma"],"entry":657.43,"stop":583.4,"target":835.73}
+{"t":"2026-10-16T14:09:05.816Z","type":"shadow-outcome","id":"fe5c0d2f","symbol":"ABBV","strategy":"momentum-breakdown:filtered","source":"filter-blocked","entry":283.59,"stop":285.67,"target":279.43,"status":"stopped","r":-1,"exit":285.67,"openedAt":"2026-10-15T19:54:01.029Z","side":"sell","counterfactual":true,"filteredBy":["name-downtrend","market-downtrend"],"regime":"trending"}
+{"t":"2026-10-16T14:09:05.816Z","type":"shadow-outcome","id":"0ed2e1e3","symbol":"ABBV","strategy":"momentum-breakdown:filtered","source":"filter-blocked","entry":283.59,"stop":285.67,"target":279.43,"status":"stopped","r":-1,"exit":285.67,"openedAt":"2026-10-15T19:55:00.860Z","side":"sell","counterfactual":true,"filteredBy":["name-downtrend","market-downtrend"],"regime":"trending"}
