@@ -17502,3 +17502,6 @@
 {"t":"2026-10-16T15:01:21.892Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
 {"t":"2026-10-16T15:01:24.252Z","type":"vault-pushed","files":["sync/shadow.json"]}
 {"t":"2026-10-16T15:01:25.449Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-16T15:02:11.648Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-16T15:02:13.120Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-16T15:03:04.395Z","type":"thesis-counterfactual","id":"f2b3779a","symbol":"KO","strategy":"momentum-breakout","filteredBy":["market-uptrend"],"entry":93.49,"stop":92.78,"target":94.91}
