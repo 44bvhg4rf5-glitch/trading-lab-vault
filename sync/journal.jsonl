@@ -17926,3 +17926,7 @@
 {"t":"2026-10-16T16:31:32.623Z","type":"vault-pushed","files":["sync/shadow.json"]}
 {"t":"2026-10-16T16:32:04.900Z","type":"thesis-counterfactual","id":"ee7420d2","symbol":"BAC","strategy":"mean-reversion","filteredBy":["news-quiet","above-200-sma"],"entry":51.97,"stop":50.06,"target":54.42}
 {"t":"2026-10-16T16:32:12.187Z","type":"cfd-stop-trailed","id":"2b4fdba7","symbol":"WTICO_USD","from":97.98,"to":98.03,"breakeven":false}
+{"t":"2026-10-16T16:32:16.230Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-16T16:32:19.977Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-16T16:32:21.350Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-16T16:33:03.414Z","type":"thesis-counterfactual","id":"fba956d6","symbol":"BAC","strategy":"mean-reversion","filteredBy":["news-quiet","above-200-sma"],"entry":51.97,"stop":50.06,"target":54.42}
