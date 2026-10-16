@@ -18499,3 +18499,7 @@
 {"t":"2026-10-16T18:42:15.759Z","type":"vault-pushed","files":["sync/shadow.json"]}
 {"t":"2026-10-16T18:42:17.156Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
 {"t":"2026-10-16T18:43:03.349Z","type":"thesis-counterfactual","id":"f1b13132","symbol":"AAPL","strategy":"momentum-breakdown","filteredBy":["name-downtrend"],"entry":340.76,"stop":343.64,"target":335}
+{"t":"2026-10-16T18:43:16.265Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-16T18:43:18.192Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-16T18:43:19.475Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-16T18:44:03.803Z","type":"thesis-counterfactual","id":"e207e790","symbol":"AAPL","strategy":"momentum-breakdown","filteredBy":["name-downtrend"],"entry":340.93,"stop":343.81,"target":335.17}
