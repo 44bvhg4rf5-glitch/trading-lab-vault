@@ -18813,3 +18813,6 @@
 {"t":"2026-10-16T19:50:12.215Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
 {"t":"2026-10-16T19:50:13.562Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
 {"t":"2026-10-16T19:51:11.326Z","type":"shadow-outcome","id":"bf64957b","symbol":"MA","strategy":"momentum-breakdown:filtered","source":"filter-blocked","entry":613.42,"stop":616.09,"target":608.08,"status":"stopped","r":-1,"exit":616.09,"openedAt":"2026-10-16T18:31:08.747Z","side":"sell","counterfactual":true,"filteredBy":["name-downtrend"],"regime":"choppy"}
+{"t":"2026-10-16T19:51:14.601Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-16T19:51:16.698Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-16T19:51:17.944Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
