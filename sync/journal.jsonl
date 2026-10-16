@@ -18859,3 +18859,11 @@
 {"t":"2026-10-16T20:00:07.439Z","type":"shadow-outcome","id":"eae0d989","symbol":"HCA","strategy":"momentum-breakdown:filtered","source":"filter-blocked","entry":454.85,"stop":457.71,"target":449.13,"status":"stopped","r":-1,"exit":457.71,"openedAt":"2026-10-16T19:34:03.586Z","side":"sell","counterfactual":true,"filteredBy":["name-downtrend"],"regime":"choppy"}
 {"t":"2026-10-16T20:00:07.439Z","type":"shadow-outcome","id":"cb6416e5","symbol":"HCA","strategy":"momentum-breakdown:filtered","source":"filter-blocked","entry":455.06,"stop":457.92,"target":449.34,"status":"stopped","r":-1,"exit":457.92,"openedAt":"2026-10-16T19:35:03.462Z","side":"sell","counterfactual":true,"filteredBy":["name-downtrend"],"regime":"choppy"}
 {"t":"2026-10-16T20:00:07.439Z","type":"shadow-outcome","id":"f5d0b476","symbol":"HCA","strategy":"momentum-breakdown:filtered","source":"filter-blocked","entry":455.07,"stop":458.07,"target":449.07,"status":"stopped","r":-1,"exit":458.07,"openedAt":"2026-10-16T19:43:59.862Z","side":"sell","counterfactual":true,"filteredBy":["name-downtrend"],"regime":"choppy"}
+{"t":"2026-10-16T20:00:10.666Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-16T20:00:12.828Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-16T20:00:13.933Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-16T20:00:57.146Z","type":"shadow-outcome","id":"NAS100_USD-mvb1frb4","symbol":"NAS100_USD","strategy":"cfd-momentum-breakdown","source":"incubation","entry":29662.8,"stop":29941.13,"target":29106.14,"status":"target","r":2,"exit":29106.14,"openedAt":"2026-10-16T14:03:25.311Z","side":"sell","regime":"choppy"}
+{"t":"2026-10-16T20:01:00.142Z","type":"ai-error","at":"post-mortem","error":"ai cooling down until 2026-10-16T20:02:35.044Z (provider quota)"}
+{"t":"2026-10-16T20:01:05.829Z","type":"vault-pushed","date":"2026-10-16","repo":"44bvhg4rf5-glitch/trading-lab-vault","files":["digests/2026-10-16.md","journal/2026-10-16.jsonl","lessons/lesson-book.md"]}
+{"t":"2026-10-16T20:01:05.829Z","type":"digest","date":"2026-10-16","entries":3589,"vaultPushed":true}
+{"t":"2026-10-16T20:01:06.045Z","type":"ai-error","at":"continuing-education","error":"ai cooling down until 2026-10-16T20:02:35.044Z (provider quota)"}
