@@ -18134,3 +18134,11 @@
 {"t":"2026-10-16T17:08:04.203Z","type":"thesis-counterfactual","id":"951cd053","symbol":"COST","strategy":"momentum-breakout","filteredBy":["market-uptrend"],"entry":991.21,"stop":986.4,"target":1000.83}
 {"t":"2026-10-16T17:08:04.211Z","type":"thesis-counterfactual","id":"58e63b66","symbol":"HCA","strategy":"momentum-breakdown","filteredBy":["name-downtrend"],"entry":461.35,"stop":464.5,"target":455.05}
 {"t":"2026-10-16T17:08:04.324Z","type":"thesis-incubation","strategy":"momentum-breakdown","symbol":"BAC","side":"sell","entry":51.59,"stop":51.98,"target":50.81,"reason":"Broke 20-bar low (51.61) with stock and SPY below their 20-day averages. Stop 2×ATR above, target 2R.","maxHoldDays":5,"createdAt":"2026-10-16T17:08:04.324Z"}
+{"t":"2026-10-16T17:08:11.302Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-16T17:08:13.588Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-16T17:08:15.066Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-16T17:09:02.536Z","type":"thesis-counterfactual","id":"726b73a1","symbol":"HCA","strategy":"momentum-breakdown","filteredBy":["name-downtrend"],"entry":461.28,"stop":464.44,"target":454.96}
+{"t":"2026-10-16T17:09:06.453Z","type":"shadow-outcome","id":"63d81f6d","symbol":"BAC","strategy":"momentum-breakout:filtered","source":"filter-blocked","entry":51.96,"stop":51.56,"target":52.76,"status":"stopped","r":-1,"exit":51.56,"openedAt":"2026-10-16T13:36:10.923Z","counterfactual":true,"filteredBy":["name-uptrend"],"regime":"trending"}
+{"t":"2026-10-16T17:09:06.506Z","type":"shadow-outcome","id":"META-mvb1hvhc","symbol":"META","strategy":"momentum-breakdown","source":"incubation","entry":727.14,"stop":734.23,"target":712.96,"status":"target","r":2,"exit":712.96,"openedAt":"2026-10-16T14:05:04.031Z","side":"sell","regime":"choppy"}
+{"t":"2026-10-16T17:09:06.766Z","type":"slippage","book":"cfd","phase":"entry","symbol":"USD_JPY","side":"buy","intended":158.25,"filled":158.196,"costR":-0.089,"bps":3.4}
+{"t":"2026-10-16T17:09:06.767Z","type":"order-placed","id":"8146d2e9","orderId":"196","symbol":"USD_JPY","qty":26470,"limit":158.196,"stop":157.64,"target":159.17,"strategy":"cfd-momentum-breakout","by":"auto","analystVerdict":null,"market":"cfd"}
