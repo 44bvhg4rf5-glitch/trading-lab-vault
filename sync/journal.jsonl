@@ -18556,3 +18556,8 @@
 {"t":"2026-10-16T18:58:10.812Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
 {"t":"2026-10-16T18:58:11.996Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
 {"t":"2026-10-16T18:59:02.298Z","type":"thesis-counterfactual","id":"29651386","symbol":"COST","strategy":"momentum-breakout","filteredBy":["market-uptrend"],"entry":992.87,"stop":988.76,"target":1001.09}
+{"t":"2026-10-16T18:59:09.864Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-16T18:59:12.126Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-16T18:59:13.119Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-16T19:00:11.928Z","type":"thesis-counterfactual","id":"773ff574","symbol":"HCA","strategy":"momentum-breakdown","filteredBy":["name-downtrend"],"entry":458.85,"stop":461.55,"target":453.45}
+{"t":"2026-10-16T19:00:38.460Z","type":"cfd-tick-error","error":"oanda GET /v3/instruments/FR40_EUR/candles?granularity=D&count=400&price=M: 401 Insufficient authorization to perform request."}
