@@ -18181,3 +18181,11 @@
 {"t":"2026-10-16T17:12:13.772Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
 {"t":"2026-10-16T17:13:00.508Z","type":"thesis-counterfactual","id":"cf90b21a","symbol":"MA","strategy":"momentum-breakdown","filteredBy":["name-downtrend"],"entry":613.87,"stop":617.16,"target":607.29}
 {"t":"2026-10-16T17:13:00.516Z","type":"thesis-counterfactual","id":"3a4efd74","symbol":"HCA","strategy":"momentum-breakdown","filteredBy":["name-downtrend"],"entry":460.7,"stop":463.97,"target":454.16}
+{"t":"2026-10-16T17:13:09.282Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-16T17:13:12.082Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-16T17:13:13.304Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-16T17:14:03.473Z","type":"thesis-counterfactual","id":"c84a3d6f","symbol":"MA","strategy":"momentum-breakdown","filteredBy":["name-downtrend"],"entry":614.05,"stop":617.35,"target":607.45}
+{"t":"2026-10-16T17:14:03.487Z","type":"thesis-counterfactual","id":"4a2736da","symbol":"HCA","strategy":"momentum-breakdown","filteredBy":["name-downtrend"],"entry":460.58,"stop":463.86,"target":454.02}
+{"t":"2026-10-16T17:14:08.911Z","type":"shadow-outcome","id":"1ee50591","symbol":"MA","strategy":"momentum-breakout:filtered","source":"filter-blocked","entry":617.7,"stop":613.8,"target":625.5,"status":"stopped","r":-1,"exit":613.8,"openedAt":"2026-10-15T18:17:02.598Z","counterfactual":true,"filteredBy":["market-uptrend"],"regime":"choppy"}
+{"t":"2026-10-16T17:14:08.911Z","type":"shadow-outcome","id":"bfc7f83d","symbol":"MA","strategy":"momentum-breakout:filtered","source":"filter-blocked","entry":617.75,"stop":613.82,"target":625.61,"status":"stopped","r":-1,"exit":613.82,"openedAt":"2026-10-15T18:21:02.270Z","counterfactual":true,"filteredBy":["market-uptrend"],"regime":"choppy"}
+{"t":"2026-10-16T17:14:08.911Z","type":"shadow-outcome","id":"7c7fec1a","symbol":"MA","strategy":"momentum-breakout:filtered","source":"filter-blocked","entry":617.77,"stop":613.84,"target":625.63,"status":"stopped","r":-1,"exit":613.84,"openedAt":"2026-10-15T18:22:01.166Z","counterfactual":true,"filteredBy":["market-uptrend"],"regime":"choppy"}
