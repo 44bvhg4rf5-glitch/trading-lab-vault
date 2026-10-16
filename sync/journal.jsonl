@@ -17047,3 +17047,11 @@
 {"t":"2026-10-16T13:41:36.947Z","type":"shadow-outcome","id":"59e5d4cc","symbol":"MSFT","strategy":"momentum-breakout:filtered","source":"filter-blocked","entry":539.58,"stop":535.44,"target":547.86,"status":"stopped","r":-1,"exit":535.44,"openedAt":"2026-10-15T16:13:59.177Z","counterfactual":true,"filteredBy":["market-uptrend"],"regime":"choppy"}
 {"t":"2026-10-16T13:41:36.947Z","type":"shadow-outcome","id":"eb642ae0","symbol":"MSFT","strategy":"momentum-breakout:filtered","source":"filter-blocked","entry":539.7,"stop":535.52,"target":548.06,"status":"stopped","r":-1,"exit":535.52,"openedAt":"2026-10-15T16:14:59.305Z","counterfactual":true,"filteredBy":["market-uptrend"],"regime":"choppy"}
 {"t":"2026-10-16T13:41:36.949Z","type":"shadow-outcome","id":"693ed5ad","symbol":"MSFT","strategy":"momentum-breakout:filtered","source":"filter-blocked","entry":540.21,"stop":536.34,"target":547.95,"status":"stopped","r":-1,"exit":536.34,"openedAt":"2026-10-15T16:46:01.146Z","counterfactual":true,"filteredBy":["market-uptrend"],"regime":"choppy"}
+{"t":"2026-10-16T13:41:40.500Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-16T13:41:42.505Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-16T13:41:43.968Z","type":"vault-pushed","files":["sync/equity-positions.json"]}
+{"t":"2026-10-16T13:41:45.225Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-16T13:41:56.549Z","type":"fill","orderId":"e1e24425-e182-4720-b913-cc0d15c21f07","symbol":"ISRG","side":"sell","qty":"41","avgPrice":"432.937805","legs":0,"clientId":"tle-trail-5151c2c1-1792157947258-0"}
+{"t":"2026-10-16T13:42:04.334Z","type":"thesis-counterfactual","id":"638d4733","symbol":"BAC","strategy":"momentum-breakout","filteredBy":["name-uptrend"],"entry":52.26,"stop":51.82,"target":53.14}
+{"t":"2026-10-16T13:42:04.367Z","type":"thesis-counterfactual","id":"9684f620","symbol":"HCA","strategy":"momentum-breakdown","filteredBy":["name-downtrend","market-downtrend"],"entry":466.69,"stop":470.47,"target":459.13}
+{"t":"2026-10-16T13:42:05.832Z","type":"equity-position-closed","sleeve":false,"qty":41,"id":"5151c2c1","symbol":"ISRG","status":"stopped-or-closed","r":0.48,"exit":429.04,"approx":true,"entry":427.85,"stop":425.36,"target":432.83,"strategy":"momentum-breakout","regime":"trending","peakR":1.59,"captureRatio":0.3}
