@@ -18561,3 +18561,7 @@
 {"t":"2026-10-16T18:59:13.119Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
 {"t":"2026-10-16T19:00:11.928Z","type":"thesis-counterfactual","id":"773ff574","symbol":"HCA","strategy":"momentum-breakdown","filteredBy":["name-downtrend"],"entry":458.85,"stop":461.55,"target":453.45}
 {"t":"2026-10-16T19:00:38.460Z","type":"cfd-tick-error","error":"oanda GET /v3/instruments/FR40_EUR/candles?granularity=D&count=400&price=M: 401 Insufficient authorization to perform request."}
+{"t":"2026-10-16T19:00:42.137Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-16T19:00:45.157Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-16T19:01:08.627Z","type":"thesis-counterfactual","id":"5a5aa3be","symbol":"HCA","strategy":"momentum-breakdown","filteredBy":["name-downtrend"],"entry":458.85,"stop":461.55,"target":453.45}
+{"t":"2026-10-16T19:01:26.318Z","type":"thesis-incubation","strategy":"cfd-momentum-breakdown","market":"cfd","symbol":"EU50_EUR","side":"sell","entry":6160.2,"stop":6205.61,"target":6069.38,"reason":"EU50_EUR broke its 20-hour low (6165.7) on 1.7× average volume, below its 20-day average. Stop 2.5×ATR above, target 2R.","maxHoldDays":5,"createdAt":"2026-10-16T19:01:26.318Z"}
