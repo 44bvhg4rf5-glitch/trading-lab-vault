@@ -17487,3 +17487,7 @@
 {"t":"2026-10-16T14:57:10.555Z","type":"vault-pushed","files":["sync/shadow.json"]}
 {"t":"2026-10-16T14:57:11.786Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
 {"t":"2026-10-16T14:57:59.830Z","type":"thesis-counterfactual","id":"1f2818ab","symbol":"HCA","strategy":"momentum-breakdown","filteredBy":["name-downtrend"],"entry":464.21,"stop":468.31,"target":456.01}
+{"t":"2026-10-16T14:58:07.609Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-16T14:58:10.429Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-16T14:58:11.451Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-16T14:58:59.784Z","type":"thesis-counterfactual","id":"6f89f49e","symbol":"HCA","strategy":"momentum-breakdown","filteredBy":["name-downtrend"],"entry":464.34,"stop":468.44,"target":456.14}
