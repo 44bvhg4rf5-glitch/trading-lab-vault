@@ -17970,3 +17970,10 @@
 {"t":"2026-10-16T16:39:03.899Z","type":"thesis-counterfactual","id":"ba4595a3","symbol":"MA","strategy":"momentum-breakdown","filteredBy":["name-downtrend"],"entry":615.69,"stop":618.92,"target":609.23}
 {"t":"2026-10-16T16:39:03.909Z","type":"thesis-counterfactual","id":"ab4fe944","symbol":"BAC","strategy":"mean-reversion","filteredBy":["news-quiet","above-200-sma"],"entry":51.97,"stop":50.06,"target":54.42}
 {"t":"2026-10-16T16:39:09.613Z","type":"shadow-outcome","id":"c04d9ac9","symbol":"JPM","strategy":"momentum-breakout:filtered","source":"filter-blocked","entry":343.05,"stop":339.96,"target":349.23,"status":"stopped","r":-1,"exit":339.96,"openedAt":"2026-10-16T13:40:03.918Z","counterfactual":true,"filteredBy":["name-uptrend"],"regime":"trending"}
+{"t":"2026-10-16T16:39:12.572Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-16T16:39:14.862Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-16T16:39:16.062Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-16T16:40:04.420Z","type":"thesis-counterfactual","id":"de4b7b12","symbol":"MA","strategy":"momentum-breakdown","filteredBy":["name-downtrend"],"entry":615.68,"stop":618.91,"target":609.22}
+{"t":"2026-10-16T16:40:04.430Z","type":"thesis-counterfactual","id":"add709fe","symbol":"BAC","strategy":"mean-reversion","filteredBy":["news-quiet","above-200-sma"],"entry":51.97,"stop":50.06,"target":54.42}
+{"t":"2026-10-16T16:40:10.491Z","type":"approve-blocked","id":"4b46f6d9","symbol":"WTICO_USD","reasons":["price ran away (ask 100.855 vs entry 99)"]}
+{"t":"2026-10-16T16:40:10.491Z","type":"auto-skip","id":"4b46f6d9","reason":"price moved >1% past the thesis entry (ask 100.855); not chasing"}
