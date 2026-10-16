@@ -17319,3 +17319,7 @@
 {"t":"2026-10-16T14:13:15.916Z","type":"vault-pushed","files":["sync/shadow.json"]}
 {"t":"2026-10-16T14:14:00.278Z","type":"thesis-counterfactual","id":"4a289197","symbol":"BAC","strategy":"momentum-breakout","filteredBy":["name-uptrend","market-uptrend"],"entry":52.37,"stop":51.92,"target":53.27}
 {"t":"2026-10-16T14:14:00.292Z","type":"thesis-counterfactual","id":"ff7bdee6","symbol":"MRNA","strategy":"momentum-breakdown","filteredBy":["name-downtrend"],"entry":209.6,"stop":218.19,"target":192.42}
+{"t":"2026-10-16T14:14:34.907Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-16T14:14:37.470Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-16T14:14:38.581Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-16T14:15:00.481Z","type":"thesis-counterfactual","id":"49dce83e","symbol":"MRNA","strategy":"momentum-breakdown","filteredBy":["name-downtrend"],"entry":211.95,"stop":220.54,"target":194.77}
