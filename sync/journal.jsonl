@@ -17300,3 +17300,8 @@
 {"t":"2026-10-16T14:09:13.543Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
 {"t":"2026-10-16T14:10:01.131Z","type":"thesis-counterfactual","id":"10bf3288","symbol":"BAC","strategy":"mean-reversion","filteredBy":["news-quiet","above-200-sma"],"entry":52.15,"stop":50.29,"target":54.43}
 {"t":"2026-10-16T14:10:01.139Z","type":"thesis-counterfactual","id":"7e46d85c","symbol":"STX","strategy":"mean-reversion","filteredBy":["news-quiet","above-200-sma"],"entry":657.43,"stop":583.4,"target":835.73}
+{"t":"2026-10-16T14:10:14.370Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-16T14:10:17.674Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-16T14:10:18.857Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-16T14:11:01.902Z","type":"thesis-counterfactual","id":"43540fcb","symbol":"BAC","strategy":"mean-reversion","filteredBy":["news-quiet","above-200-sma"],"entry":52.15,"stop":50.29,"target":54.43}
+{"t":"2026-10-16T14:11:02.112Z","type":"thesis-incubation","strategy":"momentum-breakdown","symbol":"STX","side":"sell","entry":655.22,"stop":671.59,"target":622.48,"reason":"Broke 20-bar low (655.23) with stock and SPY below their 20-day averages. Stop 2×ATR above, target 2R.","maxHoldDays":5,"createdAt":"2026-10-16T14:11:02.112Z"}
