@@ -16282,3 +16282,6 @@
 {"t":"2026-10-16T12:00:03.752Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
 {"t":"2026-10-16T12:01:03.685Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
 {"t":"2026-10-16T12:01:04.805Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-16T12:02:01.749Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-16T12:02:02.972Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-16T12:03:03.360Z","type":"cfd-tick-error","error":"oanda GET /v3/accounts/101-004-40071397-001/summary: 401 Insufficient authorization to perform request."}
