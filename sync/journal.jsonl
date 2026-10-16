@@ -18544,3 +18544,6 @@
 {"t":"2026-10-16T18:54:14.710Z","type":"vault-pushed","files":["sync/shadow.json"]}
 {"t":"2026-10-16T18:54:15.902Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
 {"t":"2026-10-16T18:55:01.849Z","type":"thesis-counterfactual","id":"ef2904a9","symbol":"COST","strategy":"momentum-breakout","filteredBy":["market-uptrend"],"entry":992.93,"stop":988.84,"target":1001.11}
+{"t":"2026-10-16T18:55:11.064Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-16T18:55:13.231Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-16T18:55:14.883Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
