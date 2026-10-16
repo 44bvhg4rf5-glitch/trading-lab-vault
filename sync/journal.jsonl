@@ -18206,3 +18206,11 @@
 {"t":"2026-10-16T17:17:13.588Z","type":"vault-pushed","files":["sync/shadow.json"]}
 {"t":"2026-10-16T17:17:14.813Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
 {"t":"2026-10-16T17:18:01.095Z","type":"thesis-counterfactual","id":"8bb0fbe0","symbol":"HCA","strategy":"momentum-breakdown","filteredBy":["name-downtrend"],"entry":459.76,"stop":462.97,"target":453.34}
+{"t":"2026-10-16T17:18:09.467Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-16T17:18:11.478Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-16T17:18:12.540Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-16T17:19:02.073Z","type":"thesis-counterfactual","id":"fa982778","symbol":"HCA","strategy":"momentum-breakdown","filteredBy":["name-downtrend"],"entry":459.66,"stop":462.9,"target":453.18}
+{"t":"2026-10-16T17:19:06.353Z","type":"shadow-outcome","id":"9c1a7630","symbol":"DIS","strategy":"momentum-breakout:filtered","source":"filter-blocked","entry":111.3,"stop":110.43,"target":113.04,"status":"stopped","r":-1,"exit":110.43,"openedAt":"2026-10-15T14:46:00.666Z","counterfactual":true,"filteredBy":["market-uptrend"],"regime":"choppy"}
+{"t":"2026-10-16T17:19:06.421Z","type":"shadow-outcome","id":"8d85fcec","symbol":"HCA","strategy":"momentum-breakdown:filtered","source":"filter-blocked","entry":467.05,"stop":470.81,"target":459.53,"status":"target","r":2,"exit":459.53,"openedAt":"2026-10-16T13:37:07.971Z","side":"sell","counterfactual":true,"filteredBy":["name-downtrend","market-downtrend"],"regime":"trending"}
+{"t":"2026-10-16T17:19:06.422Z","type":"shadow-outcome","id":"ca134e4e","symbol":"HCA","strategy":"momentum-breakdown:filtered","source":"filter-blocked","entry":467.05,"stop":470.81,"target":459.53,"status":"target","r":2,"exit":459.53,"openedAt":"2026-10-16T13:38:06.201Z","side":"sell","counterfactual":true,"filteredBy":["name-downtrend","market-downtrend"],"regime":"trending"}
+{"t":"2026-10-16T17:19:06.422Z","type":"shadow-outcome","id":"f18bbbc5","symbol":"HCA","strategy":"momentum-breakdown:filtered","source":"filter-blocked","entry":467.17,"stop":470.93,"target":459.65,"status":"target","r":2,"exit":459.65,"openedAt":"2026-10-16T13:40:03.933Z","side":"sell","counterfactual":true,"filteredBy":["name-downtrend","market-downtrend"],"regime":"trending"}
