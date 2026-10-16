@@ -19235,3 +19235,4 @@
 {"t":"2026-10-16T23:08:00.102Z","type":"cfd-tick-error","error":"oanda GET /v3/accounts/101-004-40071397-001/summary: 401 Insufficient authorization to perform request."}
 {"t":"2026-10-16T23:08:03.703Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
 {"t":"2026-10-16T23:09:16.104Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-16T23:10:04.299Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
