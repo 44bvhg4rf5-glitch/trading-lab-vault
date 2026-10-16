@@ -18251,3 +18251,6 @@
 {"t":"2026-10-16T17:25:15.141Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
 {"t":"2026-10-16T17:26:10.120Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
 {"t":"2026-10-16T17:26:11.278Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-16T17:27:18.960Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-16T17:27:20.690Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-16T17:28:01.181Z","type":"thesis-counterfactual","id":"7c1c2724","symbol":"HCA","strategy":"momentum-breakdown","filteredBy":["name-downtrend"],"entry":459.95,"stop":463.2,"target":453.45}
