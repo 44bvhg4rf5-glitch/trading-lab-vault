@@ -17911,3 +17911,8 @@
 {"t":"2026-10-16T16:28:13.774Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
 {"t":"2026-10-16T16:29:00.457Z","type":"thesis-counterfactual","id":"be1e7268","symbol":"BAC","strategy":"mean-reversion","filteredBy":["news-quiet","above-200-sma"],"entry":52.05,"stop":50.14,"target":54.43}
 {"t":"2026-10-16T16:29:04.290Z","type":"cfd-stop-trailed","id":"2b4fdba7","symbol":"WTICO_USD","from":97.83,"to":97.98,"breakeven":false}
+{"t":"2026-10-16T16:29:08.418Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-16T16:29:11.355Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-16T16:29:12.664Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-16T16:30:00.248Z","type":"thesis-counterfactual","id":"833b6787","symbol":"BAC","strategy":"mean-reversion","filteredBy":["news-quiet","above-200-sma"],"entry":52.05,"stop":50.14,"target":54.43}
+{"t":"2026-10-16T16:30:09.514Z","type":"cfd-tick-error","error":"oanda GET /v3/accounts/101-004-40071397-001/pricing?instruments=EUR_USD%2CGBP_USD%2CUSD_JPY%2CUSD_CHF%2CAUD_USD%2CUSD_CAD%2CNZD_USD%2CEUR_GBP%2CEUR_JPY%2CGBP_JPY%2CEUR_CHF%2CAUD_JPY%2CCAD_JPY%2CEUR_AUD%2CAUD_NZD%2CXAU_USD%2CXAG_USD%2CSPX500_USD%2CNAS100_USD%2CUS2000_USD%2CUK100_GBP%2CDE30_EUR%2CEU50_EUR%2CFR40_EUR%2CJP225_USD%2CAU200_AUD%2CHK33_HKD%2CWTICO_USD%2CBCO_USD: 401 Insufficient authorization to perform request."}
