@@ -18128,3 +18128,9 @@
 {"t":"2026-10-16T17:07:04.343Z","type":"thesis-counterfactual","id":"bd4cf35b","symbol":"COST","strategy":"momentum-breakout","filteredBy":["market-uptrend"],"entry":991.21,"stop":986.4,"target":1000.83}
 {"t":"2026-10-16T17:07:04.351Z","type":"thesis-counterfactual","id":"ad55363f","symbol":"BAC","strategy":"mean-reversion","filteredBy":["news-quiet","above-200-sma"],"entry":51.69,"stop":49.78,"target":54.41}
 {"t":"2026-10-16T17:07:10.122Z","type":"shadow-outcome","id":"a92693bf","symbol":"JPM","strategy":"momentum-breakout:filtered","source":"filter-blocked","entry":341.01,"stop":338.25,"target":346.53,"status":"stopped","r":-1,"exit":338.25,"openedAt":"2026-10-16T13:35:06.813Z","counterfactual":true,"filteredBy":["name-uptrend"],"regime":"trending"}
+{"t":"2026-10-16T17:07:12.951Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-16T17:07:14.901Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-16T17:07:16.187Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-16T17:08:04.203Z","type":"thesis-counterfactual","id":"951cd053","symbol":"COST","strategy":"momentum-breakout","filteredBy":["market-uptrend"],"entry":991.21,"stop":986.4,"target":1000.83}
+{"t":"2026-10-16T17:08:04.211Z","type":"thesis-counterfactual","id":"58e63b66","symbol":"HCA","strategy":"momentum-breakdown","filteredBy":["name-downtrend"],"entry":461.35,"stop":464.5,"target":455.05}
+{"t":"2026-10-16T17:08:04.324Z","type":"thesis-incubation","strategy":"momentum-breakdown","symbol":"BAC","side":"sell","entry":51.59,"stop":51.98,"target":50.81,"reason":"Broke 20-bar low (51.61) with stock and SPY below their 20-day averages. Stop 2×ATR above, target 2R.","maxHoldDays":5,"createdAt":"2026-10-16T17:08:04.324Z"}
