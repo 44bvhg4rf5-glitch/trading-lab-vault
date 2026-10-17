@@ -1,4 +1,3 @@
-{"t":"2026-10-13T18:52:47.672Z","type":"crypto-liquidity-skip","symbol":"UNI/USD","reasons":["median turnover $0.0M/day below the $20M floor"],"dollarVolume":12718,"spreadBps":20.3}
 {"t":"2026-10-13T18:52:47.672Z","type":"crypto-liquidity-skip","symbol":"BCH/USD","reasons":["median turnover $0.0M/day below the $20M floor","spread 65.4bps above the 50bps screen"],"dollarVolume":2863,"spreadBps":65.4}
 {"t":"2026-10-13T18:52:48.185Z","type":"cfd-instruments","found":["EUR_USD","GBP_USD","USD_JPY","USD_CHF","AUD_USD","USD_CAD","NZD_USD","EUR_GBP","EUR_JPY","GBP_JPY","EUR_CHF","AUD_JPY","CAD_JPY","EUR_AUD","AUD_NZD","XAU_USD","XAG_USD","SPX500_USD","NAS100_USD","US2000_USD","UK100_GBP","DE30_EUR","EU50_EUR","FR40_EUR","JP225_USD","AU200_AUD","HK33_HKD","WTICO_USD","BCO_USD"],"missing":["DE40_EUR"],"duplicatesSkipped":[],"offeredByAccount":123}
 {"t":"2026-10-13T18:52:55.313Z","type":"spread-dislocation","pair":"EUR_JPY/CAD_JPY","z":-2.52,"halfLifeDays":5.1,"expectedGainBps":90.6,"costBps":19,"netBps":71.6,"richLeg":"CAD_JPY","cheapLeg":"EUR_JPY","reason":"CAD_JPY is 2.52σ rich vs EUR_JPY; 90.6bp of expected reversion against 19bp of cost, half-life 5.1d"}
@@ -19998,3 +19997,4 @@
 {"t":"2026-10-17T11:06:03.726Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
 {"t":"2026-10-17T11:07:01.843Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
 {"t":"2026-10-17T11:08:10.716Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-17T11:09:04.876Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
