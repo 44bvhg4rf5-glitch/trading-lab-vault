@@ -19302,3 +19302,5 @@
 {"t":"2026-10-17T00:00:58.913Z","type":"crypto-liquidity-skip","symbol":"BCH/USD","reasons":["median turnover $0.0M/day below the $20M floor","spread 62bps above the 50bps screen"],"dollarVolume":3086,"spreadBps":62}
 {"t":"2026-10-17T00:01:09.898Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
 {"t":"2026-10-17T00:01:11.211Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-10-17T00:02:04.455Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-17T00:02:05.537Z","type":"vault-pushed","files":["sync/state.json"]}
