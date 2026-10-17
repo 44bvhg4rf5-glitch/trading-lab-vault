@@ -282,3 +282,5 @@
 {"t":"2026-10-17T15:16:48.829Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
 {"t":"2026-10-17T15:17:48.947Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
 {"t":"2026-10-17T15:18:45.696Z","type":"ai-error","at":"continuing-education","error":"ai cooling down until 2026-10-17T16:47:46.073Z (provider quota)"}
+{"t":"2026-10-17T15:18:48.539Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-17T15:18:49.513Z","type":"vault-pushed","files":["sync/state.json"]}
