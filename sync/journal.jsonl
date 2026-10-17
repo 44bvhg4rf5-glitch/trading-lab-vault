@@ -29,3 +29,4 @@
 {"t":"2026-10-17T11:20:37.576Z","type":"vault-pushed","files":["sync/equity-positions.json"]}
 {"t":"2026-10-17T11:20:38.553Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
 {"t":"2026-10-17T11:20:48.036Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-17T11:21:48.379Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
