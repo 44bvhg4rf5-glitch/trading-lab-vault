@@ -1,4 +1,3 @@
-{"t":"2026-10-13T18:52:45.588Z","type":"thesis-counterfactual","id":"f1819c7b","symbol":"TSLA","strategy":"momentum-breakdown","filteredBy":["name-downtrend","market-downtrend"],"entry":373.06,"stop":374.88,"target":369.42}
 {"t":"2026-10-13T18:52:45.589Z","type":"thesis-counterfactual","id":"896ae643","symbol":"CRM","strategy":"pullback-trend","filteredBy":["near-60d-high"],"entry":239.77,"stop":226.66,"target":265.99}
 {"t":"2026-10-13T18:52:45.591Z","type":"thesis-incubation","strategy":"pullback-trend","symbol":"AAPL","side":"buy","entry":342.6,"stop":330.72,"target":366.36,"reason":"Dip to the 20-day zone in a stacked uptrend (20>50>200 SMA, within 10% of the 60-day high), closing back up. Stop under the pullback low, target 2R.","maxHoldDays":21,"createdAt":"2026-10-13T18:52:45.591Z"}
 {"t":"2026-10-13T18:52:45.591Z","type":"thesis-incubation","strategy":"pullback-trend","symbol":"NVDA","side":"buy","entry":227.13,"stop":218.91,"target":243.57,"reason":"Dip to the 20-day zone in a stacked uptrend (20>50>200 SMA, within 10% of the 60-day high), closing back up. Stop under the pullback low, target 2R.","maxHoldDays":21,"createdAt":"2026-10-13T18:52:45.591Z"}
@@ -19998,3 +19997,4 @@
 {"t":"2026-10-17T10:48:04.464Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
 {"t":"2026-10-17T10:49:03.158Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
 {"t":"2026-10-17T10:50:02.423Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-17T10:51:02.120Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
