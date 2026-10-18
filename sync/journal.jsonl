@@ -2345,3 +2345,6 @@
 {"t":"2026-10-18T22:06:51.603Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
 {"t":"2026-10-18T22:07:51.235Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
 {"t":"2026-10-18T22:07:52.292Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-18T22:08:51.166Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-18T22:08:52.261Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-18T22:09:57.389Z","type":"thesis-rejected-gate","strategy":"cfd-momentum-breakout","market":"cfd","symbol":"CAD_JPY","side":"buy","entry":111.89,"stop":111.49,"target":112.49,"reason":"CAD_JPY broke its 20-hour high (111.81) on 3.6× average volume, above its 20-day average. Stop 3×ATR below, target 1.5R.","maxHoldDays":5,"conviction":{"score":60,"tier":"standard","reasons":["+6 index tape trending","+4 VIX 16.46 — calm tape"]},"reasons":["already at max 3 CFD positions","spread is 36.0% of the risk unit (cap 10%)","spread plus 5 nights of financing is 36.2% of the risk unit (cap 25%, rate account)"]}
