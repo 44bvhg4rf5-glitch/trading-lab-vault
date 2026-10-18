@@ -2011,3 +2011,5 @@
 {"t":"2026-10-18T17:56:49.653Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
 {"t":"2026-10-18T17:57:50.632Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
 {"t":"2026-10-18T17:58:49.798Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-18T17:59:51.540Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-18T18:00:46.544Z","type":"ai-error","at":"continuing-education","error":"ai cooling down until 2026-10-18T21:29:46.727Z (provider quota)"}
