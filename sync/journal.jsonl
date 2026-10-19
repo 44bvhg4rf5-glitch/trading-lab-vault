@@ -3672,3 +3672,7 @@
 {"t":"2026-10-19T18:36:27.506Z","type":"thesis-counterfactual","id":"aa793742","symbol":"PG","strategy":"momentum-breakout","filteredBy":["earnings-window","market-uptrend"],"entry":158.44,"stop":157.82,"target":159.68}
 {"t":"2026-10-19T18:36:35.126Z","type":"shadow-outcome","id":"8867372b","symbol":"PG","strategy":"momentum-breakdown:filtered","source":"filter-blocked","entry":157.47,"stop":158.47,"target":155.47,"status":"stopped","r":-1,"exit":158.47,"openedAt":"2026-10-19T13:34:31.021Z","side":"sell","counterfactual":true,"filteredBy":["earnings-window","name-downtrend"],"regime":"choppy"}
 {"t":"2026-10-19T18:36:35.126Z","type":"shadow-outcome","id":"28c8f1a2","symbol":"PG","strategy":"momentum-breakdown:filtered","source":"filter-blocked","entry":157.47,"stop":158.47,"target":155.47,"status":"stopped","r":-1,"exit":158.47,"openedAt":"2026-10-19T13:35:31.376Z","side":"sell","counterfactual":true,"filteredBy":["earnings-window","name-downtrend"],"regime":"choppy"}
+{"t":"2026-10-19T18:36:45.421Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-19T18:36:47.914Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-19T18:36:49.487Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-19T18:37:26.625Z","type":"thesis-counterfactual","id":"9ef2b625","symbol":"PG","strategy":"momentum-breakout","filteredBy":["earnings-window","market-uptrend"],"entry":158.47,"stop":157.85,"target":159.71}
