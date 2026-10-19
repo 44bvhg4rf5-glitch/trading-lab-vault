@@ -3701,3 +3701,7 @@
 {"t":"2026-10-19T18:42:45.587Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
 {"t":"2026-10-19T18:43:28.267Z","type":"thesis-counterfactual","id":"72016b69","symbol":"PG","strategy":"momentum-breakout","filteredBy":["earnings-window","market-uptrend"],"entry":158.44,"stop":157.82,"target":159.68}
 {"t":"2026-10-19T18:43:28.785Z","type":"thesis-incubation","strategy":"momentum-breakdown","symbol":"JPM","side":"sell","entry":334.35,"stop":336.03,"target":330.99,"reason":"Broke 20-bar low (334.39) with stock and SPY below their 20-day averages. Stop 2×ATR above, target 2R.","maxHoldDays":5,"createdAt":"2026-10-19T18:43:28.785Z"}
+{"t":"2026-10-19T18:43:41.818Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-19T18:43:43.989Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-19T18:43:45.346Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-19T18:44:34.128Z","type":"shadow-outcome","id":"1ea71b5e","symbol":"COP","strategy":"momentum-breakdown:filtered","source":"filter-blocked","entry":144.62,"stop":145.54,"target":142.78,"status":"stopped","r":-1,"exit":145.54,"openedAt":"2026-10-19T14:57:26.044Z","side":"sell","counterfactual":true,"filteredBy":["name-downtrend"],"regime":"choppy"}
