@@ -733,3 +733,6 @@
 {"t":"2026-10-19T11:27:27.686Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
 {"t":"2026-10-19T11:28:25.726Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
 {"t":"2026-10-19T11:28:26.837Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-19T11:29:26.730Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-19T11:29:27.820Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-19T11:30:31.904Z","type":"cfd-tick-error","error":"oanda GET /v3/instruments/UK100_GBP/candles?granularity=M15&count=300&price=M: 401 Insufficient authorization to perform request."}
