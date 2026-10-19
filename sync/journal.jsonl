@@ -1834,3 +1834,11 @@
 {"t":"2026-10-19T14:20:27.855Z","type":"thesis-counterfactual","id":"6c11ed26","symbol":"TSLA","strategy":"momentum-breakout","filteredBy":["earnings-window","name-uptrend","market-uptrend"],"entry":364.95,"stop":360.13,"target":374.59}
 {"t":"2026-10-19T14:20:27.871Z","type":"thesis-counterfactual","id":"68a43b49","symbol":"AMD","strategy":"pullback-trend","filteredBy":["near-60d-high"],"entry":540.63,"stop":500.44,"target":621.01}
 {"t":"2026-10-19T14:20:27.881Z","type":"thesis-counterfactual","id":"9bc5bc96","symbol":"ISRG","strategy":"momentum-breakout","filteredBy":["market-uptrend"],"entry":431.99,"stop":428.44,"target":439.09}
+{"t":"2026-10-19T14:20:37.041Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-19T14:20:39.120Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-19T14:20:40.433Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-19T14:21:27.026Z","type":"thesis-counterfactual","id":"30d82ca9","symbol":"AMZN","strategy":"momentum-breakout","filteredBy":["market-uptrend"],"entry":259.4,"stop":256.91,"target":264.38}
+{"t":"2026-10-19T14:21:27.040Z","type":"thesis-counterfactual","id":"f76f7cb5","symbol":"TSLA","strategy":"momentum-breakout","filteredBy":["earnings-window","name-uptrend","market-uptrend"],"entry":364.52,"stop":359.68,"target":374.2}
+{"t":"2026-10-19T14:21:27.053Z","type":"thesis-counterfactual","id":"65b9199b","symbol":"AMD","strategy":"pullback-trend","filteredBy":["near-60d-high"],"entry":540.63,"stop":500.44,"target":621.01}
+{"t":"2026-10-19T14:21:27.061Z","type":"thesis-counterfactual","id":"751677f3","symbol":"ISRG","strategy":"momentum-breakout","filteredBy":["market-uptrend"],"entry":432.27,"stop":428.72,"target":439.37}
+{"t":"2026-10-19T14:21:30.110Z","type":"shadow-outcome","id":"b8b82017","symbol":"CVX","strategy":"momentum-breakout:filtered","source":"filter-blocked","entry":225.46,"stop":224.33,"target":227.72,"status":"stopped","r":-1,"exit":224.33,"openedAt":"2026-10-19T14:01:32.971Z","counterfactual":true,"filteredBy":["market-uptrend"],"regime":"choppy"}
