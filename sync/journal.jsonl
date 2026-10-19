@@ -2458,3 +2458,12 @@
 {"t":"2026-10-19T15:42:25.947Z","type":"thesis-counterfactual","id":"89c76688","symbol":"AMD","strategy":"pullback-trend","filteredBy":["near-60d-high"],"entry":552.39,"stop":512.2,"target":632.77}
 {"t":"2026-10-19T15:42:25.958Z","type":"thesis-counterfactual","id":"29b9aaad","symbol":"ABBV","strategy":"momentum-breakdown","filteredBy":["name-downtrend"],"entry":283.3,"stop":285.04,"target":279.82}
 {"t":"2026-10-19T15:42:26.003Z","type":"thesis-counterfactual","id":"318001b3","symbol":"ANET","strategy":"momentum-breakout","filteredBy":["name-uptrend","market-uptrend"],"entry":185.62,"stop":182.97,"target":190.92}
+{"t":"2026-10-19T15:42:38.495Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-19T15:42:41.058Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-19T15:42:43.076Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-19T15:43:24.946Z","type":"thesis-counterfactual","id":"c862ab8c","symbol":"NVDA","strategy":"momentum-breakout","filteredBy":["name-uptrend","market-uptrend"],"entry":219.39,"stop":216.9,"target":224.37}
+{"t":"2026-10-19T15:43:24.957Z","type":"thesis-counterfactual","id":"2fb4e21b","symbol":"AMZN","strategy":"momentum-breakout","filteredBy":["market-uptrend"],"entry":263.28,"stop":260.66,"target":268.52}
+{"t":"2026-10-19T15:43:24.970Z","type":"thesis-counterfactual","id":"24e17152","symbol":"AMD","strategy":"momentum-breakout","filteredBy":["name-uptrend","market-uptrend"],"entry":553.38,"stop":543.57,"target":573}
+{"t":"2026-10-19T15:43:24.984Z","type":"thesis-counterfactual","id":"1f910238","symbol":"AMD","strategy":"pullback-trend","filteredBy":["near-60d-high"],"entry":552.39,"stop":512.2,"target":632.77}
+{"t":"2026-10-19T15:43:24.996Z","type":"thesis-counterfactual","id":"3fd3361a","symbol":"ABBV","strategy":"momentum-breakdown","filteredBy":["name-downtrend"],"entry":283.31,"stop":285.05,"target":279.83}
+{"t":"2026-10-19T15:43:25.013Z","type":"thesis-counterfactual","id":"0179edb9","symbol":"ANET","strategy":"momentum-breakout","filteredBy":["name-uptrend","market-uptrend"],"entry":185.67,"stop":183.02,"target":190.97}
