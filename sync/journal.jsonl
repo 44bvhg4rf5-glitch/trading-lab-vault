@@ -4290,3 +4290,6 @@
 {"t":"2026-10-19T20:03:20.607Z","type":"crypto-evolution-run","date":"2026-10-19","tookMs":45739,"results":[{"strategyKey":"crypto-momentum","promotedVersion":null,"championOut":{"n":185,"winRate":44,"totalR":-24.54,"avgR":-0.13,"maxDrawdownR":-35.77,"maxConsecLosses":11},"challengersTested":8},{"strategyKey":"crypto-meanrev","promotedVersion":null,"championOut":{"n":0},"challengersTested":8}]}
 {"t":"2026-10-19T20:04:39.574Z","type":"vault-pushed","files":["research/cfd-evolution-2026-10-19.md"]}
 {"t":"2026-10-19T20:04:39.574Z","type":"cfd-evolution-run","date":"2026-10-19","tookMs":78965,"results":[{"strategyKey":"cfd-momentum","promotedVersion":null,"championOut":{"n":310,"winRate":45,"totalR":-30.48,"avgR":-0.1,"maxDrawdownR":-40.92,"maxConsecLosses":9},"challengersTested":8},{"strategyKey":"cfd-meanrev","promotedVersion":null,"championOut":{"n":3,"winRate":0,"totalR":-2.81,"avgR":-0.94,"maxDrawdownR":-2.81,"maxConsecLosses":3},"challengersTested":8}]}
+{"t":"2026-10-19T20:04:51.673Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-19T20:04:53.177Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-10-19T20:04:54.557Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
