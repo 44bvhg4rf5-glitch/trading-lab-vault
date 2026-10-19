@@ -4113,3 +4113,9 @@
 {"t":"2026-10-19T19:48:39.877Z","type":"vault-pushed","files":["sync/shadow.json"]}
 {"t":"2026-10-19T19:48:41.212Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
 {"t":"2026-10-19T19:49:28.191Z","type":"thesis-counterfactual","id":"cde28598","symbol":"AMD","strategy":"pullback-trend","filteredBy":["near-60d-high"],"entry":541.23,"stop":500.94,"target":621.81}
+{"t":"2026-10-19T19:49:42.007Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-19T19:49:44.120Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-19T19:49:45.508Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-19T19:50:27.632Z","type":"thesis-counterfactual","id":"e2a47ca2","symbol":"AMD","strategy":"pullback-trend","filteredBy":["near-60d-high"],"entry":541.23,"stop":500.94,"target":621.81}
+{"t":"2026-10-19T19:50:27.644Z","type":"thesis-counterfactual","id":"879b0622","symbol":"KO","strategy":"momentum-breakdown","filteredBy":["name-downtrend"],"entry":93.39,"stop":93.77,"target":92.63}
+{"t":"2026-10-19T19:50:27.657Z","type":"thesis-counterfactual","id":"f18291ec","symbol":"MO","strategy":"momentum-breakdown","filteredBy":["name-downtrend"],"entry":74.12,"stop":74.49,"target":73.38}
