@@ -3533,3 +3533,11 @@
 {"t":"2026-10-19T18:11:27.868Z","type":"thesis-counterfactual","id":"fad68043","symbol":"AMD","strategy":"pullback-trend","filteredBy":["near-60d-high"],"entry":540.83,"stop":500.54,"target":621.41}
 {"t":"2026-10-19T18:11:27.886Z","type":"thesis-counterfactual","id":"526663c1","symbol":"JPM","strategy":"momentum-breakdown","filteredBy":["name-downtrend"],"entry":334.58,"stop":336.37,"target":331}
 {"t":"2026-10-19T18:11:27.898Z","type":"thesis-counterfactual","id":"523bbbb9","symbol":"HD","strategy":"momentum-breakout","filteredBy":["market-uptrend"],"entry":310.46,"stop":309,"target":313.38}
+{"t":"2026-10-19T18:11:42.115Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-19T18:11:44.144Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-19T18:11:45.466Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-19T18:12:27.654Z","type":"thesis-counterfactual","id":"413c45c5","symbol":"AMD","strategy":"pullback-trend","filteredBy":["near-60d-high"],"entry":540.83,"stop":500.54,"target":621.41}
+{"t":"2026-10-19T18:12:27.676Z","type":"thesis-counterfactual","id":"db07a67b","symbol":"JPM","strategy":"momentum-breakdown","filteredBy":["name-downtrend"],"entry":334.81,"stop":336.6,"target":331.23}
+{"t":"2026-10-19T18:12:27.691Z","type":"thesis-counterfactual","id":"2a8719d1","symbol":"HD","strategy":"momentum-breakout","filteredBy":["market-uptrend"],"entry":310.4,"stop":308.94,"target":313.32}
+{"t":"2026-10-19T18:12:35.249Z","type":"slippage","book":"cfd","phase":"entry","symbol":"WTICO_USD","side":"buy","intended":101.37,"filled":101.237,"costR":-0.062,"bps":13.1}
+{"t":"2026-10-19T18:12:35.249Z","type":"order-placed","id":"c5b111a5","orderId":"209","symbol":"WTICO_USD","qty":260,"limit":101.237,"stop":99.22,"target":104.6,"strategy":"cfd-momentum-breakout","by":"auto","analystVerdict":"caution","market":"cfd"}
