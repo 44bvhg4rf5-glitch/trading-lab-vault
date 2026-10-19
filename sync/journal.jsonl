@@ -163,3 +163,5 @@
 {"t":"2026-10-19T07:59:30.564Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
 {"t":"2026-10-19T08:00:33.609Z","type":"cfd-tick-error","error":"oanda GET /v3/instruments/GBP_USD/candles?granularity=D&count=400&price=M: 401 Insufficient authorization to perform request."}
 {"t":"2026-10-19T08:00:35.376Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-19T08:02:01.943Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-19T08:02:03.313Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
