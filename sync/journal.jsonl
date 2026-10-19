@@ -2142,3 +2142,11 @@
 {"t":"2026-10-19T14:59:25.497Z","type":"thesis-counterfactual","id":"75a99609","symbol":"GILD","strategy":"momentum-breakdown","filteredBy":["name-downtrend"],"entry":155.23,"stop":156.5,"target":152.69}
 {"t":"2026-10-19T14:59:25.505Z","type":"thesis-counterfactual","id":"925e537e","symbol":"COP","strategy":"momentum-breakdown","filteredBy":["name-downtrend"],"entry":144.54,"stop":145.48,"target":142.66}
 {"t":"2026-10-19T14:59:28.800Z","type":"shadow-outcome","id":"9fc12f7a","symbol":"AMZN","strategy":"momentum-breakout:filtered","source":"filter-blocked","entry":257.69,"stop":255.35,"target":262.37,"status":"target","r":2,"exit":262.37,"openedAt":"2026-10-19T14:09:26.283Z","counterfactual":true,"filteredBy":["market-uptrend"],"regime":"choppy"}
+{"t":"2026-10-19T14:59:32.486Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-19T14:59:34.146Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-19T14:59:35.554Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-19T15:00:30.653Z","type":"thesis-counterfactual","id":"2f6557c0","symbol":"AMZN","strategy":"momentum-breakout","filteredBy":["market-uptrend"],"entry":262.23,"stop":259.47,"target":267.75}
+{"t":"2026-10-19T15:00:30.663Z","type":"thesis-counterfactual","id":"cf48b288","symbol":"AMD","strategy":"pullback-trend","filteredBy":["near-60d-high"],"entry":548.37,"stop":508.18,"target":628.75}
+{"t":"2026-10-19T15:00:30.673Z","type":"thesis-counterfactual","id":"0fa6564e","symbol":"GILD","strategy":"momentum-breakdown","filteredBy":["name-downtrend"],"entry":155.21,"stop":156.48,"target":152.67}
+{"t":"2026-10-19T15:00:30.683Z","type":"thesis-counterfactual","id":"f24a8a8e","symbol":"COP","strategy":"momentum-breakdown","filteredBy":["name-downtrend"],"entry":144.54,"stop":145.48,"target":142.66}
+{"t":"2026-10-19T15:00:40.906Z","type":"cfd-tick-error","error":"oanda GET /v3/accounts/101-004-40071397-001/pricing?instruments=EUR_USD%2CGBP_USD%2CUSD_JPY%2CUSD_CHF%2CAUD_USD%2CUSD_CAD%2CNZD_USD%2CEUR_GBP%2CEUR_JPY%2CGBP_JPY%2CEUR_CHF%2CAUD_JPY%2CCAD_JPY%2CEUR_AUD%2CAUD_NZD%2CXAU_USD%2CXAG_USD%2CSPX500_USD%2CNAS100_USD%2CUS2000_USD%2CUK100_GBP%2CDE30_EUR%2CEU50_EUR%2CFR40_EUR%2CJP225_USD%2CAU200_AUD%2CHK33_HKD%2CWTICO_USD%2CBCO_USD: 401 Insufficient authorization to perform request."}
