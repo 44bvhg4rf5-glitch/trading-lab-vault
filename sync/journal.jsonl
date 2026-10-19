@@ -3172,3 +3172,8 @@
 {"t":"2026-10-19T17:37:49.508Z","type":"vault-pushed","files":["sync/shadow.json"]}
 {"t":"2026-10-19T17:37:50.794Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
 {"t":"2026-10-19T17:38:26.154Z","type":"thesis-counterfactual","id":"0a1fdf3a","symbol":"AMD","strategy":"pullback-trend","filteredBy":["near-60d-high"],"entry":541.09,"stop":500.8,"target":621.67}
+{"t":"2026-10-19T17:38:38.259Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-19T17:38:40.276Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-19T17:38:41.444Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-19T17:39:26.353Z","type":"thesis-counterfactual","id":"49127ca1","symbol":"AMD","strategy":"pullback-trend","filteredBy":["near-60d-high"],"entry":541.09,"stop":500.8,"target":621.67}
+{"t":"2026-10-19T17:39:32.705Z","type":"shadow-outcome","id":"75441d72","symbol":"DELL","strategy":"momentum-breakout:filtered","source":"filter-blocked","entry":468.33,"stop":458.48,"target":488.03,"status":"stopped","r":-1,"exit":458.48,"openedAt":"2026-10-19T13:33:30.910Z","counterfactual":true,"filteredBy":["name-uptrend","market-uptrend"],"regime":"choppy"}
