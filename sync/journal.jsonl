@@ -165,3 +165,6 @@
 {"t":"2026-10-19T08:00:35.376Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
 {"t":"2026-10-19T08:02:01.943Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
 {"t":"2026-10-19T08:02:03.313Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-19T08:02:34.237Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-19T08:02:35.423Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-19T08:03:40.073Z","type":"thesis-incubation","strategy":"cfd-momentum-breakdown","market":"cfd","symbol":"FR40_EUR","side":"sell","entry":7857.8,"stop":7929.41,"target":7714.58,"reason":"FR40_EUR broke its 20-hour low (7874.4) on 2.5× average volume, below its 20-day average. Stop 2.5×ATR above, target 2R.","maxHoldDays":5,"createdAt":"2026-10-19T08:03:40.073Z"}
