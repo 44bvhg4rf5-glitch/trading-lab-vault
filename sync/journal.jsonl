@@ -3641,3 +3641,10 @@
 {"t":"2026-10-19T18:29:26.646Z","type":"thesis-counterfactual","id":"d69769bb","symbol":"PEP","strategy":"momentum-breakout","filteredBy":["market-uptrend"],"entry":133.32,"stop":132.68,"target":134.6}
 {"t":"2026-10-19T18:29:42.158Z","type":"shadow-outcome","id":"642013e0","symbol":"AMD","strategy":"momentum-breakout:filtered","source":"filter-blocked","entry":547.25,"stop":536.93,"target":567.89,"status":"stopped","r":-1,"exit":536.93,"openedAt":"2026-10-19T13:33:30.703Z","counterfactual":true,"filteredBy":["name-uptrend","market-uptrend"],"regime":"choppy"}
 {"t":"2026-10-19T18:29:42.159Z","type":"shadow-outcome","id":"7ba48191","symbol":"AMD","strategy":"momentum-breakout:filtered","source":"filter-blocked","entry":547.28,"stop":536.96,"target":567.92,"status":"stopped","r":-1,"exit":536.96,"openedAt":"2026-10-19T13:39:28.877Z","counterfactual":true,"filteredBy":["name-uptrend","market-uptrend"],"regime":"choppy"}
+{"t":"2026-10-19T18:29:52.422Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-19T18:29:54.495Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-19T18:29:56.878Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-19T18:30:29.362Z","type":"thesis-counterfactual","id":"56bcb5ab","symbol":"AMD","strategy":"pullback-trend","filteredBy":["near-60d-high"],"entry":538.26,"stop":497.97,"target":618.84}
+{"t":"2026-10-19T18:30:29.374Z","type":"thesis-counterfactual","id":"bd562ff1","symbol":"HD","strategy":"momentum-breakout","filteredBy":["market-uptrend"],"entry":310.79,"stop":309.35,"target":313.67}
+{"t":"2026-10-19T18:30:29.387Z","type":"thesis-counterfactual","id":"791f55b5","symbol":"PEP","strategy":"momentum-breakout","filteredBy":["market-uptrend"],"entry":133.31,"stop":132.67,"target":134.59}
+{"t":"2026-10-19T18:30:39.613Z","type":"shadow-outcome","id":"8889030d","symbol":"DELL","strategy":"momentum-breakout:filtered","source":"filter-blocked","entry":462.89,"stop":452.66,"target":483.35,"status":"stopped","r":-1,"exit":452.66,"openedAt":"2026-10-19T13:40:31.920Z","counterfactual":true,"filteredBy":["name-uptrend","market-uptrend"],"regime":"choppy"}
