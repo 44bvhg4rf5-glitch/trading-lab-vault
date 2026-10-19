@@ -4024,3 +4024,12 @@
 {"t":"2026-10-19T19:36:50.269Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
 {"t":"2026-10-19T19:37:26.637Z","type":"thesis-counterfactual","id":"d0f7bbe0","symbol":"AMZN","strategy":"momentum-breakout","filteredBy":["market-uptrend"],"entry":263.6,"stop":262,"target":266.8}
 {"t":"2026-10-19T19:37:26.652Z","type":"thesis-counterfactual","id":"4cdf7160","symbol":"AMD","strategy":"pullback-trend","filteredBy":["near-60d-high"],"entry":541.73,"stop":501.44,"target":622.31}
+{"t":"2026-10-19T19:37:40.471Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-19T19:37:43.370Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-19T19:37:44.779Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-19T19:38:28.274Z","type":"thesis-counterfactual","id":"c665f1ac","symbol":"AMZN","strategy":"momentum-breakout","filteredBy":["market-uptrend"],"entry":263.61,"stop":262.01,"target":266.81}
+{"t":"2026-10-19T19:38:28.290Z","type":"thesis-counterfactual","id":"5a06fc8a","symbol":"AMD","strategy":"pullback-trend","filteredBy":["near-60d-high"],"entry":543.23,"stop":502.94,"target":623.81}
+{"t":"2026-10-19T19:38:28.304Z","type":"thesis-counterfactual","id":"df5bba59","symbol":"GILD","strategy":"momentum-breakdown","filteredBy":["name-downtrend"],"entry":153.42,"stop":154.34,"target":151.58}
+{"t":"2026-10-19T19:38:28.319Z","type":"thesis-counterfactual","id":"c1d8f34c","symbol":"ISRG","strategy":"momentum-breakout","filteredBy":["market-uptrend"],"entry":434.48,"stop":432.22,"target":439}
+{"t":"2026-10-19T19:38:34.319Z","type":"shadow-outcome","id":"6f29f427","symbol":"AMZN","strategy":"momentum-breakout:filtered","source":"filter-blocked","entry":258.65,"stop":256.17,"target":263.61,"status":"target","r":2,"exit":263.61,"openedAt":"2026-10-19T14:12:28.349Z","counterfactual":true,"filteredBy":["market-uptrend"],"regime":"choppy"}
+{"t":"2026-10-19T19:38:34.319Z","type":"shadow-outcome","id":"4436727b","symbol":"AMZN","strategy":"momentum-breakout:filtered","source":"filter-blocked","entry":258.55,"stop":256.01,"target":263.63,"status":"target","r":2,"exit":263.63,"openedAt":"2026-10-19T14:14:26.048Z","counterfactual":true,"filteredBy":["market-uptrend"],"regime":"choppy"}
