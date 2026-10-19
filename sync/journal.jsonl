@@ -3660,3 +3660,7 @@
 {"t":"2026-10-19T18:32:42.742Z","type":"vault-pushed","files":["sync/shadow.json"]}
 {"t":"2026-10-19T18:32:44.208Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
 {"t":"2026-10-19T18:33:28.686Z","type":"thesis-counterfactual","id":"d899820d","symbol":"AMD","strategy":"pullback-trend","filteredBy":["near-60d-high"],"entry":538.26,"stop":497.97,"target":618.84}
+{"t":"2026-10-19T18:33:40.766Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-19T18:33:42.843Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-19T18:33:44.248Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-19T18:34:31.326Z","type":"thesis-incubation","strategy":"momentum-breakdown","symbol":"DELL","side":"sell","entry":451.6,"stop":457.87,"target":439.06,"reason":"Broke 20-bar low (451.82) with stock and SPY below their 20-day averages. Stop 2×ATR above, target 2R.","maxHoldDays":5,"createdAt":"2026-10-19T18:34:31.326Z"}
