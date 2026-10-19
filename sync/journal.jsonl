@@ -4101,3 +4101,7 @@
 {"t":"2026-10-19T19:45:49.288Z","type":"vault-pushed","files":["sync/shadow.json"]}
 {"t":"2026-10-19T19:45:50.684Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
 {"t":"2026-10-19T19:46:27.407Z","type":"thesis-counterfactual","id":"6473831c","symbol":"AMD","strategy":"pullback-trend","filteredBy":["near-60d-high"],"entry":543.23,"stop":502.94,"target":623.81}
+{"t":"2026-10-19T19:46:39.944Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-19T19:46:42.451Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-19T19:46:43.640Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-19T19:47:26.556Z","type":"thesis-counterfactual","id":"87982989","symbol":"AMD","strategy":"pullback-trend","filteredBy":["near-60d-high"],"entry":543.23,"stop":502.94,"target":623.81}
