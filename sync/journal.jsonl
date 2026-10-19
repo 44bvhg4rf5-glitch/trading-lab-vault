@@ -3684,3 +3684,6 @@
 {"t":"2026-10-19T18:38:40.162Z","type":"vault-pushed","files":["sync/shadow.json"]}
 {"t":"2026-10-19T18:38:41.441Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
 {"t":"2026-10-19T18:39:27.023Z","type":"thesis-counterfactual","id":"b7bfa711","symbol":"PG","strategy":"momentum-breakout","filteredBy":["earnings-window","market-uptrend"],"entry":158.44,"stop":157.82,"target":159.68}
+{"t":"2026-10-19T18:39:50.499Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-19T18:39:52.588Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-19T18:39:54.082Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
