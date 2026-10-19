@@ -452,3 +452,6 @@
 {"t":"2026-10-19T09:08:31.771Z","type":"vault-pushed","files":["sync/state.json"]}
 {"t":"2026-10-19T09:08:33.079Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
 {"t":"2026-10-19T09:09:35.307Z","type":"thesis-incubation","strategy":"cfd-momentum-breakdown","market":"cfd","symbol":"EU50_EUR","side":"sell","entry":6146.2,"stop":6188.77,"target":6061.06,"reason":"EU50_EUR broke its 20-hour low (6150.2) on 1.4× average volume, below its 20-day average. Stop 2.5×ATR above, target 2R.","maxHoldDays":5,"createdAt":"2026-10-19T09:09:35.307Z"}
+{"t":"2026-10-19T09:09:37.307Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-19T09:09:39.283Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-19T09:09:40.566Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
