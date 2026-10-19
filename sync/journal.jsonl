@@ -1723,3 +1723,11 @@
 {"t":"2026-10-19T14:07:26.152Z","type":"thesis-counterfactual","id":"6a6fb800","symbol":"PEP","strategy":"momentum-breakout","filteredBy":["market-uptrend"],"entry":132.43,"stop":131.49,"target":134.31}
 {"t":"2026-10-19T14:07:26.161Z","type":"thesis-counterfactual","id":"e0e836ff","symbol":"ACN","strategy":"momentum-breakout","filteredBy":["market-uptrend"],"entry":231.71,"stop":228.99,"target":237.15}
 {"t":"2026-10-19T14:07:31.909Z","type":"shadow-outcome","id":"eac1653c","symbol":"DVN","strategy":"momentum-breakout:filtered","source":"filter-blocked","entry":50.88,"stop":50.52,"target":51.6,"status":"stopped","r":-1,"exit":50.52,"openedAt":"2026-10-19T13:47:27.232Z","counterfactual":true,"filteredBy":["market-uptrend"],"regime":"choppy"}
+{"t":"2026-10-19T14:07:37.775Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-19T14:07:39.743Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-19T14:07:41.130Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-19T14:08:26.559Z","type":"thesis-counterfactual","id":"b0bacdb1","symbol":"META","strategy":"momentum-breakdown","filteredBy":["earnings-window"],"entry":694.07,"stop":701.47,"target":679.27}
+{"t":"2026-10-19T14:08:26.579Z","type":"thesis-counterfactual","id":"d5434e90","symbol":"AMD","strategy":"pullback-trend","filteredBy":["near-60d-high"],"entry":545.82,"stop":505.63,"target":626.2}
+{"t":"2026-10-19T14:08:26.594Z","type":"thesis-counterfactual","id":"efa154df","symbol":"CVX","strategy":"momentum-breakout","filteredBy":["market-uptrend"],"entry":225.39,"stop":224.23,"target":227.71}
+{"t":"2026-10-19T14:08:26.612Z","type":"thesis-counterfactual","id":"73dcdf9b","symbol":"PEP","strategy":"momentum-breakout","filteredBy":["market-uptrend"],"entry":132.32,"stop":131.38,"target":134.2}
+{"t":"2026-10-19T14:08:26.667Z","type":"thesis-counterfactual","id":"4c3a0cea","symbol":"ACN","strategy":"momentum-breakout","filteredBy":["market-uptrend"],"entry":231.13,"stop":228.41,"target":236.57}
