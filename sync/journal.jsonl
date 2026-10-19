@@ -1533,3 +1533,11 @@
 {"t":"2026-10-19T13:48:32.311Z","type":"shadow-outcome","id":"dc111938","symbol":"TMO","strategy":"momentum-breakout:filtered","source":"filter-blocked","entry":691.19,"stop":686.79,"target":699.99,"status":"stopped","r":-1,"exit":686.79,"openedAt":"2026-10-19T13:35:31.507Z","counterfactual":true,"filteredBy":["market-uptrend"],"regime":"choppy"}
 {"t":"2026-10-19T13:48:32.312Z","type":"shadow-outcome","id":"e1d60e28","symbol":"TMO","strategy":"momentum-breakout:filtered","source":"filter-blocked","entry":690.84,"stop":686.43,"target":699.66,"status":"stopped","r":-1,"exit":686.43,"openedAt":"2026-10-19T13:37:29.154Z","counterfactual":true,"filteredBy":["market-uptrend"],"regime":"choppy"}
 {"t":"2026-10-19T13:48:32.314Z","type":"shadow-outcome","id":"13aa965b","symbol":"TMO","strategy":"momentum-breakout:filtered","source":"filter-blocked","entry":690.87,"stop":686.39,"target":699.83,"status":"stopped","r":-1,"exit":686.39,"openedAt":"2026-10-19T13:40:31.883Z","counterfactual":true,"filteredBy":["market-uptrend"],"regime":"choppy"}
+{"t":"2026-10-19T13:48:35.671Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-19T13:48:37.877Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-19T13:48:39.389Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-19T13:49:26.589Z","type":"thesis-counterfactual","id":"185bc8ce","symbol":"META","strategy":"momentum-breakdown","filteredBy":["earnings-window"],"entry":698.87,"stop":705.97,"target":684.67}
+{"t":"2026-10-19T13:49:26.598Z","type":"thesis-counterfactual","id":"363b364c","symbol":"AMD","strategy":"pullback-trend","filteredBy":["near-60d-high"],"entry":547.92,"stop":508.05,"target":627.66}
+{"t":"2026-10-19T13:49:26.608Z","type":"thesis-counterfactual","id":"af064a96","symbol":"OXY","strategy":"momentum-breakout","filteredBy":["market-uptrend"],"entry":62.99,"stop":62.48,"target":64.01}
+{"t":"2026-10-19T13:49:26.619Z","type":"thesis-counterfactual","id":"6760c321","symbol":"COP","strategy":"momentum-breakout","filteredBy":["market-uptrend"],"entry":146.61,"stop":145.73,"target":148.37}
+{"t":"2026-10-19T13:49:26.629Z","type":"thesis-counterfactual","id":"c91f5ce1","symbol":"DVN","strategy":"momentum-breakout","filteredBy":["market-uptrend"],"entry":50.9,"stop":50.54,"target":51.62}
