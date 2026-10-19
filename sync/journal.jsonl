@@ -3582,3 +3582,16 @@
 {"t":"2026-10-19T18:19:55.990Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
 {"t":"2026-10-19T18:20:28.697Z","type":"thesis-counterfactual","id":"4c75b6a5","symbol":"AMD","strategy":"pullback-trend","filteredBy":["near-60d-high"],"entry":539.26,"stop":498.97,"target":619.84}
 {"t":"2026-10-19T18:20:28.710Z","type":"thesis-counterfactual","id":"300aa9c8","symbol":"PEP","strategy":"momentum-breakout","filteredBy":["market-uptrend"],"entry":133.28,"stop":132.64,"target":134.56}
+{"t":"2026-10-19T18:20:44.452Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-19T18:20:46.711Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-19T18:20:48.181Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-19T18:21:27.004Z","type":"thesis-counterfactual","id":"44d5ef88","symbol":"AMD","strategy":"pullback-trend","filteredBy":["near-60d-high"],"entry":539.26,"stop":498.97,"target":619.84}
+{"t":"2026-10-19T18:21:27.029Z","type":"thesis-counterfactual","id":"d824da8a","symbol":"HD","strategy":"momentum-breakout","filteredBy":["market-uptrend"],"entry":310.5,"stop":309.1,"target":313.3}
+{"t":"2026-10-19T18:21:34.705Z","type":"shadow-outcome","id":"0700341f","symbol":"DELL","strategy":"momentum-breakout:filtered","source":"filter-blocked","entry":464.9,"stop":454.67,"target":485.36,"status":"stopped","r":-1,"exit":454.67,"openedAt":"2026-10-19T13:36:30.967Z","counterfactual":true,"filteredBy":["name-uptrend","market-uptrend"],"regime":"choppy"}
+{"t":"2026-10-19T18:21:44.602Z","type":"vault-error","at":"sync/journal.jsonl","error":"github 403: The rule did not run because of a timeout."}
+{"t":"2026-10-19T18:21:46.653Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-19T18:21:48.057Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-19T18:22:26.828Z","type":"thesis-counterfactual","id":"8fd3c108","symbol":"AMD","strategy":"pullback-trend","filteredBy":["near-60d-high"],"entry":539.26,"stop":498.97,"target":619.84}
+{"t":"2026-10-19T18:22:26.840Z","type":"thesis-counterfactual","id":"009c3fd8","symbol":"HD","strategy":"momentum-breakout","filteredBy":["market-uptrend"],"entry":310.61,"stop":309.2,"target":313.43}
+{"t":"2026-10-19T18:22:33.104Z","type":"shadow-outcome","id":"2b6dc066","symbol":"DELL","strategy":"momentum-breakout:filtered","source":"filter-blocked","entry":464.6,"stop":454.37,"target":485.06,"status":"stopped","r":-1,"exit":454.37,"openedAt":"2026-10-19T13:42:27.031Z","counterfactual":true,"filteredBy":["name-uptrend","market-uptrend"],"regime":"choppy"}
+{"t":"2026-10-19T18:22:33.104Z","type":"shadow-outcome","id":"24f0e087","symbol":"DELL","strategy":"momentum-breakout:filtered","source":"filter-blocked","entry":464.63,"stop":454.4,"target":485.09,"status":"stopped","r":-1,"exit":454.4,"openedAt":"2026-10-19T13:43:27.531Z","counterfactual":true,"filteredBy":["name-uptrend","market-uptrend"],"regime":"choppy"}
