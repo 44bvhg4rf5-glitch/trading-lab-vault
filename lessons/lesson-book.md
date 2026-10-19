@@ -4,17 +4,26 @@ tags: [trading-lab, lessons]
 
 # Lesson book
 
+## macro
+
+- Consumer financial resilience, as measured by the 2025 Survey of Consumer Finances, does not yet translate into a clear shift in equity risk premia. *(continuing-education)*
+
 ## markets
 
 - Macro context (rates, debt cycles, liquidity) belongs in every thesis — read the environment, not just the chart. *(study: Julian Petroulas, 2026-07)*
 - A long-only book in a confirmed downtrend produces repeated failed breakouts, not bargains — trading nothing is the correct output of that regime, not a missed opportunity. *(week-ahead research, 2026-08)*
 - When the market's next expected policy move is a hike rather than a cut, soft inflation prints become the bullish catalyst — check which way the surprise has to break before assuming good data is good news. *(week-ahead research, 2026-08)*
 
+## news
+
+- Regulatory enforcement actions can temporarily spike volatility in the targeted sector and its peers. *(continuing-education)*
+
 ## process
 
 - Build conviction from research before entering, never after — a thesis is earned by work, then executed with discipline. *(study: Julian Petroulas, 2026-07)*
 - Frameworks beat signals: never act on someone else's call — understand the setup yourself or skip it. *(study: Julian Petroulas, 2026-07)*
 - Lifestyle marketing is not a track record — treat unverified profit claims from any influencer source as content, not evidence. *(study: Julian Petroulas, 2026-07)*
+- High‑frequency news sentiment models that exclude hindsight bias may improve the signal‑to‑noise ratio of momentum strategies. *(continuing-education)*
 
 ## psychology
 
