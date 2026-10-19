@@ -3489,3 +3489,10 @@
 {"t":"2026-10-19T18:05:39.608Z","type":"shadow-outcome","id":"cbd0585e","symbol":"ABBV","strategy":"momentum-breakdown:filtered","source":"filter-blocked","entry":282.84,"stop":284.47,"target":279.58,"status":"stopped","r":-1,"exit":284.47,"openedAt":"2026-10-19T16:10:30.047Z","side":"sell","counterfactual":true,"filteredBy":["name-downtrend"],"regime":"choppy"}
 {"t":"2026-10-19T18:05:39.608Z","type":"shadow-outcome","id":"07004e79","symbol":"ABBV","strategy":"momentum-breakdown:filtered","source":"filter-blocked","entry":282.87,"stop":284.5,"target":279.61,"status":"stopped","r":-1,"exit":284.5,"openedAt":"2026-10-19T16:11:28.152Z","side":"sell","counterfactual":true,"filteredBy":["name-downtrend"],"regime":"choppy"}
 {"t":"2026-10-19T18:05:39.608Z","type":"shadow-outcome","id":"d3df37b5","symbol":"ABBV","strategy":"momentum-breakdown:filtered","source":"filter-blocked","entry":283.03,"stop":284.66,"target":279.77,"status":"stopped","r":-1,"exit":284.66,"openedAt":"2026-10-19T16:12:27.393Z","side":"sell","counterfactual":true,"filteredBy":["name-downtrend"],"regime":"choppy"}
+{"t":"2026-10-19T18:05:45.974Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-19T18:05:48.407Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-19T18:05:50.033Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-19T18:06:28.326Z","type":"thesis-counterfactual","id":"18c482b3","symbol":"AMD","strategy":"pullback-trend","filteredBy":["near-60d-high"],"entry":540.83,"stop":500.54,"target":621.41}
+{"t":"2026-10-19T18:06:28.344Z","type":"thesis-counterfactual","id":"8c2f8e90","symbol":"JPM","strategy":"momentum-breakdown","filteredBy":["name-downtrend"],"entry":334.8,"stop":336.54,"target":331.32}
+{"t":"2026-10-19T18:06:28.360Z","type":"thesis-counterfactual","id":"32554f2d","symbol":"HD","strategy":"momentum-breakout","filteredBy":["market-uptrend"],"entry":310.26,"stop":308.82,"target":313.14}
+{"t":"2026-10-19T18:06:28.374Z","type":"thesis-counterfactual","id":"b6d87175","symbol":"ACN","strategy":"momentum-breakout","filteredBy":["market-uptrend"],"entry":235.73,"stop":233.85,"target":239.49}
