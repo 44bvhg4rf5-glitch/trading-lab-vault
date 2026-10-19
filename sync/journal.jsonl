@@ -3696,3 +3696,8 @@
 {"t":"2026-10-19T18:41:45.992Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
 {"t":"2026-10-19T18:42:28.090Z","type":"thesis-counterfactual","id":"ace3e503","symbol":"PG","strategy":"momentum-breakout","filteredBy":["earnings-window","market-uptrend"],"entry":158.47,"stop":157.85,"target":159.71}
 {"t":"2026-10-19T18:42:28.102Z","type":"thesis-counterfactual","id":"965789ca","symbol":"PEP","strategy":"momentum-breakout","filteredBy":["market-uptrend"],"entry":133.35,"stop":132.73,"target":134.59}
+{"t":"2026-10-19T18:42:41.393Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-19T18:42:44.063Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-19T18:42:45.587Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-19T18:43:28.267Z","type":"thesis-counterfactual","id":"72016b69","symbol":"PG","strategy":"momentum-breakout","filteredBy":["earnings-window","market-uptrend"],"entry":158.44,"stop":157.82,"target":159.68}
+{"t":"2026-10-19T18:43:28.785Z","type":"thesis-incubation","strategy":"momentum-breakdown","symbol":"JPM","side":"sell","entry":334.35,"stop":336.03,"target":330.99,"reason":"Broke 20-bar low (334.39) with stock and SPY below their 20-day averages. Stop 2×ATR above, target 2R.","maxHoldDays":5,"createdAt":"2026-10-19T18:43:28.785Z"}
