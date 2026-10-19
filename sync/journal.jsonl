@@ -3461,3 +3461,6 @@
 {"t":"2026-10-19T06:57:53.927Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
 {"t":"2026-10-19T06:58:51.643Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
 {"t":"2026-10-19T06:58:52.893Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-19T06:59:50.766Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-19T06:59:51.885Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-19T07:01:00.319Z","type":"cfd-tick-error","error":"oanda GET /v3/instruments/EUR_JPY/candles?granularity=D&count=400&price=M: 401 Insufficient authorization to perform request."}
