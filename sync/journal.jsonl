@@ -3784,3 +3784,8 @@
 {"t":"2026-10-19T18:58:43.785Z","type":"vault-pushed","files":["sync/shadow.json"]}
 {"t":"2026-10-19T18:58:45.219Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
 {"t":"2026-10-19T18:59:26.505Z","type":"thesis-counterfactual","id":"fb917be8","symbol":"AMD","strategy":"pullback-trend","filteredBy":["near-60d-high"],"entry":540.27,"stop":499.98,"target":620.85}
+{"t":"2026-10-19T18:59:40.194Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-19T18:59:42.335Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-19T18:59:43.662Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-19T19:00:29.591Z","type":"thesis-counterfactual","id":"5f960758","symbol":"AMD","strategy":"pullback-trend","filteredBy":["near-60d-high"],"entry":540.27,"stop":499.98,"target":620.85}
+{"t":"2026-10-19T19:00:45.290Z","type":"cfd-tick-error","error":"oanda GET /v3/accounts/101-004-40071397-001/summary: 401 Insufficient authorization to perform request."}
