@@ -269,3 +269,6 @@
 {"t":"2026-10-19T08:36:49.095Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
 {"t":"2026-10-19T08:36:50.090Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
 {"t":"2026-10-19T08:37:45.746Z","type":"ai-error","at":"continuing-education","error":"no AI provider answered — gemini resting until 2026-10-19T09:36:47.038Z"}
+{"t":"2026-10-19T08:37:49.501Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-19T08:37:50.631Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-10-19T08:37:52.215Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
