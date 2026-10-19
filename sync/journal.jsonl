@@ -439,3 +439,12 @@
 {"t":"2026-10-19T09:05:28.657Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
 {"t":"2026-10-19T09:06:27.121Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
 {"t":"2026-10-19T09:06:28.418Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-19T09:07:26.668Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-19T09:07:27.836Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-19T09:08:23.076Z","type":"lesson","origin":"continuing-education","tag":"news","lesson":"Regulatory enforcement actions can temporarily spike volatility in the targeted sector and its peers."}
+{"t":"2026-10-19T09:08:23.077Z","type":"lesson","origin":"continuing-education","tag":"process","lesson":"High‑frequency news sentiment models that exclude hindsight bias may improve the signal‑to‑noise ratio of momentum strategies."}
+{"t":"2026-10-19T09:08:23.077Z","type":"lesson","origin":"continuing-education","tag":"macro","lesson":"Consumer financial resilience, as measured by the 2025 Survey of Consumer Finances, does not yet translate into a clear shift in equity risk premia."}
+{"t":"2026-10-19T09:08:23.078Z","type":"hypothesis","origin":"continuing-education","text":"1) Incorporating a no‑hindsight NLP‑derived sentiment score (e.g., NoLBERT topics) into a weekly momentum breakout filter will increase Sharpe ratio by at least 10% relative to a plain price‑based breakout rule."}
+{"t":"2026-10-19T09:08:23.078Z","type":"hypothesis","origin":"continuing-education","text":"2) Adjusting mean‑reversion entry thresholds by a factor of the recent Fed enforcement‑action volatility spike (e.g., 1.5× the standard deviation of daily returns for the affected sector) will reduce drawdown by 15% without materially harming annualized return."}
+{"t":"2026-10-19T09:08:25.226Z","type":"vault-pushed","files":["continuing-education/2026-10-19.md"]}
+{"t":"2026-10-19T09:08:25.226Z","type":"continuing-education","date":"2026-10-19","lessons":3,"hypotheses":2}
