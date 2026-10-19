@@ -2908,3 +2908,6 @@
 {"t":"2026-10-19T02:31:52.532Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
 {"t":"2026-10-19T02:32:50.555Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
 {"t":"2026-10-19T02:32:51.586Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-19T02:33:50.581Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-19T02:33:51.691Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-19T02:34:46.734Z","type":"ai-error","at":"continuing-education","error":"ai cooling down until 2026-10-19T05:34:46.884Z (provider quota)"}
