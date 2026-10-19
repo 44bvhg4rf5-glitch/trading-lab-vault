@@ -2058,3 +2058,12 @@
 {"t":"2026-10-19T14:51:26.086Z","type":"thesis-counterfactual","id":"2fe1773b","symbol":"ABBV","strategy":"momentum-breakdown","filteredBy":["name-downtrend"],"entry":283.58,"stop":285.44,"target":279.86}
 {"t":"2026-10-19T14:51:26.096Z","type":"thesis-counterfactual","id":"ddc58e9a","symbol":"GILD","strategy":"momentum-breakdown","filteredBy":["name-downtrend"],"entry":154.92,"stop":156.19,"target":152.38}
 {"t":"2026-10-19T14:51:30.399Z","type":"shadow-outcome","id":"947ceee1","symbol":"OXY","strategy":"momentum-breakout:filtered","source":"filter-blocked","entry":63.01,"stop":62.5,"target":64.03,"status":"stopped","r":-1,"exit":62.5,"openedAt":"2026-10-19T13:48:26.847Z","counterfactual":true,"filteredBy":["market-uptrend"],"regime":"choppy"}
+{"t":"2026-10-19T14:51:34.292Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-19T14:51:35.917Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-19T14:51:37.224Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-19T14:52:25.860Z","type":"thesis-counterfactual","id":"96f0e39d","symbol":"AMZN","strategy":"momentum-breakout","filteredBy":["market-uptrend"],"entry":261.37,"stop":258.79,"target":266.53}
+{"t":"2026-10-19T14:52:25.869Z","type":"thesis-counterfactual","id":"897830c7","symbol":"AMD","strategy":"pullback-trend","filteredBy":["near-60d-high"],"entry":548.22,"stop":508.03,"target":628.6}
+{"t":"2026-10-19T14:52:25.883Z","type":"thesis-counterfactual","id":"231cb38c","symbol":"ABBV","strategy":"momentum-breakdown","filteredBy":["name-downtrend"],"entry":284,"stop":285.86,"target":280.28}
+{"t":"2026-10-19T14:52:25.895Z","type":"thesis-counterfactual","id":"36e5eca9","symbol":"GILD","strategy":"momentum-breakdown","filteredBy":["name-downtrend"],"entry":154.99,"stop":156.26,"target":152.45}
+{"t":"2026-10-19T14:52:25.905Z","type":"thesis-counterfactual","id":"3c087864","symbol":"COP","strategy":"momentum-breakdown","filteredBy":["name-downtrend"],"entry":144.66,"stop":145.57,"target":142.84}
+{"t":"2026-10-19T14:52:30.124Z","type":"shadow-outcome","id":"8361fac5","symbol":"AMZN","strategy":"momentum-breakout:filtered","source":"filter-blocked","entry":256.49,"stop":254.14,"target":261.19,"status":"target","r":2,"exit":261.19,"openedAt":"2026-10-19T13:37:29.010Z","counterfactual":true,"filteredBy":["name-uptrend","market-uptrend"],"regime":"choppy"}
