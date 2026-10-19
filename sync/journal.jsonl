@@ -1590,3 +1590,13 @@
 {"t":"2026-10-19T13:54:25.340Z","type":"thesis-counterfactual","id":"54ff76e5","symbol":"DVN","strategy":"momentum-breakout","filteredBy":["market-uptrend"],"entry":50.83,"stop":50.46,"target":51.57}
 {"t":"2026-10-19T13:54:30.702Z","type":"shadow-outcome","id":"642da5b2","symbol":"LLY","strategy":"momentum-breakdown:filtered","source":"filter-blocked","entry":1243.95,"stop":1253.5,"target":1224.85,"status":"stopped","r":-1,"exit":1253.5,"openedAt":"2026-10-19T13:31:34.871Z","side":"sell","counterfactual":true,"filteredBy":["name-downtrend"],"regime":"choppy"}
 {"t":"2026-10-19T13:54:30.703Z","type":"shadow-outcome","id":"80533de9","symbol":"MO","strategy":"momentum-breakdown:filtered","source":"filter-blocked","entry":73.88,"stop":74.41,"target":72.82,"status":"stopped","r":-1,"exit":74.41,"openedAt":"2026-10-19T13:35:31.491Z","side":"sell","counterfactual":true,"filteredBy":["name-downtrend"],"regime":"choppy"}
+{"t":"2026-10-19T13:54:34.028Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-19T13:54:37.067Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-19T13:54:38.313Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-19T13:55:26.688Z","type":"thesis-counterfactual","id":"d8c0d96b","symbol":"META","strategy":"momentum-breakdown","filteredBy":["earnings-window"],"entry":697.84,"stop":705.23,"target":683.06}
+{"t":"2026-10-19T13:55:26.721Z","type":"thesis-counterfactual","id":"086c0a3e","symbol":"AMD","strategy":"pullback-trend","filteredBy":["near-60d-high"],"entry":552.33,"stop":512.14,"target":632.71}
+{"t":"2026-10-19T13:55:26.747Z","type":"thesis-counterfactual","id":"59a9c6f8","symbol":"JPM","strategy":"momentum-breakdown","filteredBy":["name-downtrend"],"entry":336.8,"stop":339.27,"target":331.86}
+{"t":"2026-10-19T13:55:26.775Z","type":"thesis-counterfactual","id":"c5b0fac7","symbol":"HD","strategy":"momentum-breakdown","filteredBy":["name-downtrend"],"entry":306.18,"stop":308.46,"target":301.62}
+{"t":"2026-10-19T13:55:26.805Z","type":"thesis-counterfactual","id":"c0301d59","symbol":"PEP","strategy":"momentum-breakout","filteredBy":["market-uptrend"],"entry":132,"stop":131.06,"target":133.88}
+{"t":"2026-10-19T13:55:26.831Z","type":"thesis-counterfactual","id":"7a069994","symbol":"OXY","strategy":"momentum-breakout","filteredBy":["market-uptrend"],"entry":62.93,"stop":62.42,"target":63.95}
+{"t":"2026-10-19T13:55:26.851Z","type":"thesis-counterfactual","id":"cdc1aa08","symbol":"PTC","strategy":"momentum-breakout","filteredBy":["market-uptrend"],"entry":193.44,"stop":193.03,"target":194.26}
