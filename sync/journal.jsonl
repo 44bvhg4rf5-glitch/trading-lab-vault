@@ -2708,3 +2708,8 @@
 {"t":"2026-10-19T16:19:42.537Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
 {"t":"2026-10-19T16:20:27.811Z","type":"thesis-counterfactual","id":"64a496c7","symbol":"AMD","strategy":"pullback-trend","filteredBy":["near-60d-high"],"entry":549.68,"stop":509.39,"target":630.26}
 {"t":"2026-10-19T16:20:27.822Z","type":"thesis-counterfactual","id":"f25e4e52","symbol":"ACN","strategy":"momentum-breakout","filteredBy":["market-uptrend"],"entry":232.45,"stop":230.31,"target":236.73}
+{"t":"2026-10-19T16:20:48.730Z","type":"vault-error","at":"sync/journal.jsonl","error":"The operation was aborted due to timeout"}
+{"t":"2026-10-19T16:20:50.564Z","type":"vault-error","at":"sync/shadow.json","error":"github 409: is at 08c8b8a97d5a557800cb4343f97f62cbb9b75bf7 but expected 9964b53bdb6d4e195f012923b9dfec27358ab3de"}
+{"t":"2026-10-19T16:20:51.880Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-19T16:21:27.255Z","type":"thesis-counterfactual","id":"82c0ae5c","symbol":"AMD","strategy":"pullback-trend","filteredBy":["near-60d-high"],"entry":549.68,"stop":509.39,"target":630.26}
+{"t":"2026-10-19T16:21:27.266Z","type":"thesis-counterfactual","id":"2349d091","symbol":"ACN","strategy":"momentum-breakout","filteredBy":["market-uptrend"],"entry":232.45,"stop":230.31,"target":236.73}
