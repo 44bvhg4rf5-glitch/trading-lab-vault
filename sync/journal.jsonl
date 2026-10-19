@@ -301,3 +301,10 @@
 {"t":"2026-10-19T08:41:16.612Z","type":"thesis-incubation","id":"22f21b1b","strategy":"cfd-pair-reversion","symbol":"EUR_JPY/CAD_JPY","side":"buy","reason":"CAD_JPY is 2.43σ rich vs EUR_JPY — short the rich leg, buy the cheap one, exit when the ratio is back within 0.5σ of its 60-session mean","entry":0.4631887574619392,"stop":0.4564239550343988,"target":0.4718933576259791,"z":-2.43,"mean":0.4741482917684926,"std":0.004509868285026925,"halfLifeDays":10.2,"legs":[{"symbol":"CAD_JPY","side":"sell"},{"symbol":"EUR_JPY","side":"buy"}],"maxHoldDays":20,"meta":{"unit":"log-spread","a":"EUR_JPY","b":"CAD_JPY","expectedGainBps":109.6,"costBps":19,"netBps":90.6},"market":"cfd-pair","createdAt":"2026-10-19T08:41:16.612Z"}
 {"t":"2026-10-19T08:41:19.075Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
 {"t":"2026-10-19T08:41:20.395Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-10-19T08:41:23.286Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-19T08:41:24.292Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-19T08:41:24.484Z","type":"vault-error","at":"sync/crypto-positions.json","error":"github 409: is at 26155dc1e1eb74c3f5d7a678cdb43ed5be408df1 but expected 47eb09cf15167059ec76a30e69a3f4449d22e460"}
+{"t":"2026-10-19T08:41:25.393Z","type":"vault-pushed","files":["sync/crypto-positions.json"]}
+{"t":"2026-10-19T08:41:25.498Z","type":"vault-error","at":"sync/equity-positions.json","error":"github 409: is at 09d7f017a52e6d6292d0e1bc98ceb375813c9e99 but expected 26155dc1e1eb74c3f5d7a678cdb43ed5be408df1"}
+{"t":"2026-10-19T08:41:26.540Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-19T08:41:26.634Z","type":"vault-error","at":"sync/equity-positions.json","error":"github 409: is at 9d3f4a562574ab67df02dd9df3d8a1571d2dd042 but expected 09d7f017a52e6d6292d0e1bc98ceb375813c9e99"}
