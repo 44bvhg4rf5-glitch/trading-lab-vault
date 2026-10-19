@@ -125,3 +125,7 @@
 {"t":"2026-10-19T07:41:34.953Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
 {"t":"2026-10-19T07:42:59.697Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
 {"t":"2026-10-19T07:43:00.700Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-19T07:43:29.695Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-19T07:43:31.736Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-19T07:44:27.492Z","type":"slippage","book":"cfd","phase":"exit","symbol":"UK100_GBP","side":"sell","intended":10806.98,"filled":10806.6,"costR":0.005,"bps":0.4}
+{"t":"2026-10-19T07:44:27.493Z","type":"cfd-position-closed","id":"934275f0","symbol":"UK100_GBP","status":"stopped","r":-1.01,"exit":10806.6,"approx":false,"entry":10881.1,"stop":10806.98,"target":11004.78,"strategy":"cfd-momentum-breakout","regime":"trending","side":"buy","peakR":0.26,"captureRatio":-3.87}
