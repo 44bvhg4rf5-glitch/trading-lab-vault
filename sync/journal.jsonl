@@ -308,3 +308,5 @@
 {"t":"2026-10-19T08:41:25.498Z","type":"vault-error","at":"sync/equity-positions.json","error":"github 409: is at 09d7f017a52e6d6292d0e1bc98ceb375813c9e99 but expected 26155dc1e1eb74c3f5d7a678cdb43ed5be408df1"}
 {"t":"2026-10-19T08:41:26.540Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
 {"t":"2026-10-19T08:41:26.634Z","type":"vault-error","at":"sync/equity-positions.json","error":"github 409: is at 9d3f4a562574ab67df02dd9df3d8a1571d2dd042 but expected 09d7f017a52e6d6292d0e1bc98ceb375813c9e99"}
+{"t":"2026-10-19T08:42:24.965Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-19T08:42:26.047Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
