@@ -3076,3 +3076,11 @@
 {"t":"2026-10-19T17:19:42.514Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
 {"t":"2026-10-19T17:20:28.208Z","type":"thesis-counterfactual","id":"b959ae1f","symbol":"AMD","strategy":"pullback-trend","filteredBy":["near-60d-high"],"entry":542.94,"stop":502.65,"target":623.52}
 {"t":"2026-10-19T17:20:28.220Z","type":"thesis-counterfactual","id":"898ec9ce","symbol":"PEP","strategy":"momentum-breakout","filteredBy":["market-uptrend"],"entry":132.75,"stop":132.08,"target":134.09}
+{"t":"2026-10-19T17:20:43.061Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-19T17:20:45.300Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-19T17:20:46.502Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-19T17:21:31.218Z","type":"thesis-counterfactual","id":"e1af3ac4","symbol":"AMD","strategy":"pullback-trend","filteredBy":["near-60d-high"],"entry":542.76,"stop":502.47,"target":623.34}
+{"t":"2026-10-19T17:21:31.230Z","type":"thesis-counterfactual","id":"53dc0383","symbol":"COST","strategy":"momentum-breakout","filteredBy":["market-uptrend"],"entry":994.5,"stop":990.37,"target":1002.76}
+{"t":"2026-10-19T17:21:31.241Z","type":"thesis-counterfactual","id":"886ad225","symbol":"PEP","strategy":"momentum-breakout","filteredBy":["market-uptrend"],"entry":132.82,"stop":132.14,"target":134.18}
+{"t":"2026-10-19T17:21:31.603Z","type":"thesis-incubation","strategy":"momentum-breakdown","symbol":"INTC","side":"sell","entry":92.57,"stop":93.93,"target":89.85,"reason":"Broke 20-bar low (92.65) with stock and SPY below their 20-day averages. Stop 2×ATR above, target 2R.","maxHoldDays":5,"createdAt":"2026-10-19T17:21:31.603Z"}
+{"t":"2026-10-19T17:21:38.517Z","type":"shadow-outcome","id":"d7aa0887","symbol":"INTC","strategy":"momentum-breakout:filtered","source":"filter-blocked","entry":94.18,"stop":92.61,"target":97.32,"status":"stopped","r":-1,"exit":92.61,"openedAt":"2026-10-19T13:39:29.160Z","counterfactual":true,"filteredBy":["name-uptrend","market-uptrend"],"regime":"choppy"}
