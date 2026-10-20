@@ -2131,3 +2131,9 @@
 {"t":"2026-10-20T15:01:47.925Z","type":"auto-skip","id":"a2471750","reason":"alpaca POST /v2/orders: 403 insufficient buying power"}
 {"t":"2026-10-20T15:01:48.346Z","type":"auto-skip","id":"921a11cc","reason":"alpaca POST /v2/orders: 403 insufficient buying power"}
 {"t":"2026-10-20T15:01:48.617Z","type":"auto-skip","id":"4c388e36","reason":"alpaca POST /v2/orders: 403 insufficient buying power"}
+{"t":"2026-10-20T15:01:52.215Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-20T15:01:53.756Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-20T15:01:55.378Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-20T15:02:45.633Z","type":"auto-skip","id":"a2471750","reason":"alpaca POST /v2/orders: 403 insufficient buying power"}
+{"t":"2026-10-20T15:02:46.050Z","type":"auto-skip","id":"921a11cc","reason":"alpaca POST /v2/orders: 403 insufficient buying power"}
+{"t":"2026-10-20T15:02:46.298Z","type":"auto-skip","id":"4c388e36","reason":"alpaca POST /v2/orders: 403 insufficient buying power"}
