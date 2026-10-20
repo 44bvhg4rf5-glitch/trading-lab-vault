@@ -3551,3 +3551,10 @@
 {"t":"2026-10-20T19:24:39.899Z","type":"thesis-incubation","strategy":"momentum-breakdown","symbol":"JNJ","side":"sell","entry":258.35,"stop":259.72,"target":255.61,"reason":"Broke 20-bar low (258.53) with stock and SPY below their 20-day averages. Stop 2×ATR above, target 2R.","maxHoldDays":5,"createdAt":"2026-10-20T19:24:39.899Z"}
 {"t":"2026-10-20T19:24:43.887Z","type":"shadow-outcome","id":"fe9c5feb","symbol":"JNJ","strategy":"momentum-breakout:filtered","source":"filter-blocked","entry":260.22,"stop":258.4,"target":278.42,"status":"stopped","r":-1,"exit":258.4,"openedAt":"2026-10-20T13:45:40.838Z","counterfactual":true,"filteredBy":["name-uptrend","market-uptrend"],"regime":"choppy"}
 {"t":"2026-10-20T19:24:43.891Z","type":"shadow-outcome","id":"66165f49","symbol":"JNJ","strategy":"momentum-breakout:filtered","source":"filter-blocked","entry":260.45,"stop":258.39,"target":281.05,"status":"stopped","r":-1,"exit":258.39,"openedAt":"2026-10-20T14:44:38.327Z","counterfactual":true,"filteredBy":["name-uptrend"],"regime":"trending"}
+{"t":"2026-10-20T19:24:49.449Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-20T19:24:51.558Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-20T19:24:53.095Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-20T19:25:38.983Z","type":"thesis-counterfactual","id":"260c8f08","symbol":"PG","strategy":"momentum-breakout","filteredBy":["earnings-window","market-uptrend"],"entry":158.83,"stop":158.25,"target":164.63}
+{"t":"2026-10-20T19:25:38.985Z","type":"thesis-counterfactual","id":"946c34ac","symbol":"WMT","strategy":"momentum-breakdown","filteredBy":["name-downtrend"],"entry":117.9,"stop":118.49,"target":116.72}
+{"t":"2026-10-20T19:25:38.987Z","type":"thesis-counterfactual","id":"4a20fe19","symbol":"COST","strategy":"momentum-breakdown","filteredBy":["name-downtrend"],"entry":991.58,"stop":995.59,"target":983.56}
+{"t":"2026-10-20T19:25:38.990Z","type":"thesis-counterfactual","id":"6b35847f","symbol":"WMT","strategy":"mean-reversion-short","filteredBy":["news-quiet"],"entry":118.19,"stop":121.69,"target":110.58}
