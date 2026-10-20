@@ -3887,3 +3887,6 @@
 {"t":"2026-10-20T20:01:20.721Z","type":"digest","date":"2026-10-20","entries":3878,"vaultPushed":true}
 {"t":"2026-10-20T20:01:53.104Z","type":"vault-pushed","files":["briefings/2026-10-21.md"]}
 {"t":"2026-10-20T20:01:53.104Z","type":"briefing","sessionDate":"2026-10-21","kind":"advance","watchouts":5}
+{"t":"2026-10-20T20:02:05.460Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-20T20:02:06.818Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-10-20T20:02:08.160Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
