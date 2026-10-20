@@ -2271,3 +2271,7 @@
 {"t":"2026-10-20T15:19:52.392Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
 {"t":"2026-10-20T15:20:44.788Z","type":"shadow-outcome","id":"2e2ffd0c","symbol":"OXY","strategy":"momentum-breakdown:filtered","source":"filter-blocked","entry":61.72,"stop":62.31,"target":60.54,"status":"stopped","r":-1,"exit":62.31,"openedAt":"2026-10-20T14:32:40.812Z","side":"sell","counterfactual":true,"filteredBy":["name-downtrend","market-downtrend"],"regime":"trending"}
 {"t":"2026-10-20T15:20:45.347Z","type":"auto-skip","id":"df102fdd","reason":"alpaca POST /v2/orders: 403 insufficient buying power"}
+{"t":"2026-10-20T15:20:48.960Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-20T15:20:50.804Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-20T15:20:52.314Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-20T15:21:34.429Z","type":"thesis-expired","id":"df102fdd","symbol":"KDP","strategy":"momentum-breakout"}
