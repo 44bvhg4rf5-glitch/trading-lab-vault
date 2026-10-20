@@ -2159,3 +2159,14 @@
 {"t":"2026-10-20T15:05:32.032Z","type":"auto-skip","id":"921a11cc","reason":"alpaca POST /v2/orders: 403 insufficient buying power"}
 {"t":"2026-10-20T15:05:32.453Z","type":"auto-skip","id":"4c388e36","reason":"alpaca POST /v2/orders: 403 insufficient buying power"}
 {"t":"2026-10-20T15:05:32.716Z","type":"auto-skip","id":"df102fdd","reason":"alpaca POST /v2/orders: 403 insufficient buying power"}
+{"t":"2026-10-20T15:05:42.243Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-20T15:05:45.290Z","type":"auto-skip","id":"921a11cc","reason":"alpaca POST /v2/orders: 403 insufficient buying power"}
+{"t":"2026-10-20T15:05:45.697Z","type":"auto-skip","id":"4c388e36","reason":"alpaca POST /v2/orders: 403 insufficient buying power"}
+{"t":"2026-10-20T15:05:45.998Z","type":"auto-skip","id":"df102fdd","reason":"alpaca POST /v2/orders: 403 insufficient buying power"}
+{"t":"2026-10-20T15:05:46.132Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-20T15:05:47.564Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-20T15:05:50.079Z","type":"vault-error","at":"sync/journal.jsonl","error":"github 409: is at 87f64b0adae60f5ce9fcc6fe7a1e8b8e82f27b9c but expected 4786ad92780f57c4f6cb04786c83040217df040f"}
+{"t":"2026-10-20T15:06:42.583Z","type":"shadow-outcome","id":"e610a1b7","symbol":"CME","strategy":"momentum-breakout:filtered","source":"filter-blocked","entry":296.21,"stop":294.64,"target":311.91,"status":"stopped","r":-1,"exit":294.64,"openedAt":"2026-10-20T13:32:44.336Z","counterfactual":true,"filteredBy":["market-uptrend"],"regime":"choppy"}
+{"t":"2026-10-20T15:06:43.010Z","type":"auto-skip","id":"921a11cc","reason":"alpaca POST /v2/orders: 403 insufficient buying power"}
+{"t":"2026-10-20T15:06:43.420Z","type":"auto-skip","id":"4c388e36","reason":"alpaca POST /v2/orders: 403 insufficient buying power"}
+{"t":"2026-10-20T15:06:43.667Z","type":"auto-skip","id":"df102fdd","reason":"alpaca POST /v2/orders: 403 insufficient buying power"}
