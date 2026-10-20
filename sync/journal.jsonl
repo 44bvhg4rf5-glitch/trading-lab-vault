@@ -1735,3 +1735,10 @@
 {"t":"2026-10-20T14:10:39.778Z","type":"thesis-counterfactual","id":"02639ba2","symbol":"UNH","strategy":"momentum-breakout","filteredBy":["market-uptrend"],"entry":417.09,"stop":413.34,"target":454.59}
 {"t":"2026-10-20T14:10:39.781Z","type":"thesis-counterfactual","id":"00a574e7","symbol":"KO","strategy":"momentum-breakdown","filteredBy":["name-downtrend"],"entry":92.97,"stop":93.53,"target":91.85}
 {"t":"2026-10-20T14:10:42.385Z","type":"shadow-outcome","id":"65664952","symbol":"ISRG","strategy":"momentum-breakout:filtered","source":"filter-blocked","entry":436.4,"stop":433.71,"target":463.3,"status":"stopped","r":-1,"exit":433.71,"openedAt":"2026-10-20T13:53:37.464Z","counterfactual":true,"filteredBy":["market-uptrend"],"regime":"choppy"}
+{"t":"2026-10-20T14:10:45.665Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-20T14:10:47.638Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-20T14:10:49.189Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-20T14:11:39.089Z","type":"thesis-counterfactual","id":"1ab2ebb9","symbol":"TSLA","strategy":"momentum-breakout","filteredBy":["earnings-window","market-uptrend"],"entry":372.49,"stop":368.26,"target":414.79}
+{"t":"2026-10-20T14:11:39.090Z","type":"thesis-counterfactual","id":"e6dbb291","symbol":"UNH","strategy":"momentum-breakout","filteredBy":["market-uptrend"],"entry":416.5,"stop":412.75,"target":454}
+{"t":"2026-10-20T14:11:39.092Z","type":"thesis-counterfactual","id":"58e38af2","symbol":"KO","strategy":"momentum-breakdown","filteredBy":["name-downtrend"],"entry":92.96,"stop":93.52,"target":91.84}
+{"t":"2026-10-20T14:11:46.524Z","type":"cfd-tick-error","error":"oanda GET /v3/instruments/XAU_USD/candles?granularity=M15&count=300&price=M: 401 Insufficient authorization to perform request."}
