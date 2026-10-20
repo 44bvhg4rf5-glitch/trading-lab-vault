@@ -2586,3 +2586,11 @@
 {"t":"2026-10-20T16:24:48.293Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
 {"t":"2026-10-20T16:25:39.632Z","type":"thesis-counterfactual","id":"3164ff64","symbol":"WMT","strategy":"momentum-breakdown","filteredBy":["name-downtrend"],"entry":118.12,"stop":118.95,"target":116.46}
 {"t":"2026-10-20T16:25:39.633Z","type":"thesis-counterfactual","id":"16db3b03","symbol":"WMT","strategy":"mean-reversion-short","filteredBy":["news-quiet"],"entry":118.19,"stop":121.67,"target":110.58}
+{"t":"2026-10-20T16:25:47.803Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-20T16:25:49.380Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-20T16:25:50.879Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-20T16:26:38.456Z","type":"thesis-counterfactual","id":"84d46aae","symbol":"WMT","strategy":"momentum-breakdown","filteredBy":["name-downtrend"],"entry":118.08,"stop":118.91,"target":116.42}
+{"t":"2026-10-20T16:26:38.458Z","type":"thesis-counterfactual","id":"625c10d5","symbol":"WMT","strategy":"mean-reversion-short","filteredBy":["news-quiet"],"entry":118.19,"stop":121.67,"target":110.58}
+{"t":"2026-10-20T16:26:41.514Z","type":"shadow-outcome","id":"e3a58392","symbol":"CVX","strategy":"momentum-breakdown:filtered","source":"filter-blocked","entry":222.11,"stop":223.62,"target":219.09,"status":"stopped","r":-1,"exit":223.62,"openedAt":"2026-10-20T14:36:38.721Z","side":"sell","counterfactual":true,"filteredBy":["name-downtrend","market-downtrend"],"regime":"trending"}
+{"t":"2026-10-20T16:26:41.515Z","type":"shadow-outcome","id":"f0bdc7b2","symbol":"CVX","strategy":"momentum-breakdown:filtered","source":"filter-blocked","entry":222.11,"stop":223.62,"target":219.09,"status":"stopped","r":-1,"exit":223.62,"openedAt":"2026-10-20T14:42:39.142Z","side":"sell","counterfactual":true,"filteredBy":["name-downtrend","market-downtrend"],"regime":"trending"}
+{"t":"2026-10-20T16:26:41.515Z","type":"shadow-outcome","id":"3951e217","symbol":"CVX","strategy":"momentum-breakdown:filtered","source":"filter-blocked","entry":222.11,"stop":223.62,"target":219.09,"status":"stopped","r":-1,"exit":223.62,"openedAt":"2026-10-20T14:43:39.747Z","side":"sell","counterfactual":true,"filteredBy":["name-downtrend","market-downtrend"],"regime":"trending"}
