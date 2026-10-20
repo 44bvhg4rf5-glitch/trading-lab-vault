@@ -1960,3 +1960,12 @@
 {"t":"2026-10-20T14:38:38.191Z","type":"thesis-counterfactual","id":"6d138f7f","symbol":"CVX","strategy":"momentum-breakdown","filteredBy":["name-downtrend","market-downtrend"],"entry":222.16,"stop":223.67,"target":219.14}
 {"t":"2026-10-20T14:38:38.193Z","type":"thesis-counterfactual","id":"cb357bbc","symbol":"HOOD","strategy":"momentum-breakout","filteredBy":["name-uptrend"],"entry":100.41,"stop":98.71,"target":117.41}
 {"t":"2026-10-20T14:38:42.371Z","type":"auto-skip","id":"015e051e","reason":"limit is not defined"}
+{"t":"2026-10-20T14:38:46.318Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-20T14:38:48.320Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-20T14:38:49.898Z","type":"vault-pushed","files":["sync/equity-positions.json"]}
+{"t":"2026-10-20T14:38:51.510Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-20T14:39:34.506Z","type":"fill","orderId":"cb308142-a366-4e38-bee8-4b93f65507f8","symbol":"ELV","side":"buy","qty":"40","avgPrice":"436.31","legs":0,"clientId":"tl-015e051e"}
+{"t":"2026-10-20T14:39:37.586Z","type":"thesis-counterfactual","id":"2b560e76","symbol":"TSLA","strategy":"momentum-breakout","filteredBy":["earnings-window"],"entry":375.34,"stop":371.04,"target":418.34}
+{"t":"2026-10-20T14:39:37.587Z","type":"thesis-counterfactual","id":"1fef250c","symbol":"CVX","strategy":"momentum-breakdown","filteredBy":["name-downtrend","market-downtrend"],"entry":222.36,"stop":223.87,"target":219.34}
+{"t":"2026-10-20T14:39:37.589Z","type":"thesis-counterfactual","id":"5be639e0","symbol":"HOOD","strategy":"momentum-breakout","filteredBy":["name-uptrend"],"entry":100.41,"stop":98.71,"target":117.41}
+{"t":"2026-10-20T14:39:38.488Z","type":"slippage","book":"equities","phase":"entry","symbol":"ELV","side":"buy","intended":436.92,"filled":436.31,"costR":-0.181,"bps":14}
