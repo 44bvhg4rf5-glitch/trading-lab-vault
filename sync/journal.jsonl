@@ -2042,3 +2042,8 @@
 {"t":"2026-10-20T14:47:55.292Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
 {"t":"2026-10-20T14:48:42.427Z","type":"auto-skip","id":"da4c9ca3","reason":"alpaca POST /v2/orders: 403 insufficient buying power"}
 {"t":"2026-10-20T14:48:42.914Z","type":"auto-skip","id":"a2471750","reason":"alpaca POST /v2/orders: 403 insufficient buying power"}
+{"t":"2026-10-20T14:48:47.736Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-20T14:48:49.324Z","type":"vault-pushed","files":["sync/equity-positions.json"]}
+{"t":"2026-10-20T14:48:50.747Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-20T14:49:41.610Z","type":"auto-skip","id":"da4c9ca3","reason":"alpaca POST /v2/orders: 403 insufficient buying power"}
+{"t":"2026-10-20T14:49:42.016Z","type":"auto-skip","id":"a2471750","reason":"alpaca POST /v2/orders: 403 insufficient buying power"}
