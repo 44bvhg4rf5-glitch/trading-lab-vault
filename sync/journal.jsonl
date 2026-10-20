@@ -2359,3 +2359,8 @@
 {"t":"2026-10-20T15:37:57.497Z","type":"vault-pushed","files":["sync/shadow.json"]}
 {"t":"2026-10-20T15:37:58.914Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
 {"t":"2026-10-20T15:38:38.548Z","type":"thesis-counterfactual","id":"37ecb5a0","symbol":"AMT","strategy":"momentum-breakout","filteredBy":["market-uptrend"],"entry":185,"stop":183.86,"target":196.4}
+{"t":"2026-10-20T15:38:45.292Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-20T15:38:46.937Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-20T15:38:48.214Z","type":"vault-pushed","files":["sync/equity-positions.json"]}
+{"t":"2026-10-20T15:38:49.570Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-20T15:39:37.250Z","type":"thesis-counterfactual","id":"6fd8b257","symbol":"AMT","strategy":"momentum-breakout","filteredBy":["market-uptrend"],"entry":185,"stop":183.86,"target":196.4}
