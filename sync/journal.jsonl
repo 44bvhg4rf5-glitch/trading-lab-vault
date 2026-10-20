@@ -3670,3 +3670,13 @@
 {"t":"2026-10-20T19:39:39.817Z","type":"thesis-counterfactual","id":"43d824d3","symbol":"AMT","strategy":"momentum-breakdown","filteredBy":["name-downtrend"],"entry":183.36,"stop":184.27,"target":181.54}
 {"t":"2026-10-20T19:39:39.820Z","type":"thesis-counterfactual","id":"b3b91c52","symbol":"OXY","strategy":"momentum-breakout","filteredBy":["market-uptrend"],"entry":62.87,"stop":62.51,"target":66.47}
 {"t":"2026-10-20T19:39:39.822Z","type":"thesis-counterfactual","id":"bd8bd0b9","symbol":"MCK","strategy":"momentum-breakout","filteredBy":["market-uptrend"],"entry":1023.89,"stop":1020.19,"target":1060.89}
+{"t":"2026-10-20T19:39:49.258Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-20T19:39:51.332Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-20T19:39:52.900Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-20T19:40:39.586Z","type":"thesis-counterfactual","id":"ab0db59b","symbol":"META","strategy":"momentum-breakdown","filteredBy":["earnings-window"],"entry":688.39,"stop":692.46,"target":680.25}
+{"t":"2026-10-20T19:40:39.588Z","type":"thesis-counterfactual","id":"77452706","symbol":"CVX","strategy":"momentum-breakout","filteredBy":["market-uptrend"],"entry":225.24,"stop":224.35,"target":234.14}
+{"t":"2026-10-20T19:40:39.591Z","type":"thesis-counterfactual","id":"01615288","symbol":"PG","strategy":"momentum-breakout","filteredBy":["earnings-window","market-uptrend"],"entry":159.04,"stop":158.46,"target":164.84}
+{"t":"2026-10-20T19:40:39.594Z","type":"thesis-counterfactual","id":"c32e7d5b","symbol":"OXY","strategy":"momentum-breakout","filteredBy":["market-uptrend"],"entry":62.89,"stop":62.52,"target":66.59}
+{"t":"2026-10-20T19:40:39.596Z","type":"thesis-counterfactual","id":"cd3fb325","symbol":"MCK","strategy":"momentum-breakout","filteredBy":["market-uptrend"],"entry":1023.89,"stop":1020.19,"target":1060.89}
+{"t":"2026-10-20T19:40:39.599Z","type":"thesis-counterfactual","id":"f7f06acd","symbol":"BRK.B","strategy":"momentum-breakout","filteredBy":["market-uptrend"],"entry":539.18,"stop":537.62,"target":554.78}
+{"t":"2026-10-20T19:40:43.893Z","type":"shadow-outcome","id":"fc3dda69","symbol":"OXY","strategy":"momentum-breakdown:filtered","source":"filter-blocked","entry":62.36,"stop":62.88,"target":61.32,"status":"stopped","r":-1,"exit":62.88,"openedAt":"2026-10-20T14:20:38.540Z","side":"sell","counterfactual":true,"filteredBy":["name-downtrend"],"regime":"choppy"}
