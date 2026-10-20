@@ -2542,3 +2542,12 @@
 {"t":"2026-10-20T16:16:46.776Z","type":"vault-pushed","files":["sync/shadow.json"]}
 {"t":"2026-10-20T16:16:48.167Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
 {"t":"2026-10-20T16:17:37.918Z","type":"thesis-counterfactual","id":"f220a8a4","symbol":"WMT","strategy":"mean-reversion-short","filteredBy":["news-quiet"],"entry":118.32,"stop":121.8,"target":110.59}
+{"t":"2026-10-20T16:17:45.162Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-20T16:17:47.047Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-20T16:17:48.461Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-20T16:18:39.645Z","type":"thesis-counterfactual","id":"fa44a50c","symbol":"WMT","strategy":"momentum-breakdown","filteredBy":["name-downtrend"],"entry":118.19,"stop":119.01,"target":116.55}
+{"t":"2026-10-20T16:18:39.646Z","type":"thesis-counterfactual","id":"376cc56f","symbol":"WMT","strategy":"mean-reversion-short","filteredBy":["news-quiet"],"entry":118.19,"stop":121.67,"target":110.58}
+{"t":"2026-10-20T16:18:47.498Z","type":"shadow-outcome","id":"c8959ea1","symbol":"NFLX","strategy":"momentum-breakout:filtered","source":"filter-blocked","entry":70.12,"stop":69.62,"target":75.12,"status":"stopped","r":-1,"exit":69.62,"openedAt":"2026-10-20T13:48:37.768Z","counterfactual":true,"filteredBy":["earnings-window","name-uptrend","market-uptrend"],"regime":"choppy"}
+{"t":"2026-10-20T16:18:47.498Z","type":"shadow-outcome","id":"e984ca53","symbol":"NFLX","strategy":"momentum-breakout:filtered","source":"filter-blocked","entry":70.14,"stop":69.64,"target":75.14,"status":"stopped","r":-1,"exit":69.64,"openedAt":"2026-10-20T13:49:37.541Z","counterfactual":true,"filteredBy":["earnings-window","name-uptrend","market-uptrend"],"regime":"choppy"}
+{"t":"2026-10-20T16:18:47.500Z","type":"shadow-outcome","id":"f274c1ba","symbol":"OXY","strategy":"momentum-breakdown:filtered","source":"filter-blocked","entry":61.82,"stop":62.43,"target":60.6,"status":"stopped","r":-1,"exit":62.43,"openedAt":"2026-10-20T14:30:40.569Z","side":"sell","counterfactual":true,"filteredBy":["name-downtrend"],"regime":"choppy"}
+{"t":"2026-10-20T16:18:47.500Z","type":"shadow-outcome","id":"71af376c","symbol":"OXY","strategy":"momentum-breakdown:filtered","source":"filter-blocked","entry":61.77,"stop":62.39,"target":60.53,"status":"stopped","r":-1,"exit":62.39,"openedAt":"2026-10-20T14:42:39.144Z","side":"sell","counterfactual":true,"filteredBy":["name-downtrend","market-downtrend"],"regime":"trending"}
