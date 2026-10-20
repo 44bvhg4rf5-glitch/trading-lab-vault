@@ -3806,3 +3806,12 @@
 {"t":"2026-10-20T19:54:37.639Z","type":"thesis-counterfactual","id":"fddfb687","symbol":"AMT","strategy":"momentum-breakdown","filteredBy":["name-downtrend"],"entry":183.27,"stop":184.19,"target":181.43}
 {"t":"2026-10-20T19:54:37.647Z","type":"thesis-counterfactual","id":"d20da0a9","symbol":"OXY","strategy":"momentum-breakout","filteredBy":["market-uptrend"],"entry":63.03,"stop":62.67,"target":66.63}
 {"t":"2026-10-20T19:54:37.655Z","type":"thesis-counterfactual","id":"e4587701","symbol":"MCK","strategy":"momentum-breakout","filteredBy":["market-uptrend"],"entry":1028,"stop":1023.99,"target":1068.1}
+{"t":"2026-10-20T19:54:50.383Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-20T19:54:52.560Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-20T19:54:53.977Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-20T19:55:38.500Z","type":"thesis-counterfactual","id":"4342babe","symbol":"NFLX","strategy":"momentum-breakdown","filteredBy":["earnings-window"],"entry":68.38,"stop":68.98,"target":67.18}
+{"t":"2026-10-20T19:55:38.502Z","type":"thesis-counterfactual","id":"3e73247f","symbol":"CVX","strategy":"momentum-breakout","filteredBy":["market-uptrend"],"entry":225.71,"stop":224.81,"target":234.71}
+{"t":"2026-10-20T19:55:38.505Z","type":"thesis-counterfactual","id":"cc123585","symbol":"WMT","strategy":"momentum-breakdown","filteredBy":["name-downtrend"],"entry":117.53,"stop":118.14,"target":116.31}
+{"t":"2026-10-20T19:55:38.508Z","type":"thesis-counterfactual","id":"86de6aac","symbol":"HD","strategy":"momentum-breakdown","filteredBy":["name-downtrend"],"entry":314.64,"stop":316.2,"target":311.52}
+{"t":"2026-10-20T19:55:38.511Z","type":"thesis-counterfactual","id":"3041cf7e","symbol":"OXY","strategy":"momentum-breakout","filteredBy":["market-uptrend"],"entry":62.97,"stop":62.61,"target":66.57}
+{"t":"2026-10-20T19:55:38.513Z","type":"thesis-counterfactual","id":"29ad8dbc","symbol":"MCK","strategy":"momentum-breakout","filteredBy":["market-uptrend"],"entry":1027.99,"stop":1023.98,"target":1068.09}
