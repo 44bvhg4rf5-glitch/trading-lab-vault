@@ -1514,3 +1514,17 @@
 {"t":"2026-10-20T13:57:37.095Z","type":"thesis-counterfactual","id":"ae925714","symbol":"MCK","strategy":"momentum-breakout","filteredBy":["market-uptrend"],"entry":1023.02,"stop":1017.35,"target":1079.72}
 {"t":"2026-10-20T13:57:37.097Z","type":"thesis-counterfactual","id":"60ac7efe","symbol":"ACN","strategy":"momentum-breakout","filteredBy":["market-uptrend"],"entry":242.41,"stop":239.56,"target":270.91}
 {"t":"2026-10-20T13:57:37.099Z","type":"thesis-counterfactual","id":"5af9cdc7","symbol":"BRK.B","strategy":"momentum-breakout","filteredBy":["market-uptrend"],"entry":538.77,"stop":536.43,"target":562.17}
+{"t":"2026-10-20T13:57:43.334Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-20T13:57:45.226Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-20T13:57:46.818Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-20T13:58:36.771Z","type":"thesis-counterfactual","id":"18d4d963","symbol":"META","strategy":"momentum-breakdown","filteredBy":["earnings-window"],"entry":683.08,"stop":690.07,"target":669.1}
+{"t":"2026-10-20T13:58:36.772Z","type":"thesis-counterfactual","id":"38dbe389","symbol":"NFLX","strategy":"momentum-breakout","filteredBy":["earnings-window","market-uptrend"],"entry":70.54,"stop":69.98,"target":76.14}
+{"t":"2026-10-20T13:58:36.775Z","type":"thesis-counterfactual","id":"ff54c150","symbol":"HD","strategy":"momentum-breakout","filteredBy":["market-uptrend"],"entry":317.19,"stop":314.95,"target":339.59}
+{"t":"2026-10-20T13:58:36.777Z","type":"thesis-counterfactual","id":"c4c3ae75","symbol":"DIS","strategy":"momentum-breakout","filteredBy":["market-uptrend"],"entry":111.39,"stop":110.73,"target":117.99}
+{"t":"2026-10-20T13:58:36.779Z","type":"thesis-counterfactual","id":"50363eac","symbol":"MA","strategy":"momentum-breakout","filteredBy":["market-uptrend"],"entry":621.52,"stop":618.5,"target":651.72}
+{"t":"2026-10-20T13:58:36.781Z","type":"thesis-counterfactual","id":"bc563cc1","symbol":"V","strategy":"momentum-breakout","filteredBy":["market-uptrend"],"entry":407.29,"stop":405.16,"target":428.59}
+{"t":"2026-10-20T13:58:36.783Z","type":"thesis-counterfactual","id":"eee0032d","symbol":"MCK","strategy":"momentum-breakout","filteredBy":["market-uptrend"],"entry":1023.02,"stop":1017.35,"target":1079.72}
+{"t":"2026-10-20T13:58:36.785Z","type":"thesis-counterfactual","id":"121f75b7","symbol":"ACN","strategy":"momentum-breakout","filteredBy":["market-uptrend"],"entry":242.67,"stop":239.82,"target":271.17}
+{"t":"2026-10-20T13:58:36.787Z","type":"thesis-counterfactual","id":"b5e6a2c3","symbol":"BRK.B","strategy":"momentum-breakout","filteredBy":["market-uptrend"],"entry":538.54,"stop":536.2,"target":561.94}
+{"t":"2026-10-20T13:58:40.007Z","type":"shadow-outcome","id":"DELL-mvgq1fjj","symbol":"DELL","strategy":"momentum-breakdown","source":"incubation","entry":444.23,"stop":451.72,"target":429.25,"status":"stopped","r":-1,"exit":451.72,"openedAt":"2026-10-20T13:30:58.159Z","side":"sell","regime":"choppy"}
+{"t":"2026-10-20T13:58:40.018Z","type":"shadow-outcome","id":"70d178b2","symbol":"TSLA","strategy":"momentum-breakdown:filtered","source":"filter-blocked","entry":365.26,"stop":368.92,"target":357.94,"status":"stopped","r":-1,"exit":368.92,"openedAt":"2026-10-20T13:43:37.825Z","side":"sell","counterfactual":true,"filteredBy":["earnings-window"],"regime":"choppy"}
