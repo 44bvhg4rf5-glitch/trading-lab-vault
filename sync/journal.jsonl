@@ -4904,3 +4904,7 @@
 {"t":"2026-10-20T01:00:38.174Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
 {"t":"2026-10-20T01:01:33.362Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
 {"t":"2026-10-20T01:01:34.796Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-20T01:02:33.742Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-20T01:02:35.026Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-20T01:03:41.199Z","type":"thesis-incubation","strategy":"cfd-momentum-breakdown","market":"cfd","symbol":"NAS100_USD","side":"sell","entry":29484,"stop":29736.56,"target":28978.88,"reason":"NAS100_USD broke its 20-hour low (29484.4) on 1.4× average volume, below its 20-day average. Stop 2.5×ATR above, target 2R.","maxHoldDays":5,"createdAt":"2026-10-20T01:03:41.199Z"}
+{"t":"2026-10-20T01:03:41.208Z","type":"thesis-incubation","strategy":"cfd-momentum-breakdown","market":"cfd","symbol":"JP225_USD","side":"sell","entry":64226.5,"stop":65029.87,"target":62619.76,"reason":"JP225_USD broke its 20-hour low (64476.5) on 2.6× average volume, below its 20-day average. Stop 2.5×ATR above, target 2R.","maxHoldDays":5,"createdAt":"2026-10-20T01:03:41.208Z"}
