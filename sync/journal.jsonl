@@ -2713,3 +2713,9 @@
 {"t":"2026-10-20T16:46:50.649Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
 {"t":"2026-10-20T16:47:38.864Z","type":"thesis-counterfactual","id":"45195fe4","symbol":"WMT","strategy":"mean-reversion-short","filteredBy":["news-quiet"],"entry":118.09,"stop":121.59,"target":110.57}
 {"t":"2026-10-20T16:47:40.627Z","type":"equity-stop-trailed","id":"015e051e","symbol":"ELV","from":437.19,"to":437.21,"breakeven":false}
+{"t":"2026-10-20T16:47:47.369Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-20T16:47:48.840Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-20T16:47:50.444Z","type":"vault-pushed","files":["sync/equity-positions.json"]}
+{"t":"2026-10-20T16:47:51.764Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-20T16:48:38.722Z","type":"thesis-counterfactual","id":"28874de3","symbol":"COST","strategy":"momentum-breakdown","filteredBy":["name-downtrend"],"entry":992.95,"stop":997.7,"target":983.45}
+{"t":"2026-10-20T16:48:38.724Z","type":"thesis-counterfactual","id":"b2fefa72","symbol":"WMT","strategy":"mean-reversion-short","filteredBy":["news-quiet"],"entry":118.09,"stop":121.59,"target":110.57}
