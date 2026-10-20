@@ -245,3 +245,6 @@
 {"t":"2026-10-20T08:12:44.347Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
 {"t":"2026-10-20T08:13:52.902Z","type":"thesis-incubation","strategy":"cfd-momentum-breakdown","market":"cfd","symbol":"DE30_EUR","side":"sell","entry":25099.1,"stop":25271.17,"target":24754.96,"reason":"DE30_EUR broke its 20-hour low (25178.6) on 2.9× average volume, below its 20-day average. Stop 2.5×ATR above, target 2R.","maxHoldDays":5,"createdAt":"2026-10-20T08:13:52.902Z"}
 {"t":"2026-10-20T08:13:52.902Z","type":"thesis-incubation","strategy":"cfd-momentum-breakdown","market":"cfd","symbol":"EU50_EUR","side":"sell","entry":6089.7,"stop":6132.67,"target":6003.76,"reason":"EU50_EUR broke its 20-hour low (6097.7) on 2.7× average volume, below its 20-day average. Stop 2.5×ATR above, target 2R.","maxHoldDays":5,"createdAt":"2026-10-20T08:13:52.902Z"}
+{"t":"2026-10-20T08:13:55.230Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-20T08:13:56.570Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-20T08:13:58.063Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
