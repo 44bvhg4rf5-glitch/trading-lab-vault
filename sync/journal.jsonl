@@ -5509,3 +5509,8 @@
 {"t":"2026-10-20T05:59:44.208Z","type":"vault-pushed","files":["sync/state.json"]}
 {"t":"2026-10-20T05:59:45.511Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
 {"t":"2026-10-20T06:00:26.970Z","type":"cfd-stop-trailed","id":"50c49479","symbol":"BCO_USD","from":109.74,"to":109.93,"breakeven":false}
+{"t":"2026-10-20T06:00:34.112Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-20T06:00:35.384Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-10-20T06:00:36.840Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-20T06:01:27.837Z","type":"slippage","book":"cfd","phase":"exit","symbol":"BCO_USD","side":"sell","intended":112.49,"filled":112.49,"costR":0,"bps":0}
+{"t":"2026-10-20T06:01:27.837Z","type":"cfd-position-closed","id":"50c49479","symbol":"BCO_USD","status":"target","r":1.19,"exit":112.49,"approx":false,"entry":109.527,"stop":107.04,"target":112.49,"strategy":"cfd-momentum-breakout","regime":"trending","side":"buy","peakR":1.16,"captureRatio":1.03}
