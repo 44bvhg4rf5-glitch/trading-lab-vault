@@ -501,3 +501,7 @@
 {"t":"2026-10-20T10:07:40.573Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
 {"t":"2026-10-20T10:08:39.188Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
 {"t":"2026-10-20T10:08:40.830Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-20T10:09:39.290Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-20T10:09:40.784Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-20T10:11:10.510Z","type":"thesis-incubation","strategy":"cfd-momentum-breakdown","market":"cfd","symbol":"EUR_JPY","side":"sell","entry":177.33,"stop":177.78,"target":176.43,"reason":"EUR_JPY broke its 20-hour low (177.42) on 1.8× average volume, below its 20-day average. Stop 2.5×ATR above, target 2R.","maxHoldDays":5,"createdAt":"2026-10-20T10:11:10.510Z"}
+{"t":"2026-10-20T10:11:10.511Z","type":"thesis-incubation","strategy":"cfd-momentum-breakdown","market":"cfd","symbol":"XAU_USD","side":"sell","entry":4112.65,"stop":4143.91,"target":4050.13,"reason":"XAU_USD broke its 20-hour low (4115.58) on 1.3× average volume, below its 20-day average. Stop 2.5×ATR above, target 2R.","maxHoldDays":5,"createdAt":"2026-10-20T10:11:10.511Z"}
