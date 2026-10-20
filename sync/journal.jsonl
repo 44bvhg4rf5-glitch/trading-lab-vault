@@ -813,3 +813,7 @@
 {"t":"2026-10-20T12:39:40.399Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
 {"t":"2026-10-20T12:40:39.506Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
 {"t":"2026-10-20T12:40:41.181Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-20T12:41:54.629Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-20T12:41:55.950Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-20T12:42:36.836Z","type":"slippage","book":"cfd","phase":"exit","symbol":"WTICO_USD","side":"sell","intended":101.36,"filled":101.341,"costR":0.009,"bps":1.9}
+{"t":"2026-10-20T12:42:36.836Z","type":"cfd-position-closed","id":"c5b111a5","symbol":"WTICO_USD","status":"stopped","r":0.05,"exit":101.341,"approx":false,"entry":101.237,"stop":99.22,"target":104.6,"strategy":"cfd-momentum-breakout","regime":"trending","side":"buy","peakR":1.06,"captureRatio":0.05}
