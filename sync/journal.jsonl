@@ -2137,3 +2137,12 @@
 {"t":"2026-10-20T15:02:45.633Z","type":"auto-skip","id":"a2471750","reason":"alpaca POST /v2/orders: 403 insufficient buying power"}
 {"t":"2026-10-20T15:02:46.050Z","type":"auto-skip","id":"921a11cc","reason":"alpaca POST /v2/orders: 403 insufficient buying power"}
 {"t":"2026-10-20T15:02:46.298Z","type":"auto-skip","id":"4c388e36","reason":"alpaca POST /v2/orders: 403 insufficient buying power"}
+{"t":"2026-10-20T15:02:49.952Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-20T15:02:51.292Z","type":"vault-pushed","files":["sync/equity-positions.json"]}
+{"t":"2026-10-20T15:02:52.774Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-20T15:03:46.699Z","type":"shadow-outcome","id":"a45364d7","symbol":"KR","strategy":"momentum-breakout:filtered","source":"filter-blocked","entry":63.76,"stop":63.24,"target":68.96,"status":"stopped","r":-1,"exit":63.24,"openedAt":"2026-10-20T13:31:46.702Z","counterfactual":true,"filteredBy":["market-uptrend"],"regime":"choppy"}
+{"t":"2026-10-20T15:03:46.730Z","type":"shadow-outcome","id":"9c9b3b7e","symbol":"KR","strategy":"momentum-breakout:filtered","source":"filter-blocked","entry":63.71,"stop":63.19,"target":68.91,"status":"stopped","r":-1,"exit":63.19,"openedAt":"2026-10-20T13:32:44.348Z","counterfactual":true,"filteredBy":["market-uptrend"],"regime":"choppy"}
+{"t":"2026-10-20T15:03:46.733Z","type":"shadow-outcome","id":"b18bc83b","symbol":"KR","strategy":"momentum-breakout:filtered","source":"filter-blocked","entry":63.9,"stop":63.35,"target":69.4,"status":"stopped","r":-1,"exit":63.35,"openedAt":"2026-10-20T13:39:39.167Z","counterfactual":true,"filteredBy":["market-uptrend"],"regime":"choppy"}
+{"t":"2026-10-20T15:03:47.387Z","type":"auto-skip","id":"a2471750","reason":"alpaca POST /v2/orders: 403 insufficient buying power"}
+{"t":"2026-10-20T15:03:47.829Z","type":"auto-skip","id":"921a11cc","reason":"alpaca POST /v2/orders: 403 insufficient buying power"}
+{"t":"2026-10-20T15:03:48.105Z","type":"auto-skip","id":"4c388e36","reason":"alpaca POST /v2/orders: 403 insufficient buying power"}
