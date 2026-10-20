@@ -5113,3 +5113,7 @@
 {"t":"2026-10-20T02:42:41.051Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
 {"t":"2026-10-20T02:43:34.128Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
 {"t":"2026-10-20T02:43:35.592Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-20T02:44:33.056Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-20T02:44:34.591Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-20T02:45:40.646Z","type":"vault-error","at":"sync/journal.jsonl","error":"github 403: The rule did not run because of a timeout."}
+{"t":"2026-10-20T02:45:41.897Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
