@@ -3623,3 +3623,11 @@
 {"t":"2026-10-20T19:33:52.756Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
 {"t":"2026-10-20T19:34:38.716Z","type":"thesis-counterfactual","id":"51972b3f","symbol":"CVX","strategy":"momentum-breakout","filteredBy":["market-uptrend"],"entry":225.02,"stop":224.17,"target":233.52}
 {"t":"2026-10-20T19:34:38.718Z","type":"thesis-counterfactual","id":"5a1dfdf3","symbol":"CME","strategy":"momentum-breakdown","filteredBy":["name-downtrend"],"entry":293.49,"stop":295.23,"target":290.01}
+{"t":"2026-10-20T19:34:47.410Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-20T19:34:49.140Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-20T19:34:50.413Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-20T19:35:41.953Z","type":"thesis-counterfactual","id":"a06730ea","symbol":"CVX","strategy":"momentum-breakout","filteredBy":["market-uptrend"],"entry":225.05,"stop":224.19,"target":233.65}
+{"t":"2026-10-20T19:35:41.955Z","type":"thesis-counterfactual","id":"e9d502b4","symbol":"PG","strategy":"momentum-breakout","filteredBy":["earnings-window","market-uptrend"],"entry":159.04,"stop":158.46,"target":164.84}
+{"t":"2026-10-20T19:35:41.958Z","type":"thesis-counterfactual","id":"84a305b1","symbol":"BRK.B","strategy":"momentum-breakout","filteredBy":["market-uptrend"],"entry":539.08,"stop":537.53,"target":554.58}
+{"t":"2026-10-20T19:35:42.005Z","type":"thesis-incubation","strategy":"momentum-breakdown","symbol":"HOOD","side":"sell","entry":97.96,"stop":98.89,"target":96.1,"reason":"Broke 20-bar low (97.98) with stock and SPY below their 20-day averages. Stop 2×ATR above, target 2R.","maxHoldDays":5,"createdAt":"2026-10-20T19:35:42.005Z"}
+{"t":"2026-10-20T19:35:46.245Z","type":"shadow-outcome","id":"75d68626","symbol":"HOOD","strategy":"momentum-breakout:filtered","source":"filter-blocked","entry":99.63,"stop":97.96,"target":116.33,"status":"stopped","r":-1,"exit":97.96,"openedAt":"2026-10-20T14:26:37.095Z","counterfactual":true,"filteredBy":["name-uptrend","market-uptrend"],"regime":"choppy"}
