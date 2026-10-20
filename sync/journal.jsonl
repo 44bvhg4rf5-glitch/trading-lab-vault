@@ -3061,3 +3061,11 @@
 {"t":"2026-10-20T17:53:56.401Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
 {"t":"2026-10-20T17:54:37.245Z","type":"thesis-counterfactual","id":"6258c361","symbol":"ABBV","strategy":"momentum-breakout","filteredBy":["market-uptrend"],"entry":290.59,"stop":289.02,"target":306.29}
 {"t":"2026-10-20T17:54:37.256Z","type":"thesis-counterfactual","id":"6f608d3a","symbol":"WMT","strategy":"mean-reversion-short","filteredBy":["news-quiet"],"entry":118.26,"stop":121.76,"target":110.58}
+{"t":"2026-10-20T17:54:44.946Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-20T17:54:47.128Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-20T17:54:48.504Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-20T17:55:38.247Z","type":"thesis-counterfactual","id":"85a691a9","symbol":"ABBV","strategy":"momentum-breakout","filteredBy":["market-uptrend"],"entry":290.59,"stop":289.02,"target":306.29}
+{"t":"2026-10-20T17:55:38.249Z","type":"thesis-counterfactual","id":"97d90e02","symbol":"PFE","strategy":"momentum-breakout","filteredBy":["market-uptrend"],"entry":30.24,"stop":30.07,"target":31.94}
+{"t":"2026-10-20T17:55:38.252Z","type":"thesis-counterfactual","id":"21c4e999","symbol":"WMT","strategy":"mean-reversion-short","filteredBy":["news-quiet"],"entry":118.26,"stop":121.76,"target":110.58}
+{"t":"2026-10-20T17:55:42.005Z","type":"shadow-outcome","id":"502fe00b","symbol":"CVX","strategy":"momentum-breakdown:filtered","source":"filter-blocked","entry":223.24,"stop":224.7,"target":220.32,"status":"stopped","r":-1,"exit":224.7,"openedAt":"2026-10-20T14:24:37.435Z","side":"sell","counterfactual":true,"filteredBy":["name-downtrend"],"regime":"choppy"}
+{"t":"2026-10-20T17:55:42.007Z","type":"shadow-outcome","id":"92558045","symbol":"CVX","strategy":"momentum-breakdown:filtered","source":"filter-blocked","entry":223.2,"stop":224.7,"target":220.2,"status":"stopped","r":-1,"exit":224.7,"openedAt":"2026-10-20T14:27:37.200Z","side":"sell","counterfactual":true,"filteredBy":["name-downtrend"],"regime":"choppy"}
