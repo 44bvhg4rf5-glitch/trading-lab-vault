@@ -2245,3 +2245,10 @@
 {"t":"2026-10-20T15:16:20.098Z","type":"approve-blocked","id":"4c388e36","symbol":"ISRG","sleeve":true,"reasons":["price ran away (ask 442.35)"]}
 {"t":"2026-10-20T15:16:20.098Z","type":"auto-skip","id":"4c388e36","reason":"price moved >1% past the thesis entry (ask 442.35); not chasing"}
 {"t":"2026-10-20T15:16:20.346Z","type":"auto-skip","id":"df102fdd","reason":"alpaca POST /v2/orders: 403 insufficient buying power"}
+{"t":"2026-10-20T15:16:28.701Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-20T15:16:30.652Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-20T15:16:53.490Z","type":"shadow-outcome","id":"234048bb","symbol":"COST","strategy":"momentum-breakout:filtered","source":"filter-blocked","entry":999.57,"stop":995.27,"target":1042.57,"status":"stopped","r":-1,"exit":995.27,"openedAt":"2026-10-20T13:38:38.856Z","counterfactual":true,"filteredBy":["market-uptrend"],"regime":"choppy"}
+{"t":"2026-10-20T15:16:53.491Z","type":"shadow-outcome","id":"d17d2d90","symbol":"COST","strategy":"momentum-breakout:filtered","source":"filter-blocked","entry":999.57,"stop":995.27,"target":1042.57,"status":"stopped","r":-1,"exit":995.27,"openedAt":"2026-10-20T13:39:39.150Z","counterfactual":true,"filteredBy":["market-uptrend"],"regime":"choppy"}
+{"t":"2026-10-20T15:16:53.491Z","type":"shadow-outcome","id":"dfc2ac4c","symbol":"COST","strategy":"momentum-breakout:filtered","source":"filter-blocked","entry":999.57,"stop":995.27,"target":1042.57,"status":"stopped","r":-1,"exit":995.27,"openedAt":"2026-10-20T13:40:40.497Z","counterfactual":true,"filteredBy":["market-uptrend"],"regime":"choppy"}
+{"t":"2026-10-20T15:16:54.246Z","type":"auto-skip","id":"921a11cc","reason":"alpaca POST /v2/orders: 403 insufficient buying power"}
+{"t":"2026-10-20T15:16:54.658Z","type":"auto-skip","id":"df102fdd","reason":"alpaca POST /v2/orders: 403 insufficient buying power"}
