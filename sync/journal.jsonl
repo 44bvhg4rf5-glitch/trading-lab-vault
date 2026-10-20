@@ -3680,3 +3680,12 @@
 {"t":"2026-10-20T19:40:39.596Z","type":"thesis-counterfactual","id":"cd3fb325","symbol":"MCK","strategy":"momentum-breakout","filteredBy":["market-uptrend"],"entry":1023.89,"stop":1020.19,"target":1060.89}
 {"t":"2026-10-20T19:40:39.599Z","type":"thesis-counterfactual","id":"f7f06acd","symbol":"BRK.B","strategy":"momentum-breakout","filteredBy":["market-uptrend"],"entry":539.18,"stop":537.62,"target":554.78}
 {"t":"2026-10-20T19:40:43.893Z","type":"shadow-outcome","id":"fc3dda69","symbol":"OXY","strategy":"momentum-breakdown:filtered","source":"filter-blocked","entry":62.36,"stop":62.88,"target":61.32,"status":"stopped","r":-1,"exit":62.88,"openedAt":"2026-10-20T14:20:38.540Z","side":"sell","counterfactual":true,"filteredBy":["name-downtrend"],"regime":"choppy"}
+{"t":"2026-10-20T19:40:48.754Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-20T19:40:50.599Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-20T19:40:52.178Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-20T19:41:38.069Z","type":"thesis-counterfactual","id":"a972e426","symbol":"CVX","strategy":"momentum-breakout","filteredBy":["market-uptrend"],"entry":225.23,"stop":224.34,"target":234.13}
+{"t":"2026-10-20T19:41:38.081Z","type":"thesis-counterfactual","id":"81f52bdb","symbol":"PG","strategy":"momentum-breakout","filteredBy":["earnings-window","market-uptrend"],"entry":159.09,"stop":158.5,"target":164.99}
+{"t":"2026-10-20T19:41:38.085Z","type":"thesis-counterfactual","id":"a2daba23","symbol":"CME","strategy":"momentum-breakdown","filteredBy":["name-downtrend"],"entry":293.65,"stop":295.43,"target":290.09}
+{"t":"2026-10-20T19:41:38.088Z","type":"thesis-counterfactual","id":"34672bbd","symbol":"OXY","strategy":"momentum-breakout","filteredBy":["market-uptrend"],"entry":62.86,"stop":62.49,"target":66.56}
+{"t":"2026-10-20T19:41:38.091Z","type":"thesis-counterfactual","id":"47bb44db","symbol":"MCK","strategy":"momentum-breakout","filteredBy":["market-uptrend"],"entry":1023.89,"stop":1020.19,"target":1060.89}
+{"t":"2026-10-20T19:41:38.094Z","type":"thesis-counterfactual","id":"9023392d","symbol":"BRK.B","strategy":"momentum-breakout","filteredBy":["market-uptrend"],"entry":539.11,"stop":537.55,"target":554.71}
