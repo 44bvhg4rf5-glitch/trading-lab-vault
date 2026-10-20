@@ -5036,3 +5036,6 @@
 {"t":"2026-10-20T02:05:33.724Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
 {"t":"2026-10-20T02:05:35.212Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
 {"t":"2026-10-20T02:06:36.723Z","type":"thesis-incubation","strategy":"cfd-momentum-breakdown","market":"cfd","symbol":"HK33_HKD","side":"sell","entry":23903.8,"stop":24107.27,"target":23496.86,"reason":"HK33_HKD broke its 20-hour low (24067.3) on 2.7× average volume, below its 20-day average. Stop 2.5×ATR above, target 2R.","maxHoldDays":5,"createdAt":"2026-10-20T02:06:36.723Z"}
+{"t":"2026-10-20T02:06:43.393Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-20T02:06:45.676Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-20T02:06:47.283Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
