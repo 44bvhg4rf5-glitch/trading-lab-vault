@@ -2572,3 +2572,7 @@
 {"t":"2026-10-20T16:21:49.678Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
 {"t":"2026-10-20T16:22:38.136Z","type":"thesis-counterfactual","id":"c529ce36","symbol":"WMT","strategy":"momentum-breakdown","filteredBy":["name-downtrend"],"entry":118.18,"stop":119,"target":116.54}
 {"t":"2026-10-20T16:22:38.138Z","type":"thesis-counterfactual","id":"8fd69524","symbol":"WMT","strategy":"mean-reversion-short","filteredBy":["news-quiet"],"entry":118.19,"stop":121.67,"target":110.58}
+{"t":"2026-10-20T16:22:46.571Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-20T16:22:48.690Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-20T16:22:50.212Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-20T16:23:37.449Z","type":"thesis-counterfactual","id":"bd926720","symbol":"WMT","strategy":"mean-reversion-short","filteredBy":["news-quiet"],"entry":118.19,"stop":121.67,"target":110.58}
