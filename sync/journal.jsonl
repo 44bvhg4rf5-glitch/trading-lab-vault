@@ -2212,3 +2212,12 @@
 {"t":"2026-10-20T15:12:43.509Z","type":"auto-skip","id":"921a11cc","reason":"alpaca POST /v2/orders: 403 insufficient buying power"}
 {"t":"2026-10-20T15:12:43.918Z","type":"auto-skip","id":"4c388e36","reason":"alpaca POST /v2/orders: 403 insufficient buying power"}
 {"t":"2026-10-20T15:12:44.187Z","type":"auto-skip","id":"df102fdd","reason":"alpaca POST /v2/orders: 403 insufficient buying power"}
+{"t":"2026-10-20T15:12:48.112Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-20T15:12:49.898Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-20T15:12:51.287Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-20T15:13:37.532Z","type":"thesis-counterfactual","id":"b890ebed","symbol":"KR","strategy":"momentum-breakdown","filteredBy":["name-downtrend","market-downtrend"],"entry":62.09,"stop":62.92,"target":60.43}
+{"t":"2026-10-20T15:13:40.107Z","type":"shadow-outcome","id":"deb90125","symbol":"OXY","strategy":"momentum-breakdown:filtered","source":"filter-blocked","entry":61.57,"stop":62.2,"target":60.31,"status":"stopped","r":-1,"exit":62.2,"openedAt":"2026-10-20T14:45:41.118Z","side":"sell","counterfactual":true,"filteredBy":["name-downtrend","market-downtrend"],"regime":"trending"}
+{"t":"2026-10-20T15:13:40.111Z","type":"shadow-outcome","id":"68d11244","symbol":"OXY","strategy":"momentum-breakdown:filtered","source":"filter-blocked","entry":61.54,"stop":62.13,"target":60.36,"status":"stopped","r":-1,"exit":62.13,"openedAt":"2026-10-20T14:46:39.909Z","side":"sell","counterfactual":true,"filteredBy":["name-downtrend","market-downtrend"],"regime":"trending"}
+{"t":"2026-10-20T15:13:40.601Z","type":"auto-skip","id":"921a11cc","reason":"alpaca POST /v2/orders: 403 insufficient buying power"}
+{"t":"2026-10-20T15:13:41.007Z","type":"auto-skip","id":"4c388e36","reason":"alpaca POST /v2/orders: 403 insufficient buying power"}
+{"t":"2026-10-20T15:13:41.250Z","type":"auto-skip","id":"df102fdd","reason":"alpaca POST /v2/orders: 403 insufficient buying power"}
