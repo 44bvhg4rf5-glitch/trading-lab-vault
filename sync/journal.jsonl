@@ -2221,3 +2221,14 @@
 {"t":"2026-10-20T15:13:40.601Z","type":"auto-skip","id":"921a11cc","reason":"alpaca POST /v2/orders: 403 insufficient buying power"}
 {"t":"2026-10-20T15:13:41.007Z","type":"auto-skip","id":"4c388e36","reason":"alpaca POST /v2/orders: 403 insufficient buying power"}
 {"t":"2026-10-20T15:13:41.250Z","type":"auto-skip","id":"df102fdd","reason":"alpaca POST /v2/orders: 403 insufficient buying power"}
+{"t":"2026-10-20T15:13:44.604Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-20T15:13:46.271Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-20T15:13:48.108Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-20T15:14:37.659Z","type":"thesis-counterfactual","id":"89c4f07a","symbol":"KR","strategy":"momentum-breakdown","filteredBy":["name-downtrend"],"entry":62.21,"stop":63.04,"target":60.55}
+{"t":"2026-10-20T15:14:40.393Z","type":"shadow-outcome","id":"c34c4f75","symbol":"HOOD","strategy":"momentum-breakout:filtered","source":"filter-blocked","entry":101.04,"stop":99.28,"target":118.64,"status":"stopped","r":-1,"exit":99.28,"openedAt":"2026-10-20T14:42:39.146Z","counterfactual":true,"filteredBy":["name-uptrend"],"regime":"trending"}
+{"t":"2026-10-20T15:14:40.393Z","type":"shadow-outcome","id":"a4459c81","symbol":"HOOD","strategy":"momentum-breakout:filtered","source":"filter-blocked","entry":100.96,"stop":99.2,"target":118.56,"status":"stopped","r":-1,"exit":99.2,"openedAt":"2026-10-20T14:43:39.757Z","counterfactual":true,"filteredBy":["name-uptrend"],"regime":"trending"}
+{"t":"2026-10-20T15:14:40.393Z","type":"shadow-outcome","id":"ac980b6e","symbol":"HOOD","strategy":"momentum-breakout:filtered","source":"filter-blocked","entry":100.92,"stop":99.15,"target":118.62,"status":"stopped","r":-1,"exit":99.15,"openedAt":"2026-10-20T14:44:38.330Z","counterfactual":true,"filteredBy":["name-uptrend"],"regime":"trending"}
+{"t":"2026-10-20T15:14:40.393Z","type":"shadow-outcome","id":"01e495e1","symbol":"HOOD","strategy":"momentum-breakout:filtered","source":"filter-blocked","entry":100.88,"stop":99.11,"target":118.58,"status":"stopped","r":-1,"exit":99.11,"openedAt":"2026-10-20T14:45:41.120Z","counterfactual":true,"filteredBy":["name-uptrend"],"regime":"trending"}
+{"t":"2026-10-20T15:14:40.807Z","type":"auto-skip","id":"921a11cc","reason":"alpaca POST /v2/orders: 403 insufficient buying power"}
+{"t":"2026-10-20T15:14:41.234Z","type":"auto-skip","id":"4c388e36","reason":"alpaca POST /v2/orders: 403 insufficient buying power"}
+{"t":"2026-10-20T15:14:41.492Z","type":"auto-skip","id":"df102fdd","reason":"alpaca POST /v2/orders: 403 insufficient buying power"}
