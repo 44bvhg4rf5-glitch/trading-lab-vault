@@ -2170,3 +2170,10 @@
 {"t":"2026-10-20T15:06:43.010Z","type":"auto-skip","id":"921a11cc","reason":"alpaca POST /v2/orders: 403 insufficient buying power"}
 {"t":"2026-10-20T15:06:43.420Z","type":"auto-skip","id":"4c388e36","reason":"alpaca POST /v2/orders: 403 insufficient buying power"}
 {"t":"2026-10-20T15:06:43.667Z","type":"auto-skip","id":"df102fdd","reason":"alpaca POST /v2/orders: 403 insufficient buying power"}
+{"t":"2026-10-20T15:06:47.031Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-20T15:06:48.966Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-20T15:06:50.436Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-20T15:07:38.870Z","type":"thesis-counterfactual","id":"5c3f0a52","symbol":"KR","strategy":"momentum-breakdown","filteredBy":["name-downtrend","market-downtrend"],"entry":62.22,"stop":63.01,"target":60.64}
+{"t":"2026-10-20T15:07:42.126Z","type":"auto-skip","id":"921a11cc","reason":"alpaca POST /v2/orders: 403 insufficient buying power"}
+{"t":"2026-10-20T15:07:42.578Z","type":"auto-skip","id":"4c388e36","reason":"alpaca POST /v2/orders: 403 insufficient buying power"}
+{"t":"2026-10-20T15:07:42.883Z","type":"auto-skip","id":"df102fdd","reason":"alpaca POST /v2/orders: 403 insufficient buying power"}
