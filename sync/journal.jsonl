@@ -3715,3 +3715,12 @@
 {"t":"2026-10-20T19:44:37.568Z","type":"thesis-counterfactual","id":"bb4a27db","symbol":"OXY","strategy":"momentum-breakout","filteredBy":["market-uptrend"],"entry":62.89,"stop":62.52,"target":66.59}
 {"t":"2026-10-20T19:44:37.571Z","type":"thesis-counterfactual","id":"91660269","symbol":"MCK","strategy":"momentum-breakout","filteredBy":["market-uptrend"],"entry":1024.36,"stop":1020.59,"target":1062.06}
 {"t":"2026-10-20T19:44:37.573Z","type":"thesis-counterfactual","id":"5460aa32","symbol":"BRK.B","strategy":"momentum-breakout","filteredBy":["market-uptrend"],"entry":539.11,"stop":537.55,"target":554.71}
+{"t":"2026-10-20T19:44:45.800Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-20T19:44:47.692Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-20T19:44:48.964Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-20T19:45:39.641Z","type":"thesis-counterfactual","id":"0af803f8","symbol":"CVX","strategy":"momentum-breakout","filteredBy":["market-uptrend"],"entry":225.28,"stop":224.38,"target":234.28}
+{"t":"2026-10-20T19:45:39.643Z","type":"thesis-counterfactual","id":"1c36b9cf","symbol":"KO","strategy":"momentum-breakout","filteredBy":["market-uptrend"],"entry":93.33,"stop":92.95,"target":97.13}
+{"t":"2026-10-20T19:45:39.646Z","type":"thesis-counterfactual","id":"d98265ef","symbol":"OXY","strategy":"momentum-breakout","filteredBy":["market-uptrend"],"entry":62.89,"stop":62.52,"target":66.59}
+{"t":"2026-10-20T19:45:39.648Z","type":"thesis-counterfactual","id":"5ec3fd70","symbol":"MCK","strategy":"momentum-breakout","filteredBy":["market-uptrend"],"entry":1024.45,"stop":1020.69,"target":1062.05}
+{"t":"2026-10-20T19:45:39.650Z","type":"thesis-counterfactual","id":"91b1a699","symbol":"BRK.B","strategy":"momentum-breakout","filteredBy":["market-uptrend"],"entry":539.09,"stop":537.53,"target":554.69}
+{"t":"2026-10-20T19:45:45.998Z","type":"shadow-outcome","id":"21bf7bf4","symbol":"KO","strategy":"momentum-breakdown:filtered","source":"filter-blocked","entry":92.75,"stop":93.33,"target":91.59,"status":"stopped","r":-1,"exit":93.33,"openedAt":"2026-10-20T14:29:37.165Z","side":"sell","counterfactual":true,"filteredBy":["name-downtrend"],"regime":"choppy"}
