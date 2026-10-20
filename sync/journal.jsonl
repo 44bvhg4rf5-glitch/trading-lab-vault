@@ -2252,3 +2252,8 @@
 {"t":"2026-10-20T15:16:53.491Z","type":"shadow-outcome","id":"dfc2ac4c","symbol":"COST","strategy":"momentum-breakout:filtered","source":"filter-blocked","entry":999.57,"stop":995.27,"target":1042.57,"status":"stopped","r":-1,"exit":995.27,"openedAt":"2026-10-20T13:40:40.497Z","counterfactual":true,"filteredBy":["market-uptrend"],"regime":"choppy"}
 {"t":"2026-10-20T15:16:54.246Z","type":"auto-skip","id":"921a11cc","reason":"alpaca POST /v2/orders: 403 insufficient buying power"}
 {"t":"2026-10-20T15:16:54.658Z","type":"auto-skip","id":"df102fdd","reason":"alpaca POST /v2/orders: 403 insufficient buying power"}
+{"t":"2026-10-20T15:16:58.307Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-20T15:17:00.312Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-20T15:17:01.848Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-20T15:17:34.416Z","type":"thesis-expired","id":"921a11cc","symbol":"DIS","strategy":"momentum-breakout"}
+{"t":"2026-10-20T15:17:40.567Z","type":"auto-skip","id":"df102fdd","reason":"alpaca POST /v2/orders: 403 insufficient buying power"}
