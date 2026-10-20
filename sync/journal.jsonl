@@ -821,3 +821,7 @@
 {"t":"2026-10-20T12:42:41.488Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
 {"t":"2026-10-20T12:43:38.859Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
 {"t":"2026-10-20T12:43:40.198Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-20T12:44:39.198Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-20T12:44:40.579Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-20T12:46:06.708Z","type":"vault-pushed","files":["briefings/2026-10-20.md"]}
+{"t":"2026-10-20T12:46:06.708Z","type":"briefing","sessionDate":"2026-10-20","kind":"final","watchouts":5}
