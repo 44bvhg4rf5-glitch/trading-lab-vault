@@ -4021,3 +4021,5 @@
 {"t":"2026-10-20T21:07:53.525Z","type":"spread-normalised","pair":"XAU_USD/XAG_USD","z":1.66,"halfLifeDays":5.5,"expectedGainBps":436.2,"costBps":72.2,"netBps":364,"richLeg":"XAU_USD","cheapLeg":"XAG_USD","reason":"spread is within its normal range (z 1.66, needs 2)"}
 {"t":"2026-10-20T21:07:59.156Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
 {"t":"2026-10-20T21:08:00.705Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-20T21:08:44.465Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-20T21:08:45.722Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
