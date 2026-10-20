@@ -3631,3 +3631,11 @@
 {"t":"2026-10-20T19:35:41.958Z","type":"thesis-counterfactual","id":"84a305b1","symbol":"BRK.B","strategy":"momentum-breakout","filteredBy":["market-uptrend"],"entry":539.08,"stop":537.53,"target":554.58}
 {"t":"2026-10-20T19:35:42.005Z","type":"thesis-incubation","strategy":"momentum-breakdown","symbol":"HOOD","side":"sell","entry":97.96,"stop":98.89,"target":96.1,"reason":"Broke 20-bar low (97.98) with stock and SPY below their 20-day averages. Stop 2×ATR above, target 2R.","maxHoldDays":5,"createdAt":"2026-10-20T19:35:42.005Z"}
 {"t":"2026-10-20T19:35:46.245Z","type":"shadow-outcome","id":"75d68626","symbol":"HOOD","strategy":"momentum-breakout:filtered","source":"filter-blocked","entry":99.63,"stop":97.96,"target":116.33,"status":"stopped","r":-1,"exit":97.96,"openedAt":"2026-10-20T14:26:37.095Z","counterfactual":true,"filteredBy":["name-uptrend","market-uptrend"],"regime":"choppy"}
+{"t":"2026-10-20T19:35:52.361Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-20T19:35:54.503Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-20T19:35:55.889Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-20T19:36:39.229Z","type":"thesis-counterfactual","id":"ab4ccf68","symbol":"CVX","strategy":"momentum-breakout","filteredBy":["market-uptrend"],"entry":224.99,"stop":224.13,"target":233.59}
+{"t":"2026-10-20T19:36:39.232Z","type":"thesis-counterfactual","id":"8cd4ca1d","symbol":"PG","strategy":"momentum-breakout","filteredBy":["earnings-window","market-uptrend"],"entry":159.04,"stop":158.46,"target":164.84}
+{"t":"2026-10-20T19:36:39.235Z","type":"thesis-counterfactual","id":"254583bb","symbol":"AMT","strategy":"momentum-breakdown","filteredBy":["name-downtrend"],"entry":183.36,"stop":184.27,"target":181.54}
+{"t":"2026-10-20T19:36:39.238Z","type":"thesis-counterfactual","id":"6d3cda4d","symbol":"BRK.B","strategy":"momentum-breakout","filteredBy":["market-uptrend"],"entry":539.17,"stop":537.61,"target":554.77}
+{"t":"2026-10-20T19:36:50.394Z","type":"shadow-outcome","id":"3686e654","symbol":"HOOD","strategy":"momentum-breakout:filtered","source":"filter-blocked","entry":99.54,"stop":97.9,"target":115.94,"status":"stopped","r":-1,"exit":97.9,"openedAt":"2026-10-20T14:25:38.442Z","counterfactual":true,"filteredBy":["name-uptrend","market-uptrend"],"regime":"choppy"}
