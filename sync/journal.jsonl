@@ -3257,3 +3257,7 @@
 {"t":"2026-10-20T18:36:50.571Z","type":"vault-pushed","files":["sync/equity-positions.json"]}
 {"t":"2026-10-20T18:36:52.059Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
 {"t":"2026-10-20T18:37:36.970Z","type":"thesis-counterfactual","id":"23b07c86","symbol":"NFLX","strategy":"momentum-breakdown","filteredBy":["earnings-window"],"entry":68.65,"stop":69.24,"target":67.47}
+{"t":"2026-10-20T18:37:44.660Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-20T18:37:46.207Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-20T18:37:47.773Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-20T18:38:37.623Z","type":"thesis-counterfactual","id":"052ff2d2","symbol":"NFLX","strategy":"momentum-breakdown","filteredBy":["earnings-window"],"entry":68.68,"stop":69.27,"target":67.5}
