@@ -2275,3 +2275,8 @@
 {"t":"2026-10-20T15:20:50.804Z","type":"vault-pushed","files":["sync/shadow.json"]}
 {"t":"2026-10-20T15:20:52.314Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
 {"t":"2026-10-20T15:21:34.429Z","type":"thesis-expired","id":"df102fdd","symbol":"KDP","strategy":"momentum-breakout"}
+{"t":"2026-10-20T15:21:44.649Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-20T15:21:47.277Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-20T15:21:48.526Z","type":"vault-pushed","files":["sync/equity-positions.json"]}
+{"t":"2026-10-20T15:21:50.001Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-20T15:22:41.988Z","type":"shadow-outcome","id":"51dcbd7f","symbol":"OXY","strategy":"momentum-breakdown:filtered","source":"filter-blocked","entry":61.73,"stop":62.35,"target":60.49,"status":"stopped","r":-1,"exit":62.35,"openedAt":"2026-10-20T14:43:39.755Z","side":"sell","counterfactual":true,"filteredBy":["name-downtrend","market-downtrend"],"regime":"trending"}
