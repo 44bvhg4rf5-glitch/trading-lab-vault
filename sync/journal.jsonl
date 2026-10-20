@@ -3241,3 +3241,7 @@
 {"t":"2026-10-20T18:34:40.614Z","type":"shadow-outcome","id":"7cb4b4be","symbol":"ABBV","strategy":"momentum-breakout:filtered","source":"filter-blocked","entry":290.7,"stop":289.13,"target":306.4,"status":"stopped","r":-1,"exit":289.13,"openedAt":"2026-10-20T17:56:37.863Z","counterfactual":true,"filteredBy":["market-uptrend"],"regime":"choppy"}
 {"t":"2026-10-20T18:34:40.615Z","type":"shadow-outcome","id":"89050e1f","symbol":"ABBV","strategy":"momentum-breakout:filtered","source":"filter-blocked","entry":290.73,"stop":289.13,"target":306.73,"status":"stopped","r":-1,"exit":289.13,"openedAt":"2026-10-20T17:58:38.339Z","counterfactual":true,"filteredBy":["market-uptrend"],"regime":"choppy"}
 {"t":"2026-10-20T18:34:40.615Z","type":"shadow-outcome","id":"dfe5f0b5","symbol":"ABBV","strategy":"momentum-breakout:filtered","source":"filter-blocked","entry":290.69,"stop":289.09,"target":306.69,"status":"stopped","r":-1,"exit":289.09,"openedAt":"2026-10-20T18:00:42.927Z","counterfactual":true,"filteredBy":["market-uptrend"],"regime":"choppy"}
+{"t":"2026-10-20T18:34:46.064Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-20T18:34:47.981Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-20T18:34:49.403Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-20T18:35:40.885Z","type":"thesis-counterfactual","id":"9bb9d3ce","symbol":"NFLX","strategy":"momentum-breakdown","filteredBy":["earnings-window"],"entry":68.81,"stop":69.38,"target":67.67}
