@@ -2015,3 +2015,11 @@
 {"t":"2026-10-20T14:44:38.329Z","type":"thesis-counterfactual","id":"a03c8e60","symbol":"OXY","strategy":"momentum-breakdown","filteredBy":["name-downtrend","market-downtrend"],"entry":61.68,"stop":62.3,"target":60.44}
 {"t":"2026-10-20T14:44:38.330Z","type":"thesis-counterfactual","id":"ac980b6e","symbol":"HOOD","strategy":"momentum-breakout","filteredBy":["name-uptrend"],"entry":100.92,"stop":99.15,"target":118.62}
 {"t":"2026-10-20T14:44:43.496Z","type":"auto-skip","id":"da4c9ca3","reason":"alpaca POST /v2/orders: 403 insufficient buying power"}
+{"t":"2026-10-20T14:44:47.217Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-20T14:44:49.189Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-20T14:44:50.629Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-20T14:45:41.114Z","type":"thesis-counterfactual","id":"087dcfcd","symbol":"TSLA","strategy":"momentum-breakout","filteredBy":["earnings-window"],"entry":375.33,"stop":370.97,"target":418.93}
+{"t":"2026-10-20T14:45:41.116Z","type":"thesis-counterfactual","id":"4a0ecf91","symbol":"CVX","strategy":"momentum-breakdown","filteredBy":["name-downtrend","market-downtrend"],"entry":221.94,"stop":223.49,"target":218.84}
+{"t":"2026-10-20T14:45:41.118Z","type":"thesis-counterfactual","id":"deb90125","symbol":"OXY","strategy":"momentum-breakdown","filteredBy":["name-downtrend","market-downtrend"],"entry":61.57,"stop":62.2,"target":60.31}
+{"t":"2026-10-20T14:45:41.120Z","type":"thesis-counterfactual","id":"01e495e1","symbol":"HOOD","strategy":"momentum-breakout","filteredBy":["name-uptrend"],"entry":100.88,"stop":99.11,"target":118.58}
+{"t":"2026-10-20T14:45:44.134Z","type":"auto-skip","id":"da4c9ca3","reason":"alpaca POST /v2/orders: 403 insufficient buying power"}
