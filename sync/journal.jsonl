@@ -3251,3 +3251,9 @@
 {"t":"2026-10-20T18:36:34.552Z","type":"fill","orderId":"f8deaece-d2a5-42e0-8fa3-af876b8a1c76","symbol":"ELV","side":"sell","qty":"40","avgPrice":"437.1","legs":0,"clientId":"8470accf-537d-4fb3-a315-edcb472fdc2e"}
 {"t":"2026-10-20T18:36:37.702Z","type":"thesis-counterfactual","id":"ef07cbf6","symbol":"NFLX","strategy":"momentum-breakdown","filteredBy":["earnings-window"],"entry":68.76,"stop":69.33,"target":67.62}
 {"t":"2026-10-20T18:36:39.165Z","type":"equity-position-closed","sleeve":false,"qty":40,"id":"015e051e","symbol":"ELV","status":"stopped","r":0.05,"exit":437.1,"approx":false,"entry":436.92,"stop":433.55,"target":470.62,"strategy":"momentum-breakout","regime":"trending","peakR":1.09,"captureRatio":0.05}
+{"t":"2026-10-20T18:36:45.513Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-20T18:36:47.150Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-10-20T18:36:49.230Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-20T18:36:50.571Z","type":"vault-pushed","files":["sync/equity-positions.json"]}
+{"t":"2026-10-20T18:36:52.059Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-20T18:37:36.970Z","type":"thesis-counterfactual","id":"23b07c86","symbol":"NFLX","strategy":"momentum-breakdown","filteredBy":["earnings-window"],"entry":68.65,"stop":69.24,"target":67.47}
