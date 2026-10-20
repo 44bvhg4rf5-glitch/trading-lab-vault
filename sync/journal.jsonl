@@ -2146,3 +2146,16 @@
 {"t":"2026-10-20T15:03:47.387Z","type":"auto-skip","id":"a2471750","reason":"alpaca POST /v2/orders: 403 insufficient buying power"}
 {"t":"2026-10-20T15:03:47.829Z","type":"auto-skip","id":"921a11cc","reason":"alpaca POST /v2/orders: 403 insufficient buying power"}
 {"t":"2026-10-20T15:03:48.105Z","type":"auto-skip","id":"4c388e36","reason":"alpaca POST /v2/orders: 403 insufficient buying power"}
+{"t":"2026-10-20T15:03:52.160Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-20T15:03:54.284Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-20T15:03:55.906Z","type":"vault-pushed","files":["sync/equity-positions.json"]}
+{"t":"2026-10-20T15:03:57.557Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-20T15:04:34.427Z","type":"thesis-expired","id":"a2471750","symbol":"UNH","strategy":"momentum-breakout"}
+{"t":"2026-10-20T15:05:31.211Z","type":"thesis-rejected-gate","strategy":"cfd-momentum-breakout","market":"cfd","symbol":"AU200_AUD","side":"buy","entry":8858.2,"stop":8785.31,"target":8967.54,"reason":"AU200_AUD broke its 20-hour high (8816.2) on 2.5× average volume, above its 20-day average. Stop 3×ATR below, target 1.5R.","maxHoldDays":5,"conviction":{"score":65,"tier":"standard","reasons":["+5 Monte Carlo expected +0.16R","+6 index tape trending","+4 VIX 19.99 — calm tape"]},"reasons":["spread is 12.6% of the risk unit (cap 10%)"]}
+{"t":"2026-10-20T15:05:31.285Z","type":"shadow-outcome","id":"DE30_EUR-mvgepnk6","symbol":"DE30_EUR","strategy":"cfd-momentum-breakdown","source":"incubation","entry":25099.1,"stop":25271.17,"target":24754.96,"status":"stopped","r":-1,"exit":25271.17,"openedAt":"2026-10-20T08:13:52.902Z","side":"sell","regime":"choppy"}
+{"t":"2026-10-20T15:05:31.286Z","type":"shadow-outcome","id":"EU50_EUR-mvgepnk6","symbol":"EU50_EUR","strategy":"cfd-momentum-breakdown","source":"incubation","entry":6089.7,"stop":6132.67,"target":6003.76,"status":"stopped","r":-1,"exit":6132.67,"openedAt":"2026-10-20T08:13:52.902Z","side":"sell","regime":"choppy"}
+{"t":"2026-10-20T15:05:31.286Z","type":"shadow-outcome","id":"EUR_JPY-mvgiwhtb","symbol":"EUR_JPY","strategy":"cfd-momentum-breakdown","source":"incubation","entry":177.33,"stop":177.78,"target":176.43,"status":"stopped","r":-1,"exit":177.78,"openedAt":"2026-10-20T10:11:10.510Z","side":"sell","regime":"choppy"}
+{"t":"2026-10-20T15:05:31.286Z","type":"shadow-outcome","id":"XAU_USD-mvgiwhtb","symbol":"XAU_USD","strategy":"cfd-momentum-breakdown","source":"incubation","entry":4112.65,"stop":4143.91,"target":4050.13,"status":"stopped","r":-1,"exit":4143.91,"openedAt":"2026-10-20T10:11:10.511Z","side":"sell","regime":"choppy"}
+{"t":"2026-10-20T15:05:32.032Z","type":"auto-skip","id":"921a11cc","reason":"alpaca POST /v2/orders: 403 insufficient buying power"}
+{"t":"2026-10-20T15:05:32.453Z","type":"auto-skip","id":"4c388e36","reason":"alpaca POST /v2/orders: 403 insufficient buying power"}
+{"t":"2026-10-20T15:05:32.716Z","type":"auto-skip","id":"df102fdd","reason":"alpaca POST /v2/orders: 403 insufficient buying power"}
