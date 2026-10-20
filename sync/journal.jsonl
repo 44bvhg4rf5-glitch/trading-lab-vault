@@ -3423,3 +3423,13 @@
 {"t":"2026-10-20T19:09:37.796Z","type":"thesis-counterfactual","id":"ccd19975","symbol":"BRK.B","strategy":"momentum-breakout","filteredBy":["market-uptrend"],"entry":538.93,"stop":537.28,"target":555.43}
 {"t":"2026-10-20T19:09:37.799Z","type":"thesis-counterfactual","id":"64e9172b","symbol":"WMT","strategy":"mean-reversion-short","filteredBy":["news-quiet"],"entry":118.17,"stop":121.67,"target":110.58}
 {"t":"2026-10-20T19:09:39.742Z","type":"equity-position-closed","sleeve":false,"qty":32,"id":"fa1ebcad","symbol":"MSFT","status":"timeout","r":-2.98,"exit":531.7,"approx":false,"entry":540.54,"stop":537.57,"target":546.48,"strategy":"momentum-breakout","regime":"trending","peakR":0.65,"captureRatio":-4.58}
+{"t":"2026-10-20T19:09:47.217Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-20T19:09:49.566Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-20T19:09:51.070Z","type":"vault-pushed","files":["sync/equity-positions.json"]}
+{"t":"2026-10-20T19:09:52.463Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-20T19:10:34.569Z","type":"fill","orderId":"f482a414-5f76-4ff4-84b6-67f00d7d47e1","symbol":"MSFT","side":"sell","qty":"32","avgPrice":"531.711875","legs":0,"clientId":"0d15b09f-a975-41f4-8c3f-5c6e0328f1b5"}
+{"t":"2026-10-20T19:10:39.488Z","type":"thesis-counterfactual","id":"4e83cc8a","symbol":"AAPL","strategy":"momentum-breakdown","filteredBy":["name-downtrend"],"entry":339.38,"stop":340.99,"target":336.16}
+{"t":"2026-10-20T19:10:39.490Z","type":"thesis-counterfactual","id":"011df51f","symbol":"CME","strategy":"momentum-breakdown","filteredBy":["name-downtrend"],"entry":294.01,"stop":295.75,"target":290.53}
+{"t":"2026-10-20T19:10:39.492Z","type":"thesis-counterfactual","id":"48da4dab","symbol":"BRK.B","strategy":"momentum-breakout","filteredBy":["market-uptrend"],"entry":538.83,"stop":537.18,"target":555.33}
+{"t":"2026-10-20T19:10:39.495Z","type":"thesis-counterfactual","id":"28069ffe","symbol":"WMT","strategy":"mean-reversion-short","filteredBy":["news-quiet"],"entry":118.17,"stop":121.67,"target":110.58}
+{"t":"2026-10-20T19:10:43.804Z","type":"shadow-outcome","id":"536b7805","symbol":"OXY","strategy":"momentum-breakdown:filtered","source":"filter-blocked","entry":62.3,"stop":62.84,"target":61.22,"status":"stopped","r":-1,"exit":62.84,"openedAt":"2026-10-20T14:23:37.430Z","side":"sell","counterfactual":true,"filteredBy":["name-downtrend"],"regime":"choppy"}
