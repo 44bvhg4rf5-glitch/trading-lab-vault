@@ -7556,3 +7556,40 @@
 {"t":"2026-10-21T18:37:17.083Z","type":"vault-pushed","files":["sync/shadow.json"]}
 {"t":"2026-10-21T18:37:18.477Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
 {"t":"2026-10-21T18:38:08.468Z","type":"thesis-counterfactual","id":"e90c5c77","symbol":"BAC","strategy":"mean-reversion","filteredBy":["news-quiet","above-200-sma"],"entry":50.98,"stop":49.09,"target":53.48}
+{"t":"2026-10-21T18:38:21.237Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-21T18:38:23.776Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-21T18:38:25.596Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T18:39:08.392Z","type":"thesis-counterfactual","id":"15796897","symbol":"BAC","strategy":"mean-reversion","filteredBy":["news-quiet","above-200-sma"],"entry":50.98,"stop":49.09,"target":53.48}
+{"t":"2026-10-21T18:39:17.561Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-21T18:39:19.069Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T18:40:09.295Z","type":"thesis-counterfactual","id":"7aa8115a","symbol":"BAC","strategy":"mean-reversion","filteredBy":["news-quiet","above-200-sma"],"entry":50.98,"stop":49.09,"target":53.48}
+{"t":"2026-10-21T18:40:17.367Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-21T18:40:19.199Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T18:41:09.351Z","type":"thesis-counterfactual","id":"fac6ed3f","symbol":"BAC","strategy":"mean-reversion","filteredBy":["news-quiet","above-200-sma"],"entry":50.98,"stop":49.09,"target":53.48}
+{"t":"2026-10-21T18:41:16.875Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-21T18:41:18.188Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T18:42:08.998Z","type":"thesis-counterfactual","id":"e01b7bb2","symbol":"BAC","strategy":"mean-reversion","filteredBy":["news-quiet","above-200-sma"],"entry":50.98,"stop":49.09,"target":53.48}
+{"t":"2026-10-21T18:42:26.750Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-21T18:42:28.167Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T18:43:09.050Z","type":"thesis-counterfactual","id":"9dce01ed","symbol":"BAC","strategy":"mean-reversion","filteredBy":["news-quiet","above-200-sma"],"entry":50.98,"stop":49.09,"target":53.48}
+{"t":"2026-10-21T18:43:17.239Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-21T18:43:18.598Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T18:44:08.550Z","type":"thesis-counterfactual","id":"78dba4c0","symbol":"BAC","strategy":"mean-reversion","filteredBy":["news-quiet","above-200-sma"],"entry":50.98,"stop":49.09,"target":53.48}
+{"t":"2026-10-21T18:44:16.244Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-21T18:44:17.615Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T18:45:11.356Z","type":"thesis-counterfactual","id":"49b32787","symbol":"BAC","strategy":"mean-reversion","filteredBy":["news-quiet","above-200-sma"],"entry":50.98,"stop":49.09,"target":53.48}
+{"t":"2026-10-21T18:45:23.026Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-21T18:45:24.355Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T18:46:11.413Z","type":"thesis-counterfactual","id":"534be7a5","symbol":"BAC","strategy":"mean-reversion","filteredBy":["news-quiet","above-200-sma"],"entry":50.98,"stop":49.09,"target":53.48}
+{"t":"2026-10-21T18:46:11.883Z","type":"thesis-rejected-gate","strategy":"momentum-breakout","symbol":"DIS","side":"buy","entry":111.56,"stop":111.08,"target":116.36,"reason":"Broke 20-bar high (111.55) with stock and SPY above their 20-day averages. Stop 2×ATR below, target 10R.","maxHoldDays":5,"conviction":{"score":77,"tier":"high","reasons":["+8 reward:risk 10.0","+10 Monte Carlo expected +0.99R (2% to target)","-8 7 similar past setups averaged -1.13R (14% won)","+6 market trending","-8 lagging sector (10/11)","+4 VIX 17.31 — calm tape","+5 Street strongly positive","+6 insiders net buying (MSPR 32)","-5 diluting (+5.6% shares)","+6 beat all 4 of the last quarters","+3 light shorting"]},"reasons":["already at max 8 open positions"]}
+{"t":"2026-10-21T18:46:11.948Z","type":"thesis","id":"1a4ea4fb","strategy":"momentum-breakout","symbol":"DIS","side":"buy","entry":111.56,"stop":111.08,"target":116.36,"reason":"Broke 20-bar high (111.55) with stock and SPY above their 20-day averages. Stop 2×ATR below, target 10R.","maxHoldDays":5,"market":"sleeve","sleeve":true,"qty":3681,"conviction":{"score":77,"tier":"high","reasons":["+8 reward:risk 10.0","+10 Monte Carlo expected +0.99R (2% to target)","-8 7 similar past setups averaged -1.13R (14% won)","+6 market trending","-8 lagging sector (10/11)","+4 VIX 17.31 — calm tape","+5 Street strongly positive","+6 insiders net buying (MSPR 32)","-5 diluting (+5.6% shares)","+6 beat all 4 of the last quarters","+3 light shorting"]},"riskPct":0.016789558113410572,"riskUsd":1766.92,"regime":"trending","headlines":[],"analyst":null,"createdAt":"2026-10-21T18:46:11.947Z","autoAt":"2026-10-21T18:49:11.947Z","expiresAt":"2026-10-21T19:06:11.948Z"}
+{"t":"2026-10-21T18:46:17.878Z","type":"shadow-outcome","id":"83a64477","symbol":"UNH","strategy":"momentum-breakdown:filtered","source":"filter-blocked","entry":415.09,"stop":417.85,"target":409.57,"status":"stopped","r":-1,"exit":417.85,"openedAt":"2026-10-21T16:13:09.576Z","side":"sell","counterfactual":true,"filteredBy":["name-downtrend","market-downtrend"],"regime":"trending","exits":{"breakeven1R":-1,"halfAt1R":-1}}
+{"t":"2026-10-21T18:46:20.411Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-21T18:46:21.984Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T18:47:12.027Z","type":"thesis-counterfactual","id":"d86cb177","symbol":"BAC","strategy":"mean-reversion","filteredBy":["news-quiet","above-200-sma"],"entry":51.01,"stop":49.12,"target":53.48}
+{"t":"2026-10-21T18:47:17.078Z","type":"shadow-outcome","id":"dc0c4136","symbol":"DIS","strategy":"momentum-breakdown:filtered","source":"filter-blocked","entry":110.93,"stop":111.56,"target":109.67,"status":"stopped","r":-1,"exit":111.56,"openedAt":"2026-10-21T13:34:10.162Z","side":"sell","counterfactual":true,"filteredBy":["name-downtrend"],"regime":"choppy","exits":{"breakeven1R":0,"halfAt1R":0.5}}
+{"t":"2026-10-21T18:47:20.462Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-21T18:47:21.885Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T18:48:10.042Z","type":"thesis-counterfactual","id":"13a4c4b2","symbol":"BAC","strategy":"mean-reversion","filteredBy":["news-quiet","above-200-sma"],"entry":51.01,"stop":49.12,"target":53.48}
+{"t":"2026-10-21T18:48:10.856Z","type":"thesis-rejected-gate","strategy":"momentum-breakout","symbol":"CVX","side":"buy","entry":227.3,"stop":226.25,"target":237.8,"reason":"Broke 20-bar high (227.12) with stock and SPY above their 20-day averages. Stop 2×ATR below, target 10R.","maxHoldDays":5,"conviction":{"score":64,"tier":"standard","reasons":["+8 reward:risk 10.0","+10 Monte Carlo expected +1.32R (1% to target)","-8 7 similar past setups averaged -1.13R (14% won)","+6 market trending","+8 sector rank 1/11","+4 VIX 17.31 — calm tape","+5 Street strongly positive","-8 revenue -18.4% YoY — shrinking","-6 net margin down 3.8pp","-5 diluting (+13.3% shares)","+6 beat all 4 of the last quarters","-6 62% short-sale volume"]},"reasons":["already at max 8 open positions"]}
+{"t":"2026-10-21T18:48:10.858Z","type":"sleeve-declined","symbol":"CVX","conviction":64,"reasons":["conviction 64 below the sleeve's 75 bar"]}
