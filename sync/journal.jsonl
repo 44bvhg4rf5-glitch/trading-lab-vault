@@ -8103,3 +8103,16 @@
 {"t":"2026-10-21T22:07:10.578Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
 {"t":"2026-10-21T22:08:09.720Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
 {"t":"2026-10-21T22:09:09.372Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T22:10:16.599Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-21T22:10:17.977Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T22:11:09.876Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T22:12:10.089Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T22:13:20.911Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T22:14:11.275Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T22:15:09.349Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T22:16:09.446Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T22:17:18.382Z","type":"cfd-bars-partial","failed":["SPX500_USD M15: oanda GET /v3/instruments/SPX500_USD/candles?granularity=M15&count=300&price=M: 504 <!DOCTYPE html> <html> <head> <meta ","NAS100_USD M15: oanda GET /v3/instruments/NAS100_USD/candles?granularity=M15&count=300&price=M: 504 <!DOCTYPE html> <html> <head> <meta "],"count":2,"note":"kept the previous bars for these; the rest of the CFD tick ran"}
+{"t":"2026-10-21T22:17:20.776Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T22:18:08.785Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T22:19:09.576Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T22:20:09.292Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
