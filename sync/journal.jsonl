@@ -5035,3 +5035,17 @@
 {"t":"2026-10-21T05:29:09.002Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
 {"t":"2026-10-21T05:30:58.832Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
 {"t":"2026-10-21T05:31:08.972Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T05:32:14.094Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-21T05:32:15.563Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T05:33:08.849Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T05:34:13.073Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T05:35:08.629Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T05:36:09.230Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T05:37:08.536Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T05:38:12.611Z","type":"cfd-bars-partial","failed":["NAS100_USD M15: oanda GET /v3/instruments/NAS100_USD/candles?granularity=M15&count=300&price=M: 504 <!DOCTYPE html> <html> <head> <meta "],"count":1,"note":"kept the previous bars for these; the rest of the CFD tick ran"}
+{"t":"2026-10-21T05:38:14.890Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T05:39:08.505Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T05:40:08.599Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T05:41:44.293Z","type":"cfd-bars-partial","failed":["AUD_NZD D: oanda GET /v3/instruments/AUD_NZD/candles?granularity=D&count=400&price=M: 504 <!DOCTYPE html> <html> <head> <meta chars","XAU_USD D: oanda GET /v3/instruments/XAU_USD/candles?granularity=D&count=400&price=M: 504 <!DOCTYPE html> <html> <head> <meta chars","EUR_USD H1: oanda GET /v3/instruments/EUR_USD/candles?granularity=H1&count=500&price=M: 504 <!DOCTYPE html> <html> <head> <meta char","AUD_USD H1: oanda GET /v3/instruments/AUD_USD/candles?granularity=H1&count=500&price=M: 504 <!DOCTYPE html> <html> <head> <meta char","AUD_NZD H1: oanda GET /v3/instruments/AUD_NZD/candles?granularity=H1&count=500&price=M: 504 <!DOCTYPE html> <html> <head> <meta char","UK100_GBP H1: oanda GET /v3/instruments/UK100_GBP/candles?granularity=H1&count=500&price=M: 504 <!DOCTYPE html> <html> <head> <meta ch"],"count":6,"note":"kept the previous bars for these; the rest of the CFD tick ran"}
+{"t":"2026-10-21T05:41:46.479Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T05:42:12.117Z","type":"cfd-bars-partial","failed":["NAS100_USD M15: oanda GET /v3/instruments/NAS100_USD/candles?granularity=M15&count=300&price=M: 504 <!DOCTYPE html> <html> <head> <meta "],"count":1,"note":"kept the previous bars for these; the rest of the CFD tick ran"}
