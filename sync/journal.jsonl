@@ -7593,3 +7593,55 @@
 {"t":"2026-10-21T18:48:10.042Z","type":"thesis-counterfactual","id":"13a4c4b2","symbol":"BAC","strategy":"mean-reversion","filteredBy":["news-quiet","above-200-sma"],"entry":51.01,"stop":49.12,"target":53.48}
 {"t":"2026-10-21T18:48:10.856Z","type":"thesis-rejected-gate","strategy":"momentum-breakout","symbol":"CVX","side":"buy","entry":227.3,"stop":226.25,"target":237.8,"reason":"Broke 20-bar high (227.12) with stock and SPY above their 20-day averages. Stop 2×ATR below, target 10R.","maxHoldDays":5,"conviction":{"score":64,"tier":"standard","reasons":["+8 reward:risk 10.0","+10 Monte Carlo expected +1.32R (1% to target)","-8 7 similar past setups averaged -1.13R (14% won)","+6 market trending","+8 sector rank 1/11","+4 VIX 17.31 — calm tape","+5 Street strongly positive","-8 revenue -18.4% YoY — shrinking","-6 net margin down 3.8pp","-5 diluting (+13.3% shares)","+6 beat all 4 of the last quarters","-6 62% short-sale volume"]},"reasons":["already at max 8 open positions"]}
 {"t":"2026-10-21T18:48:10.858Z","type":"sleeve-declined","symbol":"CVX","conviction":64,"reasons":["conviction 64 below the sleeve's 75 bar"]}
+{"t":"2026-10-21T18:48:22.368Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-21T18:48:25.160Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-21T18:48:26.593Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T18:49:08.763Z","type":"thesis-counterfactual","id":"b1d1e2d4","symbol":"BAC","strategy":"mean-reversion","filteredBy":["news-quiet","above-200-sma"],"entry":51.01,"stop":49.12,"target":53.48}
+{"t":"2026-10-21T18:49:17.247Z","type":"auto-skip","id":"1a4ea4fb","reason":"alpaca POST /v2/orders: 403 insufficient buying power"}
+{"t":"2026-10-21T18:49:19.961Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-21T18:49:21.333Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T18:50:09.654Z","type":"thesis-counterfactual","id":"8cab6b8c","symbol":"BAC","strategy":"mean-reversion","filteredBy":["news-quiet","above-200-sma"],"entry":51.01,"stop":49.12,"target":53.48}
+{"t":"2026-10-21T18:50:15.733Z","type":"auto-skip","id":"1a4ea4fb","reason":"alpaca POST /v2/orders: 403 insufficient buying power"}
+{"t":"2026-10-21T18:50:18.645Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-21T18:50:20.036Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T18:51:09.393Z","type":"thesis-counterfactual","id":"1bff1ed7","symbol":"BAC","strategy":"mean-reversion","filteredBy":["news-quiet","above-200-sma"],"entry":51.01,"stop":49.12,"target":53.48}
+{"t":"2026-10-21T18:51:15.383Z","type":"auto-skip","id":"1a4ea4fb","reason":"alpaca POST /v2/orders: 403 insufficient buying power"}
+{"t":"2026-10-21T18:51:17.335Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-21T18:51:18.821Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T18:52:08.859Z","type":"thesis-counterfactual","id":"950fa580","symbol":"BAC","strategy":"mean-reversion","filteredBy":["news-quiet","above-200-sma"],"entry":51.01,"stop":49.12,"target":53.48}
+{"t":"2026-10-21T18:52:14.674Z","type":"auto-skip","id":"1a4ea4fb","reason":"alpaca POST /v2/orders: 403 insufficient buying power"}
+{"t":"2026-10-21T18:52:16.635Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-21T18:52:18.122Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T18:53:08.900Z","type":"thesis-counterfactual","id":"3f5527c0","symbol":"BAC","strategy":"mean-reversion","filteredBy":["news-quiet","above-200-sma"],"entry":51.01,"stop":49.12,"target":53.48}
+{"t":"2026-10-21T18:53:29.874Z","type":"auto-skip","id":"1a4ea4fb","reason":"alpaca POST /v2/orders: 403 insufficient buying power"}
+{"t":"2026-10-21T18:53:33.320Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-21T18:53:34.803Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T18:54:08.901Z","type":"thesis-counterfactual","id":"af0b798e","symbol":"BAC","strategy":"mean-reversion","filteredBy":["news-quiet","above-200-sma"],"entry":51.01,"stop":49.12,"target":53.48}
+{"t":"2026-10-21T18:54:14.821Z","type":"auto-skip","id":"1a4ea4fb","reason":"alpaca POST /v2/orders: 403 insufficient buying power"}
+{"t":"2026-10-21T18:54:16.911Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-21T18:54:18.578Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T18:55:09.473Z","type":"thesis-counterfactual","id":"3e02ac4a","symbol":"BAC","strategy":"mean-reversion","filteredBy":["news-quiet","above-200-sma"],"entry":51.01,"stop":49.12,"target":53.48}
+{"t":"2026-10-21T18:55:15.262Z","type":"auto-skip","id":"1a4ea4fb","reason":"alpaca POST /v2/orders: 403 insufficient buying power"}
+{"t":"2026-10-21T18:55:17.366Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-21T18:55:18.943Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T18:56:08.896Z","type":"thesis-counterfactual","id":"bac16ec2","symbol":"KO","strategy":"momentum-breakdown","filteredBy":["name-downtrend","market-downtrend"],"entry":92.6,"stop":92.9,"target":92}
+{"t":"2026-10-21T18:56:08.898Z","type":"thesis-counterfactual","id":"61858faa","symbol":"BAC","strategy":"mean-reversion","filteredBy":["news-quiet","above-200-sma"],"entry":51.01,"stop":49.12,"target":53.48}
+{"t":"2026-10-21T18:56:14.850Z","type":"auto-skip","id":"1a4ea4fb","reason":"alpaca POST /v2/orders: 403 insufficient buying power"}
+{"t":"2026-10-21T18:56:17.406Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-21T18:56:19.033Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T18:57:10.292Z","type":"thesis-counterfactual","id":"8e6d46d7","symbol":"KO","strategy":"momentum-breakdown","filteredBy":["name-downtrend","market-downtrend"],"entry":92.57,"stop":92.88,"target":91.95}
+{"t":"2026-10-21T18:57:10.295Z","type":"thesis-counterfactual","id":"c258901d","symbol":"BAC","strategy":"mean-reversion","filteredBy":["news-quiet","above-200-sma"],"entry":50.89,"stop":49,"target":53.47}
+{"t":"2026-10-21T18:57:15.390Z","type":"shadow-outcome","id":"PEP-mvi8zlln","symbol":"PEP","strategy":"momentum-breakout","source":"gate-blocked","entry":134.73,"stop":133.98,"target":142.23,"status":"stopped","r":-1,"exit":133.98,"openedAt":"2026-10-21T15:09:11.579Z","regime":"trending","conviction":84,"exits":{"breakeven1R":0,"halfAt1R":0.5}}
+{"t":"2026-10-21T18:57:15.982Z","type":"auto-skip","id":"1a4ea4fb","reason":"alpaca POST /v2/orders: 403 insufficient buying power"}
+{"t":"2026-10-21T18:57:18.070Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-21T18:57:19.595Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T18:58:08.510Z","type":"thesis-counterfactual","id":"cfed7bcd","symbol":"KO","strategy":"momentum-breakdown","filteredBy":["name-downtrend","market-downtrend"],"entry":92.57,"stop":92.88,"target":91.95}
+{"t":"2026-10-21T18:58:08.513Z","type":"thesis-counterfactual","id":"6bb481db","symbol":"BAC","strategy":"mean-reversion","filteredBy":["news-quiet","above-200-sma"],"entry":50.89,"stop":49,"target":53.47}
+{"t":"2026-10-21T18:58:13.857Z","type":"shadow-outcome","id":"4549a20c","symbol":"PEP","strategy":"momentum-breakout:filtered","source":"filter-blocked","entry":134.63,"stop":133.89,"target":142.03,"status":"stopped","r":-1,"exit":133.89,"openedAt":"2026-10-21T14:04:08.389Z","counterfactual":true,"filteredBy":["market-uptrend"],"regime":"choppy","exits":{"breakeven1R":0,"halfAt1R":0.5}}
+{"t":"2026-10-21T18:58:14.488Z","type":"auto-skip","id":"1a4ea4fb","reason":"alpaca POST /v2/orders: 403 insufficient buying power"}
+{"t":"2026-10-21T18:58:16.560Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-21T18:58:18.192Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T18:59:08.663Z","type":"thesis-counterfactual","id":"aa812b47","symbol":"KO","strategy":"momentum-breakdown","filteredBy":["name-downtrend","market-downtrend"],"entry":92.6,"stop":92.91,"target":91.98}
+{"t":"2026-10-21T18:59:08.665Z","type":"thesis-counterfactual","id":"063f8906","symbol":"BAC","strategy":"mean-reversion","filteredBy":["news-quiet","above-200-sma"],"entry":50.89,"stop":49,"target":53.47}
+{"t":"2026-10-21T18:59:13.650Z","type":"shadow-outcome","id":"8e0f1b0e","symbol":"BAC","strategy":"momentum-breakout:filtered","source":"filter-blocked","entry":51.18,"stop":50.87,"target":54.28,"status":"stopped","r":-1,"exit":50.87,"openedAt":"2026-10-21T16:40:16.134Z","counterfactual":true,"filteredBy":["name-uptrend"],"regime":"trending","exits":{"breakeven1R":-1,"halfAt1R":-1}}
+{"t":"2026-10-21T18:59:14.113Z","type":"auto-skip","id":"1a4ea4fb","reason":"alpaca POST /v2/orders: 403 insufficient buying power"}
