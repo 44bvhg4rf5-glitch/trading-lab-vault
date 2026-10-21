@@ -4839,3 +4839,18 @@
 {"t":"2026-10-21T02:41:12.630Z","type":"crypto-liquidity-skip","symbol":"BCH/USD","reasons":["median turnover $0.0M/day below the $20M floor","spread 58.6bps above the 50bps screen"],"dollarVolume":3063,"spreadBps":58.6}
 {"t":"2026-10-21T02:41:13.433Z","type":"cfd-instruments","found":["EUR_USD","GBP_USD","USD_JPY","USD_CHF","AUD_USD","USD_CAD","NZD_USD","EUR_GBP","EUR_JPY","GBP_JPY","EUR_CHF","AUD_JPY","CAD_JPY","EUR_AUD","AUD_NZD","XAU_USD","XAG_USD","SPX500_USD","NAS100_USD","US2000_USD","UK100_GBP","DE30_EUR","EU50_EUR","FR40_EUR","JP225_USD","AU200_AUD","HK33_HKD","WTICO_USD","BCO_USD"],"missing":["DE40_EUR"],"duplicatesSkipped":[],"offeredByAccount":123}
 {"t":"2026-10-21T02:41:25.658Z","type":"thesis-rejected-gate","strategy":"cfd-momentum-breakout","market":"cfd","symbol":"AUD_JPY","side":"buy","entry":111.12,"stop":110.71,"target":111.74,"reason":"AUD_JPY broke its 20-hour high (111.08) on 1.4× average volume, above its 20-day average. Stop 3×ATR below, target 1.5R.","maxHoldDays":5,"conviction":{"score":60,"tier":"standard","reasons":["+6 index tape trending","+4 VIX 18.44 — calm tape"]},"reasons":["spread is 39.8% of the risk unit (cap 10%)","spread plus 5 nights of financing is 39.8% of the risk unit (cap 25%, rate account)"]}
+{"t":"2026-10-21T02:41:31.720Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-21T02:41:33.102Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-10-21T02:41:35.050Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-21T02:41:36.335Z","type":"vault-pushed","files":["sync/crypto-positions.json"]}
+{"t":"2026-10-21T02:41:37.800Z","type":"vault-pushed","files":["sync/equity-positions.json"]}
+{"t":"2026-10-21T02:41:39.077Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T02:42:09.178Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T02:43:08.691Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T02:44:08.539Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T02:45:12.303Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T02:46:08.770Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T02:47:09.205Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T02:48:08.872Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T02:50:08.905Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T02:51:08.980Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
