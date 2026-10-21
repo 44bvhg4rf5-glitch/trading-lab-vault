@@ -5192,3 +5192,15 @@
 {"t":"2026-10-21T07:48:11.799Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
 {"t":"2026-10-21T07:49:09.347Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
 {"t":"2026-10-21T07:50:08.738Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T07:51:29.109Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-21T07:51:30.634Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T07:52:11.092Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T07:53:08.827Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T07:54:08.695Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T07:55:09.600Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T07:56:11.351Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T07:57:09.337Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T07:58:08.331Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T07:59:10.737Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T08:00:09.135Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T08:01:49.353Z","type":"cfd-bars-partial","failed":["XAU_USD H1: oanda GET /v3/instruments/XAU_USD/candles?granularity=H1&count=500&price=M: 504 <!DOCTYPE html> <html> <head> <meta char"],"count":1,"note":"kept the previous bars for these; the rest of the CFD tick ran"}
