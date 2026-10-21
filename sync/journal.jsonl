@@ -5421,3 +5421,16 @@
 {"t":"2026-10-21T11:10:09.252Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
 {"t":"2026-10-21T11:11:08.959Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
 {"t":"2026-10-21T11:12:08.798Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T11:13:31.756Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-21T11:13:33.146Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T11:14:09.106Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T11:15:09.851Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T11:16:19.175Z","type":"cfd-bars-partial","failed":["NAS100_USD M15: oanda GET /v3/instruments/NAS100_USD/candles?granularity=M15&count=300&price=M: 504 <!DOCTYPE html> <html> <head> <meta ","UK100_GBP M15: oanda GET /v3/instruments/UK100_GBP/candles?granularity=M15&count=300&price=M: 504 <!DOCTYPE html> <html> <head> <meta c"],"count":2,"note":"kept the previous bars for these; the rest of the CFD tick ran"}
+{"t":"2026-10-21T11:16:21.447Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T11:17:09.651Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T11:18:09.546Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T11:19:09.213Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T11:20:13.599Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T11:21:09.108Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T11:22:10.075Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T11:23:09.390Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
