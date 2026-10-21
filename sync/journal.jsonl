@@ -5560,3 +5560,15 @@
 {"t":"2026-10-21T13:07:09.280Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
 {"t":"2026-10-21T13:09:00.301Z","type":"cfd-bars-partial","failed":["USD_JPY D: oanda GET /v3/instruments/USD_JPY/candles?granularity=D&count=400&price=M: 504 <!DOCTYPE html> <html> <head> <meta chars","NZD_USD D: oanda GET /v3/instruments/NZD_USD/candles?granularity=D&count=400&price=M: 504 <!DOCTYPE html> <html> <head> <meta chars","EUR_JPY D: oanda GET /v3/instruments/EUR_JPY/candles?granularity=D&count=400&price=M: 504 <!DOCTYPE html> <html> <head> <meta chars","AUD_NZD D: oanda GET /v3/instruments/AUD_NZD/candles?granularity=D&count=400&price=M: 504 <!DOCTYPE html> <html> <head> <meta chars","WTICO_USD D: oanda GET /v3/instruments/WTICO_USD/candles?granularity=D&count=400&price=M: 504 <!DOCTYPE html> <html> <head> <meta cha","BCO_USD D: oanda GET /v3/instruments/BCO_USD/candles?granularity=D&count=400&price=M: 504 <!DOCTYPE html> <html> <head> <meta chars","AUD_JPY H1: oanda GET /v3/instruments/AUD_JPY/candles?granularity=H1&count=500&price=M: 504 <!DOCTYPE html> <html> <head> <meta char","UK100_GBP H1: oanda GET /v3/instruments/UK100_GBP/candles?granularity=H1&count=500&price=M: 504 <!DOCTYPE html> <html> <head> <meta ch","JP225_USD H1: oanda GET /v3/instruments/JP225_USD/candles?granularity=H1&count=500&price=M: 504 <!DOCTYPE html> <html> <head> <meta ch"],"count":9,"note":"kept the previous bars for these; the rest of the CFD tick ran"}
 {"t":"2026-10-21T13:09:03.009Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T13:09:14.990Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-21T13:09:16.791Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T13:10:09.877Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T13:11:10.382Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T13:12:18.250Z","type":"cfd-bars-partial","failed":["SPX500_USD M15: oanda GET /v3/instruments/SPX500_USD/candles?granularity=M15&count=300&price=M: 504 <!DOCTYPE html> <html> <head> <meta ","NAS100_USD M15: oanda GET /v3/instruments/NAS100_USD/candles?granularity=M15&count=300&price=M: 504 <!DOCTYPE html> <html> <head> <meta "],"count":2,"note":"kept the previous bars for these; the rest of the CFD tick ran"}
+{"t":"2026-10-21T13:12:20.317Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T13:13:09.253Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T13:14:09.276Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T13:15:12.760Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T13:16:10.439Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T13:17:09.665Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T13:18:31.618Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
