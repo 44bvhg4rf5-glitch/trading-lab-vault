@@ -5316,3 +5316,14 @@
 {"t":"2026-10-21T09:36:09.973Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
 {"t":"2026-10-21T09:38:05.146Z","type":"cfd-bars-partial","failed":["USD_JPY D: oanda GET /v3/instruments/USD_JPY/candles?granularity=D&count=400&price=M: 504 <!DOCTYPE html> <html> <head> <meta chars","EUR_GBP D: oanda GET /v3/instruments/EUR_GBP/candles?granularity=D&count=400&price=M: 504 <!DOCTYPE html> <html> <head> <meta chars","AUD_JPY D: oanda GET /v3/instruments/AUD_JPY/candles?granularity=D&count=400&price=M: 504 <!DOCTYPE html> <html> <head> <meta chars","AUD_NZD D: oanda GET /v3/instruments/AUD_NZD/candles?granularity=D&count=400&price=M: 504 <!DOCTYPE html> <html> <head> <meta chars","XAU_USD D: oanda GET /v3/instruments/XAU_USD/candles?granularity=D&count=400&price=M: 504 <!DOCTYPE html> <html> <head> <meta chars","AUD_USD H1: oanda GET /v3/instruments/AUD_USD/candles?granularity=H1&count=500&price=M: 504 <!DOCTYPE html> <html> <head> <meta char","GBP_JPY H1: oanda GET /v3/instruments/GBP_JPY/candles?granularity=H1&count=500&price=M: 504 <!DOCTYPE html> <html> <head> <meta char","SPX500_USD H1: oanda GET /v3/instruments/SPX500_USD/candles?granularity=H1&count=500&price=M: 504 <!DOCTYPE html> <html> <head> <meta c","US2000_USD H1: oanda GET /v3/instruments/US2000_USD/candles?granularity=H1&count=500&price=M: 504 <!DOCTYPE html> <html> <head> <meta c","FR40_EUR H1: oanda GET /v3/instruments/FR40_EUR/candles?granularity=H1&count=500&price=M: 504 <!DOCTYPE html> <html> <head> <meta cha"],"count":10,"note":"kept the previous bars for these; the rest of the CFD tick ran"}
 {"t":"2026-10-21T09:38:07.318Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T09:39:13.318Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-21T09:39:14.742Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T09:40:09.846Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T09:41:08.837Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T09:42:10.827Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T09:43:09.000Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T09:44:08.820Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T09:45:13.183Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T09:46:10.663Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T09:47:08.555Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T09:48:20.801Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
