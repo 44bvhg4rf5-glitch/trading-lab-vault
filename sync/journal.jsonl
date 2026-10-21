@@ -4997,3 +4997,17 @@
 {"t":"2026-10-21T04:56:08.719Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
 {"t":"2026-10-21T04:57:09.683Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
 {"t":"2026-10-21T04:58:08.424Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T04:59:31.976Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-21T04:59:33.313Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T05:00:10.127Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T05:01:09.046Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T05:02:08.740Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T05:03:12.173Z","type":"cfd-bars-partial","failed":["SPX500_USD M15: oanda GET /v3/instruments/SPX500_USD/candles?granularity=M15&count=300&price=M: 504 <!DOCTYPE html> <html> <head> <meta "],"count":1,"note":"kept the previous bars for these; the rest of the CFD tick ran"}
+{"t":"2026-10-21T05:03:14.619Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T05:04:09.094Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T05:05:09.375Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T05:06:12.054Z","type":"cfd-bars-partial","failed":["NAS100_USD M15: oanda GET /v3/instruments/NAS100_USD/candles?granularity=M15&count=300&price=M: 504 <!DOCTYPE html> <html> <head> <meta "],"count":1,"note":"kept the previous bars for these; the rest of the CFD tick ran"}
+{"t":"2026-10-21T05:06:14.283Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T05:07:08.561Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T05:08:08.673Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T05:09:11.251Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
