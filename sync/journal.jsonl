@@ -4867,3 +4867,16 @@
 {"t":"2026-10-21T03:01:09.021Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
 {"t":"2026-10-21T03:02:08.927Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
 {"t":"2026-10-21T03:03:25.153Z","type":"thesis-incubation","strategy":"cfd-momentum-breakdown","market":"cfd","symbol":"HK33_HKD","side":"sell","entry":23794.8,"stop":24010.08,"target":23364.24,"reason":"HK33_HKD broke its 20-hour low (23800.8) on 1.4× average volume, below its 20-day average. Stop 2.5×ATR above, target 2R.","maxHoldDays":5,"createdAt":"2026-10-21T03:03:25.153Z"}
+{"t":"2026-10-21T03:03:31.777Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-21T03:03:34.625Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-21T03:03:36.336Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T03:04:09.586Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T03:05:08.642Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T03:06:08.913Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T03:07:09.232Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T03:08:08.607Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T03:09:08.865Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T03:10:09.100Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T03:11:09.940Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T03:12:10.317Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T03:13:08.615Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
