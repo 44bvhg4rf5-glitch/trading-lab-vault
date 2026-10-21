@@ -4926,3 +4926,17 @@
 {"t":"2026-10-21T03:53:10.401Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
 {"t":"2026-10-21T03:54:09.191Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
 {"t":"2026-10-21T03:55:08.947Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T03:56:25.220Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-21T03:56:26.749Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T03:57:10.109Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T03:58:08.742Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T03:59:09.115Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T04:00:10.960Z","type":"screener","date":"2026-10-21","scanned":475,"tookMs":7702,"promoted":[{"sym":"HLT","kind":"momentum","score":2},{"sym":"CME","kind":"momentum","score":1.72},{"sym":"GILD","kind":"momentum","score":1.62},{"sym":"CB","kind":"momentum","score":1.58},{"sym":"LLY","kind":"momentum","score":1.56},{"sym":"V","kind":"momentum","score":1.54},{"sym":"VEEV","kind":"momentum","score":1.52},{"sym":"ELV","kind":"momentum","score":1.5},{"sym":"ABBV","kind":"momentum","score":1.48},{"sym":"PFE","kind":"momentum","score":1.48},{"sym":"TMO","kind":"momentum","score":1.48},{"sym":"ISRG","kind":"momentum","score":1.43},{"sym":"KR","kind":"momentum","score":1.43},{"sym":"BRK.B","kind":"momentum","score":1.41},{"sym":"MRNA","kind":"momentum","score":1.4},{"sym":"ACN","kind":"momentum","score":1.38},{"sym":"INTC","kind":"meanrev","score":0.64},{"sym":"NET","kind":"meanrev","score":0.05}]}
+{"t":"2026-10-21T04:00:20.238Z","type":"cfd-tick-error","error":"oanda GET /v3/accounts/101-004-40071397-001/summary: 401 Insufficient authorization to perform request."}
+{"t":"2026-10-21T04:00:22.035Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-10-21T04:01:12.568Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T04:02:08.913Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T04:03:08.888Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T04:04:08.334Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T04:05:13.404Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T04:06:09.393Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
