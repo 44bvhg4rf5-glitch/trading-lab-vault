@@ -4625,3 +4625,6 @@
 {"t":"2026-10-21T02:04:46.909Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
 {"t":"2026-10-21T02:05:49.298Z","type":"thesis-rejected-gate","strategy":"cfd-momentum-breakout","market":"cfd","symbol":"AUD_JPY","side":"buy","entry":111.12,"stop":110.71,"target":111.74,"reason":"AUD_JPY broke its 20-hour high (111.08) on 1.4× average volume, above its 20-day average. Stop 3×ATR below, target 1.5R.","maxHoldDays":5,"conviction":{"score":60,"tier":"standard","reasons":["+6 index tape trending","+4 VIX 18.44 — calm tape"]},"reasons":["spread is 39.0% of the risk unit (cap 10%)","spread plus 5 nights of financing is 39.0% of the risk unit (cap 25%, rate account)"]}
 {"t":"2026-10-21T02:05:49.308Z","type":"shadow-outcome","id":"AU200_AUD-mvgtf0wb","symbol":"AU200_AUD","strategy":"cfd-momentum-breakout","source":"gate-blocked","entry":8858.2,"stop":8785.31,"target":8967.54,"status":"stopped","r":-1,"exit":8785.31,"openedAt":"2026-10-20T15:05:31.211Z","regime":"trending","conviction":65}
+{"t":"2026-10-21T02:05:55.224Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-21T02:05:57.115Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-21T02:05:58.367Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
