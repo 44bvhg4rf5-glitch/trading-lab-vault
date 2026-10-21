@@ -5363,3 +5363,14 @@
 {"t":"2026-10-21T10:19:12.878Z","type":"cfd-bars-partial","failed":["NAS100_USD M15: oanda GET /v3/instruments/NAS100_USD/candles?granularity=M15&count=300&price=M: 401 Insufficient authorization to perfor"],"count":1,"note":"kept the previous bars for these; the rest of the CFD tick ran"}
 {"t":"2026-10-21T10:19:15.040Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
 {"t":"2026-10-21T10:20:29.373Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T10:21:12.546Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-21T10:21:14.171Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T10:22:11.727Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T10:23:09.786Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T10:24:09.033Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T10:25:08.647Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T10:26:11.701Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T10:27:08.694Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T10:28:09.363Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T10:29:10.533Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T10:30:09.208Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
