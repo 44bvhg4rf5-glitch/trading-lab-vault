@@ -8151,3 +8151,15 @@
 {"t":"2026-10-21T22:50:10.577Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
 {"t":"2026-10-21T22:51:09.158Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
 {"t":"2026-10-21T22:52:09.413Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T22:53:13.685Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-21T22:53:15.032Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T22:54:12.440Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T22:55:09.267Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T22:56:09.325Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T22:57:19.528Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T22:58:11.149Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T23:00:09.456Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T23:01:08.945Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T23:02:12.680Z","type":"cfd-bars-partial","failed":["SPX500_USD M15: oanda GET /v3/instruments/SPX500_USD/candles?granularity=M15&count=300&price=M: 504 <!DOCTYPE html> <html> <head> <meta "],"count":1,"note":"kept the previous bars for these; the rest of the CFD tick ran"}
+{"t":"2026-10-21T23:02:14.697Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T23:03:11.622Z","type":"cfd-tick-error","error":"oanda GET /v3/accounts/101-004-40071397-001/summary: 401 Insufficient authorization to perform request."}
