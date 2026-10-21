@@ -4854,3 +4854,16 @@
 {"t":"2026-10-21T02:48:08.872Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
 {"t":"2026-10-21T02:50:08.905Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
 {"t":"2026-10-21T02:51:08.980Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T02:52:23.507Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-21T02:52:24.702Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T02:53:08.452Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T02:54:09.055Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T02:55:11.574Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T02:56:09.572Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T02:57:09.509Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T02:58:08.643Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T02:59:10.435Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T03:00:09.568Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T03:01:09.021Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T03:02:08.927Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T03:03:25.153Z","type":"thesis-incubation","strategy":"cfd-momentum-breakdown","market":"cfd","symbol":"HK33_HKD","side":"sell","entry":23794.8,"stop":24010.08,"target":23364.24,"reason":"HK33_HKD broke its 20-hour low (23800.8) on 1.4× average volume, below its 20-day average. Stop 2.5×ATR above, target 2R.","maxHoldDays":5,"createdAt":"2026-10-21T03:03:25.153Z"}
