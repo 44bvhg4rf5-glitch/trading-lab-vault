@@ -8127,3 +8127,15 @@
 {"t":"2026-10-21T22:28:10.762Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
 {"t":"2026-10-21T22:29:09.349Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
 {"t":"2026-10-21T22:30:09.177Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T22:31:14.615Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-21T22:31:16.061Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T22:32:09.530Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T22:33:09.305Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T22:34:09.236Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T22:36:05.211Z","type":"cfd-bars-partial","failed":["USD_JPY D: oanda GET /v3/instruments/USD_JPY/candles?granularity=D&count=400&price=M: 504 <!DOCTYPE html> <html> <head> <meta chars","USD_CHF D: oanda GET /v3/instruments/USD_CHF/candles?granularity=D&count=400&price=M: 504 <!DOCTYPE html> <html> <head> <meta chars","GBP_JPY D: oanda GET /v3/instruments/GBP_JPY/candles?granularity=D&count=400&price=M: 504 <!DOCTYPE html> <html> <head> <meta chars","CAD_JPY D: oanda GET /v3/instruments/CAD_JPY/candles?granularity=D&count=400&price=M: 504 <!DOCTYPE html> <html> <head> <meta chars","USD_CAD H1: oanda GET /v3/instruments/USD_CAD/candles?granularity=H1&count=500&price=M: 504 <!DOCTYPE html> <html> <head> <meta char","XAG_USD H1: oanda GET /v3/instruments/XAG_USD/candles?granularity=H1&count=500&price=M: 504 <!DOCTYPE html> <html> <head> <meta char","FR40_EUR H1: oanda GET /v3/instruments/FR40_EUR/candles?granularity=H1&count=500&price=M: 504 <!DOCTYPE html> <html> <head> <meta cha","BCO_USD H1: oanda GET /v3/instruments/BCO_USD/candles?granularity=H1&count=500&price=M: 504 <!DOCTYPE html> <html> <head> <meta char","NAS100_USD M15: oanda GET /v3/instruments/NAS100_USD/candles?granularity=M15&count=300&price=M: 504 <!DOCTYPE html> <html> <head> <meta ","UK100_GBP M15: oanda GET /v3/instruments/UK100_GBP/candles?granularity=M15&count=300&price=M: 504 <!DOCTYPE html> <html> <head> <meta c"],"count":10,"note":"kept the previous bars for these; the rest of the CFD tick ran"}
+{"t":"2026-10-21T22:36:07.410Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T22:37:09.215Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T22:38:09.806Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T22:39:10.607Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T22:40:08.707Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T22:41:09.947Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
