@@ -7492,3 +7492,36 @@
 {"t":"2026-10-21T18:16:19.070Z","type":"vault-pushed","files":["sync/shadow.json"]}
 {"t":"2026-10-21T18:16:20.468Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
 {"t":"2026-10-21T18:17:10.100Z","type":"thesis-counterfactual","id":"fc3b5867","symbol":"BAC","strategy":"mean-reversion","filteredBy":["news-quiet","above-200-sma"],"entry":50.94,"stop":49.05,"target":53.48}
+{"t":"2026-10-21T18:17:23.508Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-21T18:17:25.709Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-21T18:17:27.357Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T18:18:09.480Z","type":"thesis-counterfactual","id":"f1f85825","symbol":"BAC","strategy":"mean-reversion","filteredBy":["news-quiet","above-200-sma"],"entry":50.94,"stop":49.05,"target":53.48}
+{"t":"2026-10-21T18:18:17.324Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-21T18:18:18.701Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T18:19:08.896Z","type":"thesis-counterfactual","id":"03cd57b2","symbol":"BAC","strategy":"mean-reversion","filteredBy":["news-quiet","above-200-sma"],"entry":50.94,"stop":49.05,"target":53.48}
+{"t":"2026-10-21T18:19:18.032Z","type":"cfd-bars-partial","failed":["SPX500_USD M15: oanda GET /v3/instruments/SPX500_USD/candles?granularity=M15&count=300&price=M: 504 <!DOCTYPE html> <html> <head> <meta "],"count":1,"note":"kept the previous bars for these; the rest of the CFD tick ran"}
+{"t":"2026-10-21T18:19:20.612Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-21T18:19:21.896Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T18:20:09.952Z","type":"thesis-counterfactual","id":"6bc4a600","symbol":"BAC","strategy":"mean-reversion","filteredBy":["news-quiet","above-200-sma"],"entry":50.94,"stop":49.05,"target":53.48}
+{"t":"2026-10-21T18:20:17.527Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-21T18:20:19.019Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T18:21:09.857Z","type":"thesis-counterfactual","id":"9bb5f3f5","symbol":"BAC","strategy":"mean-reversion","filteredBy":["news-quiet","above-200-sma"],"entry":50.94,"stop":49.05,"target":53.48}
+{"t":"2026-10-21T18:22:05.970Z","type":"cfd-bars-partial","failed":["USD_CAD D: oanda GET /v3/instruments/USD_CAD/candles?granularity=D&count=400&price=M: 504 <!DOCTYPE html> <html> <head> <meta chars","NZD_USD D: oanda GET /v3/instruments/NZD_USD/candles?granularity=D&count=400&price=M: 504 <!DOCTYPE html> <html> <head> <meta chars","CAD_JPY D: oanda GET /v3/instruments/CAD_JPY/candles?granularity=D&count=400&price=M: 504 <!DOCTYPE html> <html> <head> <meta chars","SPX500_USD D: oanda GET /v3/instruments/SPX500_USD/candles?granularity=D&count=400&price=M: 504 <!DOCTYPE html> <html> <head> <meta ch","BCO_USD D: oanda GET /v3/instruments/BCO_USD/candles?granularity=D&count=400&price=M: 504 <!DOCTYPE html> <html> <head> <meta chars","CAD_JPY H1: oanda GET /v3/instruments/CAD_JPY/candles?granularity=H1&count=500&price=M: 504 <!DOCTYPE html> <html> <head> <meta char","EU50_EUR H1: oanda GET /v3/instruments/EU50_EUR/candles?granularity=H1&count=500&price=M: 504 <!DOCTYPE html> <html> <head> <meta cha","WTICO_USD H1: oanda GET /v3/instruments/WTICO_USD/candles?granularity=H1&count=500&price=M: 504 <!DOCTYPE html> <html> <head> <meta ch","BCO_USD H1: oanda GET /v3/instruments/BCO_USD/candles?granularity=H1&count=500&price=M: 504 <!DOCTYPE html> <html> <head> <meta char"],"count":9,"note":"kept the previous bars for these; the rest of the CFD tick ran"}
+{"t":"2026-10-21T18:22:08.956Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-21T18:22:10.409Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T18:23:08.652Z","type":"thesis-counterfactual","id":"2711d49d","symbol":"BAC","strategy":"mean-reversion","filteredBy":["news-quiet","above-200-sma"],"entry":50.94,"stop":49.05,"target":53.48}
+{"t":"2026-10-21T18:23:15.514Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-21T18:23:17.120Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T18:24:08.752Z","type":"thesis-counterfactual","id":"9446a2b1","symbol":"BAC","strategy":"mean-reversion","filteredBy":["news-quiet","above-200-sma"],"entry":50.94,"stop":49.05,"target":53.48}
+{"t":"2026-10-21T18:24:16.160Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-21T18:24:17.708Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T18:25:09.492Z","type":"thesis-counterfactual","id":"44422e0a","symbol":"BAC","strategy":"mean-reversion","filteredBy":["news-quiet","above-200-sma"],"entry":50.94,"stop":49.05,"target":53.48}
+{"t":"2026-10-21T18:25:16.222Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-21T18:25:17.599Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T18:26:11.221Z","type":"thesis-counterfactual","id":"b001ddc3","symbol":"BAC","strategy":"mean-reversion","filteredBy":["news-quiet","above-200-sma"],"entry":50.97,"stop":49.08,"target":53.48}
+{"t":"2026-10-21T18:26:20.064Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-21T18:26:21.743Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T18:27:08.759Z","type":"thesis-counterfactual","id":"e6fa05ff","symbol":"BAC","strategy":"mean-reversion","filteredBy":["news-quiet","above-200-sma"],"entry":50.97,"stop":49.08,"target":53.48}
+{"t":"2026-10-21T18:27:16.802Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-21T18:27:18.215Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T18:28:08.569Z","type":"thesis-counterfactual","id":"bc4fed39","symbol":"BAC","strategy":"mean-reversion","filteredBy":["news-quiet","above-200-sma"],"entry":50.97,"stop":49.08,"target":53.48}
