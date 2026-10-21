@@ -5434,3 +5434,15 @@
 {"t":"2026-10-21T11:21:09.108Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
 {"t":"2026-10-21T11:22:10.075Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
 {"t":"2026-10-21T11:23:09.390Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T11:24:41.265Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-21T11:24:42.531Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T11:25:09.283Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T11:26:09.212Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T11:27:15.036Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T11:28:08.929Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T11:29:10.814Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T11:30:11.756Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T11:31:09.408Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T11:32:09.364Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T11:33:09.215Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T11:34:50.315Z","type":"cfd-bars-partial","failed":["GBP_USD D: oanda GET /v3/instruments/GBP_USD/candles?granularity=D&count=400&price=M: 504 <!DOCTYPE html> <html> <head> <meta chars","JP225_USD D: oanda GET /v3/instruments/JP225_USD/candles?granularity=D&count=400&price=M: 504 <!DOCTYPE html> <html> <head> <meta cha","GBP_USD H1: oanda GET /v3/instruments/GBP_USD/candles?granularity=H1&count=500&price=M: 504 <!DOCTYPE html> <html> <head> <meta char","USD_JPY H1: oanda GET /v3/instruments/USD_JPY/candles?granularity=H1&count=500&price=M: 504 <!DOCTYPE html> <html> <head> <meta char","UK100_GBP H1: oanda GET /v3/instruments/UK100_GBP/candles?granularity=H1&count=500&price=M: 504 <!DOCTYPE html> <html> <head> <meta ch","EU50_EUR H1: oanda GET /v3/instruments/EU50_EUR/candles?granularity=H1&count=500&price=M: 504 <!DOCTYPE html> <html> <head> <meta cha","AU200_AUD H1: oanda GET /v3/instruments/AU200_AUD/candles?granularity=H1&count=500&price=M: 504 <!DOCTYPE html> <html> <head> <meta ch"],"count":7,"note":"kept the previous bars for these; the rest of the CFD tick ran"}
