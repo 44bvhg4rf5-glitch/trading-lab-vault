@@ -8372,3 +8372,19 @@
 {"t":"2026-10-22T02:01:09.360Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
 {"t":"2026-10-22T02:02:09.677Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
 {"t":"2026-10-22T02:03:18.523Z","type":"cfd-bars-partial","failed":["NAS100_USD M15: oanda GET /v3/instruments/NAS100_USD/candles?granularity=M15&count=300&price=M: 504 <!DOCTYPE html> <html> <head> <meta "],"count":1,"note":"kept the previous bars for these; the rest of the CFD tick ran"}
+{"t":"2026-10-22T02:03:25.745Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-22T02:03:27.481Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-22T02:04:09.866Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-22T02:05:10.216Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-22T02:06:09.177Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-22T02:07:10.161Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-22T02:08:09.194Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-22T02:09:18.758Z","type":"thesis-incubation","strategy":"cfd-momentum-breakdown","market":"cfd","symbol":"JP225_USD","side":"sell","entry":64074,"stop":64958.68,"target":62304.64,"reason":"JP225_USD broke its 20-hour low (64191.5) on 1.9× average volume, below its 20-day average. Stop 2.5×ATR above, target 2R.","maxHoldDays":5,"createdAt":"2026-10-22T02:09:18.758Z"}
+{"t":"2026-10-22T02:09:18.849Z","type":"thesis-incubation","strategy":"cfd-momentum-breakdown","market":"cfd","symbol":"HK33_HKD","side":"sell","entry":23180.8,"stop":23423.56,"target":22695.28,"reason":"HK33_HKD broke its 20-hour low (23545.3) on 2.7× average volume, below its 20-day average. Stop 2.5×ATR above, target 2R.","maxHoldDays":5,"createdAt":"2026-10-22T02:09:18.849Z"}
+{"t":"2026-10-22T02:09:18.952Z","type":"shadow-outcome","id":"HK33_HKD-mvhj28yp","symbol":"HK33_HKD","strategy":"cfd-momentum-breakdown","source":"incubation","entry":23794.8,"stop":24010.08,"target":23364.24,"status":"target","r":2,"exit":23364.24,"openedAt":"2026-10-21T03:03:25.153Z","side":"sell","regime":"choppy","exits":{"breakeven1R":2,"halfAt1R":1.5}}
+{"t":"2026-10-22T02:09:21.333Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-22T02:09:22.586Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-22T02:10:10.365Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-22T02:11:09.290Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-22T02:12:09.130Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-22T02:13:09.547Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
