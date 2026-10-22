@@ -8449,3 +8449,14 @@
 {"t":"2026-10-22T03:05:10.727Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
 {"t":"2026-10-22T03:06:09.157Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
 {"t":"2026-10-22T03:07:13.024Z","type":"cfd-tick-error","error":"oanda GET /v3/accounts/101-004-40071397-001/summary: 401 Insufficient authorization to perform request."}
+{"t":"2026-10-22T03:07:19.024Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-22T03:08:11.007Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-22T03:09:08.993Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-22T03:10:09.129Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-22T03:11:21.430Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-22T03:12:10.449Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-22T03:13:09.050Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-22T03:14:09.899Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-22T03:15:09.793Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-22T03:16:13.926Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-22T03:17:08.995Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
