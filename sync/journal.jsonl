@@ -8648,3 +8648,5 @@
 {"t":"2026-10-22T06:57:37.716Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
 {"t":"2026-10-22T07:07:30.339Z","type":"shadow-outcome","id":"GBP_JPY-mvgp6nba","symbol":"GBP_JPY","strategy":"cfd-momentum-breakout","source":"gate-blocked","entry":211.29,"stop":210.66,"target":212.24,"status":"stopped","r":-1,"exit":210.66,"openedAt":"2026-10-20T13:07:01.893Z","regime":"trending","conviction":60,"exits":{"breakeven1R":0,"halfAt1R":0.5}}
 {"t":"2026-10-22T07:07:33.117Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-22T07:08:28.708Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-22T07:17:44.195Z","type":"cfd-bars-partial","failed":["EUR_USD D: oanda GET /v3/instruments/EUR_USD/candles?granularity=D&count=400&price=M: 504 <!DOCTYPE html> <html> <head> <meta chars"],"count":1,"note":"kept the previous bars for these; the rest of the CFD tick ran"}
