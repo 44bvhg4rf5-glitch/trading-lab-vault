@@ -6,7 +6,12 @@ tags: [trading-lab, lessons]
 
 ## execution
 
+- Position adoption errors require automatic state reconciliation to prevent holdings from floating without stop-loss protection. *(ai-post-mortem)*
 - With only one execution out of seven theses, the gate-blocking mechanism may be too stringent for choppy regimes, potentially missing valid opportunities. *(ai-post-mortem)*
+
+## macro
+
+- Consumer financial resilience, as measured by the 2025 Survey of Consumer Finances, does not yet translate into a clear shift in equity risk premia. *(continuing-education)*
 
 ## markets
 
@@ -14,13 +19,19 @@ tags: [trading-lab, lessons]
 - A long-only book in a confirmed downtrend produces repeated failed breakouts, not bargains — trading nothing is the correct output of that regime, not a missed opportunity. *(week-ahead research, 2026-08)*
 - When the market's next expected policy move is a hike rather than a cut, soft inflation prints become the bullish catalyst — check which way the surprise has to break before assuming good data is good news. *(week-ahead research, 2026-08)*
 
+## news
+
+- Regulatory enforcement actions can temporarily spike volatility in the targeted sector and its peers. *(continuing-education)*
+
 ## process
 
 - Build conviction from research before entering, never after — a thesis is earned by work, then executed with discipline. *(study: Julian Petroulas, 2026-07)*
 - Frameworks beat signals: never act on someone else's call — understand the setup yourself or skip it. *(study: Julian Petroulas, 2026-07)*
 - Lifestyle marketing is not a track record — treat unverified profit claims from any influencer source as content, not evidence. *(study: Julian Petroulas, 2026-07)*
+- Trend and gate filters effectively protect capital by suppressing signal spam in choppy market regimes. *(ai-post-mortem)*
 - Infrastructure failures (CFD data errors) are blocking valid trades and must be prioritized for resolution. *(ai-post-mortem)*
 - Multiple position adoption errors from unrecognizable structures reveal weaknesses in data validation that could lead to unmonitored risks if not addressed. *(ai-post-mortem)*
+- High‑frequency news sentiment models that exclude hindsight bias may improve the signal‑to‑noise ratio of momentum strategies. *(continuing-education)*
 
 ## psychology
 
