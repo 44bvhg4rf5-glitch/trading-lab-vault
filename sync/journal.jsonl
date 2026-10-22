@@ -12776,3 +12776,10 @@
 {"t":"2026-10-22T20:13:12.865Z","type":"shadow-outcome","id":"f299f536","symbol":"JNJ","strategy":"momentum-breakout:filtered","source":"filter-blocked","entry":269.28,"stop":267.69,"target":285.18,"status":"stopped","r":-1,"exit":267.69,"openedAt":"2026-10-22T18:19:34.729Z","counterfactual":true,"filteredBy":["market-uptrend"],"regime":"choppy","exits":{"breakeven1R":-1,"halfAt1R":-1}}
 {"t":"2026-10-22T20:13:12.866Z","type":"shadow-outcome","id":"dd24d782","symbol":"JNJ","strategy":"momentum-breakout:filtered","source":"filter-blocked","entry":269.28,"stop":267.68,"target":285.28,"status":"stopped","r":-1,"exit":267.68,"openedAt":"2026-10-22T18:20:35.907Z","counterfactual":true,"filteredBy":["market-uptrend"],"regime":"choppy","exits":{"breakeven1R":-1,"halfAt1R":-1}}
 {"t":"2026-10-22T20:13:12.866Z","type":"shadow-outcome","id":"8045e025","symbol":"JNJ","strategy":"momentum-breakout:filtered","source":"filter-blocked","entry":269.12,"stop":267.49,"target":285.42,"status":"stopped","r":-1,"exit":267.49,"openedAt":"2026-10-22T18:29:34.016Z","counterfactual":true,"filteredBy":["market-uptrend"],"regime":"choppy","exits":{"breakeven1R":-1,"halfAt1R":-1}}
+{"t":"2026-10-22T20:13:21.113Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-22T20:13:25.567Z","type":"vault-pushed","files":["sync/journal-archive.jsonl"]}
+{"t":"2026-10-22T20:13:27.215Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-10-22T20:13:30.132Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-22T20:13:31.880Z","type":"vault-pushed","files":["sync/crypto-positions.json"]}
+{"t":"2026-10-22T20:13:33.591Z","type":"vault-pushed","files":["sync/equity-positions.json"]}
+{"t":"2026-10-22T20:13:35.392Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
