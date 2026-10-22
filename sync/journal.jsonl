@@ -8645,3 +8645,6 @@
 {"t":"2026-10-22T06:25:42.047Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
 {"t":"2026-10-22T06:36:40.841Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
 {"t":"2026-10-22T06:47:36.589Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-22T06:57:37.716Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-22T07:07:30.339Z","type":"shadow-outcome","id":"GBP_JPY-mvgp6nba","symbol":"GBP_JPY","strategy":"cfd-momentum-breakout","source":"gate-blocked","entry":211.29,"stop":210.66,"target":212.24,"status":"stopped","r":-1,"exit":210.66,"openedAt":"2026-10-20T13:07:01.893Z","regime":"trending","conviction":60,"exits":{"breakeven1R":0,"halfAt1R":0.5}}
+{"t":"2026-10-22T07:07:33.117Z","type":"vault-pushed","files":["sync/shadow.json"]}
