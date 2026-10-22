@@ -8434,3 +8434,18 @@
 {"t":"2026-10-22T02:53:09.146Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
 {"t":"2026-10-22T02:54:10.559Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
 {"t":"2026-10-22T02:55:09.477Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-22T02:56:14.386Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-22T02:56:15.588Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-22T02:57:10.795Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-22T02:58:09.453Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-22T02:59:09.171Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-22T03:00:36.458Z","type":"thesis-incubation","strategy":"cfd-momentum-breakdown","market":"cfd","symbol":"XAG_USD","side":"sell","entry":56.79,"stop":57.74,"target":54.89,"reason":"XAG_USD broke its 20-hour low (56.94) on 1.4× average volume, below its 20-day average. Stop 2.5×ATR above, target 2R.","maxHoldDays":5,"createdAt":"2026-10-22T03:00:36.458Z"}
+{"t":"2026-10-22T03:00:38.412Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-22T03:00:39.679Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-22T03:01:11.890Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-22T03:02:09.633Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-22T03:03:09.970Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-22T03:04:09.404Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-22T03:05:10.727Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-22T03:06:09.157Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-22T03:07:13.024Z","type":"cfd-tick-error","error":"oanda GET /v3/accounts/101-004-40071397-001/summary: 401 Insufficient authorization to perform request."}
