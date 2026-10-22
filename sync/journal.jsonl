@@ -8668,3 +8668,4 @@
 {"t":"2026-10-22T08:46:26.580Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
 {"t":"2026-10-22T08:56:28.418Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
 {"t":"2026-10-22T09:00:33.822Z","type":"cfd-bars-partial","failed":["NAS100_USD M15: oanda GET /v3/instruments/NAS100_USD/candles?granularity=M15&count=300&price=M: 504 <!DOCTYPE html> <html> <head> <meta ","UK100_GBP M15: oanda GET /v3/instruments/UK100_GBP/candles?granularity=M15&count=300&price=M: 504 <!DOCTYPE html> <html> <head> <meta c"],"count":2,"note":"kept the previous bars for these; the rest of the CFD tick ran"}
+{"t":"2026-10-22T09:07:27.289Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
