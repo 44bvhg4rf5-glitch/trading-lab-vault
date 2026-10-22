@@ -8662,3 +8662,4 @@
 {"t":"2026-10-22T08:09:30.614Z","type":"shadow-outcome","id":"EUR_JPY-mvj1nj6u","symbol":"EUR_JPY","strategy":"cfd-momentum-breakdown","source":"incubation","entry":177.28,"stop":177.66,"target":176.52,"status":"target","r":2,"exit":176.52,"openedAt":"2026-10-22T04:31:37.446Z","side":"sell","regime":"choppy","exits":{"breakeven1R":2,"halfAt1R":1.5}}
 {"t":"2026-10-22T08:09:30.616Z","type":"shadow-outcome","id":"EUR_JPY-mvj1zr6e","symbol":"EUR_JPY","strategy":"cfd-momentum-breakdown","source":"incubation","entry":177.28,"stop":177.66,"target":176.52,"status":"target","r":2,"exit":176.52,"openedAt":"2026-10-22T04:41:07.670Z","side":"sell","regime":"choppy","exits":{"breakeven1R":2,"halfAt1R":1.5}}
 {"t":"2026-10-22T08:09:33.297Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-22T08:13:26.820Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
