@@ -8223,3 +8223,25 @@
 {"t":"2026-10-21T23:55:10.364Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
 {"t":"2026-10-21T23:56:08.770Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
 {"t":"2026-10-21T23:57:09.336Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T23:58:12.595Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-21T23:58:14.088Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-21T23:59:10.967Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-22T00:00:07.203Z","type":"crypto-liquidity-skip","symbol":"BTC/USD","reasons":["median turnover $0.1M/day below the $20M floor"],"dollarVolume":131436,"spreadBps":2.1}
+{"t":"2026-10-22T00:00:07.203Z","type":"crypto-liquidity-skip","symbol":"ETH/USD","reasons":["median turnover $0.0M/day below the $20M floor"],"dollarVolume":30708,"spreadBps":2.2}
+{"t":"2026-10-22T00:00:07.203Z","type":"crypto-liquidity-skip","symbol":"LTC/USD","reasons":["median turnover $0.0M/day below the $20M floor","spread 55.2bps above the 50bps screen"],"dollarVolume":3563,"spreadBps":55.2}
+{"t":"2026-10-22T00:00:07.205Z","type":"crypto-liquidity-skip","symbol":"LINK/USD","reasons":["median turnover $0.0M/day below the $20M floor"],"dollarVolume":4925,"spreadBps":26.4}
+{"t":"2026-10-22T00:00:07.205Z","type":"crypto-liquidity-skip","symbol":"AVAX/USD","reasons":["median turnover $0.0M/day below the $20M floor","spread 65.3bps above the 50bps screen"],"dollarVolume":8130,"spreadBps":65.3}
+{"t":"2026-10-22T00:00:07.206Z","type":"crypto-liquidity-skip","symbol":"DOT/USD","reasons":["median turnover $0.0M/day below the $20M floor"],"dollarVolume":6405,"spreadBps":14.7}
+{"t":"2026-10-22T00:00:07.206Z","type":"crypto-liquidity-skip","symbol":"UNI/USD","reasons":["median turnover $0.0M/day below the $20M floor"],"dollarVolume":6242,"spreadBps":23.7}
+{"t":"2026-10-22T00:00:07.206Z","type":"crypto-liquidity-skip","symbol":"BCH/USD","reasons":["median turnover $0.0M/day below the $20M floor","spread 65.7bps above the 50bps screen"],"dollarVolume":3063,"spreadBps":65.7}
+{"t":"2026-10-22T00:00:56.316Z","type":"cfd-bars-partial","failed":["FR40_EUR D: oanda GET /v3/instruments/FR40_EUR/candles?granularity=D&count=400&price=M: 504 <!DOCTYPE html> <html> <head> <meta char","USD_CAD H1: oanda GET /v3/instruments/USD_CAD/candles?granularity=H1&count=500&price=M: 504 <!DOCTYPE html> <html> <head> <meta char"],"count":2,"note":"kept the previous bars for these; the rest of the CFD tick ran"}
+{"t":"2026-10-22T00:00:58.613Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-10-22T00:01:00.010Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-22T00:01:09.908Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-10-22T00:01:11.477Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-22T00:02:12.368Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-22T00:03:08.842Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-22T00:04:09.206Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-22T00:05:11.413Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-22T00:06:09.294Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
+{"t":"2026-10-22T00:07:10.021Z","type":"vault-pushed","files":["sync/cfd-positions.json"]}
