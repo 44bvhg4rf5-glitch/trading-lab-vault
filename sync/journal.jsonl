@@ -12929,3 +12929,4 @@
 {"t":"2026-10-23T08:01:18.206Z","type":"thesis-incubation","strategy":"cfd-momentum-breakdown","market":"cfd","symbol":"FR40_EUR","side":"sell","entry":7747.8,"stop":7823.18,"target":7597.04,"reason":"FR40_EUR broke its 20-hour low (7792.2) on 1.9× average volume, below its 20-day average. Stop 2.5×ATR above, target 2R.","maxHoldDays":5,"createdAt":"2026-10-23T08:01:18.206Z"}
 {"t":"2026-10-23T08:01:24.217Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
 {"t":"2026-10-23T08:01:26.190Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-23T08:11:52.372Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
