@@ -12848,3 +12848,16 @@
 {"t":"2026-10-22T23:21:45.188Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
 {"t":"2026-10-22T23:31:51.862Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
 {"t":"2026-10-22T23:42:51.619Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-22T23:53:50.898Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-23T00:00:37.868Z","type":"crypto-liquidity-skip","symbol":"BTC/USD","reasons":["median turnover $0.1M/day below the $20M floor"],"dollarVolume":131436,"spreadBps":4.2}
+{"t":"2026-10-23T00:00:37.868Z","type":"crypto-liquidity-skip","symbol":"ETH/USD","reasons":["median turnover $0.0M/day below the $20M floor"],"dollarVolume":29714,"spreadBps":3.8}
+{"t":"2026-10-23T00:00:37.868Z","type":"crypto-liquidity-skip","symbol":"LTC/USD","reasons":["median turnover $0.0M/day below the $20M floor","spread 63.5bps above the 50bps screen"],"dollarVolume":3352,"spreadBps":63.5}
+{"t":"2026-10-23T00:00:37.868Z","type":"crypto-liquidity-skip","symbol":"LINK/USD","reasons":["median turnover $0.0M/day below the $20M floor"],"dollarVolume":4837,"spreadBps":19.1}
+{"t":"2026-10-23T00:00:37.868Z","type":"crypto-liquidity-skip","symbol":"AVAX/USD","reasons":["median turnover $0.0M/day below the $20M floor"],"dollarVolume":7502,"spreadBps":49.6}
+{"t":"2026-10-23T00:00:37.868Z","type":"crypto-liquidity-skip","symbol":"DOT/USD","reasons":["median turnover $0.0M/day below the $20M floor"],"dollarVolume":5628,"spreadBps":18}
+{"t":"2026-10-23T00:00:37.868Z","type":"crypto-liquidity-skip","symbol":"UNI/USD","reasons":["median turnover $0.0M/day below the $20M floor"],"dollarVolume":5655,"spreadBps":21.5}
+{"t":"2026-10-23T00:00:37.869Z","type":"crypto-liquidity-skip","symbol":"BCH/USD","reasons":["median turnover $0.0M/day below the $20M floor","spread 60.6bps above the 50bps screen"],"dollarVolume":3063,"spreadBps":60.6}
+{"t":"2026-10-23T00:00:38.305Z","type":"thesis-incubation","id":"51d9abfb","strategy":"cfd-pair-reversion","symbol":"XAU_USD/XAG_USD","side":"sell","reason":"XAU_USD is 2.76σ rich vs XAG_USD — short the rich leg, buy the cheap one, exit when the ratio is back within 0.5σ of its 60-session mean","entry":4.300271091442205,"stop":4.342876137007706,"target":4.236195694201321,"z":2.76,"mean":4.221994012346154,"std":0.028403363710333675,"halfLifeDays":9.9,"legs":[{"symbol":"XAU_USD","side":"sell"},{"symbol":"XAG_USD","side":"buy"}],"maxHoldDays":20,"meta":{"unit":"log-spread","a":"XAU_USD","b":"XAG_USD","expectedGainBps":782.8,"costBps":74.1,"netBps":708.7},"market":"cfd-pair","createdAt":"2026-10-23T00:00:38.305Z"}
+{"t":"2026-10-23T00:00:40.334Z","type":"vault-pushed","files":["sync/state.json"]}
+{"t":"2026-10-23T00:00:42.990Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-23T00:01:39.322Z","type":"vault-pushed","files":["sync/state.json"]}
