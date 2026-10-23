@@ -12957,3 +12957,8 @@
 {"t":"2026-10-23T12:17:44.609Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
 {"t":"2026-10-23T12:20:42.404Z","type":"cfd-bars-partial","failed":["XAU_USD M15: oanda GET /v3/instruments/XAU_USD/candles?granularity=M15&count=300&price=M: 504 <!DOCTYPE html> <html> <head> <meta cha"],"count":1,"note":"kept the previous bars for these; the rest of the CFD tick ran"}
 {"t":"2026-10-23T12:28:44.331Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-23T12:38:45.070Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-23T12:46:05.142Z","type":"ai-cooldown","provider":"gemini","until":"2026-10-23T16:46:05.138Z","reason":"provider quota (429)"}
+{"t":"2026-10-23T12:46:07.827Z","type":"vault-pushed","files":["briefings/2026-10-23.md"]}
+{"t":"2026-10-23T12:46:07.827Z","type":"briefing","sessionDate":"2026-10-23","kind":"final","watchouts":5}
+{"t":"2026-10-23T12:46:26.553Z","type":"vault-pushed","files":["sync/state.json"]}
