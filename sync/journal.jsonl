@@ -12906,3 +12906,4 @@
 {"t":"2026-10-23T04:50:53.535Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
 {"t":"2026-10-23T05:01:13.790Z","type":"cfd-bars-partial","failed":["USD_JPY D: oanda GET /v3/instruments/USD_JPY/candles?granularity=D&count=400&price=M: 401 Insufficient authorization to perform req"],"count":1,"note":"kept the previous bars for these; the rest of the CFD tick ran"}
 {"t":"2026-10-23T05:01:19.779Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-23T05:11:42.769Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
