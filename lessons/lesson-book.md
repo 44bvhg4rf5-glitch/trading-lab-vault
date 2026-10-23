@@ -6,7 +6,6 @@ tags: [trading-lab, lessons]
 
 ## execution
 
-- Position adoption errors require automatic state reconciliation to prevent holdings from floating without stop-loss protection. *(ai-post-mortem)*
 - With only one execution out of seven theses, the gate-blocking mechanism may be too stringent for choppy regimes, potentially missing valid opportunities. *(ai-post-mortem)*
 
 ## macro
@@ -28,7 +27,7 @@ tags: [trading-lab, lessons]
 - Build conviction from research before entering, never after — a thesis is earned by work, then executed with discipline. *(study: Julian Petroulas, 2026-07)*
 - Frameworks beat signals: never act on someone else's call — understand the setup yourself or skip it. *(study: Julian Petroulas, 2026-07)*
 - Lifestyle marketing is not a track record — treat unverified profit claims from any influencer source as content, not evidence. *(study: Julian Petroulas, 2026-07)*
-- Trend and gate filters effectively protect capital by suppressing signal spam in choppy market regimes. *(ai-post-mortem)*
+- Remaining in cash during choppy market regimes preserves capital when underlying strategy baseline signals suffer high failure rates. *(ai-post-mortem)*
 - Infrastructure failures (CFD data errors) are blocking valid trades and must be prioritized for resolution. *(ai-post-mortem)*
 - Multiple position adoption errors from unrecognizable structures reveal weaknesses in data validation that could lead to unmonitored risks if not addressed. *(ai-post-mortem)*
 - High‑frequency news sentiment models that exclude hindsight bias may improve the signal‑to‑noise ratio of momentum strategies. *(continuing-education)*
@@ -49,3 +48,7 @@ tags: [trading-lab, lessons]
 
 - A max-hold window that extends past a known binary event is an unplanned bet on that event — check the calendar against the whole hold period, not just against the entry date. *(week-ahead research, 2026-08)*
 - Shadow outcomes show systematic underperformance in momentum strategies despite trending market regime. *(ai-post-mortem)*
+
+## trend
+
+- Strict trend and regime filters effectively block low-probability breakouts when market structure lacks clear direction. *(ai-post-mortem)*
