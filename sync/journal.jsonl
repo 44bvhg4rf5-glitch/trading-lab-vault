@@ -12884,3 +12884,4 @@
 {"t":"2026-10-23T02:09:47.102Z","type":"shadow-outcome","id":"XAG_USD-mvji234s","symbol":"XAG_USD","strategy":"cfd-momentum-breakdown","source":"incubation","entry":55.75,"stop":56.64,"target":53.97,"status":"target","r":2,"exit":53.97,"openedAt":"2026-10-22T12:10:50.331Z","side":"sell","regime":"choppy","exits":{"breakeven1R":2,"halfAt1R":1.5,"trail1R":2,"halfThenTrail":1.5}}
 {"t":"2026-10-23T02:09:49.674Z","type":"vault-pushed","files":["sync/shadow.json"]}
 {"t":"2026-10-23T02:10:43.257Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-23T02:20:56.710Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
