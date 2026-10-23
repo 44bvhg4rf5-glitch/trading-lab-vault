@@ -12865,3 +12865,4 @@
 {"t":"2026-10-23T00:13:53.369Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
 {"t":"2026-10-23T00:17:42.395Z","type":"cfd-bars-partial","failed":["NAS100_USD M15: oanda GET /v3/instruments/NAS100_USD/candles?granularity=M15&count=300&price=M: 504 <!DOCTYPE html> <html> <head> <meta "],"count":1,"note":"kept the previous bars for these; the rest of the CFD tick ran"}
 {"t":"2026-10-23T00:24:54.601Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
+{"t":"2026-10-23T00:35:44.108Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
