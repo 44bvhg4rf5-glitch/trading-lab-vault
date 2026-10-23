@@ -12872,3 +12872,4 @@
 {"t":"2026-10-23T01:05:54.703Z","type":"shadow-outcome","id":"JP225_USD-mvj1zr6i","symbol":"JP225_USD","strategy":"cfd-momentum-breakdown","source":"incubation","entry":63535.2,"stop":64441.34,"target":61722.92,"status":"target","r":2,"exit":61722.92,"openedAt":"2026-10-22T04:41:07.673Z","side":"sell","regime":"choppy","exits":{"breakeven1R":2,"halfAt1R":1.5,"trail1R":2,"halfThenTrail":1.5}}
 {"t":"2026-10-23T01:06:01.134Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
 {"t":"2026-10-23T01:06:04.156Z","type":"vault-pushed","files":["sync/shadow.json"]}
+{"t":"2026-10-23T01:16:57.136Z","type":"vault-pushed","files":["sync/journal.jsonl"]}
